@@ -30,8 +30,6 @@ format:
     callout-icon: false;
     callout-appearance: simple
 
-jupyter: conda-env-ml-0451-py
-
 execute: 
   cache: true
 
