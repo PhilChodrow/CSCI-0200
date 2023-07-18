@@ -6,6 +6,6 @@ title: Welcome!
 
 <!-- ## Welcome! {.unnumbered .unlisted} -->
 
-CSCI 0200: Math Foundations is a cool thing!
+CSCI 0200: Math Foundations is a cool thing! This is the course for the fall. 
 
 
