@@ -8,4 +8,6 @@ title: Welcome!
 
 CSCI 0200: Math Foundations is a cool thing! This is the course for the fall. 
 
+This is another test.
+
 
