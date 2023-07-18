@@ -4,7 +4,9 @@ title: Syllabus
 callout-icon: false
 ---
 
-# CSCI 0451: Machine Learning
+# CSCI 0200: Math Foundations of Computing
+
+
 
 This is an advanced elective on the topic of algorithms that learn patterns from data. Artificial intelligence, predictive analytics, computational science, pattern recognition, signal processing, and data science are all disciplines that draw heavily on techniques from machine learning. 
 
