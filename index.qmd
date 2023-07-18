@@ -10,4 +10,4 @@ CSCI 0200: Math Foundations is a cool thing! This is the course for the fall.
 
 This is another test.
 
-
+Can I trigger a new workflow this way?
