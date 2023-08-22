@@ -1,4 +1,11 @@
 .quarto
 .jupyter_cache
 /.quarto/
-docs
+
+
+/.luarc.json
+private-notes.qmd
+*exams
+*problems
+*.DS_Store
+*_cache

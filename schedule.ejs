@@ -30,10 +30,10 @@
                     <span class="syllabus-day-of-week"><%= weekday %></span>
                     <br>
                     <span class="syllabus-date"><%= displayMonth %>. <%= displayDay %></span></td> 
-            <td colspan="2"> <%= currentItem.header %> </td>  
+            <td colspan="4"> <%= currentItem.header %> </td>  
         </tr>
         <tr>
-            <td colspan="4" class="smaller"> 
+            <td colspan="8" class="smaller"> 
                 <%= currentItem.summary %>
             </td>
         </tr>
@@ -41,7 +41,7 @@
             <td></td>
             <td class="smaller syllabus-item-objective">
                 <% if (currentItem.objectives) { %>
-                    <b>Learning Objectives</b><br>
+                    <b> {{< fa bullseye >}} Learning Objectives </b><br>
                     <% for (obj of currentItem.objectives) { %>
                             <%= obj %> <br> 
                     <% } %>  
@@ -49,7 +49,7 @@
             </td>
             <td class="smaller syllabus-item-readings">
                 <% if (currentItem.reading) { %>
-                    <b>Reading</b><br>
+                    <b>{{< fa book-open-reader >}} Reading</b><br>
                     <% for (read of currentItem.reading) { %>
                            <%= read %><br> 
                     <% } %>  
@@ -70,13 +70,13 @@
             </td>
             <td class="smaller syllabus-item-assignment">
                 <% if (currentItem.warmup) { %>
-                    <b>Warmup</b><br>
+                    <b>{{< fa dumbbell >}} Warmup</b><br>
                     <%= currentItem.warmup %>
                 <% } %>     
             </td>
             <td class="smaller syllabus-item-assignment">
                 <% if (currentItem.assignments) { %>
-                    <b>Assignments</b><br>
+                    <b>{{< fa pen-to-square >}} Assignments</b><br>
                     <%= currentItem.assignments %>
                 <% } %>     
             </td>

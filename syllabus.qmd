@@ -4,110 +4,33 @@ title: Syllabus
 callout-icon: false
 ---
 
-# CSCI 0200: Math Foundations of Computing
+[You can learn more about the theory of computation in CSCI 0301, about proving correctness and performance of algorithms in CSCI 0302 and 0401, and about the role of math in applications in electives like CSCI 0422, 0451, and 0452.]{.aside}
+
+Welcome to CSCI 0200: Math Foundations of Computing! In this course, we'll study **how to think computationally using mathematics**. There are three primary roles for mathematics in modern computation: 
+
+1. The mathematical **theory of computation** describes the capabilities and limits of computers. 
+    - Example question: Can a computer scan an algorithm to determine whether that algorithm terminates with the correct result? 
+2. Mathematics is used to prove guarantees about the correctness and performance of **algorithms**. 
+    - Example questions: Does the MergeSort algorithm correctly sort a list *all the time*? Does it work in $O(n \log n)$ time? *How do you know*? 
+3. Mathematics is used in a wide range of **computational applications**, including graphics, image processing, simulation, and machine learning.  
 
 
 
-This is an advanced elective on the topic of algorithms that learn patterns from data. Artificial intelligence, predictive analytics, computational science, pattern recognition, signal processing, and data science are all disciplines that draw heavily on techniques from machine learning. 
-
-# Learning Objectives
-
-A learning objective is a primary goal for your learning by the end of the course. You're successful in CSCI 0451 when you achieve excellence against these learning objectives. We have six learning objectives in CSCI 0451.  
-
-<table>
-    <tr>
-        <td class="syllabus-description-learning-objective">      
-            <b>Theory</b> 
-        </td>
-        <td class="syllabus-description-table-entry">
-            You will describe the broad mathematical structure of modern machine learning algorithms, and the details of several simple examples. 
-        </td>
-    </tr>
-    <tr>
-        <td class="syllabus-description-learning-objective">
-            <b>Implementation</b>
-        </td>
-        <td class="syllabus-description-table-entry">
-            You will implement classification, regression, and clustering algorithms in efficient, usable Python programs. 
-        </td>
-    </tr>
-    <tr>
-        <td class="syllabus-description-learning-objective">
-            <b>Navigate</b>
-        </td>
-        <td class="syllabus-description-table-entry">
-            You will navigate the package ecosystem for machine learning in Python. 
-        </td>
-    </tr>
-    <tr>   
-        <td class="syllabus-description-learning-objective">
-            <b>Experiment</b>
-        </td>
-        <td class="syllabus-description-table-entry">
-            You will experiment with machine learning models, audit their performance, and communicate about your findings. 
-        </td>
-    </tr>
-    <tr>
-        <td class="syllabus-description-learning-objective">
-            <b>Social Responsibility</b>
-        </td>
-        <td class="syllabus-description-table-entry">
-            You will interrogate sources of bias and harm in machine learning models, especially with regard to gender, race, and class. 
-        </td>
-    </tr>
-    <tr>
-        <td class="syllabus-description-learning-objective">
-            <b>Project</b>
-        </td>
-        <td class="syllabus-description-table-entry">
-            You will complete a long-term project that involves significant implementation or experimentation with machine learning tools. 
-        </td>
-    </tr>
-</table>
-
-# Readings
-
-It is not necessary for you to purchase any books for this course. We will have regular readings from a few different texts, with the most frequent one being: 
-
-- [*A Course In Machine Learning*](http://ciml.info/) by Hal Daumé III. 
-
-The following resources cover similar topics to our core readings at a similar level. If something doesn't click for you in our core reading, you may want to check the treatment in one of these resources. 
-
-- [*Learning From Data*](https://openeclass.panteion.gr/modules/document/file.php/PMS152/LEARNING/Abu-Mostafa%20Yaser%20S.%2C%20Malik%20Magdon-Ismail%2C%20Hsuan-Tien%20Lin%20%282012%29%20--%20Learning%20From%20Data_%20A%20short%20course.pdf) by Yaser Abu-Mostafa, Malik Magdon-Ismail, and Hsuan-Tien Lin.
-- [*The Hundred Page Machine Learning Book*](http://ema.cri-info.cm/wp-content/uploads/2019/07/2019BurkovTheHundred-pageMachineLearning.pdf) by Andriy Burkov.
-
-
-I will also sometimes draw readings from the following sources: 
-
-- [*Patterns, Predictions, and Actions: A Story About Machine Learning*](https://arxiv.org/abs/2102.05242) by Mortiz Hardt and Benjamin Recht.
-- [*Probabilistic Machine Learning: An Introduction*](https://probml.github.io/pml-book/book1.html) by Kevin Patrick Murphy.
-- [*Fairness and Machine Learning*](https://fairmlbook.org/pdf/fairmlbook.pdf) by Solon Barocas, Moritz Hardt, and Arvind Narayanan.
-
-The following books are relatively advanced. I'll often suggest additional readings from these books for students who are interested in diving deeper, especially into theoretical considerations. 
-
-- [*Pattern Recognition and Machine Learning*](https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf) by Christopher Bishop. Recommended for students who have taken a course in probability. [In case you're wondering, I primarily learned out of Bishop and Hastie et al.]{.aside}
-- [*The Elements of Statistical Learning: Data Mining, Inference, and Prediction*](https://hastie.su.domains/Papers/ESLII.pdf) by Trevor Hastie, Rob Tibshirani, and Jerome Friedman. A more statistical perspective on many of the same problems that we will study. 
-- [*Mathematics for Machine Learning*](https://mml-book.github.io/book/mml-book.pdf) by Marc Peter Deisenroth, A. Aldo Faisal, and Cheng Soon Ong
-
-## Social Annotation
-
-A an extremely useful way for you to engage with the readings is to make comments, ask questions, and answer questions about them ***as you are reading***. For this reason, I'll be providing most links to readings through [Hypothes.is](https://web.hypothes.is/). You'll be able to make marginal comments and view the marginal comments of others. I'll also regularly be checking on your annotations to see what questions might have come up with the readings. 
-
-# Logistics and Key Policies
+# Logistics and Key Highlights
 
 <table>
     <tr>
         <td class="syllabus-description-table-header"> 
-            <b>Lecture</b> 
+            <b>Scheduled Class Periods</b> 
         </td> 
         <td class="syllabus-description-table-entry"> 
-            Mondays and Wednesdays
+            Mondays, Wednesdays, and Fridays
             <br>
-            75 Shannon Street, Room 203
+            75 Shannon Street, Room 202
             <br>
-            Section A: 12:45pm-2:00pm
+            Section A: 8:40am-9:30pm
             <br>
-            Section B: 2:15pm-3:30pm 
+            Section B: 9:45pm-10:35pm 
         </td>
     </tr>
     <tr>
@@ -140,9 +63,9 @@ A an extremely useful way for you to engage with the readings is to make comment
                     <td>
                         Student Hours 
                         <ul style="margin-bottom:0;">
-                            <li> Mondays, 3:30pm-4:30pm </li>
-                            <li> Thursdays, 2:00pm-4:00pm </li>
-                            <li> Fridays, 2:00pm-3:00pm </li>
+                            <li> TBD </li>
+                            <li> TBD </li>
+                            <li> TBD </li>
                         </ul>
                     </td>
                 </tr>   
@@ -151,259 +74,314 @@ A an extremely useful way for you to engage with the readings is to make comment
     </tr>
     <tr>
         <td class="syllabus-description-table-header">
-            <b> Important Policies </b>
+            <b> Key Highlights </b>
         </td>
         <td class="syllabus-description-table-entry">
-            I encourage you to call me Phil or Prof. Phil. "Professor Chodrow" is fine if that's what's most comfortable for you. 
+            I encourage you to call me "Phil" or "Prof. Phil." "Professor Chodrow" is also fine if that's what's most comfortable for you. 
             <br> <br> 
-            You need a laptop and an internet connection for this course, but you don't need to buy any books or other supplies. 
+            This is a **flipped class**. It is very important for you to budget time to watch videos, complete readings, and solve warmup problems *prior* to scheduled class periods. 
             <br> <br> 
-            Generally speaking, you should only email me if you need to talk about something personal or sensitive. We'll use Slack for all standard course communications. 
+            This class uses **standards-based-grading**. You don't have an "average" in this class, just [a series of checkboxes](#your-final-grade) you can tick off as you complete and receive feedback on assignments. The boxes you tick off determine your final grade. 
+            <br> <br>
+            I anticipate that **9-12 hours of total effort** (including class time) will be sufficient for most students to earn a B or above.  
+            <br> 
+            You are very welcome to email me about matters related to your experience in the course, but **please do not email me math questions**. Instead, post your questions on EdStem. 
             <br> <br> 
             Student Hours are *your time* to come chat with me about course content. **I want to see you in Student Hours**.
             <br> <br> 
-            I expect you to [prepare to ask for help](help.qmd) when approaching me and your fellow students for help on course content. 
-            <br> <br> 
-            [Masks are required](#masks) during class time and Student Hours. 
+            **[Masks are required](pages/mask-policy.qmd) during class time**, but not during Student Hours or Peer Help sessions.  
+            <br> 
+            You need a laptop and an internet connection for this course, but you don't need to buy any books or other supplies. 
         </td>
     </tr> 
 </table>
 
-# Rough Schedule Of Topics
+# Class Format
 
-See the [complete schedule](schedule.qmd) for more details! I am still working on populating this schedule, and will try to have it set up at least two weeks in advance at all times. 
+## Flipped Class
 
-- **Week 1**: Welcome! Classification, auditing. Data science techniques in Python. Introduction to algorithmic bias.  
-- **Week 2**: Models, model families, and algorithms. More on classification. Logistic regression by hand. Optimization. 
-- **Week 3**: More on optimization. Overfitting, feature selection, model choice. Decision regions. 
-- **Week 4**: Regression. Linear least-squares regression by hand, several ways. Feature engineering. Bias in a medical recommender system. 
-- **Week 5**: Flex, review of fundamentals. 
-- **Week 6**: Spring Break!
-- **Week 7**: Formal characterizations of bias and fairness in machine learning; limitations. 
-- **Week 8**: Unsupervised problems: clustering and dimensionality reduction. 
-- **Week 9**: Introduction to deep learning. Backpropagation. Classification of tabular data. 
-- **Week 10**: Deep architectures. Image classification. Text classification and word embeddings. 
-- **Week 11**: Deep generative models. Interpretability and explainability. 
-- **Week 12**: Flex, topics by request. 
-- **Week 13**: Project presentations.
+CSCI 0200 is a *flipped classroom*. This means that our scheduled class periods will primarily be time for you to **actively practice and get feedback.** Your first introduction to new material will be through assigned readings, videos, and warmup problems. 
 
-## What Will Class Time Look Like? 
-
-My plan is for most class periods to look like a "lecture sandwich:"
-
-- 10 to 15 minutes of a **warmup activity** that addresses the recent lectures and readings.
-- 40-50 minutes of **lecture**, punctuated by short activities and breaks. 
-- 10-15 minutes of a **closing activity** that helps us get solid with the day's content.  
-
-### The Warmup Activity
-
-On most days, we'll have a warmup activity. The warmup activity will usually ask you to engage with the readings and complete a small amount of work **ahead of class time**. This could be a short piece of writing, a math problem, or an implementation of a Python function. 
-
-Each day, a few students will be randomly selected to present their work to a small group of peers. It's ok to ask for help or even pass if you're not feeling confident in your solution, but you should plan to at least make a good attempt at the warmup before every class period. Your participation on the warmup activity is an important aspect of presence in the course, and I'll ask you to reflect on it when proposing your course grade. 
-
-
-# Demonstrating Your Learning
-
-## Collaborative Grading
-
-This course is *collaboratively graded*. [You may have also heard the term *ungrading* to refer to a similar approach.]{.aside} In a nutshell, this means: 
-
-- There are no points or scores attached to any assignment. When you turn in assignments, you'll get feedback on how to revise/resubmit, improve or otherwise proceed in the course, but you won't get "graded."
-- There also aren't any firm due dates, although I will give you suggestions on how to maintain a good pace. [All work you wish to be considered toward your achievement in the course needs to be submitted by the end of Finals Week.]{.aside}
-- Periodically throughout the semester, you will complete reflection activities to help you take stock of your learning and achievement in the course. In your final activity at the end of the semester, you'll make a proposal for your letter grade in the course, and support it with evidence of your learning. You and I will then meet to discuss how the course went for you, using your reflection activity and proposal as a starting point.  In this conversation, you and I will agree on your final letter grade for the course, which I will then submit to the registrar. 
-
-Reflection activities: 
-
-- [Reflective goal-setting](assignments/process/goal-setting.ipynb). 
-- [Mid-course reflection](assignments/process/mid-course.ipynb). 
-- [End-of-course reflection and grade proposal](assignments/process/end-of-course.ipynb). 
-
-## Why Collaborative Grading?
-
-Because grading is broken! Traditional points-based grading is ineffective at both (a) accurately measuring student learning and (b) motivating students to learn. I broadly agree with Jesse Stommel when he [writes](https://www.jessestommel.com/why-i-dont-grade/): 
-
-> Agency, dialogue, self-actualization, and social justice are not possible in a hierarchical system that pits teachers against students and encourages competition by ranking students against one another. Grades (and institutional rankings) are currency for a capitalist system that reduces teaching and learning to a mere transaction. Grading is a massive co-ordinated effort to take humans out of the educational process.
-
-I'd prefer to just not give you grades at all. But, Middlebury says I have to, and so my aim is to instead put the process of grading under your control to the greatest extent that I reasonably can.  
-
-## Assignments
-
-There are three kinds of assessed assignments in this course, plus a mysterious "Other" category. 
-
-<table>
-    <tr>
-        <td class="syllabus-description-table-header">      
-            <b>Blog Posts</b> 
-        </td>
-        <td class="syllabus-description-table-entry">
-            Blog posts are the primary way in which you will demonstrate your understanding of course content. Blog posts usually involve: written explanation of some relevant theory; implementation one or more algorithms according to written specifications; performing experiments to test the performance of the implementations; and communicating findings in a professional way. Some blog posts will be more like short essays than problem sets or programming assignments. Your blog posts will be hosted on your own public website (which you will create). This website will serve as your **portfolio** for the course.  
-        </td>
-    </tr>
-    <tr>
-        <td class="syllabus-description-table-header">
-            <b>Project</b>
-        </td>
-        <td class="syllabus-description-table-entry">
-            Your project is a large-scale undertaking that you will design and complete, usually in a group of 2 or 3, over the course of the semester. Your project should usually involve some combination of data collection, implementation, research of related work, experimentation, deployment, or theory work (but not necessarily all components). Projects are expected to demonstrate deep engagement with both the course content and the problem selected. 
-        </td>
-    </tr>
-    <tr>   
-        <td class="syllabus-description-table-header">
-            <b>Process Reflections</b>
-        </td>
-        <td class="syllabus-description-table-entry">
-            At the beginning of the course, you'll write a process reflection describing your aspirations for the course---what you want to learn and achieve, and how you'd like to be assessed against your goals. 
-            We'll have a second process reflection mid-way through the course that will allow you to reflect on your progress toward your objectives and consider changing direction if needed. 
-            At the end of the course, you'll write a summary reflection on your learning, accomplishment, and engagement with the class. This is also the place where you'll propose your final letter grade. 
-            <br> <br> 
-            I'll usually give you written feedback on your process reflections. We'll also meet at the end of the course to discuss your final reflection and agree on your letter grade for the course. 
-        </td>
-    </tr>
-    <tr>   
-        <td class="syllabus-description-table-header">
-            <b>Other...?</b>
-        </td>
-        <td class="syllabus-description-table-entry">
-            You may have some topic or idea that especially interests you and which you want to explore. If you'd like to work on this topic and use it to demonstrate your learning in the course, you can propose it to me. I may have suggestions or requested modifications before I agree to count the work in your course portfolio. 
-        </td>
-    </tr>
-</table>
-
-## Best-By Dates
-
-While we don't have formal due dates, there is a benefit to keeping yourself on a schedule. It's best to complete assignments close to the time when we covered the corresponding content in class, and it's important for your wellbeing not to let work pile up. I'll provide "best-by" dates for all assignments. These are my **recommendations** for when you should submit the first versions of these assignments to me for feedback. 
-
-::: {.column-margin}
-
-![An image of four of the Pokemon Squirtle welcoming a fifth Squirtle. The original four Squirtles are labeled "unfinished assignment #1" through #4. The fifth Squirtle is labeled "new assignment."](assets/img/memes/unfinished-assignments.JPG) *Image credit: [Dr. Spencer Bagley](https://twitter.com/sbagley/status/1437833176311762946?s=20&t=xPhXuSfOqxBvezv2HG2xyg)*
-
-:::
-
-## Feedback
-
-I won't "grade" your individual assignments, but our course team and I will offer you feedback about what I thought was successful and where you can improve. My general expectation is that you will often (though not always) revise your work in response to feedback and resubmit it. **Revising in response to feedback is one of the single most effective ways for you to deepen your learning**. 
-
-I'll usually describe the importance of revisions on your assignment using one of the following categories: 
-
-- **No revisions suggested**: you've done great work and should focus on the next thing. 
-- **Revisions useful**: you have opportunities for improvement on this assignment, but focusing on the next topic or assignment may be a better use of your time---use your judgment.  
-- **Revisions encouraged**: the best use of your time is to respond to feedback and resubmit, rather than moving on to the next assignment. 
-- **Incomplete**: the assignment isn't sufficiently complete for it to be used as evidence of your learning.  
-
-## What Work Do You Need To Do?
-
-At the beginning of the semester, you'll write a process letter that will outline what you'd like to learn and achieve in the course. It's ok if you don't meet all your aspirations by the end of the course. To help guide you in your goal-setting and work-planning, I do have some general expectations. 
-
-I am likely to consider your time in my course to be highly successful if you do **at least one** of the following things: 
-
-[Time spent being stuck doesn't count as "productive hours" -- get help if you need it!]{.aside}
-
-- You complete almost all assignments with a high degree of quality, including revising in response to my feedback. 
-- You spend on average **10 productive hours** of work time on this course outside of class. 
-- You complete many assignments that I give you, and also propose and complete alternative work that demonstrates your learning and achievement. 
-
-# Am I Ready for CSCI 0451? 
-
-As you enter the course, I'm assuming that you are ready to reflect thoughtfully on guiding your own learning, that you have some achievement in developing programs, and that you have a strong math foundation. 
-
-## Directing Your Learning
-
-This course asks you to set your own goals and motivate yourself to achieve them. Neither of these tasks are easy. It's ok to mess up every now and then -- we all do! The real question is whether you're going to look at mistakes and make time to reflect on what to do next time. 
-
-## Programming
-
-- You can write moderately-complex, **object-oriented** software. 
-- You are comfortable reading **software documentation** and **researching** how to perform a task that you haven't seen before. 
-- You know what a **terminal** is and how to perform simple operations at the command line. 
-- You have experience **debugging** your code and you are ready to do it a lot more. 
-
-## Math
-
-I am assuming that you remember most of MATH 0200 and CSCI 0200. It's ok if you haven't memorized every single fact. What I need is for you to be ready to rapidly look up what you need so that you won't be slowed down by math along the way. 
-
-- Matrix multiplication and inner products
-- Everything about $\mathbf{A}\mathbf{x} = \mathbf{b}$.  
-- Visualizing linear spaces. 
-- Eigenvalues, eigenvectors, positive-definite matrices. 
-- Derivatives, critical points of functions. 
-- Sample spaces, probability distribution functions. 
-- Random variables, mean and variance. 
-- Conditional probability and expectations. 
-
-### Reviews/Diagnostics
-
-- [This resource](http://web.stanford.edu/class/cs246/handouts/CS246_LinAlg_review.pdf) from Stanford's CS246 contains most of the linear algebra that you'll need for the course. The only big topic that's missing is treatment of the existence of solutions of the linear system $\mathbf{A}\mathbf{x} = \mathbf{b}$ in terms of the rank of $\mathbf{A}$. You don't need to have memorized everything here, but most of it should look familiar. 
-- Probability is not a formal requirement for CSCI 0451, but some probability can certainly be useful. To brush up on some basics, I suggest Chapter 2 of *[Introduction to Probability for Data Science](https://probability4datascience.com/)* by Stanley Chan. This treatment may be a little more advanced than what you learned in CSCI 0200, but you should recognize many of the main ideas. 
+- On **Mondays** and **Wednesdays**, you will watch videos, complete readings, and do warmup problems *before class*. In class, we'll discuss some of your questions from the warmups and work together on practice problems. 
+- On **Fridays**, you will watch videos, complete readings, and do warmup problems *before class*. During class, you'll work in groups on Lab assignments. You'll complete the Lab assignments outside of class and turn them in. 
 
 
 
+## Course Activities
 
-# Course Policies 
 
-### Laptops
+The overall format of CSCI 0200 is designed to help you apply the ideas and skills of the course to progressively higher stages of *Bloom's taxonomy of cognition*. 
 
-Please bring a laptop, and make sure that it has at least 75 minutes of charge. 
+![Bloom's taxonomy of cognitive skills. Image credit: University of Florida](assets/img/figs/blooms-taxonomy.png)
 
-:::{.callout-note collapse="true"}
+### Before Class: Warmups
 
-## We Can Help You Borrow a Laptop
+[![](assets/img/figs/blooms-taxonomy-warmups.png)]{.aside}
 
-If you ever find yourself temporarily in need of a laptop, the Computer Science department has 10 rotating Dell laptops available to our students. These come pre-installed with software for most of the courses in the major. They are available to be loaned out short-term or long-term based on your need (as determined by you). To request a laptop for **short-term use** (like a single class period), email me ahead of time. 
+Warmups are here to help you <span style="color:#7030a0">**remember**</span> and <span style="color:#0070c0">**understand**</span> new material. Each day, you'll prepare for class by watching videos, completing readings, and solving a small number of relatively short warmup problems. You'll then submit your solutions on Gradescope. You'll get feedback on your solutions from our graders. Your warmup solutions are expected to show effort but are not graded for correctness. 
 
-**On Long-Term Use**: College policy has changed recently to include the expectation that every student have a laptop available. The college provides laptops to those who need them where “need” is based on Student Financial Services calculations. If you anticipate needing a laptop for the whole term, we encourage you to inquire with Student Financial Services and the library first due to our smaller pool of equipment. However, our department commits to meeting the needs of every student, so do not be afraid to reach out if you believe you need one of our laptops for any length of time.
+Warmups are due by 8:30am on the day of class. Warmups are never accepted late and there are no extensions. However, [you can miss up to three warmups](#assessment-of-warmups) without any impact on your grade. 
+
+### Class on Mondays and Wednesdays: Questions, Activities, and Discussion
+
+[![](assets/img/figs/blooms-taxonomy-in-class.png)]{.aside}
+
+By the time you've completed the warmups and made it to class, I'm expecting that you have already made some effort to <span style="color:#7030a0">**remember**</span> and <span style="color:#0070c0">**understand**</span> the new material for that day. During class time on Mondays and Wednesdays, we'll usually start with some time to discuss questions you might have from the day's readings, videos, or warmups, to help build your  <span style="color:#0070c0">**understanding**</span>. Then, we'll usually have time to work on problems in groups, or to further discuss topics. These activities will help you build your abilities to <span style="color:#0070c0">**understand**</span> and <span style="color:#00b050">**apply**</span> the material. 
+
+### Quizzes
+
+[![](assets/img/figs/blooms-taxonomy-quizzes.png)]{.aside}
+
+On quizzes, you'll demonstrate your ability to <span style="color:#7030a0">**remember**</span>, <span style="color:#0070c0">**understand**</span>, and <span style="color:#00b050">**apply**</span> key ideas and skills. We'll have four quizzes throughout the semester. On each quiz, there will be one question related to each of [the twelve learning targets](#learning-targets) that we have introduced in the course so far. So, our first quiz will have three questions, our second quiz will have 6 questions, our third quiz will have 9 questions, and our last quiz will have twelve. You should plan to attempt 2-3 problems on each quiz. 
+ 
+Once you have earned *Satisfactory* on a learning target, **you do not need to attempt that target again.** You're done with that one! On the next quiz, you should attempt a different learning target.
+
+Our final exam will include one question for every learning target in the course, similarly to the last. This gives you a chance to earn *Satisfactory* on learning targets for anything you might not yet have gotten by the final quiz.    
+
+### Labs
+
+[![](assets/img/figs/blooms-taxonomy-labs.png)]{.aside}
+
+In labs, you'll build your abilities to <span style="color:#ffd54f"> **analyze** </span>, <span style="color:#ff9933">**evaluate**</span>, and <span style="color:#ff2f2f">**create**</span> using the tools and topics from this class. 
+We'll have lab assignments in 8 weeks (skipping the weeks in which we have quizzes). 
+You'll start on lab assignments in groups in class on Fridays. You'll complete the remaining problems and prepare your report, submitting the entire result as a typed PDF.  
+
+
+You may continue to work on your report with classmates, but your report should be written by you and reflect your own understanding of the material. 
+A good heuristic: **discussion** and **work at the whiteboard** is great to share, but typed solutions or code should not be shared.   
+
+Labs are graded on a [4-point rubric](#labs). After receiving your grade on your lab report, you may revise and resubmit your report for a higher grade.  
+
+
+
+# Assessment and Grades
+
+## Warmups
+
+**Warmups are not graded for correctness**. The two grades you can receive are "**Complete**" or "**Incomplete/Missing**." A grade of **Complete** means that you made good effort on the problems and that your attempt demonstrates at least partial understanding of the reading and videos. Most days, 1.5-2 hours of prep time will usually be sufficient for you to complete the readings, videos, and warmups. 
+
+## Quizzes
+
+Quiz problems are assessed as **Satisfactory (S)** or **Incomplete/Not Yet Satisfactory (NS)**. To earn an **S** on a quiz problem, you must complete the entire problem correctly, modulo [minor errors](pages/minor-errors.qmd) unrelated to the learning goals of the course (like arithmetic typos). 
+
+Once you have earned a S on a quiz problem, you have completed the corresponding Learning Target. You never need to attempt another quiz problem corresponding to that target. 
+
+## Labs
+
+Labs are graded on a 4-part rubric similar to the EMRF rubric of [Stutzman and Race](http://miss-serwy.weebly.com/uploads/1/2/1/6/12161802/emrf_rubric_1.pdf):[This particular scale is very close to the scale [used by Peter-Michael Osera](https://osera.cs.grinnell.edu/csc208/syllabus/#projects) at Grinnel.]{.aside} 
+
+**Excellent** (**E**): 
+
+- The lab includes a complete contributions statement describing the contributions of any collaborators, as well as external sources such as websites or ChatGPT. 
+- The lab exhibits complete understanding of the material. 
+- The lab has at worst, a few minor design errors or surface-level writing issues. 
+- All coding experiments run and produce correct outputs.  
+
+**Meets Expectations** (**M**):
+
+- The lab exhibits complete understanding of the material. 
+- The lab includes a complete contributions statement describing the contributions of any collaborators, as well as external sources such as websites or ChatGPT. 
+- The lab has some minor errors of correctness, design, or writing. Fixing these errors would demonstrate improved understanding of the material. 
+- All coding experiments run and produce outputs which are close to expected. 
+
+**Needs Revision** (**R**): 
+
+- The lab exhibits one or more significant misunderstandings of the material, or many minor errors. 
+- Coding experiments do not run or produce substantially incorrect output. 
+- The contributions statement is partial or missing. 
+
+**Not Completed** (**N**): 
+
+- Not completed to a degree sufficient to demonstrate understanding of the material. 
+
+## Your Final Grade
+
++-----+---------------------------------+-----------------------+
+|Tier | Learning Targets<br>(Out of 12) | Labs (out of 8)       |
++:====+=================================+=======================+
+|**A**|   At least 11                   | - No **N**s or **R**s |
+|     |                                 | - At least 4 **E**s   |
+|     |                                 | - Remainder **M**s    |
++-----+---------------------------------+-----------------------+
+|**B**|   At least 8                    | - No **N**s or **R**s |
+|     |                                 | - At least 2 **E**s   |
+|     |                                 | - Remainder **M**s    |
++-----+---------------------------------+-----------------------+
+|**C**|   At least 6                    | - No **N**s           |
+|     |                                 | - At least 6 **M**s   |
+|     |                                 | - Remainder **R**s    |
++-----+---------------------------------+-----------------------+
+
+### Calculating Your Grade
+
+You can use the table below to estimate where you stand in the class based on the assignments you've submitted and the feedback you've received. [This table doesn't take into account [penalties for missing warmups](#assessment-of-warmups).]{.aside}
+
+**Instructions**: 
+
+- Check off **Learning Targets** as you go, starting from the bottom. For example, once you've checked off 6 learning targets you have filled the "C" row, and once you've checked off 8 learning targets you have filled the "B" row. 
+- Check off **Labs** as you get receive feedback. When you receive an assessmment on a lab, you can check off that lab **up to once in each grade tier**. For example, if you receive an **S**, you can check off one box for "S or E" in each of Tiers A, B, and C. If you receive an **E**, you can check off one box for **E** in Tiers A and B, and one box for **S or E** in Tier C. **R**'s can only be used to check off boxes in the second row of Tier C. 
+
+Once *all* boxes in a row are checked, you have earned that grade in the course, *provided* that you have missed no more than 3 warmup activities.  
+
+
++-----+---------------------------------+-------------------------------+
+|Tier | Learning Targets                | Labs                          |
++:====+=================================+===============================+
+|**A**|   &#9634; &#9634; &#9634;       | **E**: &#9634; &#9634;        |
+|     |                                 |  &#9634; &#9634;<br>          |
+|     |                                 | **M or E**: &#9634; &#9634;   |
+|     |                                 | &#9634; &#9634;               |
+|     |                                 |                               |
++-----+---------------------------------+-------------------------------+
+|**B**|   &#9634; &#9634;               | **E**: &#9634; &#9634;<br>    |
+|     |                                 | **M or E**: &#9634; &#9634;   |
+|     |                                 | &#9634; &#9634; &#9634;       |
+|     |                                 | &#9634;                       |
++-----+---------------------------------+-------------------------------+
+|**C**|   &#9634; &#9634; &#9634;       | **M or E**: &#9634; &#9634;   |
+|     |   &#9634; &#9634; &#9634;       | &#9634; &#9634; &#9634;       |
+|     |                                 | &#9634;     <br>              |
+|     |                                 | **R, M, or E**: &#9634;       |
+|     |                                 | &#9634;                       |
++-----+---------------------------------+-------------------------------+
+
+::: {.aside}
+
+Here's an example for a student who completed 9 learning targets, earning "Exemplary" on 5 labs and "Meets Expectations" on 3. 
+
++-----+---------------------------------+-------------------------------+
+|Tier | Learning Targets                | Labs                          |
++:====+=================================+===============================+
+|**A**|   &#9634; &#9634; &#9745;       | **E**: &#9745; &#9745;        |
+|     |                                 |  &#9745; &#9745;<br>          |
+|     |                                 | **M or E**: &#9745; &#9745;   |
+|     |                                 | &#9745; &#9745;               |
+|     |                                 |                               |
++-----+---------------------------------+-------------------------------+
+|**B**|   &#9745; &#9745;               | **E**: &#9745; &#9745;<br>    |
+|     |                                 | **M or E**: &#9745; &#9745;   |
+|     |                                 | &#9745; &#9745; &#9745;       |
+|     |                                 | &#9745;                       |
++-----+---------------------------------+-------------------------------+
+|**C**|   &#9745; &#9745; &#9745;       | **M or E**: &#9745; &#9745;   |
+|     |   &#9745; &#9745; &#9745;       | &#9745; &#9745; &#9745;       |
+|     |                                 | &#9745;     <br>              |
+|     |                                 | **R, M, or E**: &#9745;       |
+|     |                                 | &#9745;                       |
++-----+---------------------------------+-------------------------------+
+
+This student fully meets the requirements of a **B** and partially meets the requirements of an **A**, and therefore earns an **A-** (provided they have missed no more than 3 warmups). 
 
 :::
 
+#### Plus/minus grades
+
+You earn a +/- modifier on a grade by fully meeting the requirements for one tier and partially meeting the requirements for the next tier. For example, you may completely meet the requirements of a **B** on Learning Targets and completely meet the requirements of an **A** on labs. In this case, you earn a minus grade for the higher tier: i.e. an A- if you are between a B and an A. 
+
+::: {.callout-tip}
+
+If you fully meet the requirements for the **C** tier and meet the requirements of the **A** tier for either Learning Targets or Labs (but not both), then you are considered to have partially met the requirements of the **B** tier. In this case, your grade would be a **B-**. 
+
+:::
+
+#### Assessment of Warmups
+
+You can miss **at most three** warmups without penalty. After the first three missing warmups, your grade will lower by **1/3 of a letter grade for every two missing warmups**. For example, an **A** would become an **A-**, a **B-** would become a **C+**, etc. 
+
+::: {.aside}
+
+In more detail, the penalties are: 
+
+- 0-3 missing warmups: -0
+- 4-5 missing warmups: -1/3
+- 6-7 missing warmups: -2/3
+- 7-9 missing warmups: -1 
+- etc. 
+:::
+
+# Collaboration and Academic Integrity
+
+The guiding principle of Middlebury's Honor Code is that work you represent as your own must reflect **your** learning and understanding. Submission of work that does not reflect your learning and understanding may lead to grade penalties or Honors proceedings. 
+
+## Collaborating with Integrity
+
+Collaboration is welcome in some settings in this course. In all instances of collaboration, you should acknowledge your collaboration partner(s) and describe their contributions as part of your assignment submission. 
+
+- **Warmups**: collaboration is *discouraged* because I think warmups are useful as practice for the quizzes. However, you're welcome to collaborate if you choose. You should acknowledge your collaboration partner in your submission. 
+- **Labs**: collaboration is *encouraged* (and partially mandatory). You'll start labs in collaboration groups. You're free to complete the assignment in your groups, or to complete the assignment on your own. All students should turn in an individual submission that reflects their own understanding and which acknowledges the contributions of their collaboration partners. 
+- **Quizzes**: collaboration is *prohibited*. 
+- **In-class activities**: collaboration is *encouraged* (and sometimes mandatory). 
+- **General study**: collaboration is *encouraged*! 
 
 
-<!-- [![An image of four of the Pokemon Squirtle welcoming a fifth Squirtle. The original four Squirtles are labeled "unfinished assignment #1" through #4. The fifth Squirtle is labeled "new assignment."](assets/img/memes/unfinished-assignments.jpg) *Image credit: [Dr. Spencer Bagley](https://twitter.com/sbagley/status/1437833176311762946?s=20&t=xPhXuSfOqxBvezv2HG2xyg)*]{.aside} -->
+## About ChatGPT
 
-<!-- In general, I'm not offended when your work comes in late, provided that it doesn't become a problem for our graders (who, like you, are students here!). However, please make sure that you plan your time and prevent your work from piling up. I don't really have any way to help you if you have too much to do at the end of the semester after requesting many due date adjustments.  -->
+### What Is It?
 
-## COVID-19 Considerations
+ChatGPT is an example of a *large language model* (LLM). LLMs aim to produce helpful, human-like text with a combination of two major mechanisms: 
 
-### Masks Are Required in CSCI 0451 {#masks}
+- LLMs use *next-token prediction* to predict the next entries in a sequence of text by using the previous entries. This enables them to mimic human-produced text. So, if you saw the sequence "*I love Math Foundations of _____*", you might guess that the next word might be "*Computing*" and that it's probably not "*Pineapples*."
+- LLMs are trained using *reinforcement learning with human feedback (RLHF)* to produce sentences that are not just realistic but also *helpful*, *nonoffensive*, or *accurate*. They do this using a multistage training process that involves humans rating the quality of candidate texts. 
 
-The Computer Science Department policy states that: 
+ChatGPT and similar LLMs are shaping many conversations in education [at Middlebury](https://www.middleburycampus.com/article/2023/03/middlebury-meets-chatgpt) and [beyond](https://www.chronicle.com/article/im-a-student-you-have-no-idea-how-much-were-using-chatgpt).
 
-> We in the Computer Science department value a safe learning and working environment for all. While we can't eliminate the risks associated with COVID-19, [evidence suggests](https://www.pnas.org/doi/full/10.1073/pnas.2014564118) that widespread masking can significantly reduce the transmission and severity of disease. In order to protect the health of our community, the CS department recommends that students and faculty wear masks in CS learning spaces, including classrooms, office hours, and public areas. We acknowledge the College policy gives instructors the final say over classroom masking requirements, and expect all students to respect instructors' stated policies in each course.
-
-In alignment with this policy, **I require you to wear masks in class and office hours.** I encourage you to wear masks during help sessions and at all other times when you are inside 75 Shannon Street. 
-
-If you arrive in class without a mask, I will offer you one. I will expect you to either wear it or excuse yourself from class that day. 
+While LLMs may have many benefits, they are also the subject of [routine]((https://analyticsindiamag.com/did-google-bard-really-learn-bengali-on-its-own/)) [deception](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4441311) by powerful, motivated actors. They are powered by [massive quantities](https://www.theverge.com/features/23764584/ai-artificial-intelligence-data-notation-labor-scale-surge-remotasks-openai-chatbots) of [low-paying, traumatizing labor](https://www.wsj.com/articles/chatgpt-openai-content-abusive-sexually-explicit-harassment-kenya-workers-on-human-workers-cf191483). LLMs and automation more generally are [furthering labor instability](https://www.cbsnews.com/news/ai-job-losses-artificial-intelligence-challenger-report/), [contributing to reduced wages](https://www.forbes.com/sites/jackkelly/2021/06/18/artificial-intelligence-has-caused--50-to-70-decrease-in-wages-creating-income-inequality-and-threatening-millions-of-jobs/?sh=6bc1e5c41009), and are [concentrating the power](https://www.nytimes.com/2019/09/26/technology/ai-computer-expense.html) of a small number of large tech companies. 
 
 
-## Academic Integrity and Collaboration
+### In This Class
 
-### Academic Integrity
-
-Briefly, academic integrity means that you assume responsibility for ensuring that **the work you submit demonstrates your learning and understanding**. 
-
-To be frank, it's pretty easy to act without integrity (i.e. cheat) in this course. First, there's a lot of solution code for machine learning tasks in Python online. Second, I'm literally asking you all to post your assignments publicly online. So, there are lots of opportunities to turn in assignments without actually doing the learning that those assignments are designed to offer you. 
-
-
-
-I assume that both of us want you to learn some cool stuff. Cheating stops you from doing that, and ultimately wastes both your time and mine. I won't be vigorously hunting for academic integrity violations, but I may ask you to discuss code or theory with me in class or in our meetings. If I notice you struggling to explain code that you submitted for feedback, I may have questions. 
-
-Trust me. Neither of us want this. 
+- Work that you submit in this class must demonstrate **your** learning and understanding. Copy/paste from LLMs like ChatGPT does not do this, and is consequently a violation of academic integrity. 
+- You are **discouraged** from using ChatGPT in any way on warmups. The reason is that warmups help you with the quizzes; if you don't practice on the warmups, you'll do worse and get a lower grade. 
+- Quizzes are in-class assessments on which electronics are prohibited. This implies that ChatGPT is **prohibited** on quizzes. 
+- You are free to **consult** ChatGPT (or other LLMs) when studying and when completing lab reports. If you do, **you must treat ChatGPT as an unverified source**. This means: 
+    - You must cite your source. 
+    - You must describe the contribution of the source to your submitted writeup. 
+    - You may paraphrase but may not quote ChatGPT. 
+    - **You must describe what steps you have taken to check that your findings from ChatGPT are indeed correct**.
+- You are always personally responsible for the accuracy, quality, and integrity of your work.  
 
 
+# Inclusion, Access, and Participation
 
-## Collaboration
+I commit to an inclusive, accessible, participatory, and safe vision of CSCI 0200. 
 
-I love it! Please collaborate in ways that allow you and your collaboration partners to fully learn from and engage with the content. Sharing small snippets of code or math is often helpful to get someone unstuck, but sharing complete function implementations or mathematical arguments is usually counterproductive.  
+## Disabilities and Clearing Barriers
 
-Here are some [general guidelines](collaboration.qmd) for how I think about collaboration. 
+[For legal reasons, I am prohibited from offering accommodations to students who do not present letters of accommodation from the DRC. So, get a letter if you need it!]{.aside}
 
-# Course Environment
+If you have a documented disability that raises barriers for your ability to participate in or succeed in this class, please send me your letter of accommodation from the [Disability Resource Center](https://www.middlebury.edu/disability-resource-center) as soon as possible. **You do not need to describe your disability or justify your accommodations**. I will work with you to clear these barriers to the best of my ability. If you think that you may have a disability, please contact the [Disability Resource Center](https://www.middlebury.edu/disability-resource-center) as soon as possible. The DRC works with students confidentially and never discloses disability-related information to faculty without your permission. 
 
-You deserve to be welcomed and celebrated by our community. We embrace diversity of age, background, beliefs, ethnicity, gender, gender identity, gender expression, national origin, religious affiliation, sexual orientation, and other visible and non-visible categories. *Discrimination is not tolerated in my classroom*.
+## Academic Support
+
+No matter who you are, it's normal to feel challenged by your courses. It's also normal to need help! There are many ways for you to get help in CSCI 0200. 
+
+- My [Student Hours](#logistics-and-key-highlights) are time for you to come talk with me about any aspect of the course. We'll usually hold Student Hours in the big lounge outside Room 224 (the one with the windows).
+- Experienced CS students hold [Peer Help hours](https://www.cs.middlebury.edu/~mlinderman/courses/cshelp/spring23.html) most weekday evenings. These sessions are great times for you to work on Warmup problems (before class) and lab reports. 
+- Our Assistant in Instruction (ASI) is Smith Gakuya. Smith holds regular Student Hours many days, and is prepared to help you in CSCI 0200. Smith can also help you arrange **tutoring** in case you need long-term academic support. 
+- EdStem is our online Q&A forum. It's the best place to ask questions at irregular hours. It's a good idea to check EdStem frequently, because your question may already have been answered there! 
+
+## Classroom Environment
+
+Inclusion, access, and participation are **collective** projects. I expect all students to contribute to a healthy course environment. 
+
+We embrace diversity of age, background, beliefs, race, ethnicity, gender, gender identity, gender expression, national origin, religious affiliation, sexual orientation, and other visible and non-visible axes of identity. **Discrimination is not tolerated in CSCI 0200**. Observed speech acts of discimination may lead to engagement with the Community Standards Office. 
+
+You deserve to be addressed in the manner that reflects who you are. I welcome to tell me your pronouns and/or preferred name at any time, either in person or via email. **I expect all students to address each other according to their expressed gender markers**, and commit to doing the same. 
+
+You deserve to fully and equitably participate in our learning environment. I commit to ensuring that the materials and assessments in this course are accessible to all students, and I welcome feedback on where I can do better. Middlebury's [Disability Resource Center](https://www.middlebury.edu/office/disability-resource-center) can help you remove barriers to learning in this and other courses. 
 
 You deserve a learning environment free from gender-based discrimination, sexual harassment, sexual assault, domestic violence, dating violence, and stalking. If you experience these behaviors or otherwise know of a Title IX violation, you have many options for support and/or reporting. Middlebury's [Civil Rights and Title IX Office](https://www.middlebury.edu/office/title-IX) (CRTIX) can help you navigate your options.  Please be aware that I am a Responsible Employee, which means that **I am required by the College to report incidents of sexual harassment or sexual violence to CRTIX**. There are  resources for emotional and mental health care, advocacy, and academic support listed [here](https://www.middlebury.edu/office/sites/www.middlebury.edu.office/files/2021-09/bathroom_poster_2021_proofed(1).pdf?fv=DlkQYWaU), some of which are confidential. 
 
-You deserve to fully and equitably participate in our learning environment. I am actively putting effort into ensuring that course materials are screen-reader accessible, and welcome feedback on where I can do better. Middlebury's [Disability Resource Center](https://www.middlebury.edu/office/disability-resource-center) can help you remove barriers to learning in this and other courses. 
 
-You deserve to be addressed in the manner that reflects who you are. I welcome to tell me your pronouns and/or preferred name at any time, either in person or via email. Conversely, please address your classmates according to their expressed preferences. 
+
+
+
+
+## We Can Help You Borrow a Laptop
+
+An especially important resource for access in many courses in the Department of Computer Science is a functioning laptop. If you ever find yourself temporarily in need of a laptop, we have 10 rotating Windows laptops that we can loan you.  To request a laptop for **short-term use** (like a single class period), email me as soon as possible. 
+
+**On Long-Term Use**: College policy has changed recently to include the expectation that every student have a laptop available. The college provides laptops to those who need them where “need” is based on Student Financial Services calculations. If you anticipate needing a laptop for the whole term, we encourage you to inquire with Student Financial Services and the library first due to our smaller pool of equipment. If, however, the College will not be able to meet your needs in a timely fashion, please reach out to us so that we can work out a long-term laptop loan. 
 
 # Beyond This Course
 
@@ -414,3 +392,9 @@ I am always happy to talk with you about your future plans, including internship
 ## Letters of Recommendation 
 
 Writing letters of recommendation for students is a fundamental part of my job and something that I am usually very happy to do. [Here's how to ask me for a letter](https://www.philchodrow.com/for-students.html#advice-and-recommendation-letters). 
+
+# Acknowledgments
+
+The assessment system for this course is closely modeled on [Peter-Michael Osera](https://osera.cs.grinnell.edu/)'s offering of [CSC 208-01: Discrete Mathematics](https://osera.cs.grinnell.edu/csc208/) at Grinnell College.
+
+I learned of many of the videos and readings used in this course from [Chad Topaz](https://chadtopaz.com/)'s offering of [MATH-200: Discrete Mathematics](https://glow.williams.edu/courses/3011771) at Williams College.

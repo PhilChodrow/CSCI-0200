@@ -16,8 +16,10 @@ website:
     contents:
       - syllabus.qmd 
       - schedule.qmd
-      - assignments.qmd
-      - project.qmd
+      - section: "Additional Pages"
+        contents: 
+          - pages/llms.qmd
+          - pages/mask-policy.qmd
   favicon: assets/icons/favicon.png
  
 format:
