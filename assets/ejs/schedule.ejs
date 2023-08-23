@@ -47,37 +47,24 @@
                     <% } %>  
                 <% } %>  
             </td>
-            <td class="smaller syllabus-item-readings">
-                <% if (currentItem.reading) { %>
-                    <b>{{< fa book-open-reader >}} Reading</b><br>
-                    <% for (read of currentItem.reading) { %>
-                           <%= read %><br> 
-                    <% } %>  
-                <% } %>
-                <% if (currentItem.optional) { %>
-                    <% for (read of currentItem.optional) { %>
-                           <i><%= read %></i><br> 
-                    <% } %>  
-                <% } %>
-            </td>
-            <td class="smaller syllabus-item-readings">
-                <% if (currentItem.notes) { %>
-                    <b>Notes</b><br>
-                    <% for (read of currentItem.notes) { %>
-                            <%= read %> <br> 
-                    <% } %>  
-                <% } %>
-            </td>
             <td class="smaller syllabus-item-assignment">
-                <% if (currentItem.warmup) { %>
-                    <b>{{< fa dumbbell >}} Warmup</b><br>
-                    <%= currentItem.warmup %>
+                <% if (currentItem.prep) { %>
+                    <b>{{< fa dumbbell >}} Prep</b><br>
+                    <%= currentItem.prep %>
                 <% } %>     
             </td>
             <td class="smaller syllabus-item-assignment">
-                <% if (currentItem.assignments) { %>
-                    <b>{{< fa pen-to-square >}} Assignments</b><br>
-                    <%= currentItem.assignments %>
+                <% if (currentItem.activities) { %>
+                    <b>{{< fa users >}} In Class</b><br>
+                    <% for (activity of currentItem.activities) { %>
+                        <%= activity %> <br> 
+                <% } %>  
+                <% } %>     
+            </td>
+            <td class="smaller syllabus-item-assignment">
+                <% if (currentItem.due) { %>
+                    <b>{{< fa calendar >}} Due</b><br>
+                    <%= currentItem.due %>
                 <% } %>     
             </td>
         </tr>
