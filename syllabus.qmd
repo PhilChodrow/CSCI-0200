@@ -138,7 +138,37 @@ Once you have earned *Satisfactory* on a learning target, **you do not need to a
 
 Our final exam will include one question for every learning target in the course, similarly to the last. This gives you a chance to earn *Satisfactory* on learning targets for anything you might not yet have gotten by the final quiz.    
 
-#### Learning Targets for Quizzes
+
+### Labs
+
+[![](assets/img/figs/blooms-taxonomy-labs.png)]{.aside}
+
+In labs, you'll build your abilities to <span style="color:#ffd54f"> **analyze** </span>, <span style="color:#ff9933">**evaluate**</span>, and <span style="color:#ff2f2f">**create**</span> using the tools and topics from this class. 
+We'll have lab assignments in 8 weeks (skipping the weeks in which we have quizzes). 
+You'll start on lab assignments in groups in class on Fridays. You'll complete the remaining problems and prepare your report, submitting the entire result as a typed PDF.  
+
+
+You may continue to work on your report with classmates, but your report should be written by you and reflect your own understanding of the material. 
+A good heuristic: **discussion** and **work at the whiteboard** is great to share, but typed solutions or code should not be shared.   
+
+Labs are graded on a [4-point rubric](#labs). After receiving your grade on your lab report, you may revise and resubmit your report for a higher grade.  
+
+
+
+# Assessment and Grades
+
+## Warmups
+
+**Warmups are not graded for correctness**. The two grades you can receive are "**Complete**" or "**Incomplete/Missing**." A grade of **Complete** means that you made good effort on the problems and that your attempt demonstrates at least partial understanding of the reading and videos. Most days, 1.5-2 hours of prep time will usually be sufficient for you to complete the readings, videos, and warmups. 
+
+## Quizzes
+
+Quiz problems are assessed as **Satisfactory (S)** or **Incomplete/Not Yet Satisfactory (NS)**. To earn an **S** on a quiz problem, you must complete the entire problem correctly, modulo [minor errors](pages/minor-errors.qmd) unrelated to the learning goals of the course (like arithmetic typos). 
+
+Once you have earned an **S** on a quiz problem, you have completed the corresponding Learning Target. You never need to attempt another quiz problem corresponding to that target. So, if you successfully complete an **LS2** problem on Quiz 1, you should *not* try an **LS2** problem on Quiz 2. 
+
+
+### Learning Targets {#learning-targets}
 
 [Targets **LS1-3** are introduced on Quiz 1. Targets **PF1**, **PF2**, and **FR1** are introduced on Quiz 2. Targets **CR1-3** are introduced on Quiz 3. Targets **G1**, **P1**, and **P2** are introduced on Quiz 4.]{.aside}
 
@@ -174,37 +204,6 @@ Our final exam will include one question for every learning target in the course
 
 
 
-
-
-
-
-### Labs
-
-[![](assets/img/figs/blooms-taxonomy-labs.png)]{.aside}
-
-In labs, you'll build your abilities to <span style="color:#ffd54f"> **analyze** </span>, <span style="color:#ff9933">**evaluate**</span>, and <span style="color:#ff2f2f">**create**</span> using the tools and topics from this class. 
-We'll have lab assignments in 8 weeks (skipping the weeks in which we have quizzes). 
-You'll start on lab assignments in groups in class on Fridays. You'll complete the remaining problems and prepare your report, submitting the entire result as a typed PDF.  
-
-
-You may continue to work on your report with classmates, but your report should be written by you and reflect your own understanding of the material. 
-A good heuristic: **discussion** and **work at the whiteboard** is great to share, but typed solutions or code should not be shared.   
-
-Labs are graded on a [4-point rubric](#labs). After receiving your grade on your lab report, you may revise and resubmit your report for a higher grade.  
-
-
-
-# Assessment and Grades
-
-## Warmups
-
-**Warmups are not graded for correctness**. The two grades you can receive are "**Complete**" or "**Incomplete/Missing**." A grade of **Complete** means that you made good effort on the problems and that your attempt demonstrates at least partial understanding of the reading and videos. Most days, 1.5-2 hours of prep time will usually be sufficient for you to complete the readings, videos, and warmups. 
-
-## Quizzes
-
-Quiz problems are assessed as **Satisfactory (S)** or **Incomplete/Not Yet Satisfactory (NS)**. To earn an **S** on a quiz problem, you must complete the entire problem correctly, modulo [minor errors](pages/minor-errors.qmd) unrelated to the learning goals of the course (like arithmetic typos). 
-
-Once you have earned a S on a quiz problem, you have completed the corresponding Learning Target. You never need to attempt another quiz problem corresponding to that target. 
 
 ## Labs
 
