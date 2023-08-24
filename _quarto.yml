@@ -12,7 +12,8 @@ website:
   sidebar:
     collapse-level: 1	
     style: "docked"
-    title: "<span style='color:white'><b>Math Foundations of Computing</b><br>CSCI 0200</span>"
+    title: "Math Foundations of Computing: CSCI 0200"
+    subtitle: test
     contents:
       - syllabus.qmd 
       - schedule.qmd

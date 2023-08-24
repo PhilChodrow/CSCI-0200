@@ -12,7 +12,7 @@ $sidebar-bg: $base-color;
 $navbar-bg: $base-color;
 $input-bg: #ffffff;
 $dark-text: #51514f;
-
+$sidebar-fg: $pale-grey;
 
 $font-size-root: 1.05em;
 $font-size-sidebar-link: 1.2*$font-size-root;
@@ -32,7 +32,10 @@ $code-block-bg-alpha: -.8;
 
 .sidebar-title.mb-0.py-0 a {
     font-size: $font-size-sidebar-header;
+    color: $input-bg;
+    font-weight: bold;
 }
+
 
 div.sidebar-item-container .active{
     font-weight: bold;
