@@ -1,0 +1,36 @@
+---
+title: "Preparation: Logical Statements and Truth Tables"
+---
+
+*Starting today, we are going to start introducing new course content through videos, readings, and warmup problems. Today's prep is shorter than usual and should take around an hour.*
+
+# Videos (~20 mins)
+
+- [Logical Statements](https://youtu.be/q2eyZZK-OIk?si=yLKi7F2d2FkiBri1) (6:18)
+- [Intro to Truth Tables: Negation, Conjunction, Disjunction](https://youtu.be/7mulE-zramc?si=yV8nyb9R39d9kZd6) (5:52)
+- [Truth Table Example](https://youtu.be/LNSfM86I8is?si=Rn0iLj-X4Q_ZKyy4) (3:23)
+- [Logical Equivalence of Two Statements](https://youtu.be/U2zPxuj8mnI?si=fSwTIkorMXCDscHk) (3:42)
+
+# Reading (~20 mins)
+
+- [BOP 2.1-2.2](https://www.people.vcu.edu/~rhammack/BookOfProof/Main.pdf)
+
+## Optional Reading: 
+
+*These readings will help you see more examples and see the material from multiple perspectives*.
+
+- [DMOI Chapter 0.2](https://discrete.openmathbooks.org/dmoi3/sec_intro-statements.html) from the beginning through Example 0.2.3
+- [DMOI Chapter 3.1](https://discrete.openmathbooks.org/dmoi3/sec_propositional.html), from the beginning up through Example 3.1.2.
+
+
+# Warmup Problems (~15 mins) 
+
+*Please complete these problems with a pencil/pen and paper. Then, scan/photograph your solutions and upload them to Canvas.* 
+
+### Problem 1
+ 
+{{< include ../../../content/problems/logic/sample.qmd >}}
+
+### Problem 2
+
+{{< include ../../../content/problems/logic/sample.qmd >}}   

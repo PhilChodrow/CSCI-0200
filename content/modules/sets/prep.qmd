@@ -1,0 +1,28 @@
+---
+title: "Sets and Set Operations"
+---
+
+
+# Videos (~40 mins)
+
+- [Intro to Sets](https://youtu.be/B1v2-nGXNzs) (7:12)
+- [Set Roster vs. Set Builder Notation](https://youtu.be/aTlR03t1dTQ) (5:15)
+- [The Empty Set](https://youtu.be/GqvX4Fi0jbM) (4:07)
+- [Cartesian Product](https://youtu.be/ufjEv-5nmcA) (7:10)
+- [Union of Two Sets](https://youtu.be/EF3m9bSbtdI) (5:07)
+- [Intersection of Two Sets](https://youtu.be/zEvQTK17xzY) (5:47)
+
+# Reading (40 mins)
+
+- [DMOI 3.1](https://discrete.openmathbooks.org/dmoi3/sec_propositional.html) through Example 3.1.5. 
+
+ 
+## Optional Reading
+
+*This is a slightly more advanced reading that may appeal to you if you want to see more theoretical math examples.*
+
+- [BOP 1.1, 1.4-1.7](https://www.people.vcu.edu/~rhammack/BookOfProof/Main.pdf)
+ 
+# Warmup Problems (~30 mins) 
+
+*Please complete these problems with a pencil/pen and paper. Then, scan/photograph your solutions and upload them to Canvas.*

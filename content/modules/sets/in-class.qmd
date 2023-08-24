@@ -1,0 +1,7 @@
+---
+title: "In Class: Sets"
+---
+
+- Proving set equality and subset relationships. 
+- Inclusion-exclusion. 
+- Power sets?   
