@@ -38,20 +38,6 @@ title: "Preparation: Logical Statements and Truth Tables"
 *Optionally*, you might be interested to check the final column of your truth table in Python. Here's some code you can run in Thonny or any other Python environment. You'll need to also include the definition of the function `f` above. 
   
 ```python
-def f(p, q, r):
-    """
-    p, q, and r are assumed to be booleans. 
-    returns: boolean
-    """
-    
-    a = p and q
-    b = not (q or r)
-    c = a and b
-    
-    return c
-```
-
-```python
 import itertools
 tf = [True, False]
 for p, q, r in itertools.product(tf, tf, tf): 

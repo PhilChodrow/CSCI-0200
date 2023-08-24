@@ -1,10 +1,108 @@
 [
   {
-    "objectID": "problems/logic/sample.html",
-    "href": "problems/logic/sample.html",
+    "objectID": "content/problems/logic/python-to-logic-1.html",
+    "href": "content/problems/logic/python-to-logic-1.html",
     "title": "",
     "section": "",
-    "text": "Consider the following compound proposition:\n\\[\nP \\lor Q \\iff R \\implies P\n\\]\n\n\n\n  © Phil Chodrow, 2023"
+    "text": "Your friend tells you about a cool function they wrote in Python. Their function accepts 3 boolean arguments and returns a boolean return value.\n\ndef f(p, q, r):\n    \"\"\"\n    p, q, and r are assumed to be booleans. \n    returns: boolean\n    \"\"\"\n    \n    a = p and q\n    b = not (q or r)\n    c = a and b\n    \n    return c\n\nPart A\nWrite a logical expression in terms of \\(p\\), \\(q\\), and \\(r\\) (using symbols like \\(\\lnot, \\lor, \\land\\)) which has the same value as the return value of your friend’s function f.\n\n\nPart B\nMake a truth table for your expression. Please show the values of a, b, and c in each line of your truth table.\nDo you notice anything strange about your truth table?\n\n\n\n\n  © Phil Chodrow, 2023"
+  },
+  {
+    "objectID": "content/problems/logic/truth-tables-1.html",
+    "href": "content/problems/logic/truth-tables-1.html",
+    "title": "",
+    "section": "",
+    "text": "Part A\nCreate truth tables for each of the three logical expressions:\n\n\\((r \\lor p) \\land q\\)\n\\((r \\lor p) \\land (r \\lor q)\\)\n\\(r \\lor (p \\land q)\\)\n\n\n\nPart B\nTwo of these expressions are logically equivalent: no matter the truth values of \\(r\\), \\(p\\), and \\(q\\), the two expressions always evaluate to the same final truth value. Which are the two equivalent expressions?\n\n\n\n\n  © Phil Chodrow, 2023"
+  },
+  {
+    "objectID": "content/modules/intro/prep.html",
+    "href": "content/modules/intro/prep.html",
+    "title": "Math Autobiography",
+    "section": "",
+    "text": "This assignment is adapted from Dr. Spencer Bagley at Westminster University.\nYour first assignment for CSCI 0200 is to write a short mathematical autobiography.\nThe purpose of this assignment is for you to reflect on your experiences with mathematics. We’ll be encountering a lot of different kinds of mathematics in this course, and relating that mathematics to our lives and our interests in computation. We’ll both get more out of this encounter if we understand what mathematical experiences you’re bringing with you.\n© Phil Chodrow, 2023"
+  },
+  {
+    "objectID": "content/modules/intro/prep.html#prompt",
+    "href": "content/modules/intro/prep.html#prompt",
+    "title": "Math Autobiography",
+    "section": "Prompt",
+    "text": "Prompt\nDescribe your history as a learner and user of mathematics. You might include things like: experiences with teachers (at any level, in any course), good or bad teachers (and what made them good or bad), how your attitude towards mathematics has changed over the years, whether you like mathematics or not, what feels good about doing math, what feels bad about doing math.\nPlease conclude your autobiography with a brief paragraph describing how you’re feeling about starting CSCI 0200. Are you nervous? Excited? What have you heard from your friends? What are you expecting?\nIn the spirit of sharing, here’s my math autobiography."
+  },
+  {
+    "objectID": "content/modules/intro/prep.html#specifications",
+    "href": "content/modules/intro/prep.html#specifications",
+    "title": "Math Autobiography",
+    "section": "Specifications",
+    "text": "Specifications\nFormat: You can prepare your math autobiography using any software you wish, but you must submit it as a PDF file on Canvas. If you like using word processors, the simplest way to achieve this is to Print as PDF.\nLength: Your math autobiography should show reflection on your experiences. If you’re only writing few paragraphs, there’s more for you to think about. More than a (single-spaced) page probably isn’t necessary. If you find yourself spending more than 90 minutes on this assignment, wrap up your current sentence and submit your autobiography.\nGrading: This is our first warmup assignment. Per the syllabus, warmup assignments are graded Complete or Incomplete/Missing. For Complete, you just need to spend some careful time thinking and writing. Typos, grammar mistakes, etc. are not an issue on this assignment.\nSubmission: Please submit your math autobiography on Canvas."
+  },
+  {
+    "objectID": "content/modules/logic-2/prep.html",
+    "href": "content/modules/logic-2/prep.html",
+    "title": "Implication, Inverse, Converse, and Contrapositive",
+    "section": "",
+    "text": "As we enter the second week, we are going to pick up the pace on introducing videos, readings, and warmup problems.\n© Phil Chodrow, 2023"
+  },
+  {
+    "objectID": "content/modules/logic-2/prep.html#optional-reading",
+    "href": "content/modules/logic-2/prep.html#optional-reading",
+    "title": "Implication, Inverse, Converse, and Contrapositive",
+    "section": "Optional Reading",
+    "text": "Optional Reading\n\nDMOI 3.1 through Example 3.1.5."
+  },
+  {
+    "objectID": "content/modules/logic-2/in-class.html",
+    "href": "content/modules/logic-2/in-class.html",
+    "title": "In Class: Implication, Inverse, and Contrapositive",
+    "section": "",
+    "text": "© Phil Chodrow, 2023"
+  },
+  {
+    "objectID": "content/modules/boolean-algebra/prep.html",
+    "href": "content/modules/boolean-algebra/prep.html",
+    "title": "Boolean Algebra and the Sum-of-Products Algorithm",
+    "section": "",
+    "text": "Video (~15 mins)\n\nBoolean Algebra in 13 Mins (12:56)\n\n\n\nReading (~20 mins)\nThis reading is pretty dense and it’s ok to skim as long as you’re ready for the warmup problems.\n\nRosen, p. 811-815\n\n\n\nWarmup Problems (~15 mins)\nPlease complete these problems with a pencil/pen and paper. Then, scan/photograph your solutions and upload them to Canvas.\n\nHow is Boolean algebra different from propositional logic? How is it similar?\nHere’s an expression, translate it into Boolean logic (3 variables).\nHere’s an expression, simplify it as much as you can (down to a specified minimum) (3 variables).\n\n\n\n\n\n  © Phil Chodrow, 2023"
+  },
+  {
+    "objectID": "content/modules/sets/prep.html",
+    "href": "content/modules/sets/prep.html",
+    "title": "Sets and Set Operations",
+    "section": "",
+    "text": "Intro to Sets (7:12)\nSet Roster vs. Set Builder Notation (5:15)\nThe Empty Set (4:07)\nCartesian Product (7:10)\nUnion of Two Sets (5:07)\nIntersection of Two Sets (5:47)\n© Phil Chodrow, 2023"
+  },
+  {
+    "objectID": "content/modules/sets/prep.html#optional-reading",
+    "href": "content/modules/sets/prep.html#optional-reading",
+    "title": "Sets and Set Operations",
+    "section": "Optional Reading",
+    "text": "Optional Reading\nThis is a slightly more advanced reading that may appeal to you if you want to see more theoretical math examples.\n\nBOP 1.1, 1.4-1.7"
+  },
+  {
+    "objectID": "content/modules/sets/in-class.html",
+    "href": "content/modules/sets/in-class.html",
+    "title": "In Class: Sets",
+    "section": "",
+    "text": "Proving set equality and subset relationships.\nInclusion-exclusion.\nPower sets?\n\n\n\n\n  © Phil Chodrow, 2023"
+  },
+  {
+    "objectID": "content/modules/logic-1/prep.html",
+    "href": "content/modules/logic-1/prep.html",
+    "title": "Preparation: Logical Statements and Truth Tables",
+    "section": "",
+    "text": "Starting today, we are going to start introducing new course content through videos, readings, and warmup problems. Today’s prep is shorter than usual and should take a little more than an hour.\n© Phil Chodrow, 2023"
+  },
+  {
+    "objectID": "content/modules/logic-1/prep.html#optional-reading",
+    "href": "content/modules/logic-1/prep.html#optional-reading",
+    "title": "Preparation: Logical Statements and Truth Tables",
+    "section": "Optional Reading:",
+    "text": "Optional Reading:\nThis reading covers the same material but has more examples from theoretical mathematics.\n\nBOP 2.1-2.2"
+  },
+  {
+    "objectID": "content/modules/logic-1/in-class.html",
+    "href": "content/modules/logic-1/in-class.html",
+    "title": "In Class: Logical Statements and Truth Tables",
+    "section": "",
+    "text": "© Phil Chodrow, 2023"
   },
   {
     "objectID": "index.html",
@@ -119,13 +217,6 @@
     "text": "Letters of Recommendation\nWriting letters of recommendation for students is a fundamental part of my job and something that I am usually very happy to do. Here’s how to ask me for a letter."
   },
   {
-    "objectID": "modules/test.html",
-    "href": "modules/test.html",
-    "title": "Logical Statements",
-    "section": "",
-    "text": "Problem 1\nConsider the following compound proposition:\n\\[\nP \\lor Q \\iff R \\implies P\n\\]\n\n\nProblem 2\nConsider the following compound proposition:\n\\[\nP \\lor Q \\iff R \\implies P\n\\]\n\n\n\n\n  © Phil Chodrow, 2023"
-  },
-  {
     "objectID": "pages/minor-errors.html",
     "href": "pages/minor-errors.html",
     "title": "What Makes an Error “Minor”?",
@@ -229,166 +320,5 @@
     "title": "Schedule",
     "section": "Final Exam",
     "text": "Final Exam\nOur final exam will be another quiz covering all twelve core Learning Targets. So, it’s just like Quiz 4, except you’ll have 3 hours instead of 50 minutes."
-  },
-  {
-    "objectID": "content/prep/test.html",
-    "href": "content/prep/test.html",
-    "title": "Logical Statements and Truth Tables",
-    "section": "",
-    "text": "Reading\n\n\nVideo Preparation\n\nLogical Statements (6:18)\nIntro to Truth Tables: Negation, Conjunction, Disjunction (5:52)\nTruth Table Example (3:23)\nLogical Equivalence of Two Statements\n\n\n\n\nWarmup Problems\n\nProblem 1\nConsider the following compound proposition:\n\\[\nP \\lor Q \\iff R \\implies P\n\\]\n\n\nProblem 2\nConsider the following compound proposition:\n\\[\nP \\lor Q \\iff R \\implies P\n\\]\n\n\n\n\n\n  © Phil Chodrow, 2023"
-  },
-  {
-    "objectID": "content/problems/logic/sample.html",
-    "href": "content/problems/logic/sample.html",
-    "title": "",
-    "section": "",
-    "text": "Create truth tables for each of the three logical expressions:\n\\[\nr \\lor (p \\land q)\n\\]\n\n\n\n  © Phil Chodrow, 2023"
-  },
-  {
-    "objectID": "content/prep/test.html#problem-1",
-    "href": "content/prep/test.html#problem-1",
-    "title": "Logical Statements and Truth Tables",
-    "section": "Problem 1",
-    "text": "Problem 1\nConsider the following compound proposition:\n\\[\nP \\lor Q \\iff R \\implies P\n\\]"
-  },
-  {
-    "objectID": "content/prep/test.html#problem-2",
-    "href": "content/prep/test.html#problem-2",
-    "title": "Logical Statements and Truth Tables",
-    "section": "Problem 2",
-    "text": "Problem 2\nConsider the following compound proposition:\n\\[\nP \\lor Q \\iff R \\implies P\n\\]"
-  },
-  {
-    "objectID": "content/prep/logic-1.html",
-    "href": "content/prep/logic-1.html",
-    "title": "Logical Statements and Truth Tables",
-    "section": "",
-    "text": "Starting today, we are going to start introducing new course content through videos, readings, and warmup problems. Today’s prep is shorter than usual and should take around an hour.\n© Phil Chodrow, 2023"
-  },
-  {
-    "objectID": "content/prep/logic-1.html#optional-reading",
-    "href": "content/prep/logic-1.html#optional-reading",
-    "title": "Logical Statements and Truth Tables",
-    "section": "Optional Reading:",
-    "text": "Optional Reading:\nThese readings will help you see more examples and see the material from multiple perspectives.\n\nDMOI Chapter 0.2 from the beginning through Example 0.2.3\nDMOI Chapter 3.1, from the beginning up through Example 3.1.2."
-  },
-  {
-    "objectID": "content/prep/logic-2.html",
-    "href": "content/prep/logic-2.html",
-    "title": "Implication, Inverse, Converse, and Contrapositive",
-    "section": "",
-    "text": "As we enter the second week, we are going to pick up the pace on introducing videos, readings, and warmup problems.\n© Phil Chodrow, 2023"
-  },
-  {
-    "objectID": "content/prep/logic-2.html#optional-reading",
-    "href": "content/prep/logic-2.html#optional-reading",
-    "title": "Implication, Inverse, Converse, and Contrapositive",
-    "section": "Optional Reading",
-    "text": "Optional Reading\n\nDMOI 3.1 through Example 3.1.5."
-  },
-  {
-    "objectID": "content/modules/logic-2/prep.html",
-    "href": "content/modules/logic-2/prep.html",
-    "title": "Implication, Inverse, Converse, and Contrapositive",
-    "section": "",
-    "text": "As we enter the second week, we are going to pick up the pace on introducing videos, readings, and warmup problems.\n© Phil Chodrow, 2023"
-  },
-  {
-    "objectID": "content/modules/logic-2/prep.html#optional-reading",
-    "href": "content/modules/logic-2/prep.html#optional-reading",
-    "title": "Implication, Inverse, Converse, and Contrapositive",
-    "section": "Optional Reading",
-    "text": "Optional Reading\n\nDMOI 3.1 through Example 3.1.5."
-  },
-  {
-    "objectID": "content/modules/logic-2/in-class.html",
-    "href": "content/modules/logic-2/in-class.html",
-    "title": "In Class: Implication, Inverse, and Contrapositive",
-    "section": "",
-    "text": "© Phil Chodrow, 2023"
-  },
-  {
-    "objectID": "content/modules/sets/prep.html",
-    "href": "content/modules/sets/prep.html",
-    "title": "Sets and Set Operations",
-    "section": "",
-    "text": "Intro to Sets (7:12)\nSet Roster vs. Set Builder Notation (5:15)\nThe Empty Set (4:07)\nCartesian Product (7:10)\nUnion of Two Sets (5:07)\nIntersection of Two Sets (5:47)\n© Phil Chodrow, 2023"
-  },
-  {
-    "objectID": "content/modules/sets/prep.html#optional-reading",
-    "href": "content/modules/sets/prep.html#optional-reading",
-    "title": "Sets and Set Operations",
-    "section": "Optional Reading",
-    "text": "Optional Reading\nThis is a slightly more advanced reading that may appeal to you if you want to see more theoretical math examples.\n\nBOP 1.1, 1.4-1.7"
-  },
-  {
-    "objectID": "content/modules/sets/in-class.html",
-    "href": "content/modules/sets/in-class.html",
-    "title": "In Class: Sets",
-    "section": "",
-    "text": "Proving set equality and subset relationships.\nInclusion-exclusion.\nPower sets?\n\n\n\n\n  © Phil Chodrow, 2023"
-  },
-  {
-    "objectID": "content/modules/logic-1/prep.html",
-    "href": "content/modules/logic-1/prep.html",
-    "title": "Preparation: Logical Statements and Truth Tables",
-    "section": "",
-    "text": "Starting today, we are going to start introducing new course content through videos, readings, and warmup problems. Today’s prep is shorter than usual and should take a little more than an hour.\n© Phil Chodrow, 2023"
-  },
-  {
-    "objectID": "content/modules/logic-1/prep.html#optional-reading",
-    "href": "content/modules/logic-1/prep.html#optional-reading",
-    "title": "Preparation: Logical Statements and Truth Tables",
-    "section": "Optional Reading:",
-    "text": "Optional Reading:\nThis reading covers the same material but has more examples from theoretical mathematics.\n\nBOP 2.1-2.2"
-  },
-  {
-    "objectID": "content/modules/logic-1/in-class.html",
-    "href": "content/modules/logic-1/in-class.html",
-    "title": "In Class: Logical Statements and Truth Tables",
-    "section": "",
-    "text": "© Phil Chodrow, 2023"
-  },
-  {
-    "objectID": "content/modules/intro/prep.html",
-    "href": "content/modules/intro/prep.html",
-    "title": "Math Autobiography",
-    "section": "",
-    "text": "This assignment is adapted from Dr. Spencer Bagley at Westminster University.\nYour first assignment for CSCI 0200 is to write a short mathematical autobiography.\nThe purpose of this assignment is for you to reflect on your experiences with mathematics. We’ll be encountering a lot of different kinds of mathematics in this course, and relating that mathematics to our lives and our interests in computation. We’ll both get more out of this encounter if we understand what mathematical experiences you’re bringing with you.\n© Phil Chodrow, 2023"
-  },
-  {
-    "objectID": "content/modules/intro/prep.html#prompt",
-    "href": "content/modules/intro/prep.html#prompt",
-    "title": "Math Autobiography",
-    "section": "Prompt",
-    "text": "Prompt\nDescribe your history as a learner and user of mathematics. You might include things like: experiences with teachers (at any level, in any course), good or bad teachers (and what made them good or bad), how your attitude towards mathematics has changed over the years, whether you like mathematics or not, what feels good about doing math, what feels bad about doing math.\nPlease conclude your autobiography with a brief paragraph describing how you’re feeling about starting CSCI 0200. Are you nervous? Excited? What have you heard from your friends? What are you expecting?\nIn the spirit of sharing, here’s my math autobiography."
-  },
-  {
-    "objectID": "content/modules/intro/prep.html#specifications",
-    "href": "content/modules/intro/prep.html#specifications",
-    "title": "Math Autobiography",
-    "section": "Specifications",
-    "text": "Specifications\nFormat: You can prepare your math autobiography using any software you wish, but you must submit it as a PDF file on Canvas. If you like using word processors, the simplest way to achieve this is to Print as PDF.\nLength: Your math autobiography should show reflection on your experiences. If you’re only writing few paragraphs, there’s more for you to think about. More than a (single-spaced) page probably isn’t necessary. If you find yourself spending more than 90 minutes on this assignment, wrap up your current sentence and submit your autobiography.\nGrading: This is our first warmup assignment. Per the syllabus, warmup assignments are graded Complete or Incomplete/Missing. For Complete, you just need to spend some careful time thinking and writing. Typos, grammar mistakes, etc. are not an issue on this assignment.\nSubmission: Please submit your math autobiography on Canvas."
-  },
-  {
-    "objectID": "content/modules/boolean-algebra/prep.html",
-    "href": "content/modules/boolean-algebra/prep.html",
-    "title": "Boolean Algebra and the Sum-of-Products Algorithm",
-    "section": "",
-    "text": "Video (~15 mins)\n\nBoolean Algebra in 13 Mins (12:56)\n\n\n\nReading (~20 mins)\nThis reading is pretty dense and it’s ok to skim as long as you’re ready for the warmup problems.\n\nRosen, p. 811-815\n\n\n\nWarmup Problems (~15 mins)\nPlease complete these problems with a pencil/pen and paper. Then, scan/photograph your solutions and upload them to Canvas.\n\nHow is Boolean algebra different from propositional logic? How is it similar?\nHere’s an expression, translate it into Boolean logic (3 variables).\nHere’s an expression, simplify it as much as you can (down to a specified minimum) (3 variables).\n\n\n\n\n\n  © Phil Chodrow, 2023"
-  },
-  {
-    "objectID": "content/problems/logic/truth-tables-1.html",
-    "href": "content/problems/logic/truth-tables-1.html",
-    "title": "",
-    "section": "",
-    "text": "Part A\nCreate truth tables for each of the three logical expressions:\n\n\\((r \\lor p) \\land q\\)\n\\((r \\lor p) \\land (r \\lor q)\\)\n\\(r \\lor (p \\land q)\\)\n\n\n\nPart B\nTwo of these expressions are logically equivalent: no matter the truth values of \\(r\\), \\(p\\), and \\(q\\), the two expressions always evaluate to the same final truth value. Which are the two equivalent expressions?\n\n\n\n\n  © Phil Chodrow, 2023"
-  },
-  {
-    "objectID": "content/problems/logic/python-to-logic-1.html",
-    "href": "content/problems/logic/python-to-logic-1.html",
-    "title": "",
-    "section": "",
-    "text": "Your friend tells you about a cool function they wrote in Python. Their function accepts 3 boolean arguments and returns a boolean return value.\n\ndef f(p, q, r):\n    \"\"\"\n    p, q, and r are assumed to be booleans. \n    returns: boolean\n    \"\"\"\n    \n    a = p and q\n    b = not (q or r)\n    c = a and b\n    \n    return c\n\nPart A\nWrite a logical expression in terms of \\(p\\), \\(q\\), and \\(r\\) (using symbols like \\(\\lnot, \\lor, \\land\\)) which has the same value as the return value of your friend’s function f.\n\n\nPart B\nMake a truth table for your expression. Please show the values of a, b, and c in each line of your truth table.\nDo you notice anything strange about your truth table?\n\n\n\n\n  © Phil Chodrow, 2023"
   }
 ]
