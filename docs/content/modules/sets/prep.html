@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Phil">
 
-<title>Logical Statements</title>
+<title>Sets and Set Operations</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,23 +23,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="../assets/icons/favicon.png" rel="icon" type="image/png">
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<link href="../../../assets/icons/favicon.png" rel="icon" type="image/png">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -61,10 +60,8 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="../assets/css/styles.css">
+<link rel="stylesheet" href="../../../assets/css/styles.css">
 </head>
 
 <body class="nav-sidebar docked">
@@ -93,7 +90,7 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="../"><span style="color:white"><b>Math Foundations of Computing</b><br>CSCI 0200</span></a> 
+      <a href="../../../"><span style="color:white"><b>Math Foundations of Computing</b><br>CSCI 0200</span></a> 
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -105,13 +102,13 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../syllabus.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../syllabus.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Syllabus</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../schedule.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../schedule.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Schedule</span></a>
   </div>
 </li>
@@ -126,13 +123,13 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../pages/llms.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../pages/llms.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">More on Language Models</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../pages/mask-policy.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../pages/mask-policy.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Masks Are Required in CSCI 0200</span></a>
   </div>
 </li>
@@ -148,8 +145,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#problem-1" id="toc-problem-1" class="nav-link active" data-scroll-target="#problem-1">Problem 1</a></li>
-  <li><a href="#problem-2" id="toc-problem-2" class="nav-link" data-scroll-target="#problem-2">Problem 2</a></li>
+  <li><a href="#videos-40-mins" id="toc-videos-40-mins" class="nav-link active" data-scroll-target="#videos-40-mins">Videos (~40 mins)</a></li>
+  <li><a href="#reading-40-mins" id="toc-reading-40-mins" class="nav-link" data-scroll-target="#reading-40-mins">Reading (40 mins)</a>
+  <ul class="collapse">
+  <li><a href="#optional-reading" id="toc-optional-reading" class="nav-link" data-scroll-target="#optional-reading">Optional Reading</a></li>
+  </ul></li>
+  <li><a href="#warmup-problems-30-mins" id="toc-warmup-problems-30-mins" class="nav-link" data-scroll-target="#warmup-problems-30-mins">Warmup Problems (~30 mins)</a></li>
   </ul>
 </nav>
     </div>
@@ -158,26 +159,14 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Logical Statements</h1>
+<h1 class="title">Sets and Set Operations</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Phil </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">Invalid Date</p>
-    </div>
-  </div>
   
     
   </div>
@@ -185,19 +174,33 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="problem-1" class="level1">
-<h1>Problem 1</h1>
-<p>Consider the following compound proposition:</p>
-<p><span class="math display">\[
-P \lor Q \iff R \implies P
-\]</span></p>
+<section id="videos-40-mins" class="level1">
+<h1>Videos (~40 mins)</h1>
+<ul>
+<li><a href="https://youtu.be/B1v2-nGXNzs">Intro to Sets</a> (7:12)</li>
+<li><a href="https://youtu.be/aTlR03t1dTQ">Set Roster vs.&nbsp;Set Builder Notation</a> (5:15)</li>
+<li><a href="https://youtu.be/GqvX4Fi0jbM">The Empty Set</a> (4:07)</li>
+<li><a href="https://youtu.be/ufjEv-5nmcA">Cartesian Product</a> (7:10)</li>
+<li><a href="https://youtu.be/EF3m9bSbtdI">Union of Two Sets</a> (5:07)</li>
+<li><a href="https://youtu.be/zEvQTK17xzY">Intersection of Two Sets</a> (5:47)</li>
+</ul>
 </section>
-<section id="problem-2" class="level1">
-<h1>Problem 2</h1>
-<p>Consider the following compound proposition:</p>
-<p><span class="math display">\[
-P \lor Q \iff R \implies P
-\]</span></p>
+<section id="reading-40-mins" class="level1">
+<h1>Reading (40 mins)</h1>
+<ul>
+<li><a href="https://discrete.openmathbooks.org/dmoi3/sec_propositional.html">DMOI 3.1</a> through Example 3.1.5.</li>
+</ul>
+<section id="optional-reading" class="level2">
+<h2 class="anchored" data-anchor-id="optional-reading">Optional Reading</h2>
+<p><em>This is a slightly more advanced reading that may appeal to you if you want to see more theoretical math examples.</em></p>
+<ul>
+<li><a href="https://www.people.vcu.edu/~rhammack/BookOfProof/Main.pdf#page=15">BOP 1.1, 1.4-1.7</a></li>
+</ul>
+</section>
+</section>
+<section id="warmup-problems-30-mins" class="level1">
+<h1>Warmup Problems (~30 mins)</h1>
+<p><em>Please complete these problems with a pencil/pen and paper. Then, scan/photograph your solutions and upload them to Canvas.</em></p>
 
 
 </section>

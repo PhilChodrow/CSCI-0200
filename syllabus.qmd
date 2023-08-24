@@ -6,18 +6,16 @@ callout-icon: false
 
 [You can learn more about the theory of computation in CSCI 0301, about proving correctness and performance of algorithms in CSCI 0302 and 0401, and about the role of math in applications in electives like CSCI 0422, 0451, and 0452.]{.aside}
 
-Welcome to CSCI 0200: Math Foundations of Computing! In this course, we'll study **how to think computationally using mathematics**. There are three primary roles for mathematics in modern computation: 
-
-1. The mathematical **theory of computation** describes the capabilities and limits of computers. 
-    - Example question: Can a computer scan an algorithm to determine whether that algorithm terminates with the correct result? 
-2. Mathematics is used to prove guarantees about the correctness and performance of **algorithms**. 
-    - Example questions: Does the MergeSort algorithm correctly sort a list *all the time*? Does it work in $O(n \log n)$ time? *How do you know*? 
-3. Mathematics is used in a wide range of **computational applications**, including graphics, image processing, simulation, and machine learning.  
-
-# Learning Objectives
+Welcome to CSCI 0200: Math Foundations of Computing! In this course, we'll study **how to think about computation using mathematics**. Historically, computer science emerged as a subfield of mathematics before "growing up" into its own discipline. Math remains one of the fundamental tools we use to solve advanced problems. You might know to expect mathematical reasoning in core theory courses like Theory of Computation (CSCI 0301) and Algorithms and Complexity (CSCI 0302), but you'll also draw on mathematical thinking in courses like Artificial Intelligence (CSCI 0311), Programming Languages (CSCI 0313), and Machine Learning (CSCI 0451). 
 
 
+This course has four main **learning objectives**: 
 
+1. You will solve problems using logic, set theory, recurrence relations, combinatorics (counting), graphs, and discrete probability. 
+2. You will apply the above topics to complex problems in computer science and beyond. 
+3. You will write mathematical proofs that allow you to be *certain* of a mathematical fact or a statement about an algorithm. 
+4. You will perform computational experiments and contextualize your findings against known mathematical concepts and facts. 
+4. You will develop habits of reflection, collaboration, and persistence for learning theoretical topics. 
 
 # Logistics and Key Highlights
 
@@ -126,7 +124,7 @@ Warmups are due by 8:30am on the day of class. Warmups are never accepted late a
 
 [![](assets/img/figs/blooms-taxonomy-in-class.png)]{.aside}
 
-By the time you've completed the warmups and made it to class, I'm expecting that you have already made some effort to <span style="color:#7030a0">**remember**</span> and <span style="color:#0070c0">**understand**</span> the new material for that day. During class time on Mondays and Wednesdays, we'll usually start with some time to discuss questions you might have from the day's readings, videos, or warmups, to help build your  <span style="color:#0070c0">**understanding**</span>. Then, we'll usually have time to work on problems in groups, or to further discuss topics. These activities will help you build your abilities to <span style="color:#0070c0">**understand**</span> and <span style="color:#00b050">**apply**</span> the material. 
+By the time you've completed the warmups and made it to class, I'm expecting that you have already made some effort to <span style="color:#7030a0">**remember**</span> and <span style="color:#0070c0">**understand**</span> the new material for that day. During class time on Mondays and Wednesdays, we'll usually start with some time to discuss questions you might have from the day's readings, videos, or warmups, to help build your  <span style="color:#0070c0">**understanding**</span>. Then, we'll usually have time to work on problems in groups, or to further discuss topics. These activities will help you build your abilities to <span style="color:#00b050">**apply**</span> the material and use it to <span style="color:#ffd54f"> **analyze** </span> more complicated problems. 
 
 ### Quizzes
 
@@ -207,7 +205,7 @@ Once you have earned an **S** on a quiz problem, you have completed the correspo
 
 ## Labs
 
-Labs are graded on a 4-part rubric similar to the EMRF rubric of [Stutzman and Race](http://miss-serwy.weebly.com/uploads/1/2/1/6/12161802/emrf_rubric_1.pdf):[This particular scale is very close to the scale [used by Peter-Michael Osera](https://osera.cs.grinnell.edu/csc208/syllabus/#projects) at Grinnel.]{.aside} 
+Labs are graded on a 4-part rubric similar to the EMRF rubric of [Stutzman and Race](http://miss-serwy.weebly.com/uploads/1/2/1/6/12161802/emrf_rubric_1.pdf):[This particular scale is very close to the scale [used by Peter-Michael Osera](https://osera.cs.grinnell.edu/csc208/syllabus/#projects) at Grinnell College.]{.aside} 
 
 **Excellent** (**E**): 
 
@@ -432,11 +430,13 @@ I am always happy to talk with you about your future plans, including internship
 
 Writing letters of recommendation for students is a fundamental part of my job and something that I am usually very happy to do. [Here's how to ask me for a letter](https://www.philchodrow.com/for-students.html#advice-and-recommendation-letters). 
 
-# Acknowledgments
+# Acknowledgments 
 
 The assessment system for this course is closely modeled on [Peter-Michael Osera](https://osera.cs.grinnell.edu/)'s offering of [CSC 208-01: Discrete Mathematics](https://osera.cs.grinnell.edu/csc208/) at Grinnell College.
 
-I learned of many of the videos and readings used in this course from [Chad Topaz](https://chadtopaz.com/)'s offering of [MATH-200: Discrete Mathematics](https://glow.williams.edu/courses/3011771) at Williams College.
+Many of the videos used in this course were created by [Dr. Trefor Bazett](https://onlineacademiccommunity.uvic.ca/treforbazett/) at the University of Victoria. Dr. Bazett [kindly posted](https://www.youtube.com/playlist?list=PLHXZ9OQGMqxersk8fUxiUMSIx0DBqsKZS) these videos on YouTube for public use. 
+
+I learned of many of the videos and readings used in this course from [ Chad Topaz](https://chadtopaz.com/)'s offering of [MATH-200: Discrete Mathematics](https://glow.williams.edu/courses/3011771) at Williams College.
 
 My approach to Bloom's taxonomy and assignments/class time is inspired by [this blog post](https://rtalbert.org/re-thinking-blooms-taxonomy-for-flipped-learning-design/) by Robert Talbert. 
 

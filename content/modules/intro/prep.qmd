@@ -14,6 +14,8 @@ Describe your history as a learner and user of mathematics. You might include th
 
 Please conclude your autobiography with a brief paragraph describing how you're feeling about starting CSCI 0200. Are you nervous? Excited? What have you heard from your friends? What are you expecting? 
 
+In the spirit of sharing, here's [my math autobiography](https://www.philchodrow.prof/math-autobiography.html).
+
 ## Specifications
 
 **Format**: You can prepare your math autobiography using any software you wish, but you must submit it as a PDF file on Canvas. If you like using word processors, the simplest way to achieve this is to Print as PDF. 

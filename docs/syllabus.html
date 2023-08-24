@@ -60,8 +60,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="assets/css/styles.css">
 </head>
@@ -145,8 +143,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link active" data-scroll-target="#learning-objectives">Learning Objectives</a></li>
-  <li><a href="#logistics-and-key-highlights" id="toc-logistics-and-key-highlights" class="nav-link" data-scroll-target="#logistics-and-key-highlights">Logistics and Key Highlights</a></li>
+  <li><a href="#logistics-and-key-highlights" id="toc-logistics-and-key-highlights" class="nav-link active" data-scroll-target="#logistics-and-key-highlights">Logistics and Key Highlights</a></li>
   <li><a href="#class-format" id="toc-class-format" class="nav-link" data-scroll-target="#class-format">Class Format</a>
   <ul class="collapse">
   <li><a href="#flipped-class" id="toc-flipped-class" class="nav-link" data-scroll-target="#flipped-class">Flipped Class</a></li>
@@ -217,21 +214,15 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 <div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="">You can learn more about the theory of computation in CSCI 0301, about proving correctness and performance of algorithms in CSCI 0302 and 0401, and about the role of math in applications in electives like CSCI 0422, 0451, and 0452.</span></div></div>
-<p>Welcome to CSCI 0200: Math Foundations of Computing! In this course, we’ll study <strong>how to think computationally using mathematics</strong>. There are three primary roles for mathematics in modern computation:</p>
+<p>Welcome to CSCI 0200: Math Foundations of Computing! In this course, we’ll study <strong>how to think about computation using mathematics</strong>. Historically, computer science emerged as a subfield of mathematics before “growing up” into its own discipline. Math remains one of the fundamental tools we use to solve advanced problems. You might know to expect mathematical reasoning in core theory courses like Theory of Computation (CSCI 0301) and Algorithms and Complexity (CSCI 0302), but you’ll also draw on mathematical thinking in courses like Artificial Intelligence (CSCI 0311), Programming Languages (CSCI 0313), and Machine Learning (CSCI 0451).</p>
+<p>This course has four main <strong>learning objectives</strong>:</p>
 <ol type="1">
-<li>The mathematical <strong>theory of computation</strong> describes the capabilities and limits of computers.
-<ul>
-<li>Example question: Can a computer scan an algorithm to determine whether that algorithm terminates with the correct result?</li>
-</ul></li>
-<li>Mathematics is used to prove guarantees about the correctness and performance of <strong>algorithms</strong>.
-<ul>
-<li>Example questions: Does the MergeSort algorithm correctly sort a list <em>all the time</em>? Does it work in <span class="math inline">\(O(n \log n)\)</span> time? <em>How do you know</em>?</li>
-</ul></li>
-<li>Mathematics is used in a wide range of <strong>computational applications</strong>, including graphics, image processing, simulation, and machine learning.</li>
+<li>You will solve problems using logic, set theory, recurrence relations, combinatorics (counting), graphs, and discrete probability.</li>
+<li>You will apply the above topics to complex problems in computer science and beyond.</li>
+<li>You will write mathematical proofs that allow you to be <em>certain</em> of a mathematical fact or a statement about an algorithm.</li>
+<li>You will perform computational experiments and contextualize your findings against known mathematical concepts and facts.</li>
+<li>You will develop habits of reflection, collaboration, and persistence for learning theoretical topics.</li>
 </ol>
-<section id="learning-objectives" class="level1">
-<h1>Learning Objectives</h1>
-</section>
 <section id="logistics-and-key-highlights" class="level1">
 <h1>Logistics and Key Highlights</h1>
 
@@ -344,7 +335,7 @@ I encourage you to call me “Phil” or “Prof.&nbsp;Phil.” “Professor Cho
 <section id="class-on-mondays-and-wednesdays-questions-activities-and-discussion" class="level3 page-columns page-full">
 <h3 class="anchored" data-anchor-id="class-on-mondays-and-wednesdays-questions-activities-and-discussion">Class on Mondays and Wednesdays: Questions, Activities, and Discussion</h3>
 <div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class=""><img src="assets/img/figs/blooms-taxonomy-in-class.png" class="img-fluid"></span></div></div>
-<p>By the time you’ve completed the warmups and made it to class, I’m expecting that you have already made some effort to <span style="color:#7030a0"><strong>remember</strong></span> and <span style="color:#0070c0"><strong>understand</strong></span> the new material for that day. During class time on Mondays and Wednesdays, we’ll usually start with some time to discuss questions you might have from the day’s readings, videos, or warmups, to help build your <span style="color:#0070c0"><strong>understanding</strong></span>. Then, we’ll usually have time to work on problems in groups, or to further discuss topics. These activities will help you build your abilities to <span style="color:#0070c0"><strong>understand</strong></span> and <span style="color:#00b050"><strong>apply</strong></span> the material.</p>
+<p>By the time you’ve completed the warmups and made it to class, I’m expecting that you have already made some effort to <span style="color:#7030a0"><strong>remember</strong></span> and <span style="color:#0070c0"><strong>understand</strong></span> the new material for that day. During class time on Mondays and Wednesdays, we’ll usually start with some time to discuss questions you might have from the day’s readings, videos, or warmups, to help build your <span style="color:#0070c0"><strong>understanding</strong></span>. Then, we’ll usually have time to work on problems in groups, or to further discuss topics. These activities will help you build your abilities to <span style="color:#00b050"><strong>apply</strong></span> the material and use it to <span style="color:#ffd54f"> <strong>analyze</strong> </span> more complicated problems.</p>
 </section>
 <section id="quizzes" class="level3 page-columns page-full">
 <h3 class="anchored" data-anchor-id="quizzes">Quizzes</h3>
@@ -409,7 +400,7 @@ I encourage you to call me “Phil” or “Prof.&nbsp;Phil.” “Professor Cho
 </section>
 <section id="labs-1" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="labs-1">Labs</h2>
-<div class="page-columns page-full"><p>Labs are graded on a 4-part rubric similar to the EMRF rubric of <a href="http://miss-serwy.weebly.com/uploads/1/2/1/6/12161802/emrf_rubric_1.pdf">Stutzman and Race</a>:</p><div class="no-row-height column-margin column-container"><span class="">This particular scale is very close to the scale <a href="https://osera.cs.grinnell.edu/csc208/syllabus/#projects">used by Peter-Michael Osera</a> at Grinnel.</span></div></div>
+<div class="page-columns page-full"><p>Labs are graded on a 4-part rubric similar to the EMRF rubric of <a href="http://miss-serwy.weebly.com/uploads/1/2/1/6/12161802/emrf_rubric_1.pdf">Stutzman and Race</a>:</p><div class="no-row-height column-margin column-container"><span class="">This particular scale is very close to the scale <a href="https://osera.cs.grinnell.edu/csc208/syllabus/#projects">used by Peter-Michael Osera</a> at Grinnell College.</span></div></div>
 <p><strong>Excellent</strong> (<strong>E</strong>):</p>
 <ul>
 <li>The lab includes a complete contributions statement describing the contributions of any collaborators, as well as external sources such as websites or ChatGPT.</li>
@@ -676,6 +667,7 @@ I encourage you to call me “Phil” or “Prof.&nbsp;Phil.” “Professor Cho
 <section id="acknowledgments" class="level1">
 <h1>Acknowledgments</h1>
 <p>The assessment system for this course is closely modeled on <a href="https://osera.cs.grinnell.edu/">Peter-Michael Osera</a>’s offering of <a href="https://osera.cs.grinnell.edu/csc208/">CSC 208-01: Discrete Mathematics</a> at Grinnell College.</p>
+<p>Many of the videos used in this course were created by <a href="https://onlineacademiccommunity.uvic.ca/treforbazett/">Dr.&nbsp;Trefor Bazett</a> at the University of Victoria. Dr.&nbsp;Bazett <a href="https://www.youtube.com/playlist?list=PLHXZ9OQGMqxersk8fUxiUMSIx0DBqsKZS">kindly posted</a> these videos on YouTube for public use.</p>
 <p>I learned of many of the videos and readings used in this course from <a href="https://chadtopaz.com/">Chad Topaz</a>’s offering of <a href="https://glow.williams.edu/courses/3011771">MATH-200: Discrete Mathematics</a> at Williams College.</p>
 <p>My approach to Bloom’s taxonomy and assignments/class time is inspired by <a href="https://rtalbert.org/re-thinking-blooms-taxonomy-for-flipped-learning-design/">this blog post</a> by Robert Talbert.</p>
 <p>Many learning targets are adapted from Robert Talbert’s targets from <a href="https://hackmd.io/@rtalbert235/BkwQboPzY">an offering</a> of MTH 225: Discrete Mathematics at Grand Valley State University.</p>

@@ -18,7 +18,7 @@
     "href": "syllabus.html",
     "title": "Syllabus",
     "section": "",
-    "text": "You can learn more about the theory of computation in CSCI 0301, about proving correctness and performance of algorithms in CSCI 0302 and 0401, and about the role of math in applications in electives like CSCI 0422, 0451, and 0452.\nWelcome to CSCI 0200: Math Foundations of Computing! In this course, we’ll study how to think computationally using mathematics. There are three primary roles for mathematics in modern computation:\n© Phil Chodrow, 2023"
+    "text": "You can learn more about the theory of computation in CSCI 0301, about proving correctness and performance of algorithms in CSCI 0302 and 0401, and about the role of math in applications in electives like CSCI 0422, 0451, and 0452.\nWelcome to CSCI 0200: Math Foundations of Computing! In this course, we’ll study how to think about computation using mathematics. Historically, computer science emerged as a subfield of mathematics before “growing up” into its own discipline. Math remains one of the fundamental tools we use to solve advanced problems. You might know to expect mathematical reasoning in core theory courses like Theory of Computation (CSCI 0301) and Algorithms and Complexity (CSCI 0302), but you’ll also draw on mathematical thinking in courses like Artificial Intelligence (CSCI 0311), Programming Languages (CSCI 0313), and Machine Learning (CSCI 0451).\nThis course has four main learning objectives:\n© Phil Chodrow, 2023"
   },
   {
     "objectID": "syllabus.html#flipped-class",
@@ -32,7 +32,7 @@
     "href": "syllabus.html#course-activities",
     "title": "Syllabus",
     "section": "Course Activities",
-    "text": "Course Activities\nThe overall format of CSCI 0200 is designed to help you apply the ideas and skills of the course to progressively higher stages of Bloom’s taxonomy of cognition.\n\n\n\nBloom’s taxonomy of cognitive skills. Image credit: University of Florida\n\n\n\nBefore Class: Warmups\n\nWarmups are here to help you remember and understand new material. Each day, you’ll prepare for class by watching videos, completing readings, and solving a small number of relatively short warmup problems. You’ll then submit your solutions on Gradescope. You’ll get feedback on your solutions from our graders. Your warmup solutions are expected to show effort but are not graded for correctness.\nWarmups are due by 8:30am on the day of class. Warmups are never accepted late and there are no extensions. However, you can miss up to three warmups without any impact on your grade.\n\n\nClass on Mondays and Wednesdays: Questions, Activities, and Discussion\n\nBy the time you’ve completed the warmups and made it to class, I’m expecting that you have already made some effort to remember and understand the new material for that day. During class time on Mondays and Wednesdays, we’ll usually start with some time to discuss questions you might have from the day’s readings, videos, or warmups, to help build your understanding. Then, we’ll usually have time to work on problems in groups, or to further discuss topics. These activities will help you build your abilities to understand and apply the material.\n\n\nQuizzes\n\nOn quizzes, you’ll demonstrate your ability to remember, understand, and apply key ideas and skills. We’ll have four quizzes throughout the semester. On each quiz, there will be one question related to each of the twelve learning targets that we have introduced in the course so far. So, our first quiz will have three questions, our second quiz will have 6 questions, our third quiz will have 9 questions, and our last quiz will have twelve. You should plan to attempt 2-3 problems on each quiz.\nOnce you have earned Satisfactory on a learning target, you do not need to attempt that target again. You’re done with that one! On the next quiz, you should attempt a different learning target.\nOur final exam will include one question for every learning target in the course, similarly to the last. This gives you a chance to earn Satisfactory on learning targets for anything you might not yet have gotten by the final quiz.\n\n\nLabs\n\nIn labs, you’ll build your abilities to  analyze , evaluate, and create using the tools and topics from this class. We’ll have lab assignments in 8 weeks (skipping the weeks in which we have quizzes). You’ll start on lab assignments in groups in class on Fridays. You’ll complete the remaining problems and prepare your report, submitting the entire result as a typed PDF.\nYou may continue to work on your report with classmates, but your report should be written by you and reflect your own understanding of the material. A good heuristic: discussion and work at the whiteboard is great to share, but typed solutions or code should not be shared.\nLabs are graded on a 4-point rubric. After receiving your grade on your lab report, you may revise and resubmit your report for a higher grade."
+    "text": "Course Activities\nThe overall format of CSCI 0200 is designed to help you apply the ideas and skills of the course to progressively higher stages of Bloom’s taxonomy of cognition.\n\n\n\nBloom’s taxonomy of cognitive skills. Image credit: University of Florida\n\n\n\nBefore Class: Warmups\n\nWarmups are here to help you remember and understand new material. Each day, you’ll prepare for class by watching videos, completing readings, and solving a small number of relatively short warmup problems. You’ll then submit your solutions on Gradescope. You’ll get feedback on your solutions from our graders. Your warmup solutions are expected to show effort but are not graded for correctness.\nWarmups are due by 8:30am on the day of class. Warmups are never accepted late and there are no extensions. However, you can miss up to three warmups without any impact on your grade.\n\n\nClass on Mondays and Wednesdays: Questions, Activities, and Discussion\n\nBy the time you’ve completed the warmups and made it to class, I’m expecting that you have already made some effort to remember and understand the new material for that day. During class time on Mondays and Wednesdays, we’ll usually start with some time to discuss questions you might have from the day’s readings, videos, or warmups, to help build your understanding. Then, we’ll usually have time to work on problems in groups, or to further discuss topics. These activities will help you build your abilities to apply the material and use it to  analyze  more complicated problems.\n\n\nQuizzes\n\nOn quizzes, you’ll demonstrate your ability to remember, understand, and apply key ideas and skills. We’ll have four quizzes throughout the semester. On each quiz, there will be one question related to each of the twelve learning targets that we have introduced in the course so far. So, our first quiz will have three questions, our second quiz will have 6 questions, our third quiz will have 9 questions, and our last quiz will have twelve. You should plan to attempt 2-3 problems on each quiz.\nOnce you have earned Satisfactory on a learning target, you do not need to attempt that target again. You’re done with that one! On the next quiz, you should attempt a different learning target.\nOur final exam will include one question for every learning target in the course, similarly to the last. This gives you a chance to earn Satisfactory on learning targets for anything you might not yet have gotten by the final quiz.\n\n\nLabs\n\nIn labs, you’ll build your abilities to  analyze , evaluate, and create using the tools and topics from this class. We’ll have lab assignments in 8 weeks (skipping the weeks in which we have quizzes). You’ll start on lab assignments in groups in class on Fridays. You’ll complete the remaining problems and prepare your report, submitting the entire result as a typed PDF.\nYou may continue to work on your report with classmates, but your report should be written by you and reflect your own understanding of the material. A good heuristic: discussion and work at the whiteboard is great to share, but typed solutions or code should not be shared.\nLabs are graded on a 4-point rubric. After receiving your grade on your lab report, you may revise and resubmit your report for a higher grade."
   },
   {
     "objectID": "syllabus.html#warmups",
@@ -53,7 +53,7 @@
     "href": "syllabus.html#labs-1",
     "title": "Syllabus",
     "section": "Labs",
-    "text": "Labs\nLabs are graded on a 4-part rubric similar to the EMRF rubric of Stutzman and Race:This particular scale is very close to the scale used by Peter-Michael Osera at Grinnel.\nExcellent (E):\n\nThe lab includes a complete contributions statement describing the contributions of any collaborators, as well as external sources such as websites or ChatGPT.\nThe lab exhibits complete understanding of the material.\nThe lab has at worst, a few minor design errors or surface-level writing issues.\nAll coding experiments run and produce correct outputs.\n\nMeets Expectations (M):\n\nThe lab exhibits complete understanding of the material.\nThe lab includes a complete contributions statement describing the contributions of any collaborators, as well as external sources such as websites or ChatGPT.\nThe lab has some minor errors of correctness, design, or writing. Fixing these errors would demonstrate improved understanding of the material.\nAll coding experiments run and produce outputs which are close to expected.\n\nNeeds Revision (R):\n\nThe lab exhibits one or more significant misunderstandings of the material, or many minor errors.\nCoding experiments do not run or produce substantially incorrect output.\nThe contributions statement is partial or missing.\n\nNot Completed (N):\n\nNot completed to a degree sufficient to demonstrate understanding of the material."
+    "text": "Labs\nLabs are graded on a 4-part rubric similar to the EMRF rubric of Stutzman and Race:This particular scale is very close to the scale used by Peter-Michael Osera at Grinnell College.\nExcellent (E):\n\nThe lab includes a complete contributions statement describing the contributions of any collaborators, as well as external sources such as websites or ChatGPT.\nThe lab exhibits complete understanding of the material.\nThe lab has at worst, a few minor design errors or surface-level writing issues.\nAll coding experiments run and produce correct outputs.\n\nMeets Expectations (M):\n\nThe lab exhibits complete understanding of the material.\nThe lab includes a complete contributions statement describing the contributions of any collaborators, as well as external sources such as websites or ChatGPT.\nThe lab has some minor errors of correctness, design, or writing. Fixing these errors would demonstrate improved understanding of the material.\nAll coding experiments run and produce outputs which are close to expected.\n\nNeeds Revision (R):\n\nThe lab exhibits one or more significant misunderstandings of the material, or many minor errors.\nCoding experiments do not run or produce substantially incorrect output.\nThe contributions statement is partial or missing.\n\nNot Completed (N):\n\nNot completed to a degree sufficient to demonstrate understanding of the material."
   },
   {
     "objectID": "syllabus.html#your-final-grade",
@@ -121,7 +121,7 @@
   {
     "objectID": "modules/test.html",
     "href": "modules/test.html",
-    "title": "Module the First",
+    "title": "Logical Statements",
     "section": "",
     "text": "Problem 1\nConsider the following compound proposition:\n\\[\nP \\lor Q \\iff R \\implies P\n\\]\n\n\nProblem 2\nConsider the following compound proposition:\n\\[\nP \\lor Q \\iff R \\implies P\n\\]\n\n\n\n\n  © Phil Chodrow, 2023"
   },
@@ -214,14 +214,14 @@
     "href": "schedule.html#week-2",
     "title": "Schedule",
     "section": "Week 2",
-    "text": "Week 2\n\n\n\n\n\n\n\n\n\n\n\n\n\nM\nSep. 18\nSymbolic Logic\n\n\n\n\n\nWe discuss the structure of the course and the role of mathematics in modern computation.\n\n\n\n Learning Objectives\nSets and Logic\n\n Prep\nTBD\n In Class\nTBD\n\n\n\n\n\n\n\nW\nSep. 20\nSets and Set Operations\n\n\n\n\n\nSets, set-builder notation, operations on sets.\n\n\n\n Learning Objectives\nSets and Logic\n\n Prep\nMath autobiography\n In Class\nTBD\n\n\n\n\n\n\n\nF\nSep. 22\nLab: Sum of Products\n\n\n\n\n\nWe explore the sum-of-products algorithm for arbitrary binary operations\n\n\n\n Learning Objectives\nSets and Logic\n\n Prep\nConnecting logic and binary\n In Class\nLab: Sum of Products\n\n Due\nLab: Truth Tables"
+    "text": "Week 2\n\n\n\n\n\n\n\n\n\n\n\n\n\nM\nSep. 18\nSymbolic Logic\n\n\n\n\n\nWe discuss the structure of the course and the role of mathematics in modern computation.\n\n\n\n Learning Objectives\nSets and Logic\n\n Prep\nConditionals and Friends\n In Class\nConditionals and Friends\n\n\n\n\n\n\n\nW\nSep. 20\nSets and Set Operations\n\n\n\n\n\nSets, set-builder notation, operations on sets.\n\n\n\n Learning Objectives\nSets and Logic\n\n Prep\nSets\n In Class\nSets\n\n\n\n\n\n\n\nF\nSep. 22\nLab: Logic, Boolean Algebra, and Circuit Design\n\n\n\n\n\nWe introduce boolean logic and use the sum-of-products algorithm for computing binary functions.\n\n\n\n Learning Objectives\nSets and Logic\n\n Prep\nIntroducing Boolean Algebra\n In Class\nLab: Sum of Products\n\n Due\nLab: Truth Tables"
   },
   {
     "objectID": "schedule.html#week-3",
     "href": "schedule.html#week-3",
     "title": "Schedule",
     "section": "Week 3",
-    "text": "Week 3\n\n\n\n\n\n\n\n\n\n\n\n\n\nM\nSep. 25\nQuantified Logic\n\n\n\n\n\nWe discuss quantification of propositions over sets and how to apply logical operations to symbolic quantifiers.\n\n\n\n Learning Objectives\nSets and Logic\n\n Prep\nTBD\n In Class\nTBD\n\n\n\n\n\n\n\nW\nSep. 27\nDeduction\n\n\n\n\n\nWe discuss standard ways of deducing logical propositions from other logical propositions. Formal deduction will pave the way for more general forms of mathematical proof in the coming weeks.\n\n\n\n Learning Objectives\nSets and Logic\nProof\n\n Prep\nTBD\n In Class\nTBD\n\n\n\n\n\n\n\nF\nSep. 29\nQuiz 1\n\n\n\n\n\nThe first of four quizzes in which students have an opportunity to complete Learning Targets. This quiz includes targets LS1, LS2, and LS3.\n\n\n\n Learning Objectives\nSets and Logic\nProof\n\n Prep\nTBD\n In Class\nTBD\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Week 3\n\n\n\n\n\n\n\n\n\n\n\n\n\nM\nSep. 25\nQuantified Logic\n\n\n\n\n\nWe discuss quantification of propositions over sets and how to apply logical operations to symbolic quantifiers.\n\n\n\n Learning Objectives\nSets and Logic\n\n Prep\nTBD\n In Class\nTBD\n\n\n\n\n\n\n\nW\nSep. 27\nDeduction\n\n\n\n\n\nWe discuss standard ways of deducing logical propositions from other logical propositions. Formal deduction will pave the way for more general forms of mathematical proof in the coming weeks.\n\n\n\n Learning Objectives\nSets and Logic\nProof\n\n Prep\nTBD\n In Class\nTBD\n\n\n\n\n\n\n\nF\nSep. 29\nQuiz 1\n\n\n\n\n\nThe first of four quizzes in which students have an opportunity to complete Learning Targets. This quiz includes targets LS1, LS2, and LS3.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "schedule.html#final-exam",
@@ -229,5 +229,166 @@
     "title": "Schedule",
     "section": "Final Exam",
     "text": "Final Exam\nOur final exam will be another quiz covering all twelve core Learning Targets. So, it’s just like Quiz 4, except you’ll have 3 hours instead of 50 minutes."
+  },
+  {
+    "objectID": "content/prep/test.html",
+    "href": "content/prep/test.html",
+    "title": "Logical Statements and Truth Tables",
+    "section": "",
+    "text": "Reading\n\n\nVideo Preparation\n\nLogical Statements (6:18)\nIntro to Truth Tables: Negation, Conjunction, Disjunction (5:52)\nTruth Table Example (3:23)\nLogical Equivalence of Two Statements\n\n\n\n\nWarmup Problems\n\nProblem 1\nConsider the following compound proposition:\n\\[\nP \\lor Q \\iff R \\implies P\n\\]\n\n\nProblem 2\nConsider the following compound proposition:\n\\[\nP \\lor Q \\iff R \\implies P\n\\]\n\n\n\n\n\n  © Phil Chodrow, 2023"
+  },
+  {
+    "objectID": "content/problems/logic/sample.html",
+    "href": "content/problems/logic/sample.html",
+    "title": "",
+    "section": "",
+    "text": "Create truth tables for each of the three logical expressions:\n\\[\nr \\lor (p \\land q)\n\\]\n\n\n\n  © Phil Chodrow, 2023"
+  },
+  {
+    "objectID": "content/prep/test.html#problem-1",
+    "href": "content/prep/test.html#problem-1",
+    "title": "Logical Statements and Truth Tables",
+    "section": "Problem 1",
+    "text": "Problem 1\nConsider the following compound proposition:\n\\[\nP \\lor Q \\iff R \\implies P\n\\]"
+  },
+  {
+    "objectID": "content/prep/test.html#problem-2",
+    "href": "content/prep/test.html#problem-2",
+    "title": "Logical Statements and Truth Tables",
+    "section": "Problem 2",
+    "text": "Problem 2\nConsider the following compound proposition:\n\\[\nP \\lor Q \\iff R \\implies P\n\\]"
+  },
+  {
+    "objectID": "content/prep/logic-1.html",
+    "href": "content/prep/logic-1.html",
+    "title": "Logical Statements and Truth Tables",
+    "section": "",
+    "text": "Starting today, we are going to start introducing new course content through videos, readings, and warmup problems. Today’s prep is shorter than usual and should take around an hour.\n© Phil Chodrow, 2023"
+  },
+  {
+    "objectID": "content/prep/logic-1.html#optional-reading",
+    "href": "content/prep/logic-1.html#optional-reading",
+    "title": "Logical Statements and Truth Tables",
+    "section": "Optional Reading:",
+    "text": "Optional Reading:\nThese readings will help you see more examples and see the material from multiple perspectives.\n\nDMOI Chapter 0.2 from the beginning through Example 0.2.3\nDMOI Chapter 3.1, from the beginning up through Example 3.1.2."
+  },
+  {
+    "objectID": "content/prep/logic-2.html",
+    "href": "content/prep/logic-2.html",
+    "title": "Implication, Inverse, Converse, and Contrapositive",
+    "section": "",
+    "text": "As we enter the second week, we are going to pick up the pace on introducing videos, readings, and warmup problems.\n© Phil Chodrow, 2023"
+  },
+  {
+    "objectID": "content/prep/logic-2.html#optional-reading",
+    "href": "content/prep/logic-2.html#optional-reading",
+    "title": "Implication, Inverse, Converse, and Contrapositive",
+    "section": "Optional Reading",
+    "text": "Optional Reading\n\nDMOI 3.1 through Example 3.1.5."
+  },
+  {
+    "objectID": "content/modules/logic-2/prep.html",
+    "href": "content/modules/logic-2/prep.html",
+    "title": "Implication, Inverse, Converse, and Contrapositive",
+    "section": "",
+    "text": "As we enter the second week, we are going to pick up the pace on introducing videos, readings, and warmup problems.\n© Phil Chodrow, 2023"
+  },
+  {
+    "objectID": "content/modules/logic-2/prep.html#optional-reading",
+    "href": "content/modules/logic-2/prep.html#optional-reading",
+    "title": "Implication, Inverse, Converse, and Contrapositive",
+    "section": "Optional Reading",
+    "text": "Optional Reading\n\nDMOI 3.1 through Example 3.1.5."
+  },
+  {
+    "objectID": "content/modules/logic-2/in-class.html",
+    "href": "content/modules/logic-2/in-class.html",
+    "title": "In Class: Implication, Inverse, and Contrapositive",
+    "section": "",
+    "text": "© Phil Chodrow, 2023"
+  },
+  {
+    "objectID": "content/modules/sets/prep.html",
+    "href": "content/modules/sets/prep.html",
+    "title": "Sets and Set Operations",
+    "section": "",
+    "text": "Intro to Sets (7:12)\nSet Roster vs. Set Builder Notation (5:15)\nThe Empty Set (4:07)\nCartesian Product (7:10)\nUnion of Two Sets (5:07)\nIntersection of Two Sets (5:47)\n© Phil Chodrow, 2023"
+  },
+  {
+    "objectID": "content/modules/sets/prep.html#optional-reading",
+    "href": "content/modules/sets/prep.html#optional-reading",
+    "title": "Sets and Set Operations",
+    "section": "Optional Reading",
+    "text": "Optional Reading\nThis is a slightly more advanced reading that may appeal to you if you want to see more theoretical math examples.\n\nBOP 1.1, 1.4-1.7"
+  },
+  {
+    "objectID": "content/modules/sets/in-class.html",
+    "href": "content/modules/sets/in-class.html",
+    "title": "In Class: Sets",
+    "section": "",
+    "text": "Proving set equality and subset relationships.\nInclusion-exclusion.\nPower sets?\n\n\n\n\n  © Phil Chodrow, 2023"
+  },
+  {
+    "objectID": "content/modules/logic-1/prep.html",
+    "href": "content/modules/logic-1/prep.html",
+    "title": "Preparation: Logical Statements and Truth Tables",
+    "section": "",
+    "text": "Starting today, we are going to start introducing new course content through videos, readings, and warmup problems. Today’s prep is shorter than usual and should take a little more than an hour.\n© Phil Chodrow, 2023"
+  },
+  {
+    "objectID": "content/modules/logic-1/prep.html#optional-reading",
+    "href": "content/modules/logic-1/prep.html#optional-reading",
+    "title": "Preparation: Logical Statements and Truth Tables",
+    "section": "Optional Reading:",
+    "text": "Optional Reading:\nThis reading covers the same material but has more examples from theoretical mathematics.\n\nBOP 2.1-2.2"
+  },
+  {
+    "objectID": "content/modules/logic-1/in-class.html",
+    "href": "content/modules/logic-1/in-class.html",
+    "title": "In Class: Logical Statements and Truth Tables",
+    "section": "",
+    "text": "© Phil Chodrow, 2023"
+  },
+  {
+    "objectID": "content/modules/intro/prep.html",
+    "href": "content/modules/intro/prep.html",
+    "title": "Math Autobiography",
+    "section": "",
+    "text": "This assignment is adapted from Dr. Spencer Bagley at Westminster University.\nYour first assignment for CSCI 0200 is to write a short mathematical autobiography.\nThe purpose of this assignment is for you to reflect on your experiences with mathematics. We’ll be encountering a lot of different kinds of mathematics in this course, and relating that mathematics to our lives and our interests in computation. We’ll both get more out of this encounter if we understand what mathematical experiences you’re bringing with you.\n© Phil Chodrow, 2023"
+  },
+  {
+    "objectID": "content/modules/intro/prep.html#prompt",
+    "href": "content/modules/intro/prep.html#prompt",
+    "title": "Math Autobiography",
+    "section": "Prompt",
+    "text": "Prompt\nDescribe your history as a learner and user of mathematics. You might include things like: experiences with teachers (at any level, in any course), good or bad teachers (and what made them good or bad), how your attitude towards mathematics has changed over the years, whether you like mathematics or not, what feels good about doing math, what feels bad about doing math.\nPlease conclude your autobiography with a brief paragraph describing how you’re feeling about starting CSCI 0200. Are you nervous? Excited? What have you heard from your friends? What are you expecting?\nIn the spirit of sharing, here’s my math autobiography."
+  },
+  {
+    "objectID": "content/modules/intro/prep.html#specifications",
+    "href": "content/modules/intro/prep.html#specifications",
+    "title": "Math Autobiography",
+    "section": "Specifications",
+    "text": "Specifications\nFormat: You can prepare your math autobiography using any software you wish, but you must submit it as a PDF file on Canvas. If you like using word processors, the simplest way to achieve this is to Print as PDF.\nLength: Your math autobiography should show reflection on your experiences. If you’re only writing few paragraphs, there’s more for you to think about. More than a (single-spaced) page probably isn’t necessary. If you find yourself spending more than 90 minutes on this assignment, wrap up your current sentence and submit your autobiography.\nGrading: This is our first warmup assignment. Per the syllabus, warmup assignments are graded Complete or Incomplete/Missing. For Complete, you just need to spend some careful time thinking and writing. Typos, grammar mistakes, etc. are not an issue on this assignment.\nSubmission: Please submit your math autobiography on Canvas."
+  },
+  {
+    "objectID": "content/modules/boolean-algebra/prep.html",
+    "href": "content/modules/boolean-algebra/prep.html",
+    "title": "Boolean Algebra and the Sum-of-Products Algorithm",
+    "section": "",
+    "text": "Video (~15 mins)\n\nBoolean Algebra in 13 Mins (12:56)\n\n\n\nReading (~20 mins)\nThis reading is pretty dense and it’s ok to skim as long as you’re ready for the warmup problems.\n\nRosen, p. 811-815\n\n\n\nWarmup Problems (~15 mins)\nPlease complete these problems with a pencil/pen and paper. Then, scan/photograph your solutions and upload them to Canvas.\n\nHow is Boolean algebra different from propositional logic? How is it similar?\nHere’s an expression, translate it into Boolean logic (3 variables).\nHere’s an expression, simplify it as much as you can (down to a specified minimum) (3 variables).\n\n\n\n\n\n  © Phil Chodrow, 2023"
+  },
+  {
+    "objectID": "content/problems/logic/truth-tables-1.html",
+    "href": "content/problems/logic/truth-tables-1.html",
+    "title": "",
+    "section": "",
+    "text": "Part A\nCreate truth tables for each of the three logical expressions:\n\n\\((r \\lor p) \\land q\\)\n\\((r \\lor p) \\land (r \\lor q)\\)\n\\(r \\lor (p \\land q)\\)\n\n\n\nPart B\nTwo of these expressions are logically equivalent: no matter the truth values of \\(r\\), \\(p\\), and \\(q\\), the two expressions always evaluate to the same final truth value. Which are the two equivalent expressions?\n\n\n\n\n  © Phil Chodrow, 2023"
+  },
+  {
+    "objectID": "content/problems/logic/python-to-logic-1.html",
+    "href": "content/problems/logic/python-to-logic-1.html",
+    "title": "",
+    "section": "",
+    "text": "Your friend tells you about a cool function they wrote in Python. Their function accepts 3 boolean arguments and returns a boolean return value.\n\ndef f(p, q, r):\n    \"\"\"\n    p, q, and r are assumed to be booleans. \n    returns: boolean\n    \"\"\"\n    \n    a = p and q\n    b = not (q or r)\n    c = a and b\n    \n    return c\n\nPart A\nWrite a logical expression in terms of \\(p\\), \\(q\\), and \\(r\\) (using symbols like \\(\\lnot, \\lor, \\land\\)) which has the same value as the return value of your friend’s function f.\n\n\nPart B\nMake a truth table for your expression. Please show the values of a, b, and c in each line of your truth table.\nDo you notice anything strange about your truth table?\n\n\n\n\n  © Phil Chodrow, 2023"
   }
 ]

@@ -16,7 +16,7 @@
     We discuss our relationship to math and how we've learned what we've learned. 
   objectives: 
     - Getting Oriented
-  prep: Math autobiography
+  prep: <a href="content/modules/intro/prep.qmd">Math Autobiography</a>
   activities:
     - TBD
   notes: 
@@ -28,7 +28,7 @@
     We review truth tables for describing logical operations and begin our first lab assignment in Google Colab. 
   objectives: 
     - Getting Oriented
-  prep: TBD
+  prep: <a href="content/modules/logic-1/prep.qmd">Statements and Truth Tables</a>
   activities:
     - "Lab: Truth Tables"
   notes: 
@@ -40,9 +40,9 @@
     We discuss the structure of the course and the role of mathematics in modern computation. 
   objectives: 
     - Sets and Logic
-  prep: TBD
+  prep: <a href="content/modules/logic-2/prep.qmd">Conditionals and Friends</a>
   activities:
-    - TBD
+    - <a href="content/modules/logic-2/in-class.qmd">Conditionals and Friends</a>
   notes: 
   publish: true
   due: 
@@ -52,19 +52,19 @@
     Sets, set-builder notation, operations on sets. 
   objectives: 
     - Sets and Logic
-  prep: Math autobiography
+  prep: <a href="content/modules/sets/prep.qmd">Sets</a>
   activities:
-    - TBD
+    - <a href="content/modules/sets/in-class.qmd">Sets</a>
   notes: 
   publish: true
   due: 
 - date: 2023-09-22
-  header: "Lab: Sum of Products"
+  header: "Lab: Logic, Boolean Algebra, and Circuit Design"
   summary: |
-    We explore the sum-of-products algorithm for arbitrary binary operations
+    We introduce boolean logic and use the sum-of-products algorithm for computing binary functions.  
   objectives: 
     - Sets and Logic
-  prep: Connecting logic and binary
+  prep: <a href="content/modules/boolean-algebra/prep.qmd">Introducing Boolean Algebra</a>
   activities:
     - "Lab: Sum of Products"
   notes: 
@@ -100,11 +100,8 @@
   summary: |
     The first of four quizzes in which students have an opportunity to complete Learning Targets. This quiz includes targets <b>LS1</b>, <b>LS2</b>, and <b>LS3</b>. 
   objectives: 
-    - Sets and Logic
-    - Proof
-  prep: TBD
-  activities:
-    - TBD
+  prep: 
+  activities: 
   notes: 
   publish: true
   due: 

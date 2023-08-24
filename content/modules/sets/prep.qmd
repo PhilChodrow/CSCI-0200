@@ -21,7 +21,7 @@ title: "Sets and Set Operations"
 
 *This is a slightly more advanced reading that may appeal to you if you want to see more theoretical math examples.*
 
-- [BOP 1.1, 1.4-1.7](https://www.people.vcu.edu/~rhammack/BookOfProof/Main.pdf)
+- [BOP 1.1, 1.4-1.7](https://www.people.vcu.edu/~rhammack/BookOfProof/Main.pdf#page=15)
  
 # Warmup Problems (~30 mins) 
 

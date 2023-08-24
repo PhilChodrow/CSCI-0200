@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Phil">
 
-<title>Logical Statements</title>
+<title>Preparation: Logical Statements and Truth Tables</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,26 +20,60 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="../assets/icons/favicon.png" rel="icon" type="image/png">
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<link href="../../../assets/icons/favicon.png" rel="icon" type="image/png">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -64,7 +97,7 @@ ul.task-list li input[type="checkbox"] {
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="../assets/css/styles.css">
+<link rel="stylesheet" href="../../../assets/css/styles.css">
 </head>
 
 <body class="nav-sidebar docked">
@@ -93,7 +126,7 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="../"><span style="color:white"><b>Math Foundations of Computing</b><br>CSCI 0200</span></a> 
+      <a href="../../../"><span style="color:white"><b>Math Foundations of Computing</b><br>CSCI 0200</span></a> 
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -105,13 +138,13 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../syllabus.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../syllabus.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Syllabus</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../schedule.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../schedule.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Schedule</span></a>
   </div>
 </li>
@@ -126,13 +159,13 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../pages/llms.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../pages/llms.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">More on Language Models</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../pages/mask-policy.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../pages/mask-policy.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Masks Are Required in CSCI 0200</span></a>
   </div>
 </li>
@@ -148,8 +181,16 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#problem-1" id="toc-problem-1" class="nav-link active" data-scroll-target="#problem-1">Problem 1</a></li>
+  <li><a href="#videos-20-mins" id="toc-videos-20-mins" class="nav-link active" data-scroll-target="#videos-20-mins">Videos (~20 mins)</a></li>
+  <li><a href="#reading-20-mins" id="toc-reading-20-mins" class="nav-link" data-scroll-target="#reading-20-mins">Reading (~20 mins)</a>
+  <ul class="collapse">
+  <li><a href="#optional-reading" id="toc-optional-reading" class="nav-link" data-scroll-target="#optional-reading">Optional Reading:</a></li>
+  </ul></li>
+  <li><a href="#warmup-problems-30-mins" id="toc-warmup-problems-30-mins" class="nav-link" data-scroll-target="#warmup-problems-30-mins">Warmup Problems (~30 mins)</a>
+  <ul class="collapse">
+  <li><a href="#problem-1" id="toc-problem-1" class="nav-link" data-scroll-target="#problem-1">Problem 1</a></li>
   <li><a href="#problem-2" id="toc-problem-2" class="nav-link" data-scroll-target="#problem-2">Problem 2</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -158,26 +199,14 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Logical Statements</h1>
+<h1 class="title">Preparation: Logical Statements and Truth Tables</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Phil </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">Invalid Date</p>
-    </div>
-  </div>
   
     
   </div>
@@ -185,21 +214,92 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="problem-1" class="level1">
-<h1>Problem 1</h1>
-<p>Consider the following compound proposition:</p>
-<p><span class="math display">\[
-P \lor Q \iff R \implies P
-\]</span></p>
+<p><em>Starting today, we are going to start introducing new course content through videos, readings, and warmup problems. Today’s prep is shorter than usual and should take a little more than an hour.</em></p>
+<section id="videos-20-mins" class="level1">
+<h1>Videos (~20 mins)</h1>
+<ul>
+<li><a href="https://youtu.be/q2eyZZK-OIk?si=yLKi7F2d2FkiBri1">Logical Statements</a> (6:18)</li>
+<li><a href="https://youtu.be/7mulE-zramc?si=yV8nyb9R39d9kZd6">Intro to Truth Tables: Negation, Conjunction, Disjunction</a> (5:52)</li>
+<li><a href="https://youtu.be/LNSfM86I8is?si=Rn0iLj-X4Q_ZKyy4">Truth Table Example</a> (3:23)</li>
+<li><a href="https://youtu.be/U2zPxuj8mnI?si=fSwTIkorMXCDscHk">Logical Equivalence of Two Statements</a> (3:42)</li>
+</ul>
 </section>
-<section id="problem-2" class="level1">
-<h1>Problem 2</h1>
-<p>Consider the following compound proposition:</p>
-<p><span class="math display">\[
-P \lor Q \iff R \implies P
-\]</span></p>
+<section id="reading-20-mins" class="level1">
+<h1>Reading (~20 mins)</h1>
+<ul>
+<li><a href="https://discrete.openmathbooks.org/dmoi3/sec_intro-statements.html">DMOI Chapter 0.2</a> from the beginning through Example 0.2.3</li>
+<li><a href="https://discrete.openmathbooks.org/dmoi3/sec_propositional.html">DMOI Chapter 3.1</a>, from the beginning up through Example 3.1.2.</li>
+</ul>
+<section id="optional-reading" class="level2">
+<h2 class="anchored" data-anchor-id="optional-reading">Optional Reading:</h2>
+<p><em>This reading covers the same material but has more examples from theoretical mathematics</em>.</p>
+<ul>
+<li><a href="https://www.people.vcu.edu/~rhammack/BookOfProof/Main.pdf#page=46">BOP 2.1-2.2</a></li>
+</ul>
+</section>
+</section>
+<section id="warmup-problems-30-mins" class="level1">
+<h1>Warmup Problems (~30 mins)</h1>
+<p><em>Please complete these problems with a pencil/pen and paper. Then, scan/photograph your solutions and upload them to Canvas.</em></p>
+<section id="problem-1" class="level3">
+<h3 class="anchored" data-anchor-id="problem-1">Problem 1</h3>
+<section id="part-a" class="level4">
+<h4 class="anchored" data-anchor-id="part-a">Part A</h4>
+<p>Create truth tables for each of the three logical expressions:</p>
+<ol type="1">
+<li><span class="math inline">\((r \lor p) \land q\)</span></li>
+<li><span class="math inline">\((r \lor p) \land (r \lor q)\)</span></li>
+<li><span class="math inline">\(r \lor (p \land q)\)</span></li>
+</ol>
+</section>
+<section id="part-b" class="level4">
+<h4 class="anchored" data-anchor-id="part-b">Part B</h4>
+<p>Two of these expressions are <em>logically equivalent</em>: no matter the truth values of <span class="math inline">\(r\)</span>, <span class="math inline">\(p\)</span>, and <span class="math inline">\(q\)</span>, the two expressions always evaluate to the same final truth value. Which are the two equivalent expressions?</p>
+</section>
+</section>
+<section id="problem-2" class="level3">
+<h3 class="anchored" data-anchor-id="problem-2">Problem 2</h3>
+<p>Your friend tells you about a cool function they wrote in Python. Their function accepts 3 boolean arguments and returns a boolean return value.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> f(p, q, r):</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="co">"""</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co">    p, q, and r are assumed to be booleans. </span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co">    returns: boolean</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co">    """</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>    a <span class="op">=</span> p <span class="kw">and</span> q</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>    b <span class="op">=</span> <span class="kw">not</span> (q <span class="kw">or</span> r)</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>    c <span class="op">=</span> a <span class="kw">and</span> b</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> c</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<section id="part-a-1" class="level4">
+<h4 class="anchored" data-anchor-id="part-a-1">Part A</h4>
+<p>Write a logical expression in terms of <span class="math inline">\(p\)</span>, <span class="math inline">\(q\)</span>, and <span class="math inline">\(r\)</span> (using symbols like <span class="math inline">\(\lnot, \lor, \land\)</span>) which has the same value as the return value of your friend’s function <code>f</code>.</p>
+</section>
+<section id="part-b-1" class="level4">
+<h4 class="anchored" data-anchor-id="part-b-1">Part B</h4>
+<p>Make a truth table for your expression. Please show the values of <code>a</code>, <code>b</code>, and <code>c</code> in each line of your truth table.</p>
+<p>Do you notice anything strange about your truth table?</p>
+<p><em>Optionally</em>, you might be interested to check the final column of your truth table in Python. Here’s some code you can run in Thonny or any other Python environment. You’ll need to also include the definition of the function <code>f</code> above.</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> f(p, q, r):</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">"""</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="co">    p, q, and r are assumed to be booleans. </span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="co">    returns: boolean</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="co">    """</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>    a <span class="op">=</span> p <span class="kw">and</span> q</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>    b <span class="op">=</span> <span class="kw">not</span> (q <span class="kw">or</span> r)</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>    c <span class="op">=</span> a <span class="kw">and</span> b</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> c</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> itertools</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>tf <span class="op">=</span> [<span class="va">True</span>, <span class="va">False</span>]</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> p, q, r <span class="kw">in</span> itertools.product(tf, tf, tf): </span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(p, q, r, f(p, q, r))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 
+</section>
+</section>
 </section>
 
 <p><br> <br> <span style="color:grey;">© Phil Chodrow, 2023</span></p></main> <!-- /main -->

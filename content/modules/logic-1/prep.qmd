@@ -2,7 +2,7 @@
 title: "Preparation: Logical Statements and Truth Tables"
 ---
 
-*Starting today, we are going to start introducing new course content through videos, readings, and warmup problems. Today's prep is shorter than usual and should take around an hour.*
+*Starting today, we are going to start introducing new course content through videos, readings, and warmup problems. Today's prep is shorter than usual and should take a little more than an hour.*
 
 # Videos (~20 mins)
 
@@ -13,24 +13,47 @@ title: "Preparation: Logical Statements and Truth Tables"
 
 # Reading (~20 mins)
 
-- [BOP 2.1-2.2](https://www.people.vcu.edu/~rhammack/BookOfProof/Main.pdf)
-
-## Optional Reading: 
-
-*These readings will help you see more examples and see the material from multiple perspectives*.
-
 - [DMOI Chapter 0.2](https://discrete.openmathbooks.org/dmoi3/sec_intro-statements.html) from the beginning through Example 0.2.3
 - [DMOI Chapter 3.1](https://discrete.openmathbooks.org/dmoi3/sec_propositional.html), from the beginning up through Example 3.1.2.
 
+## Optional Reading: 
 
-# Warmup Problems (~15 mins) 
+*This reading covers the same material but has more examples from theoretical mathematics*.
+
+- [BOP 2.1-2.2](https://www.people.vcu.edu/~rhammack/BookOfProof/Main.pdf#page=46)
+
+
+# Warmup Problems (~30 mins) 
 
 *Please complete these problems with a pencil/pen and paper. Then, scan/photograph your solutions and upload them to Canvas.* 
 
 ### Problem 1
  
-{{< include ../../../content/problems/logic/sample.qmd >}}
-
+{{< include ../../../content/problems/logic/truth-tables-1.qmd >}}
+ 
 ### Problem 2
 
-{{< include ../../../content/problems/logic/sample.qmd >}}   
+{{< include ../../../content/problems/logic/python-to-logic-1.qmd >}}
+
+*Optionally*, you might be interested to check the final column of your truth table in Python. Here's some code you can run in Thonny or any other Python environment. You'll need to also include the definition of the function `f` above. 
+  
+```python
+def f(p, q, r):
+    """
+    p, q, and r are assumed to be booleans. 
+    returns: boolean
+    """
+    
+    a = p and q
+    b = not (q or r)
+    c = a and b
+    
+    return c
+```
+
+```python
+import itertools
+tf = [True, False]
+for p, q, r in itertools.product(tf, tf, tf): 
+    print(p, q, r, f(p, q, r))
+```
