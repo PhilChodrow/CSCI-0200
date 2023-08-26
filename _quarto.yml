@@ -1,40 +1,38 @@
 project:
-  type: website
-  output-dir: docs
-  resources:
-    - "lecture-scripts/*"
-    - "assignments"
-    - "lecture-notes/*.ipynb"
+    type: website
+    output-dir: docs
+    resources:
+        - "lecture-scripts/*"
+        - "assignments"
+        - "lecture-notes/*.ipynb"
 
 website:
-  body-footer: |
-    <br> <br> <span style="color:grey;">&#169; Phil Chodrow, 2023</span>
-  sidebar:
-    collapse-level: 1	
-    style: "docked"
-    title: "Math Foundations of Computing: CSCI 0200"
-    subtitle: test
-    contents:
-      - syllabus.qmd 
-      - schedule.qmd
-      - section: "Additional Pages"
-        contents: 
-          - pages/llms.qmd
-          - pages/mask-policy.qmd
-  favicon: assets/icons/favicon.png
- 
+    body-footer: |
+        <br> <br> <span style="color:grey;">&#169; Phil Chodrow, 2023</span>
+    sidebar:
+        collapse-level: 1
+        style: "docked"
+        title: "Math Foundations of Computing: CSCI 0200"
+        subtitle: test
+        contents:
+            - syllabus.qmd
+            - schedule.qmd
+            - section: "Additional Pages"
+              contents:
+                  - pages/llms.qmd
+                  - pages/mask-policy.qmd
+                  - pages/learning-targets.qmd
+    favicon: assets/icons/favicon.png
+
 format:
-  html:
-    theme: [cosmo, assets/css/custom.scss] 
-    css: assets/css/styles.css
-    toc: true
-    number-depth: 0
-    reference-location: margin
-    callout-icon: false;
-    callout-appearance: simple
+    html:
+        theme: [cosmo, assets/css/custom.scss]
+        css: assets/css/styles.css
+        toc: true
+        number-depth: 0
+        reference-location: margin
+        callout-icon: false;
+        callout-appearance: simple
 
-execute: 
-  cache: true
-
-
-
+execute:
+    cache: true

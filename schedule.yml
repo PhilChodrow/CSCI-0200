@@ -1,107 +1,107 @@
 - date: 2023-09-11
   header: Welcome!
   summary: |
-    We discuss the structure of the course and the role of mathematics in modern computation. 
-  objectives: 
-    - Getting Oriented
-  prep: TBD
+      We discuss the structure of the course and the role of mathematics in modern computation.
+  objectives:
+      - Getting Oriented
+  prep: Why Flipped Classrooms?
   activities:
-    - TBD
-  notes: 
+      - TBD
+  notes:
   publish: true
-  due: Join EdStem and Gradescope. 
+  due: Join EdStem and Gradescope.
 - date: 2023-09-13
   header: Mathematics and Me
   summary: |
-    We discuss our relationship to math and how we've learned what we've learned. 
-  objectives: 
-    - Getting Oriented
+      We discuss our relationship to math and how we've learned what we've learned.
+  objectives:
+      - Getting Oriented
   prep: <a href="content/modules/intro/prep.qmd">Math Autobiography</a>
   activities:
-    - TBD
-  notes: 
+      - TBD
+  notes:
   publish: true
-  due: 
+  due:
 - date: 2023-09-15
   header: Technical Writing and Truth Tables
   summary: |
-    We review truth tables for describing logical operations and begin our first lab assignment in Google Colab. 
-  objectives: 
-    - Getting Oriented
+      We review truth tables for describing logical operations and begin our first lab assignment in Google Colab.
+  objectives:
+      - Getting Oriented
   prep: <a href="content/modules/logic-1/prep.qmd">Statements and Truth Tables</a>
   activities:
-    - "Lab: Truth Tables"
-  notes: 
+      - "Lab: Truth Tables"
+  notes:
   publish: true
-  due: 
+  due:
 - date: 2023-09-18
   header: Symbolic Logic
   summary: |
-    We discuss the structure of the course and the role of mathematics in modern computation. 
-  objectives: 
-    - Sets and Logic
+      We discuss the structure of the course and the role of mathematics in modern computation.
+  objectives:
+      - Sets and Logic
   prep: <a href="content/modules/logic-2/prep.qmd">Conditionals and Friends</a>
   activities:
-    - <a href="content/modules/logic-2/in-class.qmd">Conditionals and Friends</a>
-  notes: 
+      - <a href="content/modules/logic-2/in-class.qmd">Conditionals and Friends</a>
+  notes:
   publish: true
-  due: 
+  due:
 - date: 2023-09-20
   header: Sets and Set Operations
   summary: |
-    Sets, set-builder notation, operations on sets. 
-  objectives: 
-    - Sets and Logic
+      Sets, set-builder notation, operations on sets.
+  objectives:
+      - Sets and Logic
   prep: <a href="content/modules/sets/prep.qmd">Sets</a>
   activities:
-    - <a href="content/modules/sets/in-class.qmd">Sets</a>
-  notes: 
+      - <a href="content/modules/sets/in-class.qmd">Sets</a>
+  notes:
   publish: true
-  due: 
+  due:
 - date: 2023-09-22
   header: "Lab: Logic, Boolean Algebra, and Circuit Design"
   summary: |
-    We introduce boolean logic and use the sum-of-products algorithm for computing binary functions.  
-  objectives: 
-    - Sets and Logic
+      We introduce boolean logic and use the sum-of-products algorithm for computing binary functions.
+  objectives:
+      - Sets and Logic
   prep: <a href="content/modules/boolean-algebra/prep.qmd">Introducing Boolean Algebra</a>
   activities:
-    - "Lab: Sum of Products"
-  notes: 
+      - "Lab: Sum of Products"
+  notes:
   publish: true
   due: "Lab: Truth Tables"
 - date: 2023-09-25
   header: "Quantified Logic"
   summary: |
-    We discuss quantification of propositions over sets and how to apply logical operations to symbolic quantifiers. 
-  objectives: 
-    - Sets and Logic
+      We discuss quantification of propositions over sets and how to apply logical operations to symbolic quantifiers.
+  objectives:
+      - Sets and Logic
   prep: TBD
   activities:
-    - TBD
-  notes: 
+      - TBD
+  notes:
   publish: true
-  due: 
+  due:
 - date: 2023-09-27
   header: "Deduction"
   summary: |
-    We discuss standard ways of deducing logical propositions from other logical propositions. Formal deduction will pave the way for more general forms of mathematical proof in the coming weeks. 
-  objectives: 
-    - Sets and Logic
-    - Proof
+      We discuss standard ways of deducing logical propositions from other logical propositions. Formal deduction will pave the way for more general forms of mathematical proof in the coming weeks.
+  objectives:
+      - Sets and Logic
+      - Proof
   prep: TBD
   activities:
-    - TBD
-  notes: 
+      - TBD
+  notes:
   publish: true
-  due: 
+  due:
 - date: 2023-09-29
   header: "Quiz 1"
   summary: |
-    The first of four quizzes in which students have an opportunity to complete Learning Targets. This quiz includes targets <b>LS1</b>, <b>LS2</b>, and <b>LS3</b>. 
-  objectives: 
-  prep: 
-  activities: 
-  notes: 
+      The first of four quizzes in which students have an opportunity to complete Learning Targets. This quiz includes targets <b>LS1</b>, <b>LS2</b>, and <b>LS3</b>.
+  objectives:
+  prep:
+  activities:
+  notes:
   publish: true
-  due: 
+  due:
