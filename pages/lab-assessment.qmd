@@ -1,0 +1,30 @@
+---
+title: Assessment of Labs
+---
+
+
+Labs are assessed on a 4-part rubric similar to the EMRF rubric of [Stutzman and Race](http://miss-serwy.weebly.com/uploads/1/2/1/6/12161802/emrf_rubric_1.pdf):[This particular scale is very close to the scale [used by Peter-Michael Osera](https://osera.cs.grinnell.edu/csc208/syllabus/#projects) at Grinnell College.]{.aside} 
+
+**Excellent** (**E**): 
+
+- The lab includes a complete contributions statement describing the contributions of any collaborators, as well as external sources such as websites or ChatGPT. 
+- The lab exhibits complete understanding of the material. 
+- The lab has at worst, a few minor design errors or surface-level writing issues. 
+- All coding experiments run and produce correct outputs.  
+
+**Meets Expectations** (**M**):
+
+- The lab exhibits complete understanding of the material. 
+- The lab includes a complete contributions statement describing the contributions of any collaborators, as well as external sources such as websites or ChatGPT. 
+- The lab has some minor errors of correctness, design, or writing. Fixing these errors would demonstrate improved understanding of the material. 
+- All coding experiments run and produce outputs which are close to expected. 
+
+**Needs Revision** (**R**): 
+
+- The lab exhibits one or more significant misunderstandings of the material, or many minor errors. 
+- Coding experiments do not run or produce substantially incorrect output. 
+- The contributions statement is partial or missing. 
+
+**Not Completed** (**N**): 
+
+- Not completed to a degree sufficient to demonstrate understanding of the material. 

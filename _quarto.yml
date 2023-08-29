@@ -22,6 +22,7 @@ website:
                   - pages/llms.qmd
                   - pages/mask-policy.qmd
                   - pages/learning-targets.qmd
+            - pages/acknowledgements.qmd
     favicon: assets/icons/favicon.png
 
 format:

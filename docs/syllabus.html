@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.309">
+<meta name="generator" content="quarto-1.4.330">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -47,6 +47,11 @@ ul.task-list li input[type="checkbox"] {
   "panel-placement": "start",
   "type": "textbox",
   "limit": 20,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -56,9 +61,13 @@ ul.task-list li input[type="checkbox"] {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
+<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="assets/css/styles.css">
@@ -73,10 +82,10 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./syllabus.html">Syllabus</a></li></ol></nav>
-      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-      </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./syllabus.html">Syllabus</a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
     </div>
@@ -139,6 +148,12 @@ ul.task-list li input[type="checkbox"] {
 </li>
       </ul>
   </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./pages/acknowledgements.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Acknowledgements</span></a>
+  </div>
+</li>
     </ul>
     </div>
 </nav>
@@ -157,17 +172,18 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#flipped-class" id="toc-flipped-class" class="nav-link" data-scroll-target="#flipped-class">Flipped Class</a></li>
   <li><a href="#course-activities" id="toc-course-activities" class="nav-link" data-scroll-target="#course-activities">Course Activities</a>
   <ul class="collapse">
+  <li><a href="#rationale" id="toc-rationale" class="nav-link" data-scroll-target="#rationale">Rationale</a></li>
   <li><a href="#before-class-warmups" id="toc-before-class-warmups" class="nav-link" data-scroll-target="#before-class-warmups">Before Class: Warmups</a></li>
   <li><a href="#class-on-mondays-and-wednesdays-questions-activities-and-discussion" id="toc-class-on-mondays-and-wednesdays-questions-activities-and-discussion" class="nav-link" data-scroll-target="#class-on-mondays-and-wednesdays-questions-activities-and-discussion">Class on Mondays and Wednesdays: Questions, Activities, and Discussion</a></li>
-  <li><a href="#quizzes" id="toc-quizzes" class="nav-link" data-scroll-target="#quizzes">Quizzes</a></li>
-  <li><a href="#labs" id="toc-labs" class="nav-link" data-scroll-target="#labs">Labs</a></li>
+  <li><a href="#quizzes-every-third-friday" id="toc-quizzes-every-third-friday" class="nav-link" data-scroll-target="#quizzes-every-third-friday">Quizzes (Every Third Friday)</a></li>
+  <li><a href="#labs-every-other-friday" id="toc-labs-every-other-friday" class="nav-link" data-scroll-target="#labs-every-other-friday">Labs (Every Other Friday)</a></li>
   </ul></li>
   </ul></li>
   <li><a href="#assessment-and-grades" id="toc-assessment-and-grades" class="nav-link" data-scroll-target="#assessment-and-grades">Assessment and Grades</a>
   <ul class="collapse">
   <li><a href="#warmups" id="toc-warmups" class="nav-link" data-scroll-target="#warmups">Warmups</a></li>
-  <li><a href="#quizzes-1" id="toc-quizzes-1" class="nav-link" data-scroll-target="#quizzes-1">Quizzes</a></li>
-  <li><a href="#labs-1" id="toc-labs-1" class="nav-link" data-scroll-target="#labs-1">Labs</a></li>
+  <li><a href="#quizzes" id="toc-quizzes" class="nav-link" data-scroll-target="#quizzes">Quizzes</a></li>
+  <li><a href="#labs" id="toc-labs" class="nav-link" data-scroll-target="#labs">Labs</a></li>
   <li><a href="#your-final-grade" id="toc-your-final-grade" class="nav-link" data-scroll-target="#your-final-grade">Your Final Grade</a></li>
   </ul></li>
   <li><a href="#collaboration-and-academic-integrity" id="toc-collaboration-and-academic-integrity" class="nav-link" data-scroll-target="#collaboration-and-academic-integrity">Collaboration and Academic Integrity</a>
@@ -191,7 +207,6 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#general-advice" id="toc-general-advice" class="nav-link" data-scroll-target="#general-advice">General Advice</a></li>
   <li><a href="#letters-of-recommendation" id="toc-letters-of-recommendation" class="nav-link" data-scroll-target="#letters-of-recommendation">Letters of Recommendation</a></li>
   </ul></li>
-  <li><a href="#acknowledgments" id="toc-acknowledgments" class="nav-link" data-scroll-target="#acknowledgments">Acknowledgments</a></li>
   </ul>
 </nav>
     </div>
@@ -213,9 +228,9 @@ ul.task-list li input[type="checkbox"] {
   </div>
   
 
+
 </header>
 
-<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="">You can learn more about the theory of computation in CSCI 0301, about proving correctness and performance of algorithms in CSCI 0302 and 0401, and about the role of math in applications in electives like CSCI 0422, 0451, and 0452.</span></div></div>
 <p>Welcome to CSCI 0200: Math Foundations of Computing! In this course, we’ll study <strong>how to think about computation using mathematics</strong>. Historically, computer science emerged as a subfield of mathematics before “growing up” into its own discipline. Math remains one of the fundamental tools we use to solve advanced problems. You might know to expect mathematical reasoning in core theory courses like Theory of Computation (CSCI 0301) and Algorithms and Complexity (CSCI 0302), but you’ll also draw on mathematical thinking in courses like Artificial Intelligence (CSCI 0311), Programming Languages (CSCI 0313), and Machine Learning (CSCI 0451).</p>
 <section id="core-learning-objectives" class="level3">
 <h3 class="anchored" data-anchor-id="core-learning-objectives">Core Learning Objectives</h3>
@@ -233,27 +248,21 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="logistics-and-key-highlights" class="level1">
 <h1>Logistics and Key Highlights</h1>
-
 <table>
 <tbody><tr>
-
 <td class="syllabus-description-table-header">
 <b>Scheduled Class Periods</b>
 </td>
-
 <td class="syllabus-description-table-entry">
 Mondays, Wednesdays, and Fridays <br> 75 Shannon Street, Room 202 <br> Section A: 8:40am-9:30pm <br> Section B: 9:45pm-10:35pm
 </td>
 </tr>
 <tr>
-
 <td class="syllabus-description-table-header">
 <b>Instructor</b>
 </td>
-
 <td class="syllabus-description-table-entry">
-Dr.&nbsp;<a href="www.philchodrow.com">Phil Chodrow</a> <br>
-
+<a href="www.philchodrow.com">Phil Chodrow</a> <br>
 <table style="margin-bottom:0;">
 <tbody><tr>
 <td>
@@ -296,19 +305,15 @@ Thursdays, 3pm-4pm
 </ul>
 </td>
 </tr>
-
 </tbody></table>
 </td>
 </tr>
 <tr>
-
 <td class="syllabus-description-table-header">
 <b>Assistant In Instruction (ASI)</b>
 </td>
-
 <td class="syllabus-description-table-entry">
 Smith Gakuya
-
 <table style="margin-bottom:0;">
 <tbody><tr>
 <td>
@@ -345,33 +350,28 @@ TBD
 </ul>
 </td>
 </tr>
-
 </tbody></table>
 </td>
 </tr>
 <tr>
-
 <td class="syllabus-description-table-header">
 <b>Course Assistants</b>
 </td>
-
 <td class="syllabus-description-table-entry">
 TBD
 </td>
 </tr>
 <tr>
-
 <td class="syllabus-description-table-header">
 <b> Key Highlights </b>
 </td>
-
 <td class="syllabus-description-table-entry">
-I encourage you to call me “Phil” or “Prof.&nbsp;Phil.” “Professor Chodrow” is also fine if that’s what’s most comfortable for you. <br> <br> This is a <strong>flipped class</strong>. This means that we’ll introduce new content with videos, readings, and warmup problems <strong>ahead of class time</strong>. During class time, we’ll discuss questions, work complex examples, and try some practice problems. It’s very important for you to budget 1.5-2 hours for prep <strong>before</strong> each class. <br> <br> This class uses <strong>standards-based-grading</strong>. You don’t have an “average” in this class, just <a href="#your-final-grade">a series of checkboxes</a> you can tick off as you complete and receive feedback on assignments. The boxes you tick off determine your final grade. <br> <br> I anticipate that <strong>9-12 hours of total effort</strong> (including class time) will be sufficient for most students to earn a B or above.<br>
+Our <a href="./schedule.html">detailed course schedule</a> contains information on required readings, warmup problems, and other assignments.<br>
+<br> I encourage you to call me “Phil” or “Prof.&nbsp;Phil.” “Professor Chodrow” is also fine if that’s what’s most comfortable for you. <br> <br> This is a <strong>flipped class</strong>. This means that we’ll introduce new content with videos, readings, and warmup problems <strong>ahead of class time</strong>. During class time, we’ll discuss questions, work complex examples, and try some practice problems. It’s very important for you to budget 1.5-2 hours for prep <strong>before</strong> each class. <br> <br> This class uses <strong>standards-based-grading</strong>. You don’t have an “average” in this class, just <a href="#your-final-grade">a series of checkboxes</a> you can tick off as you complete and receive feedback on assignments. The boxes you tick off determine your final grade. <br> <br> I anticipate that <strong>9-12 hours of total effort</strong> (including class time) will be sufficient for most students to earn a B or above.<br>
 <br> You are very welcome to email me about matters related to your experience in the course, but <strong>please do not email me math questions</strong>. Instead, post your questions on EdStem. <br> <br> Student Hours are <em>your time</em> to come chat with me about course content. <strong>I want to see you in Student Hours</strong>. <br> <br> <strong><a href="./pages/mask-policy.html">Masks are required</a> during class time</strong>, but not during Student Hours or Peer Help sessions.<br>
 <br> You need a laptop and an internet connection for this course, but you don’t need to buy any books or other supplies.
 </td>
 </tr>
-
 </tbody></table>
 </section>
 <section id="class-format" class="level1 page-columns page-full">
@@ -381,18 +381,59 @@ I encourage you to call me “Phil” or “Prof.&nbsp;Phil.” “Professor Cho
 <p>CSCI 0200 is a <em>flipped classroom</em>. This means that our scheduled class periods will primarily be time for you to <strong>actively practice and get feedback.</strong> Your first introduction to new material will be through assigned readings, videos, and warmup problems.</p>
 <ul>
 <li>On <strong>Mondays</strong> and <strong>Wednesdays</strong>, you will watch videos, complete readings, and do warmup problems <em>before class</em>. In class, we’ll discuss some of your questions from the warmups and work together on practice problems.</li>
-<li>On <strong>Fridays</strong>, you will watch videos, complete readings, and do warmup problems <em>before class</em>. During class, you’ll work in groups on Lab assignments. You’ll complete the Lab assignments outside of class and turn them in.</li>
+<li>On most <strong>Fridays</strong>, you will watch videos, complete readings, and do warmup problems <em>before class</em>. During class, you’ll work in groups on Lab assignments. You’ll complete the Lab assignments outside of class and turn them in.</li>
+<li>On four <strong>Fridays</strong> during the semester, you will complete a quiz in which you demonstrate your learning of our <a href="./pages/learning-targets.html">Learning Targets</a>.</li>
 </ul>
 </section>
 <section id="course-activities" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="course-activities">Course Activities</h2>
+<p>CSCI 0200 is divided into four “modules,” each of which is three weeks long. Here’s the rough schedule that you can expect from a module:</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<div>
+<pre class="mermaid mermaid-js">gantt
+    title A CSCI 0200 Module
+    axisFormat %A
+    tickInterval 1day
+    section Week A
+    Prep, warmup            :active, a1, 2014-01-06, 1d
+    Class            :2014-01-06, 1d
+    Prep, warmup         :active, a2, 2014-01-08, 1d
+    Class         :2014-01-08, 1d
+    Prep, warmup    :active, a1, 2014-01-10, 1d
+    Lab A           :a3, 2014-01-10, 1d
+    section Week B
+    Prep, warmup            :active, a1, 2014-01-06, 1d
+    Class            :2014-01-06, 1d
+    Prep, warmup         :active, a2, 2014-01-08, 1d
+    Class         :2014-01-08, 1d
+    Prep, warmup    :active, a1, 2014-01-10, 1d
+    Lab B           :a3, 2014-01-10, 1d
+    Lab A due         :done, b3, 2014-01-10, 1d
+    section Week C
+    Prep, warmup            :active, b1, 2014-01-06, 1d
+    Class            :2014-01-06, 1d
+    Prep, warmup         :active, b2, 2014-01-08, 1d
+    Class            :2014-01-08, 1d
+    Lab B due         :done, b3, 2014-01-10, 1d
+    Quiz              :crit, done, c3,  2014-01-10, 1d
+</pre>
+</div>
+</div>
+</div>
+</div>
+<p>Most days, you’ll prepare with videos and readings, and then complete warmup activities. These activities will prepare you for either class (practice, discussion), or lab. We’ll have our quiz roughly every third Friday.</p>
+<section id="rationale" class="level3">
+<h3 class="anchored" data-anchor-id="rationale">Rationale</h3>
 <p>The overall format of CSCI 0200 is designed to help you apply the ideas and skills of the course to progressively higher stages of <em>Bloom’s taxonomy of cognition</em>.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="assets/img/figs/blooms-taxonomy.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Bloom’s taxonomy of cognitive skills. Image credit: University of Florida</figcaption><p></p>
+<figcaption class="figure-caption">Bloom’s taxonomy of cognitive skills. Image credit: University of Florida</figcaption>
 </figure>
 </div>
+</section>
 <section id="before-class-warmups" class="level3 page-columns page-full">
 <h3 class="anchored" data-anchor-id="before-class-warmups">Before Class: Warmups</h3>
 <div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class=""><img src="assets/img/figs/blooms-taxonomy-warmups.png" class="img-fluid"></span></div></div>
@@ -413,8 +454,8 @@ I encourage you to call me “Phil” or “Prof.&nbsp;Phil.” “Professor Cho
 <div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class=""><img src="assets/img/figs/blooms-taxonomy-in-class.png" class="img-fluid"></span></div></div>
 <p>By the time you’ve completed the warmups and made it to class, I’m expecting that you have already made some effort to <span style="color:#7030a0"><strong>remember</strong></span> and <span style="color:#0070c0"><strong>understand</strong></span> the new material for that day. During class time on Mondays and Wednesdays, we’ll usually start with some time to discuss questions you might have from the day’s readings, videos, or warmups, to help build your <span style="color:#0070c0"><strong>understanding</strong></span>. Then, we’ll usually have time to work on problems in groups, or to further discuss topics. These activities will help you build your abilities to <span style="color:#00b050"><strong>apply</strong></span> the material and use it to <span style="color:#ffd54f"> <strong>analyze</strong> </span> more complicated problems.</p>
 </section>
-<section id="quizzes" class="level3 page-columns page-full">
-<h3 class="anchored" data-anchor-id="quizzes">Quizzes</h3>
+<section id="quizzes-every-third-friday" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="quizzes-every-third-friday">Quizzes (Every Third Friday)</h3>
 <div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class=""><img src="assets/img/figs/blooms-taxonomy-quizzes.png" class="img-fluid"></span></div></div>
 <p>On quizzes, you’ll demonstrate your ability to <span style="color:#7030a0"><strong>remember</strong></span>, <span style="color:#0070c0"><strong>understand</strong></span>, and <span style="color:#00b050"><strong>apply</strong></span> key ideas and skills. We’ll have four quizzes throughout the semester. On each quiz, there will be one question related to each of <a href="./pages/learning-targets.html">the twelve learning targets</a> that we have introduced in the course so far. We’ll introduce 3 new learning targest in time for each quiz. So, our first quiz will have 3 questions, our second quiz will have 6 questions, our third quiz will have 9 questions, and our last quiz will have 12 questions. You should plan to attempt 2-3 problems on each quiz.</p>
 <div class="callout callout-style-simple callout-tip no-icon">
@@ -428,8 +469,8 @@ I encourage you to call me “Phil” or “Prof.&nbsp;Phil.” “Professor Cho
 </div>
 </div>
 </section>
-<section id="labs" class="level3 page-columns page-full">
-<h3 class="anchored" data-anchor-id="labs">Labs</h3>
+<section id="labs-every-other-friday" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="labs-every-other-friday">Labs (Every Other Friday)</h3>
 <div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class=""><img src="assets/img/figs/blooms-taxonomy-labs.png" class="img-fluid"></span></div></div>
 <p>In labs, you’ll build your abilities to <span style="color:#ffd54f"> <strong>analyze</strong> </span>, <span style="color:#ff9933"><strong>evaluate</strong></span>, and <span style="color:#ff2f2f"><strong>create</strong></span> using the tools and topics from this class. We’ll have lab assignments in 8 weeks (skipping the weeks in which we have quizzes). You’ll start on lab assignments in groups in class on Fridays. You’ll complete the remaining problems and prepare your report, submitting the entire result as a typed PDF.</p>
 <p>You may continue to work on your report with classmates, but your report should be written by you and reflect your own understanding of the material. A good heuristic: <strong>discussion</strong> and <strong>work at the whiteboard</strong> is great to share, but typed solutions or code should not be shared.</p>
@@ -443,38 +484,20 @@ I encourage you to call me “Phil” or “Prof.&nbsp;Phil.” “Professor Cho
 <h2 class="anchored" data-anchor-id="warmups">Warmups</h2>
 <div class="page-columns page-full"><p><strong>Warmups are not graded for correctness</strong>. The two grades you can receive are “<strong>Complete</strong>” or “<strong>Incomplete/Missing</strong>.” A grade of <strong>Complete</strong> means that you made good effort on the problems and that your attempt demonstrates at least partial understanding of the reading and videos. Most days, 1.5-2 hours of prep time will usually be sufficient for you to complete the readings, videos, and warmups. </p><div class="no-row-height column-margin column-container"><span class="">Yes, I know, this is a lot of prep. On the other hand, the lab reports are your only homework assignments.</span></div></div>
 </section>
-<section id="quizzes-1" class="level2 page-columns page-full">
-<h2 class="anchored" data-anchor-id="quizzes-1">Quizzes</h2>
+<section id="quizzes" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="quizzes">Quizzes</h2>
 <p>Quiz problems are assessed as <strong>Satisfactory (S)</strong> or <strong>Incomplete/Not Yet Satisfactory (NS)</strong>. To earn an <strong>S</strong> on a quiz problem, you must complete the entire problem correctly, modulo <a href="./pages/minor-errors.html">minor errors</a> unrelated to the learning goals of the course (like arithmetic typos).</p>
 <p><strong>There is no partial credit given on quiz problems</strong>. Solutions with minor errors that are otherwise demonstrate learning earn an <strong>S</strong>, while solutions that demonstrate important misunderstandings (or are not attempted) earn an <strong>NS</strong>.</p>
 <div class="page-columns page-full"><p>Once you have earned an <strong>S</strong> on a quiz problem, you have completed the corresponding Learning Target. You never need to attempt another quiz problem corresponding to that target. So, if you earn an <strong>S</strong> on an <strong>LS2</strong> problem on Quiz 1, you should <em>not</em> try an <strong>LS2</strong> problem on Quiz 2. So, even though you are going to have a total of 3 + 6 + 9 + 12 + 12 = 42 problems placed in front of you on quizzes and the final exam, you only need to satisfactorily complete a total of 12 problems on the quizzes and final exam. </p><div class="no-row-height column-margin column-container"><span class="">Actually, just 11 satisfactory problems are <a href="#your-final-grade">sufficient</a> to qualify for an A.</span></div></div>
 </section>
-<section id="labs-1" class="level2 page-columns page-full">
-<h2 class="anchored" data-anchor-id="labs-1">Labs</h2>
-<div class="page-columns page-full"><p>Labs are assessed on a 4-part rubric similar to the EMRF rubric of <a href="http://miss-serwy.weebly.com/uploads/1/2/1/6/12161802/emrf_rubric_1.pdf">Stutzman and Race</a>:</p><div class="no-row-height column-margin column-container"><span class="">This particular scale is very close to the scale <a href="https://osera.cs.grinnell.edu/csc208/syllabus/#projects">used by Peter-Michael Osera</a> at Grinnell College.</span></div></div>
-<p><strong>Excellent</strong> (<strong>E</strong>):</p>
+<section id="labs" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="labs">Labs</h2>
+<div class="page-columns page-full"><p>Submitted lab reports can receive one of four assessments: </p><div class="no-row-height column-margin column-container"><span class="">Here is some <a href="./pages/lab-assessment.html">more detail on lab grades</a>.</span></div></div>
 <ul>
-<li>The lab includes a complete contributions statement describing the contributions of any collaborators, as well as external sources such as websites or ChatGPT.</li>
-<li>The lab exhibits complete understanding of the material.</li>
-<li>The lab has at worst, a few minor design errors or surface-level writing issues.</li>
-<li>All coding experiments run and produce correct outputs.</li>
-</ul>
-<p><strong>Meets Expectations</strong> (<strong>M</strong>):</p>
-<ul>
-<li>The lab exhibits complete understanding of the material.</li>
-<li>The lab includes a complete contributions statement describing the contributions of any collaborators, as well as external sources such as websites or ChatGPT.</li>
-<li>The lab has some minor errors of correctness, design, or writing. Fixing these errors would demonstrate improved understanding of the material.</li>
-<li>All coding experiments run and produce outputs which are close to expected.</li>
-</ul>
-<p><strong>Needs Revision</strong> (<strong>R</strong>):</p>
-<ul>
-<li>The lab exhibits one or more significant misunderstandings of the material, or many minor errors.</li>
-<li>Coding experiments do not run or produce substantially incorrect output.</li>
-<li>The contributions statement is partial or missing.</li>
-</ul>
-<p><strong>Not Completed</strong> (<strong>N</strong>):</p>
-<ul>
-<li>Not completed to a degree sufficient to demonstrate understanding of the material.</li>
+<li><strong>Excellent (E)</strong>: the lab exhibits complete understanding of the material and meets all technical requirements. This report could serve as an exemplary solution for the assignment.</li>
+<li><strong>Meets Expectations (M)</strong>: the lab exhibits almost complete understanding of the material and meets most technical requirements. This report suggests that you have room to improve, but you understand the material well enough that the best use of your time is to move on.</li>
+<li><strong>Needs Revision (R)</strong>: The lab exhibits some understanding of the material, but there are major issues that should be fixed before moving on.</li>
+<li><strong>Not Completed (N)</strong>: The lab isn’t really complete enough to demonstrate understanding of the material.</li>
 </ul>
 </section>
 <section id="your-final-grade" class="level2 page-columns page-full">
@@ -561,7 +584,7 @@ I encourage you to call me “Phil” or “Prof.&nbsp;Phil.” “Professor Cho
 <h2 class="anchored" data-anchor-id="collaborating-with-integrity">Collaborating with Integrity</h2>
 <p>Collaboration is welcome in some settings in this course. In all instances of collaboration, you should acknowledge your collaboration partner(s) and describe their contributions as part of your assignment submission.</p>
 <ul>
-<li><strong>Warmups</strong>: collaboration is <em>discouraged</em> because I think warmups are useful as practice for the quizzes. However, you’re welcome to collaborate if you choose. You should acknowledge your collaboration partner in your submission.</li>
+<li><strong>Warmups</strong>: collaboration is <em>discouraged</em> because I think warmups are useful as practice for the quizzes. If you do collaborate on warmups, you should acknowledge your collaboration partner in your submission.</li>
 <li><strong>Labs</strong>: collaboration is <em>encouraged</em> (and partially mandatory). You’ll start labs in collaboration groups. You’re free to complete the assignment in your groups, or to complete the assignment on your own. All students should turn in an individual submission that reflects their own understanding and which acknowledges the contributions of their collaboration partners.</li>
 <li><strong>Quizzes</strong>: collaboration is <em>prohibited</em>.</li>
 <li><strong>In-class activities</strong>: collaboration is <em>encouraged</em> (and sometimes mandatory).</li>
@@ -619,7 +642,7 @@ I encourage you to call me “Phil” or “Prof.&nbsp;Phil.” “Professor Cho
 <section id="classroom-environment" class="level2">
 <h2 class="anchored" data-anchor-id="classroom-environment">Classroom Environment</h2>
 <p>Inclusion, access, and participation are <strong>collective</strong> projects. I expect all students to contribute to a healthy course environment.</p>
-<p>We embrace diversity of age, background, beliefs, race, ethnicity, gender, gender identity, gender expression, national origin, religious affiliation, sexual orientation, and other visible and non-visible axes of identity. <strong>Discrimination is not tolerated in CSCI 0200</strong>. Observed speech acts of discimination may lead to engagement with the Community Standards Office.</p>
+<p>We embrace diversity of age, background, beliefs, race, ethnicity, gender, gender identity, gender expression, national origin, religious affiliation, sexual orientation, and other visible and non-visible axes of identity. <strong>Discrimination is not tolerated in CSCI 0200</strong>. Observed speech or acts of discimination may lead to engagement with the Community Standards Office.</p>
 <p>You deserve to be addressed in the manner that reflects who you are. I welcome to tell me your pronouns and/or preferred name at any time, either in person or via email. <strong>I expect all students to address each other according to their expressed gender markers</strong>, and commit to doing the same.</p>
 <p>You deserve to fully and equitably participate in our learning environment. I commit to ensuring that the materials and assessments in this course are accessible to all students, and I welcome feedback on where I can do better. Middlebury’s <a href="https://www.middlebury.edu/office/disability-resource-center">Disability Resource Center</a> can help you remove barriers to learning in this and other courses.</p>
 <p>You deserve a learning environment free from gender-based discrimination, sexual harassment, sexual assault, domestic violence, dating violence, and stalking. If you experience these behaviors or otherwise know of a Title IX violation, you have many options for support and/or reporting. Middlebury’s <a href="https://www.middlebury.edu/office/title-IX">Civil Rights and Title IX Office</a> (CRTIX) can help you navigate your options. Please be aware that I am a Responsible Employee, which means that <strong>I am required by the College to report incidents of sexual harassment or sexual violence to CRTIX</strong>. There are resources for emotional and mental health care, advocacy, and academic support listed <a href="https://www.middlebury.edu/office/sites/www.middlebury.edu.office/files/2021-09/bathroom_poster_2021_proofed(1).pdf?fv=DlkQYWaU">here</a>, some of which are confidential.</p>
@@ -639,17 +662,9 @@ I encourage you to call me “Phil” or “Prof.&nbsp;Phil.” “Professor Cho
 <section id="letters-of-recommendation" class="level2">
 <h2 class="anchored" data-anchor-id="letters-of-recommendation">Letters of Recommendation</h2>
 <p>Writing letters of recommendation for students is a fundamental part of my job and something that I am usually very happy to do. <a href="https://www.philchodrow.com/for-students.html#advice-and-recommendation-letters">Here’s how to ask me for a letter</a>.</p>
-</section>
-</section>
-<section id="acknowledgments" class="level1">
-<h1>Acknowledgments</h1>
-<p>The assessment system for this course is closely modeled on <a href="https://osera.cs.grinnell.edu/">Peter-Michael Osera</a>’s offering of <a href="https://osera.cs.grinnell.edu/csc208/">CSC 208-01: Discrete Mathematics</a> at Grinnell College.</p>
-<p>Many of the videos used in this course were created by <a href="https://onlineacademiccommunity.uvic.ca/treforbazett/">Dr.&nbsp;Trefor Bazett</a> at the University of Victoria. Dr.&nbsp;Bazett <a href="https://www.youtube.com/playlist?list=PLHXZ9OQGMqxersk8fUxiUMSIx0DBqsKZS">kindly posted</a> these videos on YouTube for public use.</p>
-<p>I learned of many of the videos and readings used in this course from <a href="https://chadtopaz.com/">Chad Topaz</a>’s offering of <a href="https://glow.williams.edu/courses/3011771">MATH-200: Discrete Mathematics</a> at Williams College.</p>
-<p>My approach to Bloom’s taxonomy and assignments/class time is inspired by <a href="https://rtalbert.org/re-thinking-blooms-taxonomy-for-flipped-learning-design/">this blog post</a> by Robert Talbert.</p>
-<p>Many learning targets are adapted from Robert Talbert’s targets from <a href="https://hackmd.io/@rtalbert235/BkwQboPzY">an offering</a> of MTH 225: Discrete Mathematics at Grand Valley State University.</p>
 
 
+</section>
 </section>
 
 <p><br> <br> <span style="color:grey;">© Phil Chodrow, 2023</span></p></main> <!-- /main -->
@@ -732,10 +747,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -745,8 +759,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -759,6 +782,81 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        for (let i = 0; i < 2; i++) {
+          container.appendChild(note.children[i].cloneNode(true));
+        }
+        return container.innerHTML
+      } else {
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      return note.innerHTML;
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -802,6 +900,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -827,6 +926,33 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        console.log("RESIZE");
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -887,6 +1013,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+
 
 
 

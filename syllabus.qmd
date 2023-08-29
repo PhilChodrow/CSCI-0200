@@ -4,10 +4,7 @@ title: Syllabus
 callout-icon: false
 ---
 
-[You can learn more about the theory of computation in CSCI 0301, about proving correctness and performance of algorithms in CSCI 0302 and 0401, and about the role of math in applications in electives like CSCI 0422, 0451, and 0452.]{.aside}
-
 Welcome to CSCI 0200: Math Foundations of Computing! In this course, we'll study **how to think about computation using mathematics**. Historically, computer science emerged as a subfield of mathematics before "growing up" into its own discipline. Math remains one of the fundamental tools we use to solve advanced problems. You might know to expect mathematical reasoning in core theory courses like Theory of Computation (CSCI 0301) and Algorithms and Complexity (CSCI 0302), but you'll also draw on mathematical thinking in courses like Artificial Intelligence (CSCI 0311), Programming Languages (CSCI 0313), and Machine Learning (CSCI 0451). 
-
 
 ### Core Learning Objectives
 
@@ -47,7 +44,7 @@ Welcome to CSCI 0200: Math Foundations of Computing! In this course, we'll study
             <b>Instructor</b> 
         </td> 
         <td class="syllabus-description-table-entry"> 
-            Dr. [Phil Chodrow](www.philchodrow.com) <br> 
+            [Phil Chodrow](www.philchodrow.com) <br> 
             <table style="margin-bottom:0;"> 
                 <tr> 
                     <td>
@@ -131,6 +128,8 @@ Welcome to CSCI 0200: Math Foundations of Computing! In this course, we'll study
             <b> Key Highlights </b>
         </td>
         <td class="syllabus-description-table-entry">
+            Our [detailed course schedule](schedule.qmd) contains information on required readings, warmup problems, and other assignments.  
+            <br> 
             I encourage you to call me "Phil" or "Prof. Phil." "Professor Chodrow" is also fine if that's what's most comfortable for you. 
             <br> <br> 
             This is a **flipped class**. This means that we'll introduce new content with videos, readings, and warmup problems **ahead of class time**. During class time, we'll discuss questions, work complex examples, and try some practice problems. It's very important for you to budget 1.5-2 hours for prep **before** each class. 
@@ -153,15 +152,51 @@ Welcome to CSCI 0200: Math Foundations of Computing! In this course, we'll study
 
 # Class Format
 
-
 ## Flipped Class
 
 CSCI 0200 is a *flipped classroom*. This means that our scheduled class periods will primarily be time for you to **actively practice and get feedback.** Your first introduction to new material will be through assigned readings, videos, and warmup problems. 
 
 - On **Mondays** and **Wednesdays**, you will watch videos, complete readings, and do warmup problems *before class*. In class, we'll discuss some of your questions from the warmups and work together on practice problems. 
-- On **Fridays**, you will watch videos, complete readings, and do warmup problems *before class*. During class, you'll work in groups on Lab assignments. You'll complete the Lab assignments outside of class and turn them in. 
+- On most **Fridays**, you will watch videos, complete readings, and do warmup problems *before class*. During class, you'll work in groups on Lab assignments. You'll complete the Lab assignments outside of class and turn them in. 
+- On four **Fridays** during the semester, you will complete a quiz in which you demonstrate your learning of our [Learning Targets](pages/learning-targets.qmd). 
 
 ## Course Activities
+
+
+CSCI 0200 is divided into four "modules," each of which is three weeks long. Here's the rough schedule that you can expect from a module: 
+
+```{mermaid}
+gantt
+    title A CSCI 0200 Module
+    axisFormat %A
+    tickInterval 1day
+    section Week A
+    Prep, warmup            :active, a1, 2014-01-06, 1d
+    Class            :2014-01-06, 1d
+    Prep, warmup         :active, a2, 2014-01-08, 1d
+    Class         :2014-01-08, 1d
+    Prep, warmup    :active, a1, 2014-01-10, 1d
+    Lab A           :a3, 2014-01-10, 1d
+    section Week B
+    Prep, warmup            :active, a1, 2014-01-06, 1d
+    Class            :2014-01-06, 1d
+    Prep, warmup         :active, a2, 2014-01-08, 1d
+    Class         :2014-01-08, 1d
+    Prep, warmup    :active, a1, 2014-01-10, 1d
+    Lab B           :a3, 2014-01-10, 1d
+    Lab A due         :done, b3, 2014-01-10, 1d
+    section Week C
+    Prep, warmup            :active, b1, 2014-01-06, 1d
+    Class            :2014-01-06, 1d
+    Prep, warmup         :active, b2, 2014-01-08, 1d
+    Class            :2014-01-08, 1d
+    Lab B due         :done, b3, 2014-01-10, 1d
+    Quiz              :crit, done, c3,  2014-01-10, 1d
+ ```   
+
+Most days, you'll prepare with videos and readings, and then complete warmup activities. These activities will prepare you for either class (practice, discussion), or lab. We'll have our quiz roughly every third Friday. 
+
+### Rationale
 
 The overall format of CSCI 0200 is designed to help you apply the ideas and skills of the course to progressively higher stages of *Bloom's taxonomy of cognition*. 
 
@@ -185,7 +220,7 @@ Warmups are due by 8:30am on the day of class. Warmups are never accepted late a
 
 By the time you've completed the warmups and made it to class, I'm expecting that you have already made some effort to <span style="color:#7030a0">**remember**</span> and <span style="color:#0070c0">**understand**</span> the new material for that day. During class time on Mondays and Wednesdays, we'll usually start with some time to discuss questions you might have from the day's readings, videos, or warmups, to help build your  <span style="color:#0070c0">**understanding**</span>. Then, we'll usually have time to work on problems in groups, or to further discuss topics. These activities will help you build your abilities to <span style="color:#00b050">**apply**</span> the material and use it to <span style="color:#ffd54f"> **analyze** </span> more complicated problems. 
 
-### Quizzes
+### Quizzes (Every Third Friday)
 
 [![](assets/img/figs/blooms-taxonomy-quizzes.png)]{.aside}
 
@@ -195,7 +230,7 @@ On quizzes, you'll demonstrate your ability to <span style="color:#7030a0">**rem
 Our final exam will be similar to the final quiz, including one question for all 12 learning targets in the course. The only difference is that you'll have 3 hours instead of 50 minutes.  
 :::
 
-### Labs
+### Labs (Every Other Friday)
 
 [![](assets/img/figs/blooms-taxonomy-labs.png)]{.aside}
 
@@ -228,31 +263,12 @@ Once you have earned an **S** on a quiz problem, you have completed the correspo
 
 ## Labs
 
-Labs are assessed on a 4-part rubric similar to the EMRF rubric of [Stutzman and Race](http://miss-serwy.weebly.com/uploads/1/2/1/6/12161802/emrf_rubric_1.pdf):[This particular scale is very close to the scale [used by Peter-Michael Osera](https://osera.cs.grinnell.edu/csc208/syllabus/#projects) at Grinnell College.]{.aside} 
+Submitted lab reports can receive one of four assessments: [Here is some [more detail on lab grades](pages/lab-assessment.qmd).]{.aside}
 
-**Excellent** (**E**): 
-
-- The lab includes a complete contributions statement describing the contributions of any collaborators, as well as external sources such as websites or ChatGPT. 
-- The lab exhibits complete understanding of the material. 
-- The lab has at worst, a few minor design errors or surface-level writing issues. 
-- All coding experiments run and produce correct outputs.  
-
-**Meets Expectations** (**M**):
-
-- The lab exhibits complete understanding of the material. 
-- The lab includes a complete contributions statement describing the contributions of any collaborators, as well as external sources such as websites or ChatGPT. 
-- The lab has some minor errors of correctness, design, or writing. Fixing these errors would demonstrate improved understanding of the material. 
-- All coding experiments run and produce outputs which are close to expected. 
-
-**Needs Revision** (**R**): 
-
-- The lab exhibits one or more significant misunderstandings of the material, or many minor errors. 
-- Coding experiments do not run or produce substantially incorrect output. 
-- The contributions statement is partial or missing. 
-
-**Not Completed** (**N**): 
-
-- Not completed to a degree sufficient to demonstrate understanding of the material. 
+- **Excellent (E)**: the lab exhibits complete understanding of the material and meets all technical requirements. This report could serve as an exemplary solution for the assignment. 
+- **Meets Expectations (M)**: the lab exhibits almost complete understanding of the material and meets most technical requirements. This report suggests that you have room to improve, but you understand the material well enough that the best use of your time is to move on. 
+- **Needs Revision (R)**: The lab exhibits some understanding of the material, but there are major issues that should be fixed before moving on. 
+- **Not Completed (N)**: The lab isn't really complete enough to demonstrate understanding of the material.  
 
 ## Your Final Grade
 
@@ -310,7 +326,7 @@ The guiding principle of Middlebury's Honor Code is that work you represent as y
 
 Collaboration is welcome in some settings in this course. In all instances of collaboration, you should acknowledge your collaboration partner(s) and describe their contributions as part of your assignment submission. 
 
-- **Warmups**: collaboration is *discouraged* because I think warmups are useful as practice for the quizzes. However, you're welcome to collaborate if you choose. You should acknowledge your collaboration partner in your submission. 
+- **Warmups**: collaboration is *discouraged* because I think warmups are useful as practice for the quizzes. If you do collaborate on warmups, you should acknowledge your collaboration partner in your submission. 
 - **Labs**: collaboration is *encouraged* (and partially mandatory). You'll start labs in collaboration groups. You're free to complete the assignment in your groups, or to complete the assignment on your own. All students should turn in an individual submission that reflects their own understanding and which acknowledges the contributions of their collaboration partners. 
 - **Quizzes**: collaboration is *prohibited*. 
 - **In-class activities**: collaboration is *encouraged* (and sometimes mandatory). 
@@ -367,7 +383,7 @@ No matter who you are, it's normal to feel challenged by your courses. It's also
 
 Inclusion, access, and participation are **collective** projects. I expect all students to contribute to a healthy course environment. 
 
-We embrace diversity of age, background, beliefs, race, ethnicity, gender, gender identity, gender expression, national origin, religious affiliation, sexual orientation, and other visible and non-visible axes of identity. **Discrimination is not tolerated in CSCI 0200**. Observed speech acts of discimination may lead to engagement with the Community Standards Office. 
+We embrace diversity of age, background, beliefs, race, ethnicity, gender, gender identity, gender expression, national origin, religious affiliation, sexual orientation, and other visible and non-visible axes of identity. **Discrimination is not tolerated in CSCI 0200**. Observed speech or acts of discimination may lead to engagement with the Community Standards Office. 
 
 You deserve to be addressed in the manner that reflects who you are. I welcome to tell me your pronouns and/or preferred name at any time, either in person or via email. **I expect all students to address each other according to their expressed gender markers**, and commit to doing the same. 
 
@@ -395,15 +411,3 @@ I am always happy to talk with you about your future plans, including internship
 ## Letters of Recommendation 
 
 Writing letters of recommendation for students is a fundamental part of my job and something that I am usually very happy to do. [Here's how to ask me for a letter](https://www.philchodrow.com/for-students.html#advice-and-recommendation-letters). 
-
-# Acknowledgments 
-
-The assessment system for this course is closely modeled on [Peter-Michael Osera](https://osera.cs.grinnell.edu/)'s offering of [CSC 208-01: Discrete Mathematics](https://osera.cs.grinnell.edu/csc208/) at Grinnell College.
-
-Many of the videos used in this course were created by [Dr. Trefor Bazett](https://onlineacademiccommunity.uvic.ca/treforbazett/) at the University of Victoria. Dr. Bazett [kindly posted](https://www.youtube.com/playlist?list=PLHXZ9OQGMqxersk8fUxiUMSIx0DBqsKZS) these videos on YouTube for public use. 
-
-I learned of many of the videos and readings used in this course from [ Chad Topaz](https://chadtopaz.com/)'s offering of [MATH-200: Discrete Mathematics](https://glow.williams.edu/courses/3011771) at Williams College.
-
-My approach to Bloom's taxonomy and assignments/class time is inspired by [this blog post](https://rtalbert.org/re-thinking-blooms-taxonomy-for-flipped-learning-design/) by Robert Talbert. 
-
-Many learning targets are adapted from Robert Talbert's targets from [an offering](https://hackmd.io/@rtalbert235/BkwQboPzY) of MTH 225: Discrete Mathematics at Grand Valley State University. 
