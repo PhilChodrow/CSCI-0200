@@ -4,9 +4,9 @@
       We discuss the structure of the course and the role of mathematics in modern computation.
   objectives:
       - Getting Oriented
-  prep: Why Flipped Classrooms?
+  prep:
   activities:
-      - TBD
+      - <a href="content/modules/00-intro/in-class.qmd">Welcome!</a>
   notes:
   publish: true
   due: Join EdStem and Gradescope.
@@ -16,7 +16,7 @@
       We discuss our relationship to math and how we've learned what we've learned.
   objectives:
       - Getting Oriented
-  prep: <a href="content/modules/intro/prep.qmd">Math Autobiography</a>
+  prep: <a href="content/modules/01-math-and-me/prep.qmd">Math Autobiography</a>
   activities:
       - TBD
   notes:
@@ -28,7 +28,7 @@
       We review truth tables for describing logical operations and begin our first lab assignment in Google Colab.
   objectives:
       - Getting Oriented
-  prep: <a href="content/modules/logic-1/prep.qmd">Statements and Truth Tables</a>
+  prep: <a href="content/modules/10-logic-1/prep.qmd">Statements and Truth Tables</a>
   activities:
       - "Lab: Truth Tables"
   notes:
@@ -40,9 +40,9 @@
       We introduce formal manipulations of logical expressions and work with the many ways to manipulate conditional statements.
   objectives:
       - Sets and Logic
-  prep: <a href="content/modules/logic-2/prep.qmd">Conditionals and Friends</a>
+  prep: <a href="content/modules/11-logic-2/prep.qmd">Conditionals and Friends</a>
   activities:
-      - <a href="content/modules/logic-2/in-class.qmd">Conditionals and Friends</a>
+      - <a href="content/modules/11-logic-2/in-class.qmd">Conditionals and Friends</a>
   notes:
   publish: true
   due:
@@ -52,9 +52,9 @@
       Sets, set-builder notation, operations on sets.
   objectives:
       - Sets and Logic
-  prep: <a href="content/modules/sets/prep.qmd">Sets</a>
+  prep: <a href="content/modules/12-sets/prep.qmd">Sets</a>
   activities:
-      - <a href="content/modules/sets/in-class.qmd">Sets</a>
+      - <a href="content/modules/12-sets/in-class.qmd">Sets</a>
   notes:
   publish: true
   due:
@@ -64,7 +64,7 @@
       We introduce boolean logic and use the sum-of-products algorithm for computing binary functions.
   objectives:
       - Sets and Logic
-  prep: <a href="content/modules/boolean-algebra/prep.qmd">Introducing Boolean Algebra</a>
+  prep: <a href="content/modules/15-boolean-algebra/prep.qmd">Introducing Boolean Algebra</a>
   activities:
       - "Lab: Sum of Products"
   notes:
