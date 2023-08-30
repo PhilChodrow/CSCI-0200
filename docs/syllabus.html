@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.309">
+<meta name="generator" content="quarto-1.4.339">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -66,6 +66,11 @@ div.csl-indent {
   "panel-placement": "start",
   "type": "textbox",
   "limit": 20,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -75,7 +80,8 @@ div.csl-indent {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 <script src="site_libs/quarto-diagram/mermaid.min.js"></script>
@@ -95,10 +101,10 @@ div.csl-indent {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./syllabus.html">Syllabus</a></li></ol></nav>
-      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-      </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./syllabus.html">Syllabus</a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
     </div>
@@ -242,6 +248,7 @@ div.csl-indent {
   </div>
   
 
+
 </header>
 
 <p>Welcome to CSCI 0200: Math Foundations of Computing! In this course, we’ll study <strong>how to think about computation using mathematics</strong>. Historically, computer science emerged as a subfield of mathematics before “growing up” into its own discipline. Math remains one of the fundamental tools we use to solve advanced problems. You might know to expect mathematical reasoning in core theory courses like Theory of Computation (CSCI 0301) and Algorithms and Complexity (CSCI 0302), but you’ll also draw on mathematical thinking in courses like Artificial Intelligence (CSCI 0311), Programming Languages (CSCI 0313), Machine Learning (CSCI 0451), and Computer Graphics (CSCI 0461).</p>
@@ -311,27 +318,21 @@ div.csl-indent {
 </section>
 <section id="logistics-and-key-highlights" class="level1">
 <h1>Logistics and Key Highlights</h1>
-
 <table>
 <tbody><tr>
-
 <td class="syllabus-description-table-header">
 <b>Scheduled Class Periods</b>
 </td>
-
 <td class="syllabus-description-table-entry">
 Mondays, Wednesdays, and Fridays <br> 75 Shannon Street, Room 202 <br> Section A: 8:40am-9:30pm <br> Section B: 9:45pm-10:35pm
 </td>
 </tr>
 <tr>
-
 <td class="syllabus-description-table-header">
 <b>Instructor</b>
 </td>
-
 <td class="syllabus-description-table-entry">
 <a href="www.philchodrow.com">Phil Chodrow</a> <br>
-
 <table style="margin-bottom:0;">
 <tbody><tr>
 <td>
@@ -374,19 +375,15 @@ Thursdays, 3pm-4pm
 </ul>
 </td>
 </tr>
-
 </tbody></table>
 </td>
 </tr>
 <tr>
-
 <td class="syllabus-description-table-header">
 <b>Assistant In Instruction (ASI)</b>
 </td>
-
 <td class="syllabus-description-table-entry">
 Smith Gakuya
-
 <table style="margin-bottom:0;">
 <tbody><tr>
 <td>
@@ -423,26 +420,21 @@ TBD
 </ul>
 </td>
 </tr>
-
 </tbody></table>
 </td>
 </tr>
 <tr>
-
 <td class="syllabus-description-table-header">
 <b>Course Assistants</b>
 </td>
-
 <td class="syllabus-description-table-entry">
 TBD
 </td>
 </tr>
 <tr>
-
 <td class="syllabus-description-table-header">
 <b> Key Highlights </b>
 </td>
-
 <td class="syllabus-description-table-entry">
 Our <a href="./schedule.html">detailed course schedule</a> contains information on required readings, warmup problems, and other assignments.<br>
 <br> I encourage you to call me “Prof.&nbsp;Phil” or “Phil.” “Professor Chodrow” is also fine if that’s what’s most comfortable for you. <br> <br> This is a <strong>flipped class</strong>. This means that we’ll introduce new content with videos, readings, and warmup problems <strong>ahead of class time</strong>. During class time, we’ll discuss questions, work complex examples, and try some practice problems. <strong>It’s very important for you to budget 1.5-2 hours for prep before each class.</strong> <br> <br> This class uses <strong>standards-based-grading</strong>. You don’t have an “average” in this class, just <a href="#your-final-grade">a series of checkboxes</a> you can tick off as you complete and receive feedback on assignments. The boxes you tick off determine your final grade. <br> <br> I anticipate that <strong>9-12 hours of total effort each week</strong> (including class time) will be sufficient for most students to earn a B or above.<br>
@@ -450,7 +442,6 @@ Our <a href="./schedule.html">detailed course schedule</a> contains information 
 <br> You need a laptop and an internet connection for this course, but you don’t need to buy any books or other supplies.
 </td>
 </tr>
-
 </tbody></table>
 </section>
 <section id="class-format" class="level1 page-columns page-full">
@@ -511,7 +502,7 @@ Anderson, Lorin W, and David R Krathwohl. 2001. <em>A Taxonomy for Learning, Tea
 </div></div><div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="assets/img/figs/blooms-taxonomy.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Bloom’s taxonomy of cognitive skills. Image credit: University of Florida</figcaption><p></p>
+<figcaption class="figure-caption">Bloom’s taxonomy of cognitive skills. Image credit: University of Florida</figcaption>
 </figure>
 </div>
 </section>
@@ -836,10 +827,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -849,8 +839,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -863,6 +862,81 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        for (let i = 0; i < 2; i++) {
+          container.appendChild(note.children[i].cloneNode(true));
+        }
+        return container.innerHTML
+      } else {
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      return note.innerHTML;
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -906,6 +980,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -931,6 +1006,33 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        console.log("RESIZE");
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -991,6 +1093,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+
 
 
 
