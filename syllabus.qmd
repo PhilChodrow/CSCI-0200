@@ -17,6 +17,50 @@ Welcome to CSCI 0200: Math Foundations of Computing! In this course, we'll study
 4. You will perform computational experiments and contextualize your findings against mathematical theory. 
 4. You will develop habits of reflection, collaboration, and persistence for learning theoretical topics. 
 
+
+```{mermaid}
+mindmap
+  root((CSCI 0200))
+    )**Module 1**(
+        (Logic)
+          (Propositional logic)
+            (Boolean algebra)
+            (Circuit design)
+        (Sets)
+            (Set Operations)
+            (Logical quantifiers)
+    )**Module 2**(
+        (Relations)
+            (Functions)
+            (Equivalence Relations)
+        (Proof Techniques)
+            (Direct)
+            (Indirect)
+            (Contradiction)
+            (Induction)
+                (Weak)
+                (Strong)
+    )**Module 3**(
+        (Counting)
+            (Sum and product principles)
+            (Permutations and combinations)
+            (Combinatorial proofs)
+        (Recurrence Relations)
+            (Asymptotics)
+            (Divide and combine)
+    )**Module 4**(
+        (Probability)
+            (Distributions)
+                (Conditioning)
+            (Random variables)
+                (Expectation)
+        (Graphs)
+            (Special graphs)
+                (Trees )
+                (Cycles)
+            (Algorithms)
+```
+
 ### Tentative Sequence of Topics
 
 **Weeks 1-3**: Course introduction, logic, sets <br> 
