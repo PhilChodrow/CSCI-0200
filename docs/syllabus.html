@@ -20,7 +20,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -186,6 +205,14 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#labs" id="toc-labs" class="nav-link" data-scroll-target="#labs">Labs</a></li>
   <li><a href="#your-final-grade" id="toc-your-final-grade" class="nav-link" data-scroll-target="#your-final-grade">Your Final Grade</a></li>
   </ul></li>
+  <li><a href="#inclusion-access-and-participation" id="toc-inclusion-access-and-participation" class="nav-link" data-scroll-target="#inclusion-access-and-participation">Inclusion, Access, and Participation</a>
+  <ul class="collapse">
+  <li><a href="#disabilities-and-clearing-barriers" id="toc-disabilities-and-clearing-barriers" class="nav-link" data-scroll-target="#disabilities-and-clearing-barriers">Disabilities and Clearing Barriers</a></li>
+  <li><a href="#academic-support" id="toc-academic-support" class="nav-link" data-scroll-target="#academic-support">Academic Support</a></li>
+  <li><a href="#classroom-environment" id="toc-classroom-environment" class="nav-link" data-scroll-target="#classroom-environment">Classroom Environment</a></li>
+  <li><a href="#masks-are-required" id="toc-masks-are-required" class="nav-link" data-scroll-target="#masks-are-required">Masks Are Required</a></li>
+  <li><a href="#we-can-help-you-borrow-a-laptop" id="toc-we-can-help-you-borrow-a-laptop" class="nav-link" data-scroll-target="#we-can-help-you-borrow-a-laptop">We Can Help You Borrow a Laptop</a></li>
+  </ul></li>
   <li><a href="#collaboration-and-academic-integrity" id="toc-collaboration-and-academic-integrity" class="nav-link" data-scroll-target="#collaboration-and-academic-integrity">Collaboration and Academic Integrity</a>
   <ul class="collapse">
   <li><a href="#collaborating-with-integrity" id="toc-collaborating-with-integrity" class="nav-link" data-scroll-target="#collaborating-with-integrity">Collaborating with Integrity</a></li>
@@ -194,13 +221,6 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#what-is-it" id="toc-what-is-it" class="nav-link" data-scroll-target="#what-is-it">What Is It?</a></li>
   <li><a href="#in-this-class" id="toc-in-this-class" class="nav-link" data-scroll-target="#in-this-class">In This Class</a></li>
   </ul></li>
-  </ul></li>
-  <li><a href="#inclusion-access-and-participation" id="toc-inclusion-access-and-participation" class="nav-link" data-scroll-target="#inclusion-access-and-participation">Inclusion, Access, and Participation</a>
-  <ul class="collapse">
-  <li><a href="#disabilities-and-clearing-barriers" id="toc-disabilities-and-clearing-barriers" class="nav-link" data-scroll-target="#disabilities-and-clearing-barriers">Disabilities and Clearing Barriers</a></li>
-  <li><a href="#academic-support" id="toc-academic-support" class="nav-link" data-scroll-target="#academic-support">Academic Support</a></li>
-  <li><a href="#classroom-environment" id="toc-classroom-environment" class="nav-link" data-scroll-target="#classroom-environment">Classroom Environment</a></li>
-  <li><a href="#we-can-help-you-borrow-a-laptop" id="toc-we-can-help-you-borrow-a-laptop" class="nav-link" data-scroll-target="#we-can-help-you-borrow-a-laptop">We Can Help You Borrow a Laptop</a></li>
   </ul></li>
   <li><a href="#beyond-this-course" id="toc-beyond-this-course" class="nav-link" data-scroll-target="#beyond-this-course">Beyond This Course</a>
   <ul class="collapse">
@@ -231,20 +251,21 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>Welcome to CSCI 0200: Math Foundations of Computing! In this course, we’ll study <strong>how to think about computation using mathematics</strong>. Historically, computer science emerged as a subfield of mathematics before “growing up” into its own discipline. Math remains one of the fundamental tools we use to solve advanced problems. You might know to expect mathematical reasoning in core theory courses like Theory of Computation (CSCI 0301) and Algorithms and Complexity (CSCI 0302), but you’ll also draw on mathematical thinking in courses like Artificial Intelligence (CSCI 0311), Programming Languages (CSCI 0313), and Machine Learning (CSCI 0451).</p>
+<p>Welcome to CSCI 0200: Math Foundations of Computing! In this course, we’ll study <strong>how to think about computation using mathematics</strong>. Historically, computer science emerged as a subfield of mathematics before “growing up” into its own discipline. Math remains one of the fundamental tools we use to solve advanced problems. You might know to expect mathematical reasoning in core theory courses like Theory of Computation (CSCI 0301) and Algorithms and Complexity (CSCI 0302), but you’ll also draw on mathematical thinking in courses like Artificial Intelligence (CSCI 0311), Programming Languages (CSCI 0313), Machine Learning (CSCI 0451), and Computer Graphics (CSCI 0461).</p>
 <section id="core-learning-objectives" class="level3">
 <h3 class="anchored" data-anchor-id="core-learning-objectives">Core Learning Objectives</h3>
 <ol type="1">
 <li>You will solve problems using logic, set theory, recurrence relations, combinatorics (counting), graphs, and discrete probability.</li>
 <li>You will apply the above topics to complex problems in computer science and beyond.</li>
 <li>You will write mathematical proofs that allow you to be <em>certain</em> of a mathematical fact or a statement about an algorithm.</li>
-<li>You will perform computational experiments and contextualize your findings against known mathematical concepts and facts.</li>
+<li>You will perform computational experiments and contextualize your findings against mathematical theory.</li>
 <li>You will develop habits of reflection, collaboration, and persistence for learning theoretical topics.</li>
 </ol>
 </section>
 <section id="tentative-sequence-of-topics" class="level3">
 <h3 class="anchored" data-anchor-id="tentative-sequence-of-topics">Tentative Sequence of Topics</h3>
 <p><strong>Weeks 1-3</strong>: Course introduction, logic, sets <br> <strong>Weeks 4-6</strong>: Proof techniques, functions, relations <br> <strong>Weeks 7-9</strong>: Counting, recursion <br> <strong>Weeks 10-13</strong>: Graphs, probability</p>
+<p>Our <a href="./schedule.html">detailed schedule</a> includes prep, warmup problems, and due dates for assignments. I commit to ensuring that this schedule is always up to date at least two weeks ahead of the present day.</p>
 </section>
 <section id="logistics-and-key-highlights" class="level1">
 <h1>Logistics and Key Highlights</h1>
@@ -367,7 +388,7 @@ TBD
 </td>
 <td class="syllabus-description-table-entry">
 Our <a href="./schedule.html">detailed course schedule</a> contains information on required readings, warmup problems, and other assignments.<br>
-<br> I encourage you to call me “Phil” or “Prof.&nbsp;Phil.” “Professor Chodrow” is also fine if that’s what’s most comfortable for you. <br> <br> This is a <strong>flipped class</strong>. This means that we’ll introduce new content with videos, readings, and warmup problems <strong>ahead of class time</strong>. During class time, we’ll discuss questions, work complex examples, and try some practice problems. It’s very important for you to budget 1.5-2 hours for prep <strong>before</strong> each class. <br> <br> This class uses <strong>standards-based-grading</strong>. You don’t have an “average” in this class, just <a href="#your-final-grade">a series of checkboxes</a> you can tick off as you complete and receive feedback on assignments. The boxes you tick off determine your final grade. <br> <br> I anticipate that <strong>9-12 hours of total effort</strong> (including class time) will be sufficient for most students to earn a B or above.<br>
+<br> I encourage you to call me “Prof.&nbsp;Phil” or “Phil.” “Professor Chodrow” is also fine if that’s what’s most comfortable for you. <br> <br> This is a <strong>flipped class</strong>. This means that we’ll introduce new content with videos, readings, and warmup problems <strong>ahead of class time</strong>. During class time, we’ll discuss questions, work complex examples, and try some practice problems. <strong>It’s very important for you to budget 1.5-2 hours for prep before each class.</strong> <br> <br> This class uses <strong>standards-based-grading</strong>. You don’t have an “average” in this class, just <a href="#your-final-grade">a series of checkboxes</a> you can tick off as you complete and receive feedback on assignments. The boxes you tick off determine your final grade. <br> <br> I anticipate that <strong>9-12 hours of total effort each week</strong> (including class time) will be sufficient for most students to earn a B or above.<br>
 <br> You are very welcome to email me about matters related to your experience in the course, but <strong>please do not email me math questions</strong>. Instead, post your questions on EdStem. <br> <br> Student Hours are <em>your time</em> to come chat with me about course content. <strong>I want to see you in Student Hours</strong>. <br> <br> <strong><a href="./pages/mask-policy.html">Masks are required</a> during class time</strong>, but not during Student Hours or Peer Help sessions.<br>
 <br> You need a laptop and an internet connection for this course, but you don’t need to buy any books or other supplies.
 </td>
@@ -424,10 +445,12 @@ Our <a href="./schedule.html">detailed course schedule</a> contains information 
 </div>
 </div>
 <p>Most days, you’ll prepare with videos and readings, and then complete warmup activities. These activities will prepare you for either class (practice, discussion), or lab. We’ll have our quiz roughly every third Friday.</p>
-<section id="rationale" class="level3">
+<section id="rationale" class="level3 page-columns page-full">
 <h3 class="anchored" data-anchor-id="rationale">Rationale</h3>
-<p>The overall format of CSCI 0200 is designed to help you apply the ideas and skills of the course to progressively higher stages of <em>Bloom’s taxonomy of cognition</em>.</p>
-<div class="quarto-figure quarto-figure-center">
+<p>The overall format of CSCI 0200 is designed to help you apply the ideas and skills of the course to progressively higher stages of <em>Bloom’s taxonomy of cognition</em> (<span class="citation" data-cites="anderson2001taxonomy">Anderson and Krathwohl (<a href="#ref-anderson2001taxonomy" role="doc-biblioref">2001</a>)</span>).</p>
+<div class="no-row-height column-margin column-container"><div id="ref-anderson2001taxonomy" class="csl-entry" role="listitem">
+Anderson, Lorin W, and David R Krathwohl. 2001. <em>A Taxonomy for Learning, Teaching, and Assessing: A Revision of Bloom’s Taxonomy of Educational Objectives: Complete Edition</em>. Addison Wesley Longman, Inc.
+</div></div><div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="assets/img/figs/blooms-taxonomy.png" class="img-fluid figure-img"></p>
 <figcaption class="figure-caption">Bloom’s taxonomy of cognitive skills. Image credit: University of Florida</figcaption>
@@ -457,14 +480,14 @@ Our <a href="./schedule.html">detailed course schedule</a> contains information 
 <section id="quizzes-every-third-friday" class="level3 page-columns page-full">
 <h3 class="anchored" data-anchor-id="quizzes-every-third-friday">Quizzes (Every Third Friday)</h3>
 <div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class=""><img src="assets/img/figs/blooms-taxonomy-quizzes.png" class="img-fluid"></span></div></div>
-<p>On quizzes, you’ll demonstrate your ability to <span style="color:#7030a0"><strong>remember</strong></span>, <span style="color:#0070c0"><strong>understand</strong></span>, and <span style="color:#00b050"><strong>apply</strong></span> key ideas and skills. We’ll have four quizzes throughout the semester. On each quiz, there will be one question related to each of <a href="./pages/learning-targets.html">the twelve learning targets</a> that we have introduced in the course so far. We’ll introduce 3 new learning targest in time for each quiz. So, our first quiz will have 3 questions, our second quiz will have 6 questions, our third quiz will have 9 questions, and our last quiz will have 12 questions. You should plan to attempt 2-3 problems on each quiz.</p>
+<p>On quizzes, you’ll demonstrate your ability to <span style="color:#7030a0"><strong>remember</strong></span>, <span style="color:#0070c0"><strong>understand</strong></span>, and <span style="color:#00b050"><strong>apply</strong></span> key ideas and skills. We’ll have four quizzes throughout the semester. On each quiz, there will be one problem related to each of <a href="./pages/learning-targets.html">the twelve learning targets</a> that we have introduced in the course so far. We’ll introduce 3 new learning targets in time for each quiz. So, our first quiz will have 3 problems, our second quiz will have 6 problems, our third quiz will have 9 problems, and our last quiz will have 12 problems. You should plan to attempt 2-3 problems on each quiz.</p>
 <div class="callout callout-style-simple callout-tip no-icon">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-body-container">
-<p>Our final exam will be similar to the final quiz, including one question for all 12 learning targets in the course. The only difference is that you’ll have 3 hours instead of 50 minutes.</p>
+<p>Our final exam will be similar to the final quiz, including one problem for all 12 learning targets in the course. The only difference is that you’ll have 3 hours instead of 50 minutes.</p>
 </div>
 </div>
 </div>
@@ -472,7 +495,8 @@ Our <a href="./schedule.html">detailed course schedule</a> contains information 
 <section id="labs-every-other-friday" class="level3 page-columns page-full">
 <h3 class="anchored" data-anchor-id="labs-every-other-friday">Labs (Every Other Friday)</h3>
 <div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class=""><img src="assets/img/figs/blooms-taxonomy-labs.png" class="img-fluid"></span></div></div>
-<p>In labs, you’ll build your abilities to <span style="color:#ffd54f"> <strong>analyze</strong> </span>, <span style="color:#ff9933"><strong>evaluate</strong></span>, and <span style="color:#ff2f2f"><strong>create</strong></span> using the tools and topics from this class. We’ll have lab assignments in 8 weeks (skipping the weeks in which we have quizzes). You’ll start on lab assignments in groups in class on Fridays. You’ll complete the remaining problems and prepare your report, submitting the entire result as a typed PDF.</p>
+<p>In labs, you’ll build your abilities to <span style="color:#ffd54f"> <strong>analyze</strong> </span>, <span style="color:#ff9933"><strong>evaluate</strong></span>, and <span style="color:#ff2f2f"><strong>create</strong></span> using the tools and topics from this class. We’ll have lab assignments in 8 weeks (skipping the weeks in which we have quizzes). You’ll start on lab assignments in groups in class on Fridays. You’ll complete the remaining problems and prepare your report, submitting the entire result as a typed PDF.<br>
+Labs are due one week after the day we start them in class.</p>
 <p>You may continue to work on your report with classmates, but your report should be written by you and reflect your own understanding of the material. A good heuristic: <strong>discussion</strong> and <strong>work at the whiteboard</strong> is great to share, but typed solutions or code should not be shared.</p>
 <p>Labs are assessed on a <a href="#labs">4-point rubric</a>. After receiving your assessment on your lab report, you may revise and resubmit your report for a higher assessment.</p>
 </section>
@@ -486,7 +510,7 @@ Our <a href="./schedule.html">detailed course schedule</a> contains information 
 </section>
 <section id="quizzes" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="quizzes">Quizzes</h2>
-<p>Quiz problems are assessed as <strong>Satisfactory (S)</strong> or <strong>Incomplete/Not Yet Satisfactory (NS)</strong>. To earn an <strong>S</strong> on a quiz problem, you must complete the entire problem correctly, modulo <a href="./pages/minor-errors.html">minor errors</a> unrelated to the learning goals of the course (like arithmetic typos).</p>
+<p>Quiz problems are assessed as <strong>Satisfactory (S)</strong> or <strong>Not Yet Satisfactory/Incomplete (NS)</strong>. To earn an <strong>S</strong> on a quiz problem, you must complete the entire problem correctly, modulo <a href="./pages/minor-errors.html">minor errors</a> unrelated to the learning goals of the course (like arithmetic typos).</p>
 <p><strong>There is no partial credit given on quiz problems</strong>. Solutions with minor errors that are otherwise demonstrate learning earn an <strong>S</strong>, while solutions that demonstrate important misunderstandings (or are not attempted) earn an <strong>NS</strong>.</p>
 <div class="page-columns page-full"><p>Once you have earned an <strong>S</strong> on a quiz problem, you have completed the corresponding Learning Target. You never need to attempt another quiz problem corresponding to that target. So, if you earn an <strong>S</strong> on an <strong>LS2</strong> problem on Quiz 1, you should <em>not</em> try an <strong>LS2</strong> problem on Quiz 2. So, even though you are going to have a total of 3 + 6 + 9 + 12 + 12 = 42 problems placed in front of you on quizzes and the final exam, you only need to satisfactorily complete a total of 12 problems on the quizzes and final exam. </p><div class="no-row-height column-margin column-container"><span class="">Actually, just 11 satisfactory problems are <a href="#your-final-grade">sufficient</a> to qualify for an A.</span></div></div>
 </section>
@@ -546,17 +570,17 @@ Our <a href="./schedule.html">detailed course schedule</a> contains information 
 </tr>
 </tbody>
 </table>
-<p>I reserve the right to modify this table, but I promise that I will not make it more difficult to achieve a given grade tier.</p>
+<p>I reserve the right to modify this table, but <em>only in ways that make it easier to achieve each grade tier</em>.</p>
 <section id="partial-completion" class="level4">
 <h4 class="anchored" data-anchor-id="partial-completion">Partial Completion</h4>
-<p>When you completely meet both requirements for one tier and completely meet one requirement for a higher tier, you earn the “-” version of the higher tier grade. For example, you may completely meet the requirements of a <strong>B</strong> on Learning Targets and completely meet the requirements of an <strong>A</strong> on Labs. In this case, you earn a minus grade for the higher tier: an <strong>A-</strong>.</p>
+<p>When you completely meet both requirements for one tier and completely meet one requirement for a higher tier, you earn the “-” version of the next higher tier grade. For example, you may completely meet the requirements of a <strong>B</strong> on Learning Targets and completely meet the requirements of an <strong>A</strong> on Labs. In this case, you earn a minus grade for the higher tier: an <strong>A-</strong>.</p>
 <div class="callout callout-style-simple callout-tip no-icon">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-body-container">
-<p>If you fully meet the requirements for the <strong>C</strong> tier and meet the requirements of the <strong>A</strong> tier for either Learning Targets or Labs (but not both), then you are considered to have partially met the requirements of the <strong>B</strong> tier. In this case, your grade would be a <strong>B-</strong>.</p>
+<p>If you fully meet the requirements for the <strong>C</strong> tier and meet the requirements of the <strong>A</strong> tier for either Learning Targets or Labs (but not both), then you are considered to have partially met the requirements of the <strong>B</strong> tier. In this case, your final grade would be a <strong>B-</strong>.</p>
 </div>
 </div>
 </div>
@@ -571,10 +595,48 @@ Our <a href="./schedule.html">detailed course schedule</a> contains information 
 <li>0-3 missing warmups: -0</li>
 <li>4-5 missing warmups: -1/3</li>
 <li>6-7 missing warmups: -2/3</li>
-<li>7-9 missing warmups: -1</li>
+<li>8-9 missing warmups: -1</li>
 <li>etc.</li>
 </ul>
 </div></div></section>
+</section>
+</section>
+<section id="inclusion-access-and-participation" class="level1 page-columns page-full">
+<h1>Inclusion, Access, and Participation</h1>
+<p>I commit to an inclusive, accessible, participatory, and safe classroom for CSCI 0200.</p>
+<section id="disabilities-and-clearing-barriers" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="disabilities-and-clearing-barriers">Disabilities and Clearing Barriers</h2>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="">For legal reasons, I am prohibited from offering accommodations to students who do not present letters of accommodation from the DRC. So, get a letter if you need it!</span></div></div>
+<p>If any aspect of this course raises barriers to your full and equitable participation, it is my job to clear those barriers. A common way in which barriers arise is from unintentional failure to design for <em>all</em> students, including students with disabilities. I’ve done my best, but still may have fallen short! If you have a documented disability, please send me your letter of accommodation from the <a href="https://www.middlebury.edu/disability-resource-center">Disability Resource Center</a> as soon as possible. <strong>You do not need to describe your disability or justify your accommodations</strong>. I will incorporate your accommodations and work to clear learning barriers to the best of my ability.</p>
+<p>If you believe that you may have a disability, please contact the <a href="https://www.middlebury.edu/disability-resource-center">Disability Resource Center</a> as soon as possible. The DRC works with students confidentially and never discloses disability-related information to faculty without your permission.</p>
+</section>
+<section id="academic-support" class="level2">
+<h2 class="anchored" data-anchor-id="academic-support">Academic Support</h2>
+<p>No matter who you are, it’s normal to feel challenged by your courses. We have many academic resources to support your success in CSCI 0200. <strong>I strongly encourage everyone to make use of all of these resources.</strong></p>
+<ul>
+<li>My <a href="#logistics-and-key-highlights">Student Hours</a> are time for you to come talk with me about any aspect of the course. We’ll usually hold Student Hours in the big lounge outside Room 224 (the one with the windows).</li>
+<li>Experienced CS students hold <a href="https://www.cs.middlebury.edu/~mlinderman/courses/cshelp/spring23.html">Peer Help hours</a> most weekday evenings. These sessions are great times for you to work on Warmup problems (before class) and lab reports. You can also ask general questions about course content and connect with other students.</li>
+<li>Our Assistant in Instruction (ASI) is Smith Gakuya. Smith holds regular Student Hours many days, and is prepared to help you in CSCI 0200. Smith can also help you arrange <strong>tutoring</strong> for long-term academic support.</li>
+<li>EdStem is our online Q&amp;A forum. It’s the best place to ask questions at irregular hours. It’s a good idea to check EdStem frequently, because your question may already have been answered there!</li>
+</ul>
+</section>
+<section id="classroom-environment" class="level2">
+<h2 class="anchored" data-anchor-id="classroom-environment">Classroom Environment</h2>
+<p>Inclusion, access, and participation are <strong>collective</strong> projects. I expect all students to contribute to a healthy course environment.</p>
+<p>We embrace diversity of age, background, beliefs, race, ethnicity, gender, gender identity, gender expression, national origin, religious affiliation, sexual orientation, and other apparent and non-apparent axes of identity. <strong>Discrimination is not tolerated in CSCI 0200</strong>. Discriminatory speech or acts may lead to engagement with the Community Standards Office.</p>
+<p>You deserve to be addressed in the manner that reflects who you are. I welcome to tell me your pronouns and/or chosen name at any time, either in person or via email. <strong>I expect all students to address each other according to their expressed gender markers</strong>, and commit to doing the same.</p>
+<p>You deserve to fully and equitably participate in our learning environment. I commit to ensuring that the materials and assessments in this course are accessible to all students, and I welcome feedback on where I can do better. Middlebury’s <a href="https://www.middlebury.edu/office/disability-resource-center">Disability Resource Center</a> can help you remove barriers to learning in this and other courses.</p>
+<p>You deserve a learning environment free from gender-based discrimination, sexual harassment, sexual assault, domestic violence, dating violence, and stalking. If you experience these behaviors or otherwise know of a Title IX violation, you have many options for support and/or reporting. Middlebury’s <a href="https://www.middlebury.edu/office/title-IX">Civil Rights and Title IX Office</a> (CRTIX) can help you navigate your options. Please be aware that I am a Responsible Employee, which means that <strong>I am required by the College to report incidents of sexual harassment or sexual violence to CRTIX</strong>. There are resources for emotional and mental health care, advocacy, and academic support listed <a href="https://www.middlebury.edu/office/sites/www.middlebury.edu.office/files/2021-09/bathroom_poster_2021_proofed(1).pdf?fv=DlkQYWaU">here</a>, some of which are confidential.</p>
+</section>
+<section id="masks-are-required" class="level2">
+<h2 class="anchored" data-anchor-id="masks-are-required">Masks Are Required</h2>
+<p>In alignment with <a href="./pages/mask-policy.html">the policy</a> of the Department of Computer Science, <strong>you are required to wear masks during scheduled class periods,</strong> unless you have a documented health reason not to wear one. I encourage but do not require you to wear masks during Student Hours and Peer Help sessions.</p>
+<p>During the first three weeks of class, I will stock masks that I will offer you in case you forget yours. After the first three weeks of class, you will be responsible for bringing your own masks. If you arrive in class without one, I’ll ask you to leave class and come back once you have obtained a mask.</p>
+</section>
+<section id="we-can-help-you-borrow-a-laptop" class="level2">
+<h2 class="anchored" data-anchor-id="we-can-help-you-borrow-a-laptop">We Can Help You Borrow a Laptop</h2>
+<p>An especially important resource for access in many courses in the Department of Computer Science is a functioning laptop. If you ever find yourself temporarily in need of a laptop, we have 10 rotating Windows laptops that we can loan you. To request a laptop for <strong>short-term use</strong> (like a single class period), email me as soon as possible.</p>
+<p><strong>On Long-Term Use</strong>: College policy has changed recently to include the expectation that every student have a laptop available. The college provides laptops to those who need them where “need” is based on Student Financial Services calculations. If you anticipate needing a laptop for the whole term, we encourage you to inquire with Student Financial Services and the library first due to our smaller pool of equipment. If, however, the College will not be able to meet your needs in a timely fashion, please reach out to us so that we can work out a long-term laptop loan.</p>
 </section>
 </section>
 <section id="collaboration-and-academic-integrity" class="level1">
@@ -621,38 +683,6 @@ Our <a href="./schedule.html">detailed course schedule</a> contains information 
 </section>
 </section>
 </section>
-<section id="inclusion-access-and-participation" class="level1 page-columns page-full">
-<h1>Inclusion, Access, and Participation</h1>
-<p>I commit to an inclusive, accessible, participatory, and safe classroom for CSCI 0200.</p>
-<section id="disabilities-and-clearing-barriers" class="level2 page-columns page-full">
-<h2 class="anchored" data-anchor-id="disabilities-and-clearing-barriers">Disabilities and Clearing Barriers</h2>
-<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="">For legal reasons, I am prohibited from offering accommodations to students who do not present letters of accommodation from the DRC. So, get a letter if you need it!</span></div></div>
-<p>If you have a documented disability that raises barriers for your ability to participate in or succeed in this class, please send me your letter of accommodation from the <a href="https://www.middlebury.edu/disability-resource-center">Disability Resource Center</a> as soon as possible. <strong>You do not need to describe your disability or justify your accommodations</strong>. I will work with you to clear these barriers to the best of my ability. If you think that you may have a disability, please contact the <a href="https://www.middlebury.edu/disability-resource-center">Disability Resource Center</a> as soon as possible. The DRC works with students confidentially and never discloses disability-related information to faculty without your permission.</p>
-</section>
-<section id="academic-support" class="level2">
-<h2 class="anchored" data-anchor-id="academic-support">Academic Support</h2>
-<p>No matter who you are, it’s normal to feel challenged by your courses. It’s also normal to need help! There are many ways for you to get help in CSCI 0200.</p>
-<ul>
-<li>My <a href="#logistics-and-key-highlights">Student Hours</a> are time for you to come talk with me about any aspect of the course. We’ll usually hold Student Hours in the big lounge outside Room 224 (the one with the windows).</li>
-<li>Experienced CS students hold <a href="https://www.cs.middlebury.edu/~mlinderman/courses/cshelp/spring23.html">Peer Help hours</a> most weekday evenings. These sessions are great times for you to work on Warmup problems (before class) and lab reports.</li>
-<li>Our Assistant in Instruction (ASI) is Smith Gakuya. Smith holds regular Student Hours many days, and is prepared to help you in CSCI 0200. Smith can also help you arrange <strong>tutoring</strong> in case you need long-term academic support.</li>
-<li>EdStem is our online Q&amp;A forum. It’s the best place to ask questions at irregular hours. It’s a good idea to check EdStem frequently, because your question may already have been answered there!</li>
-</ul>
-</section>
-<section id="classroom-environment" class="level2">
-<h2 class="anchored" data-anchor-id="classroom-environment">Classroom Environment</h2>
-<p>Inclusion, access, and participation are <strong>collective</strong> projects. I expect all students to contribute to a healthy course environment.</p>
-<p>We embrace diversity of age, background, beliefs, race, ethnicity, gender, gender identity, gender expression, national origin, religious affiliation, sexual orientation, and other visible and non-visible axes of identity. <strong>Discrimination is not tolerated in CSCI 0200</strong>. Observed speech or acts of discimination may lead to engagement with the Community Standards Office.</p>
-<p>You deserve to be addressed in the manner that reflects who you are. I welcome to tell me your pronouns and/or preferred name at any time, either in person or via email. <strong>I expect all students to address each other according to their expressed gender markers</strong>, and commit to doing the same.</p>
-<p>You deserve to fully and equitably participate in our learning environment. I commit to ensuring that the materials and assessments in this course are accessible to all students, and I welcome feedback on where I can do better. Middlebury’s <a href="https://www.middlebury.edu/office/disability-resource-center">Disability Resource Center</a> can help you remove barriers to learning in this and other courses.</p>
-<p>You deserve a learning environment free from gender-based discrimination, sexual harassment, sexual assault, domestic violence, dating violence, and stalking. If you experience these behaviors or otherwise know of a Title IX violation, you have many options for support and/or reporting. Middlebury’s <a href="https://www.middlebury.edu/office/title-IX">Civil Rights and Title IX Office</a> (CRTIX) can help you navigate your options. Please be aware that I am a Responsible Employee, which means that <strong>I am required by the College to report incidents of sexual harassment or sexual violence to CRTIX</strong>. There are resources for emotional and mental health care, advocacy, and academic support listed <a href="https://www.middlebury.edu/office/sites/www.middlebury.edu.office/files/2021-09/bathroom_poster_2021_proofed(1).pdf?fv=DlkQYWaU">here</a>, some of which are confidential.</p>
-</section>
-<section id="we-can-help-you-borrow-a-laptop" class="level2">
-<h2 class="anchored" data-anchor-id="we-can-help-you-borrow-a-laptop">We Can Help You Borrow a Laptop</h2>
-<p>An especially important resource for access in many courses in the Department of Computer Science is a functioning laptop. If you ever find yourself temporarily in need of a laptop, we have 10 rotating Windows laptops that we can loan you. To request a laptop for <strong>short-term use</strong> (like a single class period), email me as soon as possible.</p>
-<p><strong>On Long-Term Use</strong>: College policy has changed recently to include the expectation that every student have a laptop available. The college provides laptops to those who need them where “need” is based on Student Financial Services calculations. If you anticipate needing a laptop for the whole term, we encourage you to inquire with Student Financial Services and the library first due to our smaller pool of equipment. If, however, the College will not be able to meet your needs in a timely fashion, please reach out to us so that we can work out a long-term laptop loan.</p>
-</section>
-</section>
 <section id="beyond-this-course" class="level1">
 <h1>Beyond This Course</h1>
 <section id="general-advice" class="level2">
@@ -662,6 +692,7 @@ Our <a href="./schedule.html">detailed course schedule</a> contains information 
 <section id="letters-of-recommendation" class="level2">
 <h2 class="anchored" data-anchor-id="letters-of-recommendation">Letters of Recommendation</h2>
 <p>Writing letters of recommendation for students is a fundamental part of my job and something that I am usually very happy to do. <a href="https://www.philchodrow.com/for-students.html#advice-and-recommendation-letters">Here’s how to ask me for a letter</a>.</p>
+
 
 
 </section>

@@ -2,16 +2,19 @@
 tbl-cap-location: margin
 title: Syllabus
 callout-icon: false
+bibliography: refs.bib
+citation-location: margin
+reference-location: margin
 ---
 
-Welcome to CSCI 0200: Math Foundations of Computing! In this course, we'll study **how to think about computation using mathematics**. Historically, computer science emerged as a subfield of mathematics before "growing up" into its own discipline. Math remains one of the fundamental tools we use to solve advanced problems. You might know to expect mathematical reasoning in core theory courses like Theory of Computation (CSCI 0301) and Algorithms and Complexity (CSCI 0302), but you'll also draw on mathematical thinking in courses like Artificial Intelligence (CSCI 0311), Programming Languages (CSCI 0313), and Machine Learning (CSCI 0451). 
+Welcome to CSCI 0200: Math Foundations of Computing! In this course, we'll study **how to think about computation using mathematics**. Historically, computer science emerged as a subfield of mathematics before "growing up" into its own discipline. Math remains one of the fundamental tools we use to solve advanced problems. You might know to expect mathematical reasoning in core theory courses like Theory of Computation (CSCI 0301) and Algorithms and Complexity (CSCI 0302), but you'll also draw on mathematical thinking in courses like Artificial Intelligence (CSCI 0311), Programming Languages (CSCI 0313),  Machine Learning (CSCI 0451), and Computer Graphics (CSCI 0461).  
 
 ### Core Learning Objectives
 
 1. You will solve problems using logic, set theory, recurrence relations, combinatorics (counting), graphs, and discrete probability. 
 2. You will apply the above topics to complex problems in computer science and beyond. 
 3. You will write mathematical proofs that allow you to be *certain* of a mathematical fact or a statement about an algorithm. 
-4. You will perform computational experiments and contextualize your findings against known mathematical concepts and facts. 
+4. You will perform computational experiments and contextualize your findings against mathematical theory. 
 4. You will develop habits of reflection, collaboration, and persistence for learning theoretical topics. 
 
 ### Tentative Sequence of Topics
@@ -20,6 +23,8 @@ Welcome to CSCI 0200: Math Foundations of Computing! In this course, we'll study
 **Weeks 4-6**: Proof techniques, functions, relations <br>
 **Weeks 7-9**: Counting, recursion <br> 
 **Weeks 10-13**: Graphs, probability
+
+Our [detailed schedule](schedule.qmd) includes prep, warmup problems, and due dates for assignments. I commit to ensuring that this schedule is always up to date at least two weeks ahead of the present day. 
 
 
 # Logistics and Key Highlights
@@ -130,13 +135,13 @@ Welcome to CSCI 0200: Math Foundations of Computing! In this course, we'll study
         <td class="syllabus-description-table-entry">
             Our [detailed course schedule](schedule.qmd) contains information on required readings, warmup problems, and other assignments.  
             <br> 
-            I encourage you to call me "Phil" or "Prof. Phil." "Professor Chodrow" is also fine if that's what's most comfortable for you. 
+            I encourage you to call me "Prof. Phil" or "Phil." "Professor Chodrow" is also fine if that's what's most comfortable for you. 
             <br> <br> 
-            This is a **flipped class**. This means that we'll introduce new content with videos, readings, and warmup problems **ahead of class time**. During class time, we'll discuss questions, work complex examples, and try some practice problems. It's very important for you to budget 1.5-2 hours for prep **before** each class. 
+            This is a **flipped class**. This means that we'll introduce new content with videos, readings, and warmup problems **ahead of class time**. During class time, we'll discuss questions, work complex examples, and try some practice problems. **It's very important for you to budget 1.5-2 hours for prep before each class.** 
             <br> <br> 
             This class uses **standards-based-grading**. You don't have an "average" in this class, just [a series of checkboxes](#your-final-grade) you can tick off as you complete and receive feedback on assignments. The boxes you tick off determine your final grade. 
             <br> <br>
-            I anticipate that **9-12 hours of total effort** (including class time) will be sufficient for most students to earn a B or above.  
+            I anticipate that **9-12 hours of total effort each week** (including class time) will be sufficient for most students to earn a B or above.  
             <br> 
             You are very welcome to email me about matters related to your experience in the course, but **please do not email me math questions**. Instead, post your questions on EdStem. 
             <br> <br> 
@@ -198,7 +203,7 @@ Most days, you'll prepare with videos and readings, and then complete warmup act
 
 ### Rationale
 
-The overall format of CSCI 0200 is designed to help you apply the ideas and skills of the course to progressively higher stages of *Bloom's taxonomy of cognition*. 
+The overall format of CSCI 0200 is designed to help you apply the ideas and skills of the course to progressively higher stages of *Bloom's taxonomy of cognition* (@anderson2001taxonomy). 
 
 ![Bloom's taxonomy of cognitive skills. Image credit: University of Florida](assets/img/figs/blooms-taxonomy.png)
 
@@ -224,10 +229,10 @@ By the time you've completed the warmups and made it to class, I'm expecting tha
 
 [![](assets/img/figs/blooms-taxonomy-quizzes.png)]{.aside}
 
-On quizzes, you'll demonstrate your ability to <span style="color:#7030a0">**remember**</span>, <span style="color:#0070c0">**understand**</span>, and <span style="color:#00b050">**apply**</span> key ideas and skills. We'll have four quizzes throughout the semester. On each quiz, there will be one question related to each of [the twelve learning targets](pages/learning-targets.qmd) that we have introduced in the course so far. We'll introduce 3 new learning targest in time for each quiz. So, our first quiz will have 3 questions, our second quiz will have 6 questions, our third quiz will have 9 questions, and our last quiz will have 12 questions. You should plan to attempt 2-3 problems on each quiz. 
+On quizzes, you'll demonstrate your ability to <span style="color:#7030a0">**remember**</span>, <span style="color:#0070c0">**understand**</span>, and <span style="color:#00b050">**apply**</span> key ideas and skills. We'll have four quizzes throughout the semester. On each quiz, there will be one problem related to each of [the twelve learning targets](pages/learning-targets.qmd) that we have introduced in the course so far. We'll introduce 3 new learning targets in time for each quiz. So, our first quiz will have 3 problems, our second quiz will have 6 problems, our third quiz will have 9 problems, and our last quiz will have 12 problems. You should plan to attempt 2-3 problems on each quiz. 
  
 ::: {.callout-tip}
-Our final exam will be similar to the final quiz, including one question for all 12 learning targets in the course. The only difference is that you'll have 3 hours instead of 50 minutes.  
+Our final exam will be similar to the final quiz, including one problem for all 12 learning targets in the course. The only difference is that you'll have 3 hours instead of 50 minutes.  
 :::
 
 ### Labs (Every Other Friday)
@@ -237,7 +242,7 @@ Our final exam will be similar to the final quiz, including one question for all
 In labs, you'll build your abilities to <span style="color:#ffd54f"> **analyze** </span>, <span style="color:#ff9933">**evaluate**</span>, and <span style="color:#ff2f2f">**create**</span> using the tools and topics from this class. 
 We'll have lab assignments in 8 weeks (skipping the weeks in which we have quizzes). 
 You'll start on lab assignments in groups in class on Fridays. You'll complete the remaining problems and prepare your report, submitting the entire result as a typed PDF.  
-
+Labs are due one week after the day we start them in class. 
 
 You may continue to work on your report with classmates, but your report should be written by you and reflect your own understanding of the material. 
 A good heuristic: **discussion** and **work at the whiteboard** is great to share, but typed solutions or code should not be shared.   
@@ -254,7 +259,7 @@ Labs are assessed on a [4-point rubric](#labs). After receiving your assessment 
 
 ## Quizzes
 
-Quiz problems are assessed as **Satisfactory (S)** or **Incomplete/Not Yet Satisfactory (NS)**. To earn an **S** on a quiz problem, you must complete the entire problem correctly, modulo [minor errors](pages/minor-errors.qmd) unrelated to the learning goals of the course (like arithmetic typos). 
+Quiz problems are assessed as **Satisfactory (S)** or **Not Yet Satisfactory/Incomplete (NS)**. To earn an **S** on a quiz problem, you must complete the entire problem correctly, modulo [minor errors](pages/minor-errors.qmd) unrelated to the learning goals of the course (like arithmetic typos). 
 
 **There is no partial credit given on quiz problems**. Solutions with minor errors that are otherwise demonstrate learning earn an **S**, while solutions that demonstrate important misunderstandings (or are not attempted) earn an **NS**. 
 
@@ -291,15 +296,15 @@ Your final grade in the course will be determined by the bundle of Learning Targ
 |     |                                 | - Remainder **R**s              |
 +-----+---------------------------------+---------------------------------+
 
-I reserve the right to modify this table, but I promise that I will not make it more difficult to achieve a given grade tier.
+I reserve the right to modify this table, but *only in ways that make it easier to achieve each grade tier*.
 
 #### Partial Completion
 
-When you completely meet both requirements for one tier and completely meet one requirement for a higher tier, you earn the "-" version of the higher tier grade. For example, you may completely meet the requirements of a **B** on Learning Targets and completely meet the requirements of an **A** on Labs. In this case, you earn a minus grade for the higher tier: an **A-**. 
+When you completely meet both requirements for one tier and completely meet one requirement for a higher tier, you earn the "-" version of the next higher tier grade. For example, you may completely meet the requirements of a **B** on Learning Targets and completely meet the requirements of an **A** on Labs. In this case, you earn a minus grade for the higher tier: an **A-**. 
 
 ::: {.callout-tip}
 
-If you fully meet the requirements for the **C** tier and meet the requirements of the **A** tier for either Learning Targets or Labs (but not both), then you are considered to have partially met the requirements of the **B** tier. In this case, your grade would be a **B-**. 
+If you fully meet the requirements for the **C** tier and meet the requirements of the **A** tier for either Learning Targets or Labs (but not both), then you are considered to have partially met the requirements of the **B** tier. In this case, your final grade would be a **B-**. 
 
 :::
 
@@ -314,9 +319,59 @@ In more detail, the penalties are:
 - 0-3 missing warmups: -0
 - 4-5 missing warmups: -1/3
 - 6-7 missing warmups: -2/3
-- 7-9 missing warmups: -1 
+- 8-9 missing warmups: -1 
 - etc. 
 :::
+
+
+# Inclusion, Access, and Participation
+
+I commit to an inclusive, accessible, participatory, and safe classroom for CSCI 0200. 
+
+## Disabilities and Clearing Barriers
+
+[For legal reasons, I am prohibited from offering accommodations to students who do not present letters of accommodation from the DRC. So, get a letter if you need it!]{.aside}
+
+If any aspect of this course raises barriers to your full and equitable participation, it is my job to clear those barriers. 
+A common way in which barriers arise is from unintentional failure to design for *all* students, including students with disabilities. 
+I've done my best, but still may have fallen short! 
+If you have a documented disability, please send me your letter of accommodation from the [Disability Resource Center](https://www.middlebury.edu/disability-resource-center) as soon as possible. **You do not need to describe your disability or justify your accommodations**. 
+I will incorporate your accommodations and work to clear learning barriers to the best of my ability. 
+
+If you believe that you may have a disability, please contact the [Disability Resource Center](https://www.middlebury.edu/disability-resource-center) as soon as possible. The DRC works with students confidentially and never discloses disability-related information to faculty without your permission. 
+
+## Academic Support
+
+No matter who you are, it's normal to feel challenged by your courses. We have many academic resources to support your success in CSCI 0200. **I strongly encourage everyone to make use of all of these resources.** 
+
+- My [Student Hours](#logistics-and-key-highlights) are time for you to come talk with me about any aspect of the course. We'll usually hold Student Hours in the big lounge outside Room 224 (the one with the windows).
+- Experienced CS students hold [Peer Help hours](https://www.cs.middlebury.edu/~mlinderman/courses/cshelp/spring23.html) most weekday evenings. These sessions are great times for you to work on Warmup problems (before class) and lab reports. You can also ask general questions about course content and connect with other students. 
+- Our Assistant in Instruction (ASI) is Smith Gakuya. Smith holds regular Student Hours many days, and is prepared to help you in CSCI 0200. Smith can also help you arrange **tutoring** for long-term academic support. 
+- EdStem is our online Q&A forum. It's the best place to ask questions at irregular hours. It's a good idea to check EdStem frequently, because your question may already have been answered there! 
+
+## Classroom Environment
+
+Inclusion, access, and participation are **collective** projects. I expect all students to contribute to a healthy course environment. 
+
+We embrace diversity of age, background, beliefs, race, ethnicity, gender, gender identity, gender expression, national origin, religious affiliation, sexual orientation, and other apparent and non-apparent axes of identity. **Discrimination is not tolerated in CSCI 0200**. Discriminatory speech or acts may lead to engagement with the Community Standards Office. 
+
+You deserve to be addressed in the manner that reflects who you are. I welcome to tell me your pronouns and/or chosen name at any time, either in person or via email. **I expect all students to address each other according to their expressed gender markers**, and commit to doing the same. 
+
+You deserve to fully and equitably participate in our learning environment. I commit to ensuring that the materials and assessments in this course are accessible to all students, and I welcome feedback on where I can do better. Middlebury's [Disability Resource Center](https://www.middlebury.edu/office/disability-resource-center) can help you remove barriers to learning in this and other courses. 
+
+You deserve a learning environment free from gender-based discrimination, sexual harassment, sexual assault, domestic violence, dating violence, and stalking. If you experience these behaviors or otherwise know of a Title IX violation, you have many options for support and/or reporting. Middlebury's [Civil Rights and Title IX Office](https://www.middlebury.edu/office/title-IX) (CRTIX) can help you navigate your options.  Please be aware that I am a Responsible Employee, which means that **I am required by the College to report incidents of sexual harassment or sexual violence to CRTIX**. There are  resources for emotional and mental health care, advocacy, and academic support listed [here](https://www.middlebury.edu/office/sites/www.middlebury.edu.office/files/2021-09/bathroom_poster_2021_proofed(1).pdf?fv=DlkQYWaU), some of which are confidential. 
+
+## Masks Are Required
+
+In alignment with [the policy](pages/mask-policy.qmd) of the Department of Computer Science, **you are required to wear masks during scheduled class periods,** unless you have a documented health reason not to wear one. I encourage but do not require you to wear masks during Student Hours and Peer Help sessions. 
+
+During the first three weeks of class, I will stock masks that I will offer you in case you forget yours. After the first three weeks of class, you will be responsible for bringing your own masks. If you arrive in class without one, I'll ask you to leave class and come back once you have obtained a mask. 
+
+## We Can Help You Borrow a Laptop
+
+An especially important resource for access in many courses in the Department of Computer Science is a functioning laptop. If you ever find yourself temporarily in need of a laptop, we have 10 rotating Windows laptops that we can loan you.  To request a laptop for **short-term use** (like a single class period), email me as soon as possible. 
+
+**On Long-Term Use**: College policy has changed recently to include the expectation that every student have a laptop available. The college provides laptops to those who need them where “need” is based on Student Financial Services calculations. If you anticipate needing a laptop for the whole term, we encourage you to inquire with Student Financial Services and the library first due to our smaller pool of equipment. If, however, the College will not be able to meet your needs in a timely fashion, please reach out to us so that we can work out a long-term laptop loan. 
 
 # Collaboration and Academic Integrity
 
@@ -359,48 +414,6 @@ While LLMs may have many benefits, they are also the subject of [routine]((https
     - **You must describe what steps you have taken to check that your learning involving ChatGPT is indeed correct**.
 - You are always personally responsible for the accuracy, quality, and integrity of your work.  
 
-
-# Inclusion, Access, and Participation
-
-I commit to an inclusive, accessible, participatory, and safe classroom for CSCI 0200. 
-
-## Disabilities and Clearing Barriers
-
-[For legal reasons, I am prohibited from offering accommodations to students who do not present letters of accommodation from the DRC. So, get a letter if you need it!]{.aside}
-
-If you have a documented disability that raises barriers for your ability to participate in or succeed in this class, please send me your letter of accommodation from the [Disability Resource Center](https://www.middlebury.edu/disability-resource-center) as soon as possible. **You do not need to describe your disability or justify your accommodations**. I will work with you to clear these barriers to the best of my ability. If you think that you may have a disability, please contact the [Disability Resource Center](https://www.middlebury.edu/disability-resource-center) as soon as possible. The DRC works with students confidentially and never discloses disability-related information to faculty without your permission. 
-
-## Academic Support
-
-No matter who you are, it's normal to feel challenged by your courses. It's also normal to need help! There are many ways for you to get help in CSCI 0200. 
-
-- My [Student Hours](#logistics-and-key-highlights) are time for you to come talk with me about any aspect of the course. We'll usually hold Student Hours in the big lounge outside Room 224 (the one with the windows).
-- Experienced CS students hold [Peer Help hours](https://www.cs.middlebury.edu/~mlinderman/courses/cshelp/spring23.html) most weekday evenings. These sessions are great times for you to work on Warmup problems (before class) and lab reports. 
-- Our Assistant in Instruction (ASI) is Smith Gakuya. Smith holds regular Student Hours many days, and is prepared to help you in CSCI 0200. Smith can also help you arrange **tutoring** in case you need long-term academic support. 
-- EdStem is our online Q&A forum. It's the best place to ask questions at irregular hours. It's a good idea to check EdStem frequently, because your question may already have been answered there! 
-
-## Classroom Environment
-
-Inclusion, access, and participation are **collective** projects. I expect all students to contribute to a healthy course environment. 
-
-We embrace diversity of age, background, beliefs, race, ethnicity, gender, gender identity, gender expression, national origin, religious affiliation, sexual orientation, and other visible and non-visible axes of identity. **Discrimination is not tolerated in CSCI 0200**. Observed speech or acts of discimination may lead to engagement with the Community Standards Office. 
-
-You deserve to be addressed in the manner that reflects who you are. I welcome to tell me your pronouns and/or preferred name at any time, either in person or via email. **I expect all students to address each other according to their expressed gender markers**, and commit to doing the same. 
-
-You deserve to fully and equitably participate in our learning environment. I commit to ensuring that the materials and assessments in this course are accessible to all students, and I welcome feedback on where I can do better. Middlebury's [Disability Resource Center](https://www.middlebury.edu/office/disability-resource-center) can help you remove barriers to learning in this and other courses. 
-
-You deserve a learning environment free from gender-based discrimination, sexual harassment, sexual assault, domestic violence, dating violence, and stalking. If you experience these behaviors or otherwise know of a Title IX violation, you have many options for support and/or reporting. Middlebury's [Civil Rights and Title IX Office](https://www.middlebury.edu/office/title-IX) (CRTIX) can help you navigate your options.  Please be aware that I am a Responsible Employee, which means that **I am required by the College to report incidents of sexual harassment or sexual violence to CRTIX**. There are  resources for emotional and mental health care, advocacy, and academic support listed [here](https://www.middlebury.edu/office/sites/www.middlebury.edu.office/files/2021-09/bathroom_poster_2021_proofed(1).pdf?fv=DlkQYWaU), some of which are confidential. 
-
-
-
-
-
-
-## We Can Help You Borrow a Laptop
-
-An especially important resource for access in many courses in the Department of Computer Science is a functioning laptop. If you ever find yourself temporarily in need of a laptop, we have 10 rotating Windows laptops that we can loan you.  To request a laptop for **short-term use** (like a single class period), email me as soon as possible. 
-
-**On Long-Term Use**: College policy has changed recently to include the expectation that every student have a laptop available. The college provides laptops to those who need them where “need” is based on Student Financial Services calculations. If you anticipate needing a laptop for the whole term, we encourage you to inquire with Student Financial Services and the library first due to our smaller pool of equipment. If, however, the College will not be able to meet your needs in a timely fashion, please reach out to us so that we can work out a long-term laptop loan. 
 
 # Beyond This Course
 

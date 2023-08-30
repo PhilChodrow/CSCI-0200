@@ -35,9 +35,9 @@
   publish: true
   due:
 - date: 2023-09-18
-  header: Symbolic Logic
+  header: Working with Symbolic Logic
   summary: |
-      We discuss the structure of the course and the role of mathematics in modern computation.
+      We introduce formal manipulations of logical expressions and work with the many ways to manipulate conditional statements.
   objectives:
       - Sets and Logic
   prep: <a href="content/modules/logic-2/prep.qmd">Conditionals and Friends</a>
