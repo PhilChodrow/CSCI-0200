@@ -11,14 +11,84 @@
     "href": "schedule.html#week-2",
     "title": "Schedule",
     "section": "Week 2",
-    "text": "Week 2\n\n\n\n\n\n\n\n\n\n\n\n\n\nM\nSep. 18\nWorking with Symbolic Logic\n\n\n\n\n\nWe introduce formal manipulations of logical expressions and work with the many ways to manipulate conditional statements.\n\n\n\nLearning Objectives\nSets and Logic\n\nPrep\nConditionals and Friends\nIn Class\nConditionals and Friends\n\n\n\n\n\n\n\nW\nSep. 20\nSets and Set Operations\n\n\n\n\n\nSets, set-builder notation, operations on sets.\n\n\n\nLearning Objectives\nSets and Logic\n\nPrep\nSets\nIn Class\nSets\n\n\n\n\n\n\n\nF\nSep. 22\nLab: Logic, Boolean Algebra, and Circuit Design\n\n\n\n\n\nWe introduce boolean logic and use the sum-of-products algorithm for computing binary functions.\n\n\n\nLearning Objectives\nSets and Logic\n\nPrep\nIntroducing Boolean Algebra\nIn Class\nLab: Sum of Products\n\nDue\nLab: Truth Tables"
+    "text": "Week 2\n\n\n\n\n\n\n\n\n\n\n\n\n\nM\nSep. 18\nWorking with Symbolic Logic\n\n\n\n\n\nWe introduce formal manipulations of logical expressions and work with the many ways to manipulate conditional statements.\n\n\n\nLearning Objectives\nSets and Logic\n\nPrep\nConditionals and Friends\nIn Class\nConditionals and Friends\n\n\n\n\n\n\n\nW\nSep. 20\nSets and Set Operations\n\n\n\n\n\nSets, set-builder notation, operations on sets.\n\n\n\nLearning Objectives\nSets and Logic\n\nPrep\nSets\nIn Class\nSets\n\n\n\n\n\n\n\nF\nSep. 22\nLab 2: Logic, Boolean Algebra, and Circuits\n\n\n\n\n\nWe introduce boolean logic and use the sum-of-products algorithm for computing binary functions.\n\n\n\nLearning Objectives\nSets and Logic\n\nPrep\nIntroducing Boolean Algebra\nIn Class\nLab 2: Logic, Boolean Algebra, and Circuits\n\nDue\nLab 1: Technical Writing and Truth Tables"
   },
   {
     "objectID": "schedule.html#week-3",
     "href": "schedule.html#week-3",
     "title": "Schedule",
     "section": "Week 3",
-    "text": "Week 3\n\n\n\n\n\n\n\n\n\n\n\n\n\nM\nSep. 25\nQuantified Logic\n\n\n\n\n\nWe discuss quantification of propositions over sets and how to apply logical operations to symbolic quantifiers.\n\n\n\nLearning Objectives\nSets and Logic\n\nPrep\nTBD\nIn Class\nTBD\n\n\n\n\n\n\n\nW\nSep. 27\nDeduction\n\n\n\n\n\nWe discuss standard ways of deducing logical propositions from other logical propositions. Formal deduction will pave the way for more general forms of mathematical proof in the coming weeks.\n\n\n\nLearning Objectives\nSets and Logic\nProof\n\nPrep\nTBD\nIn Class\nTBD\n\n\n\n\n\n\n\nF\nSep. 29\nQuiz 1\n\n\n\n\n\nThe first of four quizzes in which students have an opportunity to complete Learning Targets. This quiz includes targets LS1, LS2, and LS3.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Week 3\n\n\n\n\n\n\n\n\n\n\n\n\n\nM\nSep. 25\nQuantified Logic\n\n\n\n\n\nWe discuss quantification of propositions over sets and how to apply logical operations to symbolic quantifiers.\n\n\n\nLearning Objectives\nSets and Logic\n\nPrep\nTBD\nIn Class\nTBD\n\n\n\n\n\n\n\nW\nSep. 27\nDeduction\n\n\n\n\n\nWe discuss standard ways of deducing logical propositions from other logical propositions. Formal deduction will pave the way for more general forms of mathematical proof in the coming weeks.\n\n\n\nLearning Objectives\nSets and Logic\nProof\n\nPrep\nTBD\nIn Class\nTBD\n\n\n\n\n\n\n\nF\nSep. 29\nQuiz 1\n\n\n\n\n\nThe first of four quizzes in which students have an opportunity to complete Learning Targets. This quiz includes targets LS1, LS2, and LS3.\n\n\n\n\n\n\nDue\nLab 2: Logic, Boolean Algebra, and Circuits"
+  },
+  {
+    "objectID": "schedule.html#week-4",
+    "href": "schedule.html#week-4",
+    "title": "Schedule",
+    "section": "Week 4",
+    "text": "Week 4\n\n\n\n\n\n\n\n\n\n\n\n\n\nM\nOct. 02\nDirect Proofs\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nW\nOct. 04\nIndirect Proofs\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\nOct. 06\nLab 3: TBD\n\n\n\n\n\n\n\n\n\n\n\nIn Class\nLab 3: TBD"
+  },
+  {
+    "objectID": "schedule.html#week-5",
+    "href": "schedule.html#week-5",
+    "title": "Schedule",
+    "section": "Week 5",
+    "text": "Week 5\n\n\n\n\n\n\n\n\n\n\n\n\n\nM\nOct. 09\nInduction\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nW\nOct. 11\nStrong Induction\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\nOct. 13\nNo Class: Midterm Recess\n\n\n\n\n\n\n\n\n\n\n\n\nDue\nLab 3: TBD"
+  },
+  {
+    "objectID": "schedule.html#week-6",
+    "href": "schedule.html#week-6",
+    "title": "Schedule",
+    "section": "Week 6",
+    "text": "Week 6\n\n\n\n\n\n\n\n\n\n\n\n\n\nM\nOct. 16\nRelations\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nW\nOct. 18\nFunctions\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\nOct. 20\nQuiz 2\n\n\n\n\n\n\n\n\n\n\n\n\nDue\nLab 3: TBD"
+  },
+  {
+    "objectID": "schedule.html#week-7",
+    "href": "schedule.html#week-7",
+    "title": "Schedule",
+    "section": "Week 7",
+    "text": "Week 7\n\n\n\n\n\n\n\n\n\n\n\n\n\nM\nOct. 23\nCounting\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nW\nOct. 25\nCounting\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\nOct. 27\nLab 4: TBD\n\n\n\n\n\n\n\n\n\n\n\n\nDue\nLab 3: TBD"
+  },
+  {
+    "objectID": "schedule.html#week-8",
+    "href": "schedule.html#week-8",
+    "title": "Schedule",
+    "section": "Week 8",
+    "text": "Week 8\n\n\n\n\n\n\n\n\n\n\n\n\n\nM\nOct. 30\nRecursion\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nW\nNov. 01\nRecursion\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\nNov. 03\nLab 5: TBD\n\n\n\n\n\n\n\n\n\n\n\n\nDue\nLab 4: TBD"
+  },
+  {
+    "objectID": "schedule.html#week-9",
+    "href": "schedule.html#week-9",
+    "title": "Schedule",
+    "section": "Week 9",
+    "text": "Week 9\n\n\n\n\n\n\n\n\n\n\n\n\n\nM\nNov. 06\nAsymptotics and Big-Oh\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nW\nNov. 08\nFlex\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\nNov. 10\nQuiz 3\n\n\n\n\n\n\n\n\n\n\n\n\nDue\nLab 5: TBD"
+  },
+  {
+    "objectID": "schedule.html#week-10",
+    "href": "schedule.html#week-10",
+    "title": "Schedule",
+    "section": "Week 10",
+    "text": "Week 10\n\n\n\n\n\n\n\n\n\n\n\n\n\nM\nNov. 13\nGraphs\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nW\nNov. 15\nGraphs\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\nNov. 17\nLab 6: TBD"
+  },
+  {
+    "objectID": "schedule.html#week-11",
+    "href": "schedule.html#week-11",
+    "title": "Schedule",
+    "section": "Week 11",
+    "text": "Week 11\n\n\n\n\n\n\n\n\n\n\n\n\n\nM\nNov. 27\nProbability\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nW\nNov. 29\nProbability\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\nDec. 01\nLab 7: TBD\n\n\n\n\n\n\n\n\n\n\n\n\nDue\nLab 6: TBD"
+  },
+  {
+    "objectID": "schedule.html#week-12",
+    "href": "schedule.html#week-12",
+    "title": "Schedule",
+    "section": "Week 12",
+    "text": "Week 12\n\n\n\n\n\n\n\n\n\n\n\n\n\nM\nDec. 04\nProbability\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nW\nDec. 06\nProbability\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\nDec. 08\nQuiz 4\n\n\n\n\n\n\n\n\n\n\n\n\nDue\nLab 7: TBD"
+  },
+  {
+    "objectID": "schedule.html#week-13",
+    "href": "schedule.html#week-13",
+    "title": "Schedule",
+    "section": "Week 13",
+    "text": "Week 13\n\n\n\n\n\n\n\n\n\n\n\n\n\nM\nDec. 11\nFlex, Review\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "schedule.html#final-exam",
@@ -46,7 +116,7 @@
     "href": "pages/learning-targets.html",
     "title": "Learning Targets",
     "section": "",
-    "text": "Targets LS1-3 are introduced on Quiz 1. Targets PF1, PF2, and FR1 are introduced on Quiz 2. Targets CR1-3 are introduced on Quiz 3. Targets G1, P1, and P2 are introduced on Quiz 4.\nLogic and Sets \n\nLS1: I can simplify and evaluate logical expressions that include quantifiers and boolean operations.\nLS2: I can represent sets in set-builder notation; determine whether an object is an element of a set; and prove that one set is equal to or a subset of another.\nLS3: I can perform operations on sets (intersection, union, complement, difference, Cartesian product) and determine the cardinality of a set.\n\nProofs \n\nPF1: I can use proof-by-contradiction to prove mathematical statements.\nPF2: I can choose between weak and strong induction and write correct inductive proofs that include both a base case and an inductive step.\n\nFunctions and Relations\n\nFR1: I can determine whether or not a given relation is an equivalence relation.\n\nCounting and Recursion\n\nCR1: I can use the principles of addition, multiplication, and inclusion-exclusion to solve counting problems.\nCR2: I can use permutations and combinations to count the number of candidate solutions to a given problem.\nCR3: I can prove that a recurrence relation describes a simple algorithm’s runtime and use this relation to determine the big-oh asymptotic runtime.\n\nGraphs\n\nG1: I can write correct proofs of simple mathematical propositions about the structure of graphs.\n\nProbability\n\nP1: I can evaluate marginal, joint, and conditional probabilities of events on discrete sample spaces.\nP2: I can evaluate expectations and conditional expectations of random variables on discrete sample spaces.\n\n\n\n\n  © Phil Chodrow, 2023"
+    "text": "Targets LS1-3 are introduced on Quiz 1. Targets PF1, PF2, and FR1 are introduced on Quiz 2. Targets CR1-3 are introduced on Quiz 3. Targets G1, P1, and P2 are introduced on Quiz 4.\nLogic and Sets \n\nLS1: I can simplify and evaluate logical expressions that include quantifiers and boolean operations.\nLS2: I can represent sets in set-builder notation; determine whether an object is an element of a set; and prove that one set is equal to or a subset of another.\nLS3: I can perform operations on sets (intersection, union, complement, difference, Cartesian product) and determine the cardinality of a set.\n\nProofs \n\nPF1: I can use proof-by-contradiction to prove mathematical statements.\nPF2: I can choose between weak and strong induction and write correct inductive proofs that include both a base case and an inductive step.\n\nFunctions and Relations\n\nFR1: I can determine whether or not a given relation is an equivalence relation.\n\nCounting and Recursion\n\nCR1: I can use the principles of addition, multiplication, and inclusion-exclusion to solve counting problems.\nCR2: I can use permutations and combinations to count the number of candidate solutions to a given problem.\nCR3: I can prove that a recurrence relation describes a simple algorithm’s runtime and use this relation to determine the big-oh asymptotic runtime.\n\nGraphs\n\nG1: I can write correct proofs of simple mathematical propositions about the structure of graphs.\n\nProbability\n\nPR1: I can evaluate marginal, joint, and conditional probabilities of events on discrete sample spaces.\nPR2: I can evaluate expectations and conditional expectations of random variables on discrete sample spaces.\n\n\n\n\n  © Phil Chodrow, 2023"
   },
   {
     "objectID": "pages/llms.html",
@@ -102,7 +172,7 @@
     "href": "syllabus.html#your-final-grade",
     "title": "Syllabus",
     "section": "Your Final Grade",
-    "text": "Your Final Grade\nYour final grade in the course will be determined by the bundle of Learning Targets and Lab assessments you achieve by the end of the course, according to the following table. To earn the given grade, you need to meet all requirements for both Learning Targets and Labs. Here’s a version of this table with checkboxes that you can use to track your progress in the course.\n\n\n\n\n\n\n\n\nTier\nLearning Targets(out of 12)\nLabs (out of 8)\n\n\n\n\nA\nAt least 11\n\nNo Ns or Rs\nAt least 4 Es\nRemainder Ms\n\n\n\nB\nAt least 8\n\nNo Ns or Rs\nAt least 2 Es\nRemainder Ms\n\n\n\nC\nAt least 6\n\nNo Ns\nAt least 6 Ms or Es\nRemainder Rs\n\n\n\n\nI reserve the right to modify this table, but only in ways that make it easier to achieve each grade tier.\n\nPartial Completion\nWhen you completely meet both requirements for one tier and completely meet one requirement for a higher tier, you earn the “-” version of the next higher tier grade. For example, you may completely meet the requirements of a B on Learning Targets and completely meet the requirements of an A on Labs. In this case, you earn a minus grade for the higher tier: an A-.\n\n\n\n\n\n\nIf you fully meet the requirements for the C tier and meet the requirements of the A tier for either Learning Targets or Labs (but not both), then you are considered to have partially met the requirements of the B tier. In this case, your final grade would be a B-.\n\n\n\n\n\nAssessment of Warmups\nYou can miss at most three warmups without penalty. After the first three missing warmups, your grade will lower by 1/3 of a letter grade for every two missing warmups. For example, an A would become an A-, a B+ would become a B, a B- would become a C+, etc.\n\n\nIn more detail, the penalties are:\n\n0-3 missing warmups: -0\n4-5 missing warmups: -1/3\n6-7 missing warmups: -2/3\n8-9 missing warmups: -1\netc."
+    "text": "Your Final Grade\nYour final grade in the course will be determined by the bundle of Learning Targets and Lab assessments you achieve by the end of the course, according to the following table. To earn the given grade, you need to meet all requirements for both Learning Targets and Labs. Here’s a version of this table with checkboxes that you can use to track your progress in the course.\n\n\n\n\n\n\n\n\nTier\nLearning Targets(out of 12)\nLabs (out of 7)\n\n\n\n\nA\nAt least 11\n\nNo Ns or Rs\nAt least 4 Es\nRemainder Ms\n\n\n\nB\nAt least 8\n\nNo Ns or Rs\nAt least 2 Es\nRemainder Ms\n\n\n\nC\nAt least 6\n\nNo Ns\nAt least 5 Ms or Es\nRemainder Rs\n\n\n\n\nI reserve the right to modify this table, but only in ways that make it easier to achieve each grade tier.\n\nPartial Completion\nWhen you completely meet both requirements for one tier and completely meet one requirement for a higher tier, you earn the “-” version of the next higher tier grade. For example, you may completely meet the requirements of a B on Learning Targets and completely meet the requirements of an A on Labs. In this case, you earn a minus grade for the higher tier: an A-.\n\n\n\n\n\n\nIf you fully meet the requirements for the C tier and meet the requirements of the A tier for either Learning Targets or Labs (but not both), then you are considered to have partially met the requirements of the B tier. In this case, your final grade would be a B-.\n\n\n\n\n\nAssessment of Warmups\nYou can miss at most three warmups without penalty. After the first three missing warmups, your grade will lower by 1/3 of a letter grade for every two missing warmups. For example, an A would become an A-, a B+ would become a B, a B- would become a C+, etc.\n\n\nIn more detail, the penalties are:\n\n0-3 missing warmups: -0\n4-5 missing warmups: -1/3\n6-7 missing warmups: -2/3\n8-9 missing warmups: -1\netc."
   },
   {
     "objectID": "syllabus.html#disabilities-and-clearing-barriers",
@@ -189,6 +259,216 @@
     "text": "Video (~15 mins)\n\nBoolean Algebra in 13 Mins (12:56)\n\n\n\nReading (~20 mins)\nThis reading is pretty dense and it’s ok to skim as long as you’re ready for the warmup problems.\n\nRosen, p. 811-815\n\n\n\nWarmup Problems (~15 mins)\nPlease complete these problems with a pencil/pen and paper. Then, scan/photograph your solutions and upload them to Canvas.\n\nHow is Boolean algebra different from propositional logic? How is it similar?\nHere’s an expression, translate it into Boolean logic (3 variables).\nHere’s an expression, simplify it as much as you can (down to a specified minimum) (3 variables).\n\n\n\n\n\n  © Phil Chodrow, 2023"
   },
   {
+    "objectID": "content/modules/01-math-and-me/in-class.html",
+    "href": "content/modules/01-math-and-me/in-class.html",
+    "title": "In Class: Mathematics and Me",
+    "section": "",
+    "text": "Here is the warmup for today’s class period.\n© Phil Chodrow, 2023"
+  },
+  {
+    "objectID": "content/modules/01-math-and-me/in-class.html#syllabus-review-calculating-final-grades",
+    "href": "content/modules/01-math-and-me/in-class.html#syllabus-review-calculating-final-grades",
+    "title": "In Class: Mathematics and Me",
+    "section": "Syllabus Review: Calculating Final Grades",
+    "text": "Syllabus Review: Calculating Final Grades\nIn this activity, we’ll practice using this checklist to calculate final grades in several scenarios."
+  },
+  {
+    "objectID": "content/modules/01-math-and-me/in-class.html#discussion",
+    "href": "content/modules/01-math-and-me/in-class.html#discussion",
+    "title": "In Class: Mathematics and Me",
+    "section": "Discussion",
+    "text": "Discussion\nWhat’s something you are better at than most people?\nWere you ever not good at it?\nHow did you get good at it?"
+  },
+  {
+    "objectID": "content/modules/01-math-and-me/in-class.html#examples-mathematical-writing",
+    "href": "content/modules/01-math-and-me/in-class.html#examples-mathematical-writing",
+    "title": "In Class: Mathematics and Me",
+    "section": "Examples: Mathematical Writing",
+    "text": "Examples: Mathematical Writing\nMathematical writing is something we’ll be doing a lot of in this course, and we’re about to start with it in our upcoming warmup and lab assignment. Let’s compare and contrast two examples of mathematical writing.\n\nProve that the sum of two even integers is also even.\n\n\nSolution 1\n\\(2i + 2j = 2(i + j)\\)\n\n\nSolution 2\n\nProposition 1 (Sum of Even Integers is Even) Let \\(m\\) and \\(n\\) be any two even integers. Then, \\(m+n\\) is also an even integer.\n\n\nProof. Let \\(m\\) and \\(n\\) be any two even integers. Then, there is some integer \\(i\\) such that \\(m = 2i\\), and similarly there is some integer \\(j\\) such that \\(n = 2j\\). We can then write\n\\[\nm + n = 2i + 2j = 2(i + j)\\;.\n\\]\nThe second equality follows from the distributive law of multiplication. Therefore, \\(m+n\\) can be written in the form \\(2k\\) for the choice \\(k = i+j\\). Therefore, \\(m+n\\) is an integer, as was to be shown."
+  },
+  {
+    "objectID": "content/modules/01-math-and-me/in-class.html#exercise",
+    "href": "content/modules/01-math-and-me/in-class.html#exercise",
+    "title": "In Class: Mathematics and Me",
+    "section": "Exercise",
+    "text": "Exercise\nDraft a proof, similar to the one above, that the sum of two odd integers is also even. It’s ok not to write out complete sentences, but use abbreviations that would help remind you which sentences to put where.\nSome of these tips are based off of the guide to Writing Mathematics Well by Francis Su at Harvey Mudd College."
+  },
+  {
+    "objectID": "content/modules/11-logic-2/in-class.html",
+    "href": "content/modules/11-logic-2/in-class.html",
+    "title": "In Class: Implication, Inverse, and Contrapositive",
+    "section": "",
+    "text": "© Phil Chodrow, 2023"
+  },
+  {
+    "objectID": "content/problems/sets/set-builder-1.html",
+    "href": "content/problems/sets/set-builder-1.html",
+    "title": "",
+    "section": "",
+    "text": "Write the following sets by listing their elements between braces:\n\n\\(\\left\\{ x \\in \\mathbb{Z} \\; : x^2 \\leq 10 \\right\\}\\)\n\\(\\left\\{ x \\in \\mathbb{Z} \\; : x \\leq 10 \\right\\} \\cap \\left\\{ x \\in \\mathbb{Z} \\; : x \\text{ is a prime number.} \\right\\}\\)\n\\(\\left\\{ x \\in \\mathbb{Z} \\; : x/2 \\geq 10 \\right\\} \\cap \\left\\{ x \\in \\mathbb{Z} \\; : 5x &lt; 100 \\right\\}\\)\n\n\n\n\n  © Phil Chodrow, 2023"
+  },
+  {
+    "objectID": "content/problems/sets/subset-inclusion-1.html",
+    "href": "content/problems/sets/subset-inclusion-1.html",
+    "title": "",
+    "section": "",
+    "text": "Let \\(A = \\{2^{x+1} \\; : \\; x \\in \\mathbb{N}\\}\\) and let \\(B = \\{2y \\; :\\; y \\in \\mathbb{Z}\\}\\).\n© Phil Chodrow, 2023"
+  },
+  {
+    "objectID": "content/problems/sets/subset-inclusion-1.html#part-a",
+    "href": "content/problems/sets/subset-inclusion-1.html#part-a",
+    "title": "",
+    "section": "Part A",
+    "text": "Part A\nUse the element method to write a proof that \\(A \\subseteq B\\)."
+  },
+  {
+    "objectID": "content/problems/sets/subset-inclusion-1.html#part-b",
+    "href": "content/problems/sets/subset-inclusion-1.html#part-b",
+    "title": "",
+    "section": "Part B",
+    "text": "Part B\nWould your proof still work if we defined \\(A = \\{2^{x} \\; : \\; x \\in \\mathbb{N}\\}\\)? Why or why not?"
+  },
+  {
+    "objectID": "content/problems/logic/implications-3.html",
+    "href": "content/problems/logic/implications-3.html",
+    "title": "",
+    "section": "",
+    "text": "We often write the biconditional “if and only if” as \\(p \\leftrightarrow q\\). Make a truth table for \\(p \\leftrightarrow q\\) by making a detailed truth table for its exapnded form, \\((p \\rightarrow q) \\land (q \\rightarrow p)\\).\n\n\n\n  © Phil Chodrow, 2023"
+  },
+  {
+    "objectID": "content/problems/logic/implications-1.html",
+    "href": "content/problems/logic/implications-1.html",
+    "title": "",
+    "section": "",
+    "text": "Consider the expression \\(\\lnot P \\land (Q \\rightarrow P)\\).\nUse logical equivalences to simplify this expression until it does not contain \\(P\\) anymore. If you knew this expression was true, what could you conclude about \\(Q\\)?\nHint: Get everything in terms of \\(\\land\\) and \\(\\lnot\\) and then use the following two rules of logical equivalence:\n\n\\(A \\land (B \\land C) = (A \\land C) \\land B\\).\n\\(A \\land \\lnot A = \\mathrm{F}\\), i.e. \\(A \\land \\lnot A\\) is a logical contradiction.\n\n\n\n\n  © Phil Chodrow, 2023"
+  },
+  {
+    "objectID": "content/problems/logic/python-to-logic-1.html",
+    "href": "content/problems/logic/python-to-logic-1.html",
+    "title": "",
+    "section": "",
+    "text": "Your friend tells you about a cool function they wrote in Python. Their function accepts 3 boolean arguments and returns a boolean return value.\n\ndef f(p, q, r):\n    \"\"\"\n    p, q, and r are assumed to be booleans. \n    returns: boolean\n    \"\"\"\n    \n    a = p and q\n    b = not (q or r)\n    c = a and b\n    \n    return c\n\nPart A\nWrite a logical expression in terms of \\(p\\), \\(q\\), and \\(r\\) (using symbols like \\(\\lnot, \\lor, \\land\\)) which has the same value as the return value of your friend’s function f.\n\n\nPart B\nMake a truth table for your expression. Please show the values of a, b, and c in each line of your truth table.\nDo you notice anything strange about your truth table?\n\n\n\n\n  © Phil Chodrow, 2023"
+  },
+  {
+    "objectID": "assignments/labs/01-intro-and-truth-tables.html",
+    "href": "assignments/labs/01-intro-and-truth-tables.html",
+    "title": "Lab 1: Mathematical Writing and Truth Tables",
+    "section": "",
+    "text": "[Your name]\n[The name of one of your group members]\n[The name of your other group member]\nLearning Objectives:\nIn this lab, you’ll practice writing mathematical formulas using \\(\\LaTeX\\) syntax. You’ll also translate back and forth between logical mathematical expressions and Python code.\nNote: This lab is different! During lab time, I will usually expect you not to work on your laptops, and instead work on whiteboards. Today, because typing mathematics is part of the learning goal, I want to make sure you have some time to practice that in class.\n© Phil Chodrow, 2023"
+  },
+  {
+    "objectID": "assignments/labs/01-intro-and-truth-tables.html#exercise-1",
+    "href": "assignments/labs/01-intro-and-truth-tables.html#exercise-1",
+    "title": "Lab 1: Mathematical Writing and Truth Tables",
+    "section": "Exercise 1",
+    "text": "Exercise 1\nA group norm is a shared, mutually-agreed upon expectation to which all group members will be held. In this part of the activity, you’ll agree on several group norms and write them using Markdown formatting.\nFirst, you’re going to copy our core group norms. Make a new Markdown cell directly below this one. In that cell, use Markdown to replicate the following block of text\n\n[Make a new Markdown cell right below this note!]"
+  },
+  {
+    "objectID": "assignments/labs/01-intro-and-truth-tables.html#exercise-2",
+    "href": "assignments/labs/01-intro-and-truth-tables.html#exercise-2",
+    "title": "Lab 1: Mathematical Writing and Truth Tables",
+    "section": "Exercise 2",
+    "text": "Exercise 2\nNow, take 5 minutes to brainstorm at least 2 new group norms. Add them to your Markdown list above. You don’t need to copy your list down to this part."
+  },
+  {
+    "objectID": "assignments/labs/01-intro-and-truth-tables.html#exercise-3",
+    "href": "assignments/labs/01-intro-and-truth-tables.html#exercise-3",
+    "title": "Lab 1: Mathematical Writing and Truth Tables",
+    "section": "Exercise 3",
+    "text": "Exercise 3\nConsider the sentence “Either it will not rain or it will snow.”\n\nLet \\(p\\) be the proposition that it will rain.\nLet \\(q\\) be the proposition that it will snow.\n\nIn the markdown cell below, use math commands to write this sentence in logical symbols. You may wish to use the symbols \\lor, \\land, and \\lnot.\n[Your solution here!]"
+  },
+  {
+    "objectID": "assignments/labs/01-intro-and-truth-tables.html#exercise-4",
+    "href": "assignments/labs/01-intro-and-truth-tables.html#exercise-4",
+    "title": "Lab 1: Mathematical Writing and Truth Tables",
+    "section": "Exercise 4",
+    "text": "Exercise 4\nMake truth tables for the following two expressions:\n\n\\(\\lnot (p \\land q)\\)\n\\(\\lnot p \\lor \\lnot q\\)\n\nIt’s ok to write your truth tables “casually” using Markdown, but you can also structure them as tables using special Markdown syntax. Double click into this markdown cell to see how I created the beginnings of a truth table:\n\n\n\n\\(p\\)\n\\(q\\)\n\\(p \\land q\\)\n\n\n\n\nT\nT\n?\n\n\nT\nF\n?\n\n\n\n[your truth tables here!]"
+  },
+  {
+    "objectID": "assignments/labs/01-intro-and-truth-tables.html#exercise-5",
+    "href": "assignments/labs/01-intro-and-truth-tables.html#exercise-5",
+    "title": "Lab 1: Mathematical Writing and Truth Tables",
+    "section": "Exercise 5",
+    "text": "Exercise 5\nWrite Python functions which implement the following logical operations. For each one, use the truth_table function above to display the truth table of the logical expression:\n\n\\(\\lnot p \\lor q\\)\n\\(p \\lor (q \\land \\lnot p) \\lor \\lnot p\\)\n\\(\\lnot p \\land q\\)\n\\(\\lnot (p \\land \\lnot q)\\)\n\nTwo logical expressions are logically equivalent if they have exactly the same truth table. Which of these expressions are logically equivalent to which other expressions?\nNote: You will want to use Python constructions like:\n\np and q\nnot p\np or q\n\n\n# Exercise 5.1: implement your function and call truth_table to display\n\n\n# Exercise 5.2: implement your function and call truth_table to display\n\n\n# Exercise 5.3: implement your function and call truth_table to display\n\n\n# Exercise 5.4: implement your function and call truth_table to display\n\nExercise 5.5: which of these expressions are logically equivalent to which other expressions?\n[your response here]"
+  },
+  {
+    "objectID": "assignments/labs/01-intro-and-truth-tables.html#exercise-6",
+    "href": "assignments/labs/01-intro-and-truth-tables.html#exercise-6",
+    "title": "Lab 1: Mathematical Writing and Truth Tables",
+    "section": "Exercise 6",
+    "text": "Exercise 6\nHere are two Python functions that implement a logical operation with three arguments. For each one, write down the logical operation performed, using the symbols \\(\\lnot\\), \\(\\lor\\), and \\(\\land\\). Then, answer the following questions:\n\nWhich function do you find easier to read as code, and why?\nWhich function do you find easier to transcribe into logical symbols, and why?\n\nYou don’t have to construct truth tables for these functions, although you’re welcome to.\n\ndef f_1(p, q, r):\n    a = p and q \n    b = r or q \n    c = not (a or b)\n    return c \n\ndef f_2(p, q, r): \n    return (p and q) or ((r or p) and (r or q))\n\nA logical expression describing f_1 is:\n[your logical expression here]\nA logical expression describing f_2 is:\n[your logical expression here]\nWhich function do you find easier to read as code, and why?\n[your response here]\nWhich function do you find easier to transcribe into logical symbols, and why?\n[your response here]"
+  },
+  {
+    "objectID": "content/problems/logic/truth-tables-1.html",
+    "href": "content/problems/logic/truth-tables-1.html",
+    "title": "",
+    "section": "",
+    "text": "Part A\nCreate truth tables for each of the three logical expressions:\n\n\\((r \\lor p) \\land q\\)\n\\((r \\lor p) \\land (r \\lor q)\\)\n\\(r \\lor (p \\land q)\\)\n\n\n\nPart B\nTwo of these expressions are logically equivalent: no matter the truth values of \\(r\\), \\(p\\), and \\(q\\), the two expressions always evaluate to the same final truth value. Which are the two equivalent expressions?\n\n\n\n\n  © Phil Chodrow, 2023"
+  },
+  {
+    "objectID": "content/problems/logic/implications-2.html",
+    "href": "content/problems/logic/implications-2.html",
+    "title": "",
+    "section": "",
+    "text": "Consider the following propositions:\n\n\\(P\\): I achieved a Satisfactory (S) assessment on at least 11 Learning Targets.\n\\(Q\\): I received an E on at least 4 Lab assignments.\n\\(R\\): I had an N or an R on at least one Lab assignment by the end of the semester.\n\\(S\\): I missed 4 or more warmups.\n\\(T\\): I earned an A in CSCI 0200.\n\nConstruct a correct logical statement using \\(\\lnot\\), \\(\\lor\\), \\(\\land\\), and/or \\(\\rightarrow\\) to describe the relationship between these five propositions.\n\n\n\n  © Phil Chodrow, 2023"
+  },
+  {
+    "objectID": "content/problems/sets/venn-diagram-1.html",
+    "href": "content/problems/sets/venn-diagram-1.html",
+    "title": "",
+    "section": "",
+    "text": "Draw a Venn diagram to represent the set\n\\[(A \\cap B \\cap \\overline{C}) \\cup (A \\cap \\overline{B} \\cap C) \\cup (\\overline{A}\\cap \\overline{B} \\cap C)\\]\nThen, use your Venn diagram find an alternative expression that represents the same set.\n\n\n\n  © Phil Chodrow, 2023"
+  },
+  {
+    "objectID": "content/problems/sets/set-builder-2.html",
+    "href": "content/problems/sets/set-builder-2.html",
+    "title": "",
+    "section": "",
+    "text": "Write each of the following sets in set-builder notation. There may be several correct ways.\n\n\n\\(\\left\\{ 2, 4, 8, 16, 32, 64,\\ldots \\right\\}\\) \n\\(\\left\\{ 3, 4, 5, 6, 7, 8 \\right\\}\\)\n\\(\\left\\{ 0, 3, 6, 9, 12, 15 \\right\\}\\)\n\n\n\n\n  © Phil Chodrow, 2023"
+  },
+  {
+    "objectID": "content/problems/sets/inclusion-exclusion.html",
+    "href": "content/problems/sets/inclusion-exclusion.html",
+    "title": "",
+    "section": "",
+    "text": "Your excited friend tells you about this cool “fact” that they learned in their structural engineering course, Computing Mathematics of Foundations. Their “fact” is:\nFor any two sets \\(A\\) and \\(B\\), \\[\n\\lvert A \\setminus B \\rvert = \\lvert A \\rvert - \\lvert B \\rvert\\;.\n\\tag{1}\\]\n“How cool,” you say, while politely smiling.\n\nPart A\nGive an example of sets \\(A\\) and \\(B\\) such that Equation 1 is true.\n(Your friend grins.)\n\n\nPart B\nGive an example of sets \\(A\\) and \\(B\\) such that Equation 1 is not true.\n(Your friend groans. Maybe they should have taken CSCI 0200 instead…)\n\n\nPart C\nDerive a correct formula for \\(\\lvert A \\setminus B \\rvert\\). For your final formula, please use only the set complement operator \\(\\bar{B}\\) and the set union operator \\(\\cup\\), but not the set intersection operator \\(\\cap\\). You may also use arithmetic operations like addition, multiplication, and subtraction. Justify each of your steps.\n\n\n\n\n  © Phil Chodrow, 2023"
+  },
+  {
+    "objectID": "content/modules/11-logic-2/prep.html",
+    "href": "content/modules/11-logic-2/prep.html",
+    "title": "Implication, Inverse, Converse, and Contrapositive",
+    "section": "",
+    "text": "As we enter the second week, we are going to pick up the pace on introducing videos, readings, and warmup problems.\n© Phil Chodrow, 2023"
+  },
+  {
+    "objectID": "content/modules/11-logic-2/prep.html#optional-reading",
+    "href": "content/modules/11-logic-2/prep.html#optional-reading",
+    "title": "Implication, Inverse, Converse, and Contrapositive",
+    "section": "Optional Reading",
+    "text": "Optional Reading\n\nBOP 2.3-2.6"
+  },
+  {
+    "objectID": "content/modules/11-logic-2/prep.html#problem-1",
+    "href": "content/modules/11-logic-2/prep.html#problem-1",
+    "title": "Implication, Inverse, Converse, and Contrapositive",
+    "section": "Problem 1",
+    "text": "Problem 1\nConsider the following propositions:\n\n\\(P\\): I achieved a Satisfactory (S) assessment on at least 11 Learning Targets.\n\\(Q\\): I received an E on at least 4 Lab assignments.\n\\(R\\): I had an N or an R on at least one Lab assignment by the end of the semester.\n\\(S\\): I missed 4 or more warmups.\n\\(T\\): I earned an A in CSCI 0200.\n\nConstruct a correct logical statement using \\(\\lnot\\), \\(\\lor\\), \\(\\land\\), and/or \\(\\rightarrow\\) to describe the relationship between these five propositions."
+  },
+  {
+    "objectID": "content/modules/11-logic-2/prep.html#problem-2",
+    "href": "content/modules/11-logic-2/prep.html#problem-2",
+    "title": "Implication, Inverse, Converse, and Contrapositive",
+    "section": "Problem 2",
+    "text": "Problem 2\nConsider the expression \\(\\lnot P \\land (Q \\rightarrow P)\\).\nUse logical equivalences to simplify this expression until it does not contain \\(P\\) anymore. If you knew this expression was true, what could you conclude about \\(Q\\)?\nHint: Get everything in terms of \\(\\land\\) and \\(\\lnot\\) and then use the following two rules of logical equivalence:\n\n\\(A \\land (B \\land C) = (A \\land C) \\land B\\).\n\\(A \\land \\lnot A = \\mathrm{F}\\), i.e. \\(A \\land \\lnot A\\) is a logical contradiction."
+  },
+  {
+    "objectID": "content/modules/11-logic-2/prep.html#problem-3",
+    "href": "content/modules/11-logic-2/prep.html#problem-3",
+    "title": "Implication, Inverse, Converse, and Contrapositive",
+    "section": "Problem 3",
+    "text": "Problem 3\nWe often write the biconditional “if and only if” as \\(p \\leftrightarrow q\\). Make a truth table for \\(p \\leftrightarrow q\\) by making a detailed truth table for its exapnded form, \\((p \\rightarrow q) \\land (q \\rightarrow p)\\)."
+  },
+  {
     "objectID": "content/modules/01-math-and-me/prep.html",
     "href": "content/modules/01-math-and-me/prep.html",
     "title": "Math Autobiography",
@@ -210,41 +490,6 @@
     "text": "Specifications\nFormat: You can prepare your math autobiography using any software you wish, but you must submit it as a PDF file on Canvas. If you like using word processors, the simplest way to achieve this is to Print as PDF.\nLength: Your math autobiography should show reflection on your experiences. If you’re only writing few paragraphs, there’s more for you to think about. More than a (single-spaced) page probably isn’t necessary. If you find yourself spending more than 90 minutes on this assignment, wrap up your current sentence and submit your autobiography.\nGrading: This is our first warmup assignment. Per the syllabus, warmup assignments are graded Complete or Incomplete/Missing. For Complete, you just need to spend some careful time thinking and writing. Typos, grammar mistakes, etc. are not an issue on this assignment.\nSubmission: Please submit your math autobiography on Canvas."
   },
   {
-    "objectID": "content/modules/11-logic-2/prep.html",
-    "href": "content/modules/11-logic-2/prep.html",
-    "title": "Implication, Inverse, Converse, and Contrapositive",
-    "section": "",
-    "text": "As we enter the second week, we are going to pick up the pace on introducing videos, readings, and warmup problems.\n© Phil Chodrow, 2023"
-  },
-  {
-    "objectID": "content/modules/11-logic-2/prep.html#optional-reading",
-    "href": "content/modules/11-logic-2/prep.html#optional-reading",
-    "title": "Implication, Inverse, Converse, and Contrapositive",
-    "section": "Optional Reading",
-    "text": "Optional Reading\n\nBOP 2.3-2.6"
-  },
-  {
-    "objectID": "content/problems/logic/truth-tables-1.html",
-    "href": "content/problems/logic/truth-tables-1.html",
-    "title": "",
-    "section": "",
-    "text": "Part A\nCreate truth tables for each of the three logical expressions:\n\n\\((r \\lor p) \\land q\\)\n\\((r \\lor p) \\land (r \\lor q)\\)\n\\(r \\lor (p \\land q)\\)\n\n\n\nPart B\nTwo of these expressions are logically equivalent: no matter the truth values of \\(r\\), \\(p\\), and \\(q\\), the two expressions always evaluate to the same final truth value. Which are the two equivalent expressions?\n\n\n\n\n  © Phil Chodrow, 2023"
-  },
-  {
-    "objectID": "content/problems/logic/python-to-logic-1.html",
-    "href": "content/problems/logic/python-to-logic-1.html",
-    "title": "",
-    "section": "",
-    "text": "Your friend tells you about a cool function they wrote in Python. Their function accepts 3 boolean arguments and returns a boolean return value.\n\ndef f(p, q, r):\n    \"\"\"\n    p, q, and r are assumed to be booleans. \n    returns: boolean\n    \"\"\"\n    \n    a = p and q\n    b = not (q or r)\n    c = a and b\n    \n    return c\n\nPart A\nWrite a logical expression in terms of \\(p\\), \\(q\\), and \\(r\\) (using symbols like \\(\\lnot, \\lor, \\land\\)) which has the same value as the return value of your friend’s function f.\n\n\nPart B\nMake a truth table for your expression. Please show the values of a, b, and c in each line of your truth table.\nDo you notice anything strange about your truth table?\n\n\n\n\n  © Phil Chodrow, 2023"
-  },
-  {
-    "objectID": "content/modules/11-logic-2/in-class.html",
-    "href": "content/modules/11-logic-2/in-class.html",
-    "title": "In Class: Implication, Inverse, and Contrapositive",
-    "section": "",
-    "text": "© Phil Chodrow, 2023"
-  },
-  {
     "objectID": "content/modules/00-intro/in-class.html",
     "href": "content/modules/00-intro/in-class.html",
     "title": "Welcome to CSCI 0200!",
@@ -256,7 +501,7 @@
     "href": "content/modules/12-sets/prep.html",
     "title": "Sets and Set Operations",
     "section": "",
-    "text": "Intro to Sets (7:12)\nSet Roster vs. Set Builder Notation (5:15)\nThe Empty Set (4:07)\nCartesian Product (7:10)\nUnion of Two Sets (5:07)\nIntersection of Two Sets (5:47)\n© Phil Chodrow, 2023"
+    "text": "Intro to Sets (7:12)\nSet Roster vs. Set Builder Notation (5:15)\nThe Empty Set (4:07)\nCartesian Product (7:10)\nUnion of Two Sets (5:07)\nIntersection of Two Sets (5:47)\nProving Subset Relationships with the Element Method (6:35)\n© Phil Chodrow, 2023"
   },
   {
     "objectID": "content/modules/12-sets/prep.html#optional-reading",
@@ -264,6 +509,41 @@
     "title": "Sets and Set Operations",
     "section": "Optional Reading",
     "text": "Optional Reading\nThis is a slightly more advanced reading that may appeal to you if you want to see more theoretical math examples.\n\nBOP 1.1, 1.4-1.7"
+  },
+  {
+    "objectID": "content/modules/12-sets/prep.html#problem-1",
+    "href": "content/modules/12-sets/prep.html#problem-1",
+    "title": "Sets and Set Operations",
+    "section": "Problem 1",
+    "text": "Problem 1\nWrite the following sets by listing their elements between braces:\n\n\\(\\left\\{ x \\in \\mathbb{Z} \\; : x^2 \\leq 10 \\right\\}\\)\n\\(\\left\\{ x \\in \\mathbb{Z} \\; : x \\leq 10 \\right\\} \\cap \\left\\{ x \\in \\mathbb{Z} \\; : x \\text{ is a prime number.} \\right\\}\\)\n\\(\\left\\{ x \\in \\mathbb{Z} \\; : x/2 \\geq 10 \\right\\} \\cap \\left\\{ x \\in \\mathbb{Z} \\; : 5x &lt; 100 \\right\\}\\)"
+  },
+  {
+    "objectID": "content/modules/12-sets/prep.html#problem-2",
+    "href": "content/modules/12-sets/prep.html#problem-2",
+    "title": "Sets and Set Operations",
+    "section": "Problem 2",
+    "text": "Problem 2\nWrite each of the following sets in set-builder notation. There may be several correct ways.\n\n\n\\(\\left\\{ 2, 4, 8, 16, 32, 64,\\ldots \\right\\}\\) \n\\(\\left\\{ 3, 4, 5, 6, 7, 8 \\right\\}\\)\n\\(\\left\\{ 0, 3, 6, 9, 12, 15 \\right\\}\\)"
+  },
+  {
+    "objectID": "content/modules/12-sets/prep.html#problem-3",
+    "href": "content/modules/12-sets/prep.html#problem-3",
+    "title": "Sets and Set Operations",
+    "section": "Problem 3",
+    "text": "Problem 3\nLet \\(A = \\{2^{x+1} \\; : \\; x \\in \\mathbb{N}\\}\\) and let \\(B = \\{2y \\; :\\; y \\in \\mathbb{Z}\\}\\)."
+  },
+  {
+    "objectID": "content/modules/12-sets/prep.html#part-a",
+    "href": "content/modules/12-sets/prep.html#part-a",
+    "title": "Sets and Set Operations",
+    "section": "Part A",
+    "text": "Part A\nUse the element method to write a proof that \\(A \\subseteq B\\)."
+  },
+  {
+    "objectID": "content/modules/12-sets/prep.html#part-b",
+    "href": "content/modules/12-sets/prep.html#part-b",
+    "title": "Sets and Set Operations",
+    "section": "Part B",
+    "text": "Part B\nWould your proof still work if we defined \\(A = \\{2^{x} \\; : \\; x \\in \\mathbb{N}\\}\\)? Why or why not?"
   },
   {
     "objectID": "content/modules/10-logic-1/prep.html",
@@ -298,7 +578,7 @@
     "href": "pages/checkbox-table.html",
     "title": "Calculating Your Grade",
     "section": "",
-    "text": "Calculating Your Grade\nYou can use the table below to visualize your progress based on your quiz problems and the assignment feedback you’ve received. This table doesn’t take into account penalties for missing warmups.\nInstructions:\n\nCheck off Learning Targets as you go, starting from the bottom. For example, once you’ve checked off 6 learning targets you have filled the “C” row, and once you’ve checked off 8 learning targets you have filled the “B” row.\nCheck off Labs as you get receive feedback. When you receive an assessmment on a lab, you can check off that lab up to once in each grade tier. For example, if you receive an M, you can check off one box for “M or E” in each of Tiers A, B, and C. If you receive an E, you can check off one box for E in Tiers A and B, and one box for M or E in Tier C. R’s can only be used to check off boxes in the second row of Tier C.\n\nOnce all boxes in a row are checked, you have earned that grade in the course, provided that you have missed no more than 3 warmup activities.\n\n\n\n\n\n\n\n\nTier\nLearning Targets\nLabs\n\n\n\n\nA\n▢ ▢ ▢\nE: ▢ ▢ ▢ ▢ M or E: ▢ ▢ ▢ ▢\n\n\nB\n▢ ▢\nE: ▢ ▢ M or E: ▢ ▢ ▢ ▢ ▢ ▢\n\n\nC\n▢ ▢ ▢ ▢ ▢ ▢\nM or E: ▢ ▢ ▢ ▢ ▢ ▢  R, M, or E: ▢ ▢\n\n\n\n\n\n\n\nHere’s an example for a student who completed 9 learning targets, earned “Exemplary” on five labs, and earned “Meets Expectations” on three labs.\n\n\n\n\n\n\n\n\nTier\nLearning Targets\nLabs\n\n\n\n\nA\n▢ ▢ ☑\nE: ☑ ☑ ☑ ☑ M or E: ☑ ☑ ☑ ☑\n\n\nB\n☑ ☑\nE: ☑ ☑ M or E: ☑ ☑ ☑ ☑ ☑ ☑\n\n\nC\n☑ ☑ ☑ ☑ ☑ ☑\nM or E: ☑ ☑ ☑ ☑ ☑ ☑  R, M, or E: ☑ ☑\n\n\n\nThis student fully meets the requirements of a B and partially meets the requirements of an A, and therefore earns an A- (provided they have missed no more than 3 warmups).\n\n\n  © Phil Chodrow, 2023"
+    "text": "Calculating Your Grade\nYou can use the table below to visualize your progress based on your quiz problems and the assignment feedback you’ve received. This table doesn’t take into account penalties for missing warmups.\nInstructions:\n\nCheck off Learning Targets as you go, starting from the bottom. For example, once you’ve checked off 6 learning targets you have filled the “C” row, and once you’ve checked off 8 learning targets you have filled the “B” row.\nCheck off Labs as you get receive feedback. When you receive an assessmment on a lab, you can check off that lab up to once in each grade tier. For example, if you receive an M, you can check off one box for “M or E” in each of Tiers A, B, and C. If you receive an E, you can check off one box for E in Tiers A and B, and one box for M or E in Tier C. R’s can only be used to check off boxes in the second row of Tier C.\n\nOnce all boxes in a row are checked, you have earned that grade in the course, provided that you have missed no more than 3 warmup activities.\n\n\n\n\n\n\n\n\nTier\nLearning Targets\nLabs\n\n\n\n\nA\n▢ ▢ ▢\nE: ▢ ▢ ▢ ▢ M or E: ▢ ▢ ▢\n\n\nB\n▢ ▢\nE: ▢ ▢ M or E: ▢ ▢ ▢ ▢ ▢\n\n\nC\n▢ ▢ ▢ ▢ ▢ ▢\nM or E: ▢ ▢ ▢ ▢ ▢  R, M, or E: ▢ ▢\n\n\n\n\n\n\n\nHere’s an example for a student who completed 9 learning targets, earned “Exemplary” on five labs, and earned “Meets Expectations” on three labs.\n\n\n\n\n\n\n\n\nTier\nLearning Targets\nLabs\n\n\n\n\nA\n▢ ▢ ☑\nE: ☑ ☑ ☑ ☑ M or E: ☑ ☑ ☑\n\n\nB\n☑ ☑\nE: ☑ ☑ M or E: ☑ ☑ ☑ ☑ ☑\n\n\nC\n☑ ☑ ☑ ☑ ☑ ☑\nM or E: ☑ ☑ ☑ ☑ ☑  R, M, or E: ☑ ☑\n\n\n\nThis student fully meets the requirements of a B and partially meets the requirements of an A, and therefore earns an A- (provided they have missed no more than 3 warmups).\n\n\n  © Phil Chodrow, 2023"
   },
   {
     "objectID": "pages/acknowledgements.html",

@@ -23,14 +23,16 @@
   publish: true
   due:
 - date: 2023-09-15
-  header: Technical Writing and Truth Tables
+  header: |
+      Lab 1: Technical Writing and Truth Tables
   summary: |
       We review truth tables for describing logical operations and begin our first lab assignment in Google Colab.
   objectives:
       - Getting Oriented
   prep: <a href="content/modules/10-logic-1/prep.qmd">Statements and Truth Tables</a>
   activities:
-      - "Lab: Truth Tables"
+      - |
+        <a href="https://colab.research.google.com/github/PhilChodrow/CSCI-0200/blob/main/assignments/labs/01-intro-and-truth-tables.ipynb">Lab 1: Technical Writing and Truth Tables</a>
   notes:
   publish: true
   due:
@@ -59,17 +61,17 @@
   publish: true
   due:
 - date: 2023-09-22
-  header: "Lab: Logic, Boolean Algebra, and Circuit Design"
+  header: "Lab 2: Logic, Boolean Algebra, and Circuits"
   summary: |
       We introduce boolean logic and use the sum-of-products algorithm for computing binary functions.
   objectives:
       - Sets and Logic
   prep: <a href="content/modules/15-boolean-algebra/prep.qmd">Introducing Boolean Algebra</a>
   activities:
-      - "Lab: Sum of Products"
+      - "Lab 2: Logic, Boolean Algebra, and Circuits"
   notes:
   publish: true
-  due: "Lab: Truth Tables"
+  due: "Lab 1: Technical Writing and Truth Tables"
 - date: 2023-09-25
   header: "Quantified Logic"
   summary: |
@@ -99,6 +101,259 @@
   header: "Quiz 1"
   summary: |
       The first of four quizzes in which students have an opportunity to complete Learning Targets. This quiz includes targets <b>LS1</b>, <b>LS2</b>, and <b>LS3</b>.
+  objectives:
+  prep:
+  activities:
+  notes:
+  publish: true
+  due: "Lab 2: Logic, Boolean Algebra, and Circuits"
+- date: 2023-10-2
+  header: "Direct Proofs"
+  summary:
+  objectives:
+  prep:
+  activities:
+  notes:
+  publish: true
+  due:
+- date: 2023-10-04
+  header: "Indirect Proofs"
+  summary:
+  objectives:
+  prep:
+  activities:
+  notes:
+  publish: true
+  due:
+- date: 2023-10-06
+  header: "Lab 3: TBD"
+  summary:
+  objectives:
+  prep:
+  activities:
+      - "Lab 3: TBD"
+  notes:
+  publish: true
+  due:
+- date: 2023-10-09
+  header: "Induction"
+  summary:
+  objectives:
+  prep:
+  activities:
+  notes:
+  publish: true
+  due:
+- date: 2023-10-11
+  header: "Strong Induction"
+  summary:
+  objectives:
+  prep:
+  activities:
+  notes:
+  publish: true
+  due:
+- date: 2023-10-13
+  header: "No Class: Midterm Recess"
+  summary:
+  objectives:
+  prep:
+  activities:
+  notes:
+  publish: true
+  due: "Lab 3: TBD"
+- date: 2023-10-16
+  header: "Relations"
+  summary:
+  objectives:
+  prep:
+  activities:
+  notes:
+  publish: true
+  due:
+- date: 2023-10-18
+  header: "Functions"
+  summary:
+  objectives:
+  prep:
+  activities:
+  notes:
+  publish: true
+  due:
+- date: 2023-10-20
+  header: "Quiz 2"
+  summary:
+  objectives:
+  prep:
+  activities:
+  notes:
+  publish: true
+  due: "Lab 3: TBD"
+- date: 2023-10-23
+  header: "Counting"
+  summary:
+  objectives:
+  prep:
+  activities:
+  notes:
+  publish: true
+  due:
+- date: 2023-10-25
+  header: "Counting"
+  summary:
+  objectives:
+  prep:
+  activities:
+  notes:
+  publish: true
+  due:
+- date: 2023-10-27
+  header: "Lab 4: TBD"
+  summary:
+  objectives:
+  prep:
+  activities:
+  notes:
+  publish: true
+  due: "Lab 3: TBD"
+- date: 2023-10-30
+  header: "Recursion"
+  summary:
+  objectives:
+  prep:
+  activities:
+  notes:
+  publish: true
+  due:
+- date: 2023-11-01
+  header: "Recursion"
+  summary:
+  objectives:
+  prep:
+  activities:
+  notes:
+  publish: true
+  due:
+- date: 2023-11-03
+  header: "Lab 5: TBD"
+  summary:
+  objectives:
+  prep:
+  activities:
+  notes:
+  publish: true
+  due: "Lab 4: TBD"
+- date: 2023-11-06
+  header: "Asymptotics and Big-Oh"
+  summary:
+  objectives:
+  prep:
+  activities:
+  notes:
+  publish: true
+  due:
+- date: 2023-11-08
+  header: "Flex"
+  summary:
+  objectives:
+  prep:
+  activities:
+  notes:
+  publish: true
+  due:
+- date: 2023-11-10
+  header: "Quiz 3"
+  summary:
+  objectives:
+  prep:
+  activities:
+  notes:
+  publish: true
+  due: "Lab 5: TBD"
+- date: 2023-11-13
+  header: "Graphs"
+  summary:
+  objectives:
+  prep:
+  activities:
+  notes:
+  publish: true
+  due:
+- date: 2023-11-15
+  header: "Graphs"
+  summary:
+  objectives:
+  prep:
+  activities:
+  notes:
+  publish: true
+  due:
+- date: 2023-11-17
+  header: "Lab 6: TBD"
+  summary:
+  objectives:
+  prep:
+  activities:
+  notes:
+  publish: true
+  due:
+- date: 2023-11-27
+  header: "Probability"
+  summary:
+  objectives:
+  prep:
+  activities:
+  notes:
+  publish: true
+  due:
+- date: 2023-11-29
+  header: "Probability"
+  summary:
+  objectives:
+  prep:
+  activities:
+  notes:
+  publish: true
+  due:
+- date: 2023-12-01
+  header: "Lab 7: TBD"
+  summary:
+  objectives:
+  prep:
+  activities:
+  notes:
+  publish: true
+  due: "Lab 6: TBD"
+- date: 2023-12-04
+  header: "Probability"
+  summary:
+  objectives:
+  prep:
+  activities:
+  notes:
+  publish: true
+  due:
+- date: 2023-12-06
+  header: "Probability"
+  summary:
+  objectives:
+  prep:
+  activities:
+  notes:
+  publish: true
+  due:
+- date: 2023-12-08
+  header: "Quiz 4"
+  summary:
+  objectives:
+  prep:
+  activities:
+  notes:
+  publish: true
+  due: "Lab 7: TBD"
+- date: 2023-12-11
+  header: "Flex, Review"
+  summary:
   objectives:
   prep:
   activities:

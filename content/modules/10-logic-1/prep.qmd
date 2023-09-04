@@ -14,7 +14,7 @@ title: "Preparation: Logical Statements and Truth Tables"
 # Reading (~20 mins)
 
 - [DMOI Chapter 0.2](https://discrete.openmathbooks.org/dmoi3/sec_intro-statements.html) from the beginning through Example 0.2.3
-- [DMOI Chapter 3.1](https://discrete.openmathbooks.org/dmoi3/sec_propositional.html), from the beginning up through Example 3.1.2.
+- [DMOI Chapter 3.1](https://discrete.openmathbooks.org/dmoi3/sec_propositional.html), from the beginning up through Example 3.1.3.
 
 ## Optional Reading: 
 

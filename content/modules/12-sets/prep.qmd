@@ -11,14 +11,15 @@ title: "Sets and Set Operations"
 - [Cartesian Product](https://youtu.be/ufjEv-5nmcA) (7:10)
 - [Union of Two Sets](https://youtu.be/EF3m9bSbtdI) (5:07)
 - [Intersection of Two Sets](https://youtu.be/zEvQTK17xzY) (5:47)
+- [Proving Subset Relationships with the Element Method](https://youtu.be/3qzykhjtQzU?si=YJir-4j9Tem9-F1B) (6:35)
 
-# Reading (40 mins)
+# Reading (30 mins)
 
-- [DMOI 3.1](https://discrete.openmathbooks.org/dmoi3/sec_propositional.html) through Example 3.1.5. 
+- [DMOI 0.3](https://discrete.openmathbooks.org/dmoi3/sec_intro-sets.html) 
 
  
 ## Optional Reading
-
+ 
 *This is a slightly more advanced reading that may appeal to you if you want to see more theoretical math examples.*
 
 - [BOP 1.1, 1.4-1.7](https://www.people.vcu.edu/~rhammack/BookOfProof/Main.pdf#page=15)
@@ -26,3 +27,16 @@ title: "Sets and Set Operations"
 # Warmup Problems (~30 mins) 
 
 *Please complete these problems with a pencil/pen and paper. Then, scan/photograph your solutions and upload them to Canvas.*
+
+## Problem 1
+
+{{< include ../../../content/problems/sets/set-builder-1.qmd >}}
+
+## Problem 2
+
+{{< include ../../../content/problems/sets/set-builder-2.qmd >}}
+ 
+## Problem 3
+
+{{< include ../../../content/problems/sets/subset-inclusion-1.qmd >}}
+  

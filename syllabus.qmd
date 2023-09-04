@@ -119,7 +119,6 @@ Our [detailed schedule](schedule.qmd) includes prep, warmup problems, and due da
                         Student Hours (usually in the lounge outside 75 SHS 224)
                         <ul style="margin-bottom:0;">
                             <li> Mondays, 2pm-4pm </li>
-                            <li> Wednesdays, 11am-12pm </li>
                             <li> Thursdays, 3pm-4pm </li>
                         </ul>
                     </td>
@@ -325,7 +324,7 @@ Your final grade in the course will be determined by the bundle of Learning Targ
 [Here's [a version of this table with checkboxes](pages/checkbox-table.qmd) that you can use to track your progress in the course.]{.aside} 
 
 +-----+---------------------------------+---------------------------------+
-|Tier | Learning Targets<br>(out of 12) | Labs (out of 8)                 |
+|Tier | Learning Targets<br>(out of 12) | Labs (out of 7)                 |
 +:====+=================================+=================================+
 |**A**|   At least 11                   | - No **N**s or **R**s           |
 |     |                                 | - At least 4 **E**s             |
@@ -336,7 +335,7 @@ Your final grade in the course will be determined by the bundle of Learning Targ
 |     |                                 | - Remainder **M**s              |
 +-----+---------------------------------+---------------------------------+
 |**C**|   At least 6                    | - No **N**s                     |
-|     |                                 | - At least 6 **M**s or **E**s   |
+|     |                                 | - At least 5 **M**s or **E**s   |
 |     |                                 | - Remainder **R**s              |
 +-----+---------------------------------+---------------------------------+
 

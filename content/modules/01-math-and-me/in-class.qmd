@@ -1,0 +1,68 @@
+---
+title: "In Class: Mathematics and Me"
+---
+
+[Here is the warmup](prep.qmd) for today's class period. 
+
+
+## Syllabus Review: Calculating Final Grades
+
+In this activity, we'll practice using [this checklist](../../../pages/checkbox-table.qmd) to calculate final grades in several scenarios. 
+
+## Discussion
+
+What's something you are better at than most people? 
+
+Were you ever not good at it? 
+
+How did you get good at it? 
+
+## Examples: Mathematical Writing
+
+**Mathematical writing** is something we'll be doing a lot of in this course, and we're about to start with it in our upcoming warmup and lab assignment. Let's compare and contrast two examples of mathematical writing. 
+
+> Prove that the sum of two even integers is also even. 
+
+### Solution 1
+
+$2i + 2j = 2(i + j)$
+
+### Solution 2
+
+::: {#prp-even}
+
+## Sum of Even Integers is Even
+
+Let $m$ and $n$ be any two even integers. Then, $m+n$ is also an even integer. 
+
+:::
+
+::: {.proof}
+
+Let $m$ and $n$ be any two even integers. Then, there is some integer $i$ such that $m = 2i$, and similarly there is some integer $j$ such that $n = 2j$. We can then write 
+
+$$
+m + n = 2i + 2j = 2(i + j)\;.
+$$
+
+The second equality follows from the distributive law of multiplication. 
+Therefore, $m+n$ can be written in the form $2k$ for the choice $k = i+j$. Therefore, $m+n$ is an integer, as was to be shown. 
+
+::: 
+
+## Exercise
+
+Draft a proof, similar to the one above, that the sum of two odd integers is also even. It's ok not to write out complete sentences, but use abbreviations that would help remind you which sentences to put where. 
+
+
+
+
+
+
+
+
+
+
+
+Some of these tips are based off of the guide to [Writing Mathematics Well](https://math.hmc.edu/su/wp-content/uploads/sites/10/2020/06/Writing-Math-Well-HMC-Math.pdf) by Francis Su at Harvey Mudd College. 
+

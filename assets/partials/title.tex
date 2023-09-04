@@ -4,8 +4,11 @@ $endif$
 $if(subtitle)$
 $if(beamer)$
 $else$
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
 \usepackage{etoolbox}
-\usepackage{geometry}
+\usepackage{geometry}[margin=1in]
 \makeatletter
 \providecommand{\subtitle}[1]{% add subtitle to \maketitle
   \apptocmd{\@title}{\par {\large #1 \par}}{}{}
@@ -27,3 +30,4 @@ $if(logo)$
 \logo{\includegraphics{$logo$}}
 $endif$
 $endif$
+
