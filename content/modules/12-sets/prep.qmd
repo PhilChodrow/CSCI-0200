@@ -39,4 +39,3 @@ title: "Sets and Set Operations"
 ## Problem 3
 
 {{< include ../../../content/problems/sets/subset-inclusion-1.qmd >}}
-  

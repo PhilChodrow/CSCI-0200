@@ -244,6 +244,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </header>
 
+<p><a href="https://colab.research.google.com/github/PhilChodrow/CSCI-0200/blob/main/assignments/labs/01-intro-and-truth-tables.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a></p>
 <ul>
 <li>[Your name]</li>
 <li>[The name of one of your group members]</li>
@@ -276,7 +277,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h2 class="anchored" data-anchor-id="exercise-1">Exercise 1</h2>
 <p>A <em>group norm</em> is a shared, mutually-agreed upon expectation to which all group members will be held. In this part of the activity, you’ll agree on several group norms and write them using Markdown formatting.</p>
 <p>First, you’re going to copy our core group norms. Make a new Markdown cell directly below this one. In that cell, use Markdown to replicate the following block of text</p>
-<p><img src="../../assets/img/pics/norms.png" class="img-fluid"></p>
+<p><img src="https://github.com/PhilChodrow/CSCI-0200/blob/main/assets/img/pics/norms.png?raw=1" class="img-fluid"></p>
 <p>[Make a new Markdown cell right below this note!]</p>
 </section>
 <section id="exercise-2" class="level2">
@@ -340,24 +341,24 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="part-d-from-logic-to-python" class="level1">
 <h1>Part D: From Logic to Python</h1>
 <p>Here is a Python function that, given two Boolean arguments <span class="math inline">\(p\)</span> and <span class="math inline">\(q\)</span>, returns <span class="math inline">\(p \land q\)</span>:</p>
-<div id="cell-11" class="cell" data-execution_count="1">
+<div id="cell-12" class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> land(p, q):</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> p <span class="kw">and</span> q</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Here’s a sample function that computes a truth table for a user-supplied logical function <code>f</code>:</p>
-<div id="cell-13" class="cell" data-execution_count="13">
+<div id="cell-14" class="cell">
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> itertools <span class="im">import</span> product</span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> truth_table(fun): </span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> truth_table(fun):</span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">"p   q   f"</span>)</span>
 <span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">"---------"</span>)</span>
 <span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> p, q <span class="kw">in</span> product([<span class="va">True</span>, <span class="va">False</span>], [<span class="va">True</span>, <span class="va">False</span>]):</span>
 <span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="st">"T"</span> <span class="cf">if</span> p <span class="cf">else</span> <span class="st">"F"</span>, end <span class="op">=</span> <span class="st">" | "</span>)</span>
 <span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="st">"T"</span> <span class="cf">if</span> q <span class="cf">else</span> <span class="st">"F"</span>, end <span class="op">=</span> <span class="st">" | "</span>)</span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="st">"T"</span> <span class="cf">if</span> fun(p, q) <span class="cf">else</span> <span class="st">"F"</span>) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="st">"T"</span> <span class="cf">if</span> fun(p, q) <span class="cf">else</span> <span class="st">"F"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>When used on the example <code>land</code> function for the logical and <span class="math inline">\(\land\)</span> operation, we obtain the following output:</p>
-<div id="cell-15" class="cell" data-execution_count="12">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>truth_table(land) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div id="cell-16" class="cell" data-outputid="1827cb42-6835-4c98-bcfb-95eeb92a4813">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>truth_table(land)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>p   q   f
 ---------
@@ -383,16 +384,16 @@ F | F | F</code></pre>
 <li><code>not p</code></li>
 <li><code>p or q</code></li>
 </ul>
-<div id="cell-17" class="cell">
+<div id="cell-18" class="cell">
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Exercise 5.1: implement your function and call truth_table to display</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div id="cell-18" class="cell">
+<div id="cell-19" class="cell">
 <div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Exercise 5.2: implement your function and call truth_table to display</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div id="cell-19" class="cell">
+<div id="cell-20" class="cell">
 <div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Exercise 5.3: implement your function and call truth_table to display</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div id="cell-20" class="cell">
+<div id="cell-21" class="cell">
 <div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Exercise 5.4: implement your function and call truth_table to display</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Exercise 5.5: which of these expressions are logically equivalent to which other expressions?</p>
@@ -406,14 +407,14 @@ F | F | F</code></pre>
 <li>Which function do you find easier to transcribe into logical symbols, and why?</li>
 </ol>
 <p>You don’t have to construct truth tables for these functions, although you’re welcome to.</p>
-<div id="cell-23" class="cell" data-execution_count="14">
+<div id="cell-24" class="cell">
 <div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> f_1(p, q, r):</span>
-<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>    a <span class="op">=</span> p <span class="kw">and</span> q </span>
-<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>    b <span class="op">=</span> r <span class="kw">or</span> q </span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>    a <span class="op">=</span> p <span class="kw">and</span> q</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>    b <span class="op">=</span> r <span class="kw">or</span> q</span>
 <span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>    c <span class="op">=</span> <span class="kw">not</span> (a <span class="kw">or</span> b)</span>
-<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> c </span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> c</span>
 <span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> f_2(p, q, r): </span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> f_2(p, q, r):</span>
 <span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> (p <span class="kw">and</span> q) <span class="kw">or</span> ((r <span class="kw">or</span> p) <span class="kw">and</span> (r <span class="kw">or</span> q))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>A logical expression describing <code>f_1</code> is:</p>

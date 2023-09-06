@@ -354,7 +354,7 @@
     "href": "assignments/labs/01-intro-and-truth-tables.html",
     "title": "Lab 1: Mathematical Writing and Truth Tables",
     "section": "",
-    "text": "[Your name]\n[The name of one of your group members]\n[The name of your other group member]\nLearning Objectives:\nIn this lab, you’ll practice writing mathematical formulas using \\(\\LaTeX\\) syntax. You’ll also translate back and forth between logical mathematical expressions and Python code.\nNote: This lab is different! During lab time, I will usually expect you not to work on your laptops, and instead work on whiteboards. Today, because typing mathematics is part of the learning goal, I want to make sure you have some time to practice that in class.\n© Phil Chodrow, 2023"
+    "text": "Learning Objectives:\nIn this lab, you’ll practice writing mathematical formulas using \\(\\LaTeX\\) syntax. You’ll also translate back and forth between logical mathematical expressions and Python code.\nNote: This lab is different! During lab time, I will usually expect you not to work on your laptops, and instead work on whiteboards. Today, because typing mathematics is part of the learning goal, I want to make sure you have some time to practice that in class.\n© Phil Chodrow, 2023"
   },
   {
     "objectID": "assignments/labs/01-intro-and-truth-tables.html#exercise-1",
@@ -396,7 +396,7 @@
     "href": "assignments/labs/01-intro-and-truth-tables.html#exercise-6",
     "title": "Lab 1: Mathematical Writing and Truth Tables",
     "section": "Exercise 6",
-    "text": "Exercise 6\nHere are two Python functions that implement a logical operation with three arguments. For each one, write down the logical operation performed, using the symbols \\(\\lnot\\), \\(\\lor\\), and \\(\\land\\). Then, answer the following questions:\n\nWhich function do you find easier to read as code, and why?\nWhich function do you find easier to transcribe into logical symbols, and why?\n\nYou don’t have to construct truth tables for these functions, although you’re welcome to.\n\ndef f_1(p, q, r):\n    a = p and q \n    b = r or q \n    c = not (a or b)\n    return c \n\ndef f_2(p, q, r): \n    return (p and q) or ((r or p) and (r or q))\n\nA logical expression describing f_1 is:\n[your logical expression here]\nA logical expression describing f_2 is:\n[your logical expression here]\nWhich function do you find easier to read as code, and why?\n[your response here]\nWhich function do you find easier to transcribe into logical symbols, and why?\n[your response here]"
+    "text": "Exercise 6\nHere are two Python functions that implement a logical operation with three arguments. For each one, write down the logical operation performed, using the symbols \\(\\lnot\\), \\(\\lor\\), and \\(\\land\\). Then, answer the following questions:\n\nWhich function do you find easier to read as code, and why?\nWhich function do you find easier to transcribe into logical symbols, and why?\n\nYou don’t have to construct truth tables for these functions, although you’re welcome to.\n\ndef f_1(p, q, r):\n    a = p and q\n    b = r or q\n    c = not (a or b)\n    return c\n\ndef f_2(p, q, r):\n    return (p and q) or ((r or p) and (r or q))\n\nA logical expression describing f_1 is:\n[your logical expression here]\nA logical expression describing f_2 is:\n[your logical expression here]\nWhich function do you find easier to read as code, and why?\n[your response here]\nWhich function do you find easier to transcribe into logical symbols, and why?\n[your response here]"
   },
   {
     "objectID": "content/problems/logic/truth-tables-1.html",
@@ -490,11 +490,130 @@
     "text": "Specifications\nFormat: You can prepare your math autobiography using any software you wish, but you must submit it as a PDF file on Canvas. If you like using word processors, the simplest way to achieve this is to Print as PDF.\nLength: Your math autobiography should show reflection on your experiences. If you’re only writing few paragraphs, there’s more for you to think about. More than a (single-spaced) page probably isn’t necessary. If you find yourself spending more than 90 minutes on this assignment, wrap up your current sentence and submit your autobiography.\nGrading: This is our first warmup assignment. Per the syllabus, warmup assignments are graded Complete or Incomplete/Missing. For Complete, you just need to spend some careful time thinking and writing. Typos, grammar mistakes, etc. are not an issue on this assignment.\nSubmission: Please submit your math autobiography on Canvas."
   },
   {
-    "objectID": "content/modules/00-intro/in-class.html",
-    "href": "content/modules/00-intro/in-class.html",
-    "title": "Welcome to CSCI 0200!",
+    "objectID": "content/modules/00-intro/in-class.html#section",
+    "href": "content/modules/00-intro/in-class.html#section",
+    "title": "Welcome  to CSCI 0200!",
     "section": "",
-    "text": "© Phil Chodrow, 2023"
+    "text": "CS and Math Go Way Back\n\nAda Lovelace was an English mathematician and author of the first published computer program (1840).\nHer program was designed to compute an important sequence of mathematical constants on the “Difference Engine” designed by Charles Babbage.\nBabbage never completed his Difference Engine, so Lovelace’s program was never run.\nLovelace described her approach to math as “poetical science.”\n\n\n\nAda King, Countess of Lovelace. Portrait possibly by Alfred Edward Chalon, image from Wikipedia."
+  },
+  {
+    "objectID": "content/modules/00-intro/in-class.html#section-1",
+    "href": "content/modules/00-intro/in-class.html#section-1",
+    "title": "Welcome  to CSCI 0200!",
+    "section": "",
+    "text": "CS and Math Go Way Back\n\nAlan Turing was an English mathematician who played a major role in developing the theory of computer science and AI.\nTuring proved that some tasks are impossible for algorithms to perform, no matter how powerful or clever they are.\nThe “Nobel Prize in Computer Science” is named the Turing Award.\nTuring was chemically castrated as a punishment for homosexuality in 1953. The UK managed to apologize for this in…2009."
+  },
+  {
+    "objectID": "content/modules/00-intro/in-class.html#section-2",
+    "href": "content/modules/00-intro/in-class.html#section-2",
+    "title": "Welcome  to CSCI 0200!",
+    "section": "",
+    "text": "CS and Math Go Way Back\n\nJohn von Neumann was a Hungarian mathematician who guided the development of the first digital computers.\nThe “von Neumann architecture” remains the high-level architectural basis of the design of modern computers.\nIf you’re wondering what the first digital computers were used for, watch Oppenheimer. 😬😬😬"
+  },
+  {
+    "objectID": "content/modules/00-intro/in-class.html#section-3",
+    "href": "content/modules/00-intro/in-class.html#section-3",
+    "title": "Welcome  to CSCI 0200!",
+    "section": "",
+    "text": "Mathematics is the heart of AI and data science\n\n\nBrin, Sergey. “The PageRank citation ranking: bringing order to the web.” Proceedings of ASIS, 1998 98 (1998): 161-172."
+  },
+  {
+    "objectID": "content/modules/00-intro/in-class.html#section-4",
+    "href": "content/modules/00-intro/in-class.html#section-4",
+    "title": "Welcome  to CSCI 0200!",
+    "section": "",
+    "text": "Mathematics is the heart of machine learning\n\n\nSupport Vector Machine (SVM) is an algorithm for classifying data into groups based on past observations.\n\n\n\n\nDeisenroth, Faisal, and Ong (2020). Mathematics for Machine Learning"
+  },
+  {
+    "objectID": "content/modules/00-intro/in-class.html#section-5",
+    "href": "content/modules/00-intro/in-class.html#section-5",
+    "title": "Welcome  to CSCI 0200!",
+    "section": "",
+    "text": "Mathematics is the heart of algorithmic problem-solving\n\n    \nDijkstra’s algorithm finds shortest paths between points in a graph.\n(Used for e.g. vehicle routing)"
+  },
+  {
+    "objectID": "content/modules/00-intro/in-class.html#section-6",
+    "href": "content/modules/00-intro/in-class.html#section-6",
+    "title": "Welcome  to CSCI 0200!",
+    "section": "",
+    "text": "Math Foundations: What You Need Now To Do All That Stuff Later"
+  },
+  {
+    "objectID": "content/modules/00-intro/in-class.html#in-this-class-you-will",
+    "href": "content/modules/00-intro/in-class.html#in-this-class-you-will",
+    "title": "Welcome  to CSCI 0200!",
+    "section": "In This Class, You Will…",
+    "text": "In This Class, You Will…\n  \n\n\n…build a mathematical toolbox for reasoning theoretically about data structures, algorithms, and the world around you.\n…test mathematical theory against computational experiments.\n…cultivate a joyful relationship with the practice of mathematics."
+  },
+  {
+    "objectID": "content/modules/00-intro/in-class.html#the-big-picture",
+    "href": "content/modules/00-intro/in-class.html#the-big-picture",
+    "title": "Welcome  to CSCI 0200!",
+    "section": "The Big Picture",
+    "text": "The Big Picture\n\n\n\n\nmindmap\n  root((CSCI 0200))\n    )**Module 1**(\n        (Logic)\n          (Propositional logic)\n            (Boolean algebra)\n            (Circuit design)\n        (Sets)\n            (Set Operations)\n            (Logical quantifiers)\n    )**Module 2**(\n        (Relations)\n            (Functions)\n            (Equivalence Relations)\n        (Proof Techniques)\n            (Direct)\n            (Indirect)\n            (Contradiction)\n            (Induction)\n                (Weak)\n                (Strong)\n    )**Module 3**(\n        (Counting)\n            (Sum and product principles)\n            (Permutations and combinations)\n            (Combinatorial proofs)\n        (Recurrence Relations)\n            (Asymptotics)\n            (Divide and combine)\n    )**Module 4**(\n        (Probability)\n            (Distributions)\n                (Conditioning)\n            (Random variables)\n                (Expectation)\n        (Graphs)\n            (Special graphs)\n                (Trees )\n                (Cycles)\n            (Algorithms)"
+  },
+  {
+    "objectID": "content/modules/00-intro/in-class.html#section-7",
+    "href": "content/modules/00-intro/in-class.html#section-7",
+    "title": "Welcome  to CSCI 0200!",
+    "section": "",
+    "text": "In a flipped classroom, you complete readings and watch lectures before our scheduled class time."
+  },
+  {
+    "objectID": "content/modules/00-intro/in-class.html#section-8",
+    "href": "content/modules/00-intro/in-class.html#section-8",
+    "title": "Welcome  to CSCI 0200!",
+    "section": "",
+    "text": "Mondays and Wednesdays\nBefore Each Class (1.5-2 hrs)\n\nPrep: Videos and readings\nWarmups: practice problems, graded on completion\n\nIn Class (1 hr)\n\nQuestions\nGroup work\nActivities\nAdditional topics, demonstrations, etc."
+  },
+  {
+    "objectID": "content/modules/00-intro/in-class.html#section-9",
+    "href": "content/modules/00-intro/in-class.html#section-9",
+    "title": "Welcome  to CSCI 0200!",
+    "section": "",
+    "text": "Friday Labs\n\n7 total throughout the semester\nStart in class with assigned groups\nFinish as homework and submit a week later\n\nAssessment\nAssessed as Excellent (E), Meets Expectations (M), Needs Revision (R), or Not Complete (N). You want Es and Ms.\nRevision\nYou can revise and resubmit your labs after your first assessment in order to achieve a higher assessment."
+  },
+  {
+    "objectID": "content/modules/00-intro/in-class.html#section-10",
+    "href": "content/modules/00-intro/in-class.html#section-10",
+    "title": "Welcome  to CSCI 0200!",
+    "section": "",
+    "text": "Quizzes\n\n4 total, on Fridays\nTimed for 45 minutes (contact me with DRC letters!!)\n\nLearning Targets\n\nWe have 12 Learning Targets related to core course competencies.\nYou’ll have multiple opportunities to complete each Learning Target, but you only need to do it once.\n3 targets are added on each quiz, but you only need to attempt ones you haven’t already gotten.\n\nFinal Exam\nIncludes opportunities to complete all 12 learning targets, with 3 hours."
+  },
+  {
+    "objectID": "content/modules/00-intro/in-class.html#section-11",
+    "href": "content/modules/00-intro/in-class.html#section-11",
+    "title": "Welcome  to CSCI 0200!",
+    "section": "",
+    "text": "A Typical 3-Week Module\n\n\n\n\ngantt\n    title A CSCI 0200 Module\n    axisFormat %A\n    tickInterval 1day\n    section Week A\n    Prep, warmup            :active, a1, 2014-01-06, 1d\n    Class            :2014-01-06, 1d\n    Prep, warmup         :active, a2, 2014-01-08, 1d\n    Class         :2014-01-08, 1d\n    Prep, warmup    :active, a1, 2014-01-10, 1d\n    Lab A           :a3, 2014-01-10, 1d\n    section Week B\n    Prep, warmup            :active, a1, 2014-01-06, 1d\n    Class            :2014-01-06, 1d\n    Prep, warmup         :active, a2, 2014-01-08, 1d\n    Class         :2014-01-08, 1d\n    Prep, warmup    :active, a1, 2014-01-10, 1d\n    Lab B           :a3, 2014-01-10, 1d\n    Lab A due         :done, b3, 2014-01-10, 1d\n    section Week C\n    Prep, warmup            :active, b1, 2014-01-06, 1d\n    Class            :2014-01-06, 1d\n    Prep, warmup         :active, b2, 2014-01-08, 1d\n    Class            :2014-01-08, 1d\n    Lab B due         :done, b3, 2014-01-10, 1d\n    Quiz              :crit, done, c3,  2014-01-10, 1d"
+  },
+  {
+    "objectID": "content/modules/00-intro/in-class.html#section-12",
+    "href": "content/modules/00-intro/in-class.html#section-12",
+    "title": "Welcome  to CSCI 0200!",
+    "section": "",
+    "text": "Final Grade\n\n\n\n\n\n\n\n\nTier\nLearning Targets\nLabs\n\n\n\n\nA\n▢ ▢ ▢\nE: ▢ ▢ ▢ ▢ M or E: ▢ ▢ ▢\n\n\nB\n▢ ▢\nE: ▢ ▢ M or E: ▢ ▢ ▢ ▢ ▢\n\n\nC\n▢ ▢ ▢ ▢ ▢ ▢\nM or E: ▢ ▢ ▢ ▢ ▢  R, M, or E: ▢ ▢\n\n\n\nMissing many warmups results in a penalty to your final grade."
+  },
+  {
+    "objectID": "content/modules/00-intro/in-class.html#section-13",
+    "href": "content/modules/00-intro/in-class.html#section-13",
+    "title": "Welcome  to CSCI 0200!",
+    "section": "",
+    "text": "Your Affinity Vegetable\n \n1. Split into teams\n2. Go around and share your name and:\nIf you were a vegetable, which vegetable would you be and why?"
+  },
+  {
+    "objectID": "content/modules/00-intro/in-class.html#section-14",
+    "href": "content/modules/00-intro/in-class.html#section-14",
+    "title": "Welcome  to CSCI 0200!",
+    "section": "",
+    "text": "Your Affinity Vegetable\n \n3. Team leader: lead your team in finding a delicious dish that incorporates all of your vegetables.\nBe ready to share!"
+  },
+  {
+    "objectID": "content/modules/00-intro/in-class.html#what-you-need-to-do-for-wednesday",
+    "href": "content/modules/00-intro/in-class.html#what-you-need-to-do-for-wednesday",
+    "title": "Welcome  to CSCI 0200!",
+    "section": "What You Need To Do For Wednesday",
+    "text": "What You Need To Do For Wednesday\n\nEntrance Survey: tell me about yourself and help me find your teammates for lab.\nMath autobiography: your history as a learner and user of mathematics."
   },
   {
     "objectID": "content/modules/12-sets/prep.html",
