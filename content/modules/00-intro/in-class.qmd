@@ -23,6 +23,28 @@ cache: true
 from: markdown+emoji
 ---
 
+## Who's In the Room? 
+
+<br> <br> <br> 
+
+### Go to `menti.com` 
+
+### Enter code  `39 98 51 6`
+
+### Respond to the first prompt. 
+
+## {background-color="#EF476F"}
+
+<br> <br> <br> <br>
+
+### Soooooo
+### [...a math class]{.fragment}
+### [...in the CS department]{.fragment}
+### [...?]{.fragment}
+
+
+
+
 ## {.split-60}
 
 ::: {.column}
@@ -104,6 +126,16 @@ The "von Neumann architecture" remains the high-level architectural basis of the
 :::
 
 
+## {background-color="#EF476F"}
+
+<br> <br> <br> <br> <br> <br>
+
+### Ok, but...
+
+### ...what *is* mathematics? 
+
+
+
 ## {.split-50}
 
 
@@ -117,7 +149,7 @@ The "von Neumann architecture" remains the high-level architectural basis of the
 [Brin, Sergey. "The PageRank citation ranking: bringing order to the web." *Proceedings of ASIS*, 1998 98 (1998): 161-172.
 ]{.footnote} 
 
-## {.split-50}
+## {.split-40}
 
 
 #### Mathematics is the heart of [machine learning]{.alert-2}
@@ -130,17 +162,17 @@ The "von Neumann architecture" remains the high-level architectural basis of the
 Support Vector Machine (SVM) is an algorithm for classifying data into groups based on past observations. 
 
 
-
+[Deisenroth, Faisal, and Ong (2020). *Mathematics for Machine Learning* ]{.footnote} 
 
 :::
 
 ::: {.column}
 
+
 <br> 
+![](../../../assets/img/figs/kernels.png){width=420}
 
-![](../../../assets/img/figs/kernels.png){width=330}
 
-[Deisenroth, Faisal, and Ong (2020). *Mathematics for Machine Learning* ]{.footnote} 
 
 :::
 
@@ -236,6 +268,30 @@ mindmap
                 (Cycles)
             (Algorithms)
 ```
+
+
+## {background-image="../../../assets/img/pics/veggies.jpeg" background-size="contain" background-color="black"}
+
+### Your Affinity Vegetable
+
+<br> <br> 
+
+### 1. Split into teams
+
+### 2. Go around and share your name and:
+
+##### If you were a vegetable, which vegetable would you be [and why]{.alert}? 
+
+## {background-image="../../../assets/img/pics/veggies.jpeg" background-size="contain" background-color="black"}
+
+### Your Affinity Vegetable
+
+<br> <br> 
+
+### 3. [Team leader]{.alert}: lead your team in finding a [*delicious dish*]{.alert2} that incorporates all of your vegetables.
+
+##### Be ready to share! 
+
 
 ## {background-color="#EF476F"}
 
@@ -355,32 +411,59 @@ gantt
 
 [Missing many warmups results in a penalty to your final grade.]{.footnote}
 
+## Support Resources
 
+#### **Academic support**
 
-## {background-image="../../../assets/img/pics/veggies.jpeg" background-size="contain" background-color="black"}
+- Student Hours are **your time**: come talk to me about anything! Mondays 2pm-4pm, Thursdays 3pm-4pm. 
+- Evening Peer Help, hours TBD. 
+- Our Assistant in Instruction Smith Gakuya holds Student Hours for CSCI 0200. 
+- Online Q&A forum. 
 
-### Your Affinity Vegetable
+#### **Clearing barriers to learning**
 
-<br> <br> 
+- The DRC can help you obtain a letter of accommodation for timed assessments. 
+- **Legally, I need your letter in order to offer you accommodations.**
 
-### 1. Split into teams
-
-### 2. Go around and share your name and:
-
-##### If you were a vegetable, which vegetable would you be [and why]{.alert}? 
-
-## {background-image="../../../assets/img/pics/veggies.jpeg" background-size="contain" background-color="black"}
-
-### Your Affinity Vegetable
+## Classroom Environment
 
 <br> <br> 
 
-### 3. [Team leader]{.alert}: lead your team in finding a [*delicious dish*]{.alert2} that incorporates all of your vegetables.
+Inclusion, access, and participation are **collective projects**. 
 
-##### Be ready to share! 
+- Discrimination is unjust and it sucks. Don't do it. 
+- Address people respectfully --- chosen names and pronouns. 
+- Don't leave each other behind in group work. 
+- Bragging about something being easy just makes the people around you feel bad.  
+- Are you fast at the material? Cool. Use your ability to *support the learning* of the people around you. 
 
-## What You Need To Do For Wednesday
+I am a **mandatory reporter** of potential incidents of sexual violence or harassment. There is a link to some confidential resources on the syllabus. 
 
-- Entrance Survey: tell me about yourself and help me find your teammates for lab. 
-- Math autobiography: your history as a learner and user of mathematics. 
 
+## Who's in the Room? 
+
+<br> <br> 
+
+We have folks who...
+
+- ...took a math class *last semester*.
+- ...haven't taken math in *several years*. 
+- ...are in their *first* year of college. 
+- ...are in their *last* year of college. 
+- ...embody axes of **privilege** (upper-income, White, male, cishet, able-bodied, etc.)
+- ...embody axes of **marginalization** (lower-income, person of color, female or nonbinary, LGBTQ+, disabled, first-gen, etc.)
+- ...have a joyful relationship with math. 
+- ...have an adversarial relationship with math. 
+
+
+
+## For Wednesday
+
+<br> <br> 
+
+
+#### [**Entrance Survey**]{.alert-2}: tell me about yourself and help me find your teammates for lab. 
+
+#### [**Math autobiography**]{.alert-2}: your history as a learner and user of mathematics. 
+
+*These assignments are on Canvas.*  

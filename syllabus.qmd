@@ -93,7 +93,7 @@ Our [detailed schedule](schedule.qmd) includes prep, warmup problems, and due da
             <b>Instructor</b> 
         </td> 
         <td class="syllabus-description-table-entry"> 
-            [Phil Chodrow](www.philchodrow.com) <br> 
+            [Phil Chodrow](https://www.philchodrow.prof/) <br> 
             <table style="margin-bottom:0;"> 
                 <tr> 
                     <td>
