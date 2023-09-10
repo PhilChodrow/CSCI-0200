@@ -190,7 +190,7 @@ Our [detailed schedule](schedule.qmd) includes prep, warmup problems, and due da
             <br> <br> 
             Student Hours are *your time* to come chat with me about course content. **I want to see you in Student Hours**.
             <br> <br> 
-            **[Masks are required](pages/mask-policy.qmd) during class time**, but not during Student Hours or Peer Help sessions.  
+            **[Masks are required](pages/mask-policy.qmd) during class time** in Weeks 1 and 2 and after Thanksgiving. Masks are also required when meeting me in my office. Masks are encouraged but not required during Student Hours and Peer Help. 
             <br> 
             You need a laptop and an internet connection for this course, but you don't need to buy any books or other supplies. 
         </td>
