@@ -33,6 +33,8 @@ from: markdown+emoji
 
 ### Respond to the first prompt. 
 
+### Keep the tab open -- we'll come back to it
+
 ## {background-color="#EF476F"}
 
 <br> <br> <br> <br>
@@ -206,6 +208,19 @@ Dijkstra's algorithm finds shortest paths between points in a graph.
 <br> <br> <br> <br> <br> <br> <br> 
 
 ### Math Foundations: What You Need [Now]{.alert} To Do All That Stuff [Later]{.alert}
+
+## Math and Us
+
+<br> <br> <br> <br>
+
+
+### Respond to the **second** prompt on the Menti poll. 
+
+*If you closed the tab, go to `menti.com`  and enter code `39 98 51 6`.* 
+
+
+
+
 
 
 ## In This Class, You Will...
@@ -383,7 +398,9 @@ gantt
     Quiz              :crit, done, c3,  2014-01-10, 1d
  ```   
 
-## 
+
+
+##  
 
 ### Final Grade
 
@@ -438,22 +455,6 @@ Inclusion, access, and participation are **collective projects**.
 - Are you fast at the material? Cool. Use your ability to *support the learning* of the people around you. 
 
 I am a **mandatory reporter** of potential incidents of sexual violence or harassment. There is a link to some confidential resources on the syllabus. 
-
-
-## Who's in the Room? 
-
-<br> <br> 
-
-We have folks who...
-
-- ...took a math class *last semester*.
-- ...haven't taken math in *several years*. 
-- ...are in their *first* year of college. 
-- ...are in their *last* year of college. 
-- ...embody axes of **privilege** (upper-income, White, male, cishet, able-bodied, etc.)
-- ...embody axes of **marginalization** (lower-income, person of color, female or nonbinary, LGBTQ+, disabled, first-gen, etc.)
-- ...have a joyful relationship with math. 
-- ...have an adversarial relationship with math. 
 
 
 

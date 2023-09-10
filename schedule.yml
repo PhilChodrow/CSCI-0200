@@ -18,7 +18,7 @@
       - Getting Oriented
   prep: <a href="content/modules/01-math-and-me/prep.qmd">Math Autobiography</a>
   activities:
-      - TBD
+      - <a href="content/modules/01-math-and-me/in-class.qmd">Mathematics and Me</a>
   notes:
   publish: true
   due:

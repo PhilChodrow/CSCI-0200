@@ -1,7 +1,42 @@
 ---
-title: "In Class: Sets"
+title: "In Class: Sets"  
+subtitle: "Math Foundations of Computer Science, F23"  
+date: ""
+title-slide-attributes:
+  data-background-opacity: "0.0"  
+  data-background-color: "#23395B"  
+format:
+  revealjs:
+    menu: false
+    theme: 
+      - default      
+      - ../../../assets/css/reveal-style/layouts.css 
+      - ../../../assets/css/reveal-style/components.css 
+      - ../../../assets/css/reveal-style/colors-fonts/simple.scss
+    slide-level: 2
+    margin: 0.00
+    self-contained: false
+warning: false 
+message: false
+cache: true 
+from: markdown+emoji
 ---
 
-- Proving set equality and subset relationships. 
-- Inclusion-exclusion. 
-- Power sets?   
+## 
+
+<br> <br> <br> 
+
+{{< include ../../../content/problems/sets/dmoi-0-3-13-multiples.qmd >}}
+
+[DMOI 0.3.13]{.footnote} 
+ 
+##  
+
+<br> <br> <br> 
+
+{{< include ../../../content/problems/sets/dmoi-0-3-13-follow-up.qmd >}}  
+
+## 
+
+### Inclusion-Exclusion Formula
+

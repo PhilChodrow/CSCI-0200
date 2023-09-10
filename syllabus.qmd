@@ -318,6 +318,10 @@ Submitted lab reports can receive one of four assessments: [Here is some [more d
 - **Needs Revision (R)**: The lab exhibits some understanding of the material, but there are major issues that should be fixed before moving on. 
 - **Not Completed (N)**: The lab isn't really complete enough to demonstrate understanding of the material.  
 
+### Revising Labs
+
+After receiving feedback on your lab report, you may revise it in response to the feedback and resubmit it for a higher assessment. You can do this **once** for each lab report. The due date for revisions will depend on exactly when our grading time can finalize the first round of assessments, but will usually be about two weeks after you get your first round of feedback. 
+
 ## Your Final Grade
 
 Your final grade in the course will be determined by the bundle of Learning Targets and Lab assessments you achieve by the end of the course, according to the following table. To earn the given grade, you need to meet all requirements for **both** Learning Targets and Labs. 
@@ -366,6 +370,28 @@ In more detail, the penalties are:
 - etc. 
 :::
 
+
+## Late Work Policies
+
+### Warmups
+
+Extensions are never given on warmups unless under guidance from the DRC. Remember that you can miss up to 3 warmups without any impact on your final grade in the course. 
+
+### Labs
+
+For each lab report, you may receive an extension of up to 3 days (72 hours) from the original due date. To do so, you should fill out this [modified due date request form](https://forms.gle/ifeAcWEZurwpS4Sg6). You can count on receiving such an extension without a negotation if you: 
+
+1. Request the extension at least one day (24 hours) in advance of the original due date. 
+2. Write short but thoughtful responses to the questions posed in the form. 
+
+Labs that are turned in after the due date (or possibly the extended due date) will still be accepted and assessed. However, these late lab reports will count as your **second** submission, and the assessment you receive on that lab report will be final. 
+
+### Quizzes
+
+You can reschedule quizzes under the following circumstances. 
+
+- You have an emergency related to your health, mental health, or wellbeing, or the health, mental health, or wellbeing of your loved ones. No documentation is needed -- just let me know. 
+- You are traveling for a major athletic event. In this case, **you must notify me at least two weeks in advance**. Please notify me by email and cc your coach. Usually, athletic conflicts will result in you taking the quiz a day or two early. 
 
 # Inclusion, Access, and Participation
 

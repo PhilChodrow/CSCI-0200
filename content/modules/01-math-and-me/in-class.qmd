@@ -1,31 +1,128 @@
 ---
-title: "In Class: Mathematics and Me"
+title: "Mathematics and Me"  
+subtitle: "Math Foundations of Computer Science, F23"  
+date: ""
+title-slide-attributes:
+  data-background-opacity: "0.0"  
+  data-background-color: "#23395B"  
+format:
+  revealjs:
+    menu: false
+    theme: 
+      - default      
+      - ../../../assets/css/reveal-style/layouts.css 
+      - ../../../assets/css/reveal-style/components.css 
+      - ../../../assets/css/reveal-style/colors-fonts/simple.scss
+    slide-level: 2
+    margin: 0.00
+    self-contained: false
+warning: false 
+message: false
+cache: true 
+from: markdown+emoji
 ---
 
-[Here is the warmup](prep.qmd) for today's class period. 
+##  
+
+### First, just write (4 minutes)
+
+<br> <br> 
+
+What's a way in which your previous classmates have helped you feel [**welcome**]{.alert-2} or [**supported in your learning**]{.alert-2}? 
+
+<br> 
+
+What's a way in which your previous classmates have made you feel [**unwelcome**]{.alert-4} or [**discouraged in your learning**]{.alert-4}?
 
 
-## Syllabus Review: Calculating Final Grades
+## 
 
-In this activity, we'll practice using [this checklist](../../../pages/checkbox-table.qmd) to calculate final grades in several scenarios. 
+### In Groups (8 mins)
 
-## Discussion
+<br> 
+🥗🥬🥕🍉🥑🍅🍇🥝🥔🍍🍊🍌🍈🥭🍎🍒🍠🍓🍑🥒🍋🍆🧀🌽🫑🍏🍐🥦🌶
 
-What's something you are better at than most people? 
+<br> 
 
-Were you ever not good at it? 
+1. Your name 
+2. Your affinity vegetable and your "why" 
+3. Your way in which others have helped you feel [**welcome**]{.alert-2} or [**supported in your learning**]{.alert-2}
 
-How did you get good at it? 
+*After everyone has spoken, go around **again** with:* 
 
-## Examples: Mathematical Writing
+4. Your way in which others have made you have made you feel [**unwelcome**]{.alert-4} or [**discouraged in your learning**]{.alert-4}?
+
+<br> 
+🥗🥬🥕🍉🥑🍅🍇🥝🥔🍍🍊🍌🍈🥭🍎🍒🍠🍓🍑🥒🍋🍆🧀🌽🫑🍏🍐🥦🌶
+<br> 
+
+## 
+
+### Writing Time Again (4 minutes)
+
+<br> <br> 
+
+What's something you are [**better at than most people**]{.alert-2}? 
+
+Were you ever **not** good at it? 
+
+How did you **get** good at it? 
+
+## 
+
+### Back in Groups (8 mins)
+
+<br> <br> 
+
+1. Your name and affinity vegetable
+2. Your superpower! Something you are better at than most people. 
+
+
+*Once everyone has spoken, go around **again** with:*
+
+3. How did you **get** good at your superpower? 
+
+
+## {background-image="../../../assets/img/pics/freeman-report-1.png" background-size="contain" background-color="black"}
+
+## {background-image="../../../assets/img/pics/freeman-report-2.png" background-size="contain" background-color="black"}
+
+
+
+## 
+
+### Syllabus Review: Calculating Final Grades
+
+<br> <br> 
+
+**First Row**: what's the **smallest** number of Learning Targets a student can satisfy in order to earn an **A-**? 
+
+**Second Row**: describe, in terms of Learning Targets, Labs, and Warmups, a scenario in which a student would earn a **B+**.  
+
+**Third Row**: which of these assignment types have "partial credit"? Which of them have a chance to try again? 
+
+- Warmups
+- Quiz problems
+- Lab reports
+
+
+<!-- In this activity, we'll practice using [this checklist](../../../pages/checkbox-table.qmd) to calculate final grades in several scenarios.  -->
+
+
+
+## (If Time) Mathematical Writing
 
 **Mathematical writing** is something we'll be doing a lot of in this course, and we're about to start with it in our upcoming warmup and lab assignment. Let's compare and contrast two examples of mathematical writing. 
 
 > Prove that the sum of two even integers is also even. 
 
+## 
+
 ### Solution 1
 
 $2i + 2j = 2(i + j)$
+
+## 
 
 ### Solution 2
 
@@ -50,12 +147,10 @@ Therefore, $m+n$ can be written in the form $2k$ for the choice $k = i+j$. There
 
 ::: 
 
-## Exercise
+##
+### Exercise
 
-Draft a proof, similar to the one above, that the sum of two odd integers is also even. It's ok not to write out complete sentences, but use abbreviations that would help remind you which sentences to put where. 
-
-
-
+Draft a proof that the sum of two odd integers is also even. It's ok not to write out complete sentences, but use abbreviations that would help remind you which sentences to put where. 
 
 
 
@@ -64,5 +159,8 @@ Draft a proof, similar to the one above, that the sum of two odd integers is als
 
 
 
-Some of these tips are based off of the guide to [Writing Mathematics Well](https://math.hmc.edu/su/wp-content/uploads/sites/10/2020/06/Writing-Math-Well-HMC-Math.pdf) by Francis Su at Harvey Mudd College. 
+
+
+
+For more tips, see the guide to [Writing Mathematics Well](https://math.hmc.edu/su/wp-content/uploads/sites/10/2020/06/Writing-Math-Well-HMC-Math.pdf) by Francis Su at Harvey Mudd College. 
 

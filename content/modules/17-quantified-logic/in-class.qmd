@@ -1,0 +1,17 @@
+---
+title: Practice with Quantified Logic
+---
+
+## Exercise
+
+Consider the following two statements: 
+
+1. Everything is awesome!!! 
+2. Everything is cool when you're part of a team. 
+
+Translate these statements using quantified logical expressions, using the following predicates: 
+
+- $A(x)$: $x$ is awesome. 
+- $C(y)$: $y$ is cool. 
+- $P(z, t)$: person $z$ is part of team $t$. 
+ 

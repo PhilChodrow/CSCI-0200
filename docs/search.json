@@ -165,7 +165,7 @@
     "href": "syllabus.html#labs",
     "title": "Syllabus",
     "section": "Labs",
-    "text": "Labs\nSubmitted lab reports can receive one of four assessments: Here is some more detail on lab grades.\n\nExcellent (E): the lab exhibits complete understanding of the material and meets all technical requirements. This report could serve as an exemplary solution for the assignment.\nMeets Expectations (M): the lab exhibits almost complete understanding of the material and meets most technical requirements. This report suggests that you have room to improve, but you understand the material well enough that the best use of your time is to move on.\nNeeds Revision (R): The lab exhibits some understanding of the material, but there are major issues that should be fixed before moving on.\nNot Completed (N): The lab isn’t really complete enough to demonstrate understanding of the material."
+    "text": "Labs\nSubmitted lab reports can receive one of four assessments: Here is some more detail on lab grades.\n\nExcellent (E): the lab exhibits complete understanding of the material and meets all technical requirements. This report could serve as an exemplary solution for the assignment.\nMeets Expectations (M): the lab exhibits almost complete understanding of the material and meets most technical requirements. This report suggests that you have room to improve, but you understand the material well enough that the best use of your time is to move on.\nNeeds Revision (R): The lab exhibits some understanding of the material, but there are major issues that should be fixed before moving on.\nNot Completed (N): The lab isn’t really complete enough to demonstrate understanding of the material.\n\n\nRevising Labs\nAfter receiving feedback on your lab report, you may revise it in response to the feedback and resubmit it for a higher assessment. You can do this once for each lab report. The due date for revisions will depend on exactly when our grading time can finalize the first round of assessments, but will usually be about two weeks after you get your first round of feedback."
   },
   {
     "objectID": "syllabus.html#your-final-grade",
@@ -268,14 +268,14 @@
   {
     "objectID": "content/modules/01-math-and-me/in-class.html#syllabus-review-calculating-final-grades",
     "href": "content/modules/01-math-and-me/in-class.html#syllabus-review-calculating-final-grades",
-    "title": "In Class: Mathematics and Me",
+    "title": "Mathematics and Me",
     "section": "Syllabus Review: Calculating Final Grades",
-    "text": "Syllabus Review: Calculating Final Grades\nIn this activity, we’ll practice using this checklist to calculate final grades in several scenarios."
+    "text": "Syllabus Review: Calculating Final Grades\nFirst Row: what’s the least number of Learning Targets a student can satisfy in order to earn an A-?\nSecond Row: what’s a scenario in which a student would earn a B+?\nThird Row:"
   },
   {
     "objectID": "content/modules/01-math-and-me/in-class.html#discussion",
     "href": "content/modules/01-math-and-me/in-class.html#discussion",
-    "title": "In Class: Mathematics and Me",
+    "title": "Mathematics and Me",
     "section": "Discussion",
     "text": "Discussion\nWhat’s something you are better at than most people?\nWere you ever not good at it?\nHow did you get good at it?"
   },
@@ -289,7 +289,7 @@
   {
     "objectID": "content/modules/01-math-and-me/in-class.html#exercise",
     "href": "content/modules/01-math-and-me/in-class.html#exercise",
-    "title": "In Class: Mathematics and Me",
+    "title": "Mathematics and Me",
     "section": "Exercise",
     "text": "Exercise\nDraft a proof, similar to the one above, that the sum of two odd integers is also even. It’s ok not to write out complete sentences, but use abbreviations that would help remind you which sentences to put where.\nSome of these tips are based off of the guide to Writing Mathematics Well by Francis Su at Harvey Mudd College."
   },
@@ -312,21 +312,21 @@
     "href": "content/problems/sets/subset-inclusion-1.html",
     "title": "",
     "section": "",
-    "text": "Let \\(A = \\{2^{x+1} \\; : \\; x \\in \\mathbb{N}\\}\\) and let \\(B = \\{2y \\; :\\; y \\in \\mathbb{Z}\\}\\).\n© Phil Chodrow, 2023"
+    "text": "Let \\(A = \\{2^{x+1} \\; : \\; x \\in \\mathbb{N}\\}\\) and let \\(B = \\{\\ldots, -4, -2, 0, 2, 4,\\ldots\\}\\).\n© Phil Chodrow, 2023"
   },
   {
     "objectID": "content/problems/sets/subset-inclusion-1.html#part-a",
     "href": "content/problems/sets/subset-inclusion-1.html#part-a",
     "title": "",
     "section": "Part A",
-    "text": "Part A\nUse the element method to write a proof that \\(A \\subseteq B\\)."
+    "text": "Part A\nIs \\(22 \\in A\\)? Is \\(22 \\in B\\)?"
   },
   {
     "objectID": "content/problems/sets/subset-inclusion-1.html#part-b",
     "href": "content/problems/sets/subset-inclusion-1.html#part-b",
     "title": "",
     "section": "Part B",
-    "text": "Part B\nWould your proof still work if we defined \\(A = \\{2^{x} \\; : \\; x \\in \\mathbb{N}\\}\\)? Why or why not?"
+    "text": "Part B\nWrite \\(B\\) in set-builder notation."
   },
   {
     "objectID": "content/problems/logic/implications-3.html",
@@ -494,7 +494,7 @@
     "href": "content/modules/00-intro/in-class.html#whos-in-the-room",
     "title": "Welcome  to CSCI 0200!",
     "section": "Who’s In the Room?",
-    "text": "Who’s In the Room?\n  \nGo to menti.com\nEnter code 39 98 51 6\nRespond to the first prompt."
+    "text": "Who’s In the Room?\n  \nGo to menti.com\nEnter code 39 98 51 6\nRespond to the first prompt.\nKeep the tab open – we’ll come back to it"
   },
   {
     "objectID": "content/modules/00-intro/in-class.html#section",
@@ -796,5 +796,187 @@
     "title": "Learning Objectives",
     "section": "",
     "text": "What are the mathematical foundations of computing? What role does mathematics play in computing?\n\nMathematical reasoning about models of computation. What kinds of computations are possible? (301)\nMathematical reasoning about algorithms. How do we know that an algorithm does what it’s supposed to do? In what cases does a given algorithm work? How do we know how fast it is? (302, 451, 461, other)\n\nStandard discrete math\nLinear algebra\nMultivariable calculus\nProbability\n\nThinking about the world mathematically\n\nThis is not about computer science exactly but it can help for things like social impacts, plus it’s fun!\nMaybe can connect to responsible computing\n\n\nFor models of computation, the core skills are:\n\nProof\nRecursion\n\nFor algorithms, the additional core skills are:\n\nCounting\nElementary probability\nGraphs/networks\n\nReasoning about the world mathematically:\n\nApplications of networks and probability\n\n\nLearning Objectives\n\n\n\n\n  © Phil Chodrow, 2023"
+  },
+  {
+    "objectID": "content/modules/17-quantified-logic/in-class.html",
+    "href": "content/modules/17-quantified-logic/in-class.html",
+    "title": "Practice with Quantified Logic",
+    "section": "",
+    "text": "Consider the following two statements:\n\nEverything is awesome!!!\nEverything is cool when you’re part of a team.\n\nTranslate these statements using quantified logical expressions, using the following predicates:\n\n\\(A(x)\\): \\(x\\) is awesome.\n\\(C(y)\\): \\(y\\) is cool.\n\\(P(z, t)\\): person \\(z\\) is part of team \\(t\\).\n© Phil Chodrow, 2023"
+  },
+  {
+    "objectID": "content/modules/17-quantified-logic/in-class.html#exercise",
+    "href": "content/modules/17-quantified-logic/in-class.html#exercise",
+    "title": "Practice with Quantified Logic",
+    "section": "",
+    "text": "Consider the following two statements:\n\nEverything is awesome!!!\nEverything is cool when you’re part of a team.\n\nTranslate these statements using quantified logical expressions, using the following predicates:\n\n\\(A(x)\\): \\(x\\) is awesome.\n\\(C(y)\\): \\(y\\) is cool.\n\\(P(z, t)\\): person \\(z\\) is part of team \\(t\\)."
+  },
+  {
+    "objectID": "content/modules/17-quantified-logic/prep.html",
+    "href": "content/modules/17-quantified-logic/prep.html",
+    "title": "",
+    "section": "",
+    "text": "© Phil Chodrow, 2023"
+  },
+  {
+    "objectID": "content/modules/00-intro/in-class.html#section-1",
+    "href": "content/modules/00-intro/in-class.html#section-1",
+    "title": "Welcome  to CSCI 0200!",
+    "section": "",
+    "text": "CS and Math Go Way Back\n\nAlan Turing was an English mathematician who played a major role in developing the theory of computer science and AI.\nTuring proved that some tasks are impossible for algorithms to perform, no matter how powerful or clever they are.\nThe “Nobel Prize in Computer Science” is named the Turing Award.\nTuring was chemically castrated as a punishment for homosexuality in 1953. The UK managed to apologize for this in…2009."
+  },
+  {
+    "objectID": "content/modules/00-intro/in-class.html#what-you-need-to-do-for-wednesday",
+    "href": "content/modules/00-intro/in-class.html#what-you-need-to-do-for-wednesday",
+    "title": "Welcome  to CSCI 0200!",
+    "section": "What You Need To Do For Wednesday",
+    "text": "What You Need To Do For Wednesday\n\nEntrance Survey: tell me about yourself and help me find your teammates for lab.\nMath autobiography: your history as a learner and user of mathematics."
+  },
+  {
+    "objectID": "content/modules/00-intro/in-class.html#section-18",
+    "href": "content/modules/00-intro/in-class.html#section-18",
+    "title": "Welcome  to CSCI 0200!",
+    "section": "",
+    "text": "Final Grade\n\n\n\n\n\n\n\n\nTier\nLearning Targets\nLabs\n\n\n\n\nA\n▢ ▢ ▢\nE: ▢ ▢ ▢ ▢ M or E: ▢ ▢ ▢\n\n\nB\n▢ ▢\nE: ▢ ▢ M or E: ▢ ▢ ▢ ▢ ▢\n\n\nC\n▢ ▢ ▢ ▢ ▢ ▢\nM or E: ▢ ▢ ▢ ▢ ▢  R, M, or E: ▢ ▢\n\n\n\nMissing many warmups results in a penalty to your final grade."
+  },
+  {
+    "objectID": "content/modules/00-intro/in-class.html#section-19",
+    "href": "content/modules/00-intro/in-class.html#section-19",
+    "title": "Welcome  to CSCI 0200!",
+    "section": "",
+    "text": "Final Grade\n\n\n\n\n\n\n\n\nTier\nLearning Targets\nLabs\n\n\n\n\nA\n▢ ▢ ▢\nE: ▢ ▢ ▢ ▢ M or E: ▢ ▢ ▢\n\n\nB\n▢ ▢\nE: ▢ ▢ M or E: ▢ ▢ ▢ ▢ ▢\n\n\nC\n▢ ▢ ▢ ▢ ▢ ▢\nM or E: ▢ ▢ ▢ ▢ ▢  R, M, or E: ▢ ▢\n\n\n\nMissing many warmups results in a penalty to your final grade."
+  },
+  {
+    "objectID": "content/modules/01-math-and-me/in-class.html#discussion-1",
+    "href": "content/modules/01-math-and-me/in-class.html#discussion-1",
+    "title": "Mathematics and Me",
+    "section": "Discussion",
+    "text": "Discussion\nWhat’s something you are better at than most people?\nWere you ever not good at it?\nHow did you get good at it?"
+  },
+  {
+    "objectID": "content/modules/01-math-and-me/in-class.html#discussion-2",
+    "href": "content/modules/01-math-and-me/in-class.html#discussion-2",
+    "title": "In Class: Mathematics and Me",
+    "section": "Discussion",
+    "text": "Discussion\nWhat’s a way in which you’ve felt welcome or supported in your learning by your classmates?\nWhat’s a way in which you’ve felt unwelcome or discouraged in your learning by your classmates?"
+  },
+  {
+    "objectID": "content/modules/01-math-and-me/in-class.html#optional-mathematical-writing",
+    "href": "content/modules/01-math-and-me/in-class.html#optional-mathematical-writing",
+    "title": "In Class: Mathematics and Me",
+    "section": "(Optional) Mathematical Writing",
+    "text": "(Optional) Mathematical Writing\nMathematical writing is something we’ll be doing a lot of in this course, and we’re about to start with it in our upcoming warmup and lab assignment. Let’s compare and contrast two examples of mathematical writing.\n\nProve that the sum of two even integers is also even.\n\n\nSolution 1\n\\(2i + 2j = 2(i + j)\\)\n\n\nSolution 2\n\nProposition 1 (Sum of Even Integers is Even) Let \\(m\\) and \\(n\\) be any two even integers. Then, \\(m+n\\) is also an even integer.\n\n\nProof. Let \\(m\\) and \\(n\\) be any two even integers. Then, there is some integer \\(i\\) such that \\(m = 2i\\), and similarly there is some integer \\(j\\) such that \\(n = 2j\\). We can then write\n\\[\nm + n = 2i + 2j = 2(i + j)\\;.\n\\]\nThe second equality follows from the distributive law of multiplication. Therefore, \\(m+n\\) can be written in the form \\(2k\\) for the choice \\(k = i+j\\). Therefore, \\(m+n\\) is an integer, as was to be shown."
+  },
+  {
+    "objectID": "content/modules/01-math-and-me/in-class.html#if-time-mathematical-writing",
+    "href": "content/modules/01-math-and-me/in-class.html#if-time-mathematical-writing",
+    "title": "Mathematics and Me",
+    "section": "(If Time) Mathematical Writing",
+    "text": "(If Time) Mathematical Writing\nMathematical writing is something we’ll be doing a lot of in this course, and we’re about to start with it in our upcoming warmup and lab assignment. Let’s compare and contrast two examples of mathematical writing.\n\nProve that the sum of two even integers is also even."
+  },
+  {
+    "objectID": "content/modules/01-math-and-me/in-class.html#section",
+    "href": "content/modules/01-math-and-me/in-class.html#section",
+    "title": "Mathematics and Me",
+    "section": "",
+    "text": "First, just write (4 minutes)\n \nWhat’s a way in which your previous classmates have helped you feel welcome or supported in your learning?\n\nWhat’s a way in which your previous classmates have made you feel unwelcome or discouraged in your learning?"
+  },
+  {
+    "objectID": "content/modules/01-math-and-me/in-class.html#section-1",
+    "href": "content/modules/01-math-and-me/in-class.html#section-1",
+    "title": "Mathematics and Me",
+    "section": "",
+    "text": "In Groups (8 mins)\n 🥗🥬🥕🍉🥑🍅🍇🥝🥔🍍🍊🍌🍈🥭🍎🍒🍠🍓🍑🥒🍋🍆🧀🌽🫑🍏🍐🥦🌶\n\n\nYour name\nYour affinity vegetable and your “why”\nYour way in which others have helped you feel welcome or supported in your learning\n\nAfter everyone has spoken, go around again with:\n\nYour way in which others have made you have made you feel unwelcome or discouraged in your learning?\n\n 🥗🥬🥕🍉🥑🍅🍇🥝🥔🍍🍊🍌🍈🥭🍎🍒🍠🍓🍑🥒🍋🍆🧀🌽🫑🍏🍐🥦🌶"
+  },
+  {
+    "objectID": "content/modules/01-math-and-me/in-class.html#section-2",
+    "href": "content/modules/01-math-and-me/in-class.html#section-2",
+    "title": "Mathematics and Me",
+    "section": "",
+    "text": "Writing Time Again (4 minutes)\n \nWhat’s something you are better at than most people?\nWere you ever not good at it?\nHow did you get good at it?"
+  },
+  {
+    "objectID": "content/modules/01-math-and-me/in-class.html#section-3",
+    "href": "content/modules/01-math-and-me/in-class.html#section-3",
+    "title": "Mathematics and Me",
+    "section": "",
+    "text": "Back in Groups (8 mins)\n \n\nYour name and affinity vegetable\nYour superpower! Something you are better at than most people.\n\nOnce everyone has spoken, go around again with:\n\nHow did you get good at your superpower?"
+  },
+  {
+    "objectID": "content/modules/01-math-and-me/in-class.html#section-4",
+    "href": "content/modules/01-math-and-me/in-class.html#section-4",
+    "title": "Mathematics and Me",
+    "section": "",
+    "text": "Syllabus Review: Calculating Final Grades\n \nFirst Row: what’s the smallest number of Learning Targets a student can satisfy in order to earn an A-?\nSecond Row: describe, in terms of Learning Targets, Labs, and Warmups, a scenario in which a student would earn a B+.\nThird Row: which of these assignment types have “partial credit”? Which of them have a chance to try again?\n\nWarmups\nQuiz problems\nLab reports"
+  },
+  {
+    "objectID": "content/modules/01-math-and-me/in-class.html#section-6",
+    "href": "content/modules/01-math-and-me/in-class.html#section-6",
+    "title": "Mathematics and Me",
+    "section": "",
+    "text": "Syllabus Review: Calculating Final Grades\n \nFirst Row: what’s the smallest number of Learning Targets a student can satisfy in order to earn an A-?\nSecond Row: describe, in terms of Learning Targets, Labs, and Warmups, a scenario in which a student would earn a B+.\nThird Row: which of these assignment types have “partial credit”? Which of them have a chance to try again?\n\nWarmups\nQuiz problems\nLab reports"
+  },
+  {
+    "objectID": "content/modules/01-math-and-me/in-class.html#section-7",
+    "href": "content/modules/01-math-and-me/in-class.html#section-7",
+    "title": "Mathematics and Me",
+    "section": "",
+    "text": "Solution 1\n\\(2i + 2j = 2(i + j)\\)"
+  },
+  {
+    "objectID": "content/modules/01-math-and-me/in-class.html#section-8",
+    "href": "content/modules/01-math-and-me/in-class.html#section-8",
+    "title": "Mathematics and Me",
+    "section": "",
+    "text": "Solution 2\n\nProposition 1 (Sum of Even Integers is Even) Let \\(m\\) and \\(n\\) be any two even integers. Then, \\(m+n\\) is also an even integer.\n\n\nProof. Let \\(m\\) and \\(n\\) be any two even integers. Then, there is some integer \\(i\\) such that \\(m = 2i\\), and similarly there is some integer \\(j\\) such that \\(n = 2j\\). We can then write\n\\[\nm + n = 2i + 2j = 2(i + j)\\;.\n\\]\nThe second equality follows from the distributive law of multiplication. Therefore, \\(m+n\\) can be written in the form \\(2k\\) for the choice \\(k = i+j\\). Therefore, \\(m+n\\) is an integer, as was to be shown."
+  },
+  {
+    "objectID": "content/modules/01-math-and-me/in-class.html#section-9",
+    "href": "content/modules/01-math-and-me/in-class.html#section-9",
+    "title": "Mathematics and Me",
+    "section": "",
+    "text": "Exercise\nDraft a proof that the sum of two odd integers is also even. It’s ok not to write out complete sentences, but use abbreviations that would help remind you which sentences to put where.\nFor more tips, see the guide to Writing Mathematics Well by Francis Su at Harvey Mudd College."
+  },
+  {
+    "objectID": "content/modules/00-intro/in-class.html#math-and-us",
+    "href": "content/modules/00-intro/in-class.html#math-and-us",
+    "title": "Welcome  to CSCI 0200!",
+    "section": "Math and Us",
+    "text": "Math and Us\n   \nRespond to the second prompt on the Menti poll.\nIf you closed the tab, go to menti.com and enter code 39 98 51 6."
+  },
+  {
+    "objectID": "syllabus.html#late-work-policies",
+    "href": "syllabus.html#late-work-policies",
+    "title": "Syllabus",
+    "section": "Late Work Policies",
+    "text": "Late Work Policies\n\nWarmups\nExtensions are never given on warmups unless under guidance from the DRC. Remember that you can miss up to 3 warmups without any impact on your final grade in the course.\n\n\nLabs\nFor each lab report, you may receive an extension of up to 3 days (72 hours) from the original due date. To do so, you should fill out this modified due date request form. You can count on receiving such an extension without a negotation if you:\n\nRequest the extension at least one day (24 hours) in advance of the original due date.\nWrite short but thoughtful responses to the questions posed in the form.\n\nLabs that are turned in after the due date (or possibly the extended due date) will still be accepted and assessed. However, these late lab reports will count as your second submission, and the assessment you receive on that lab report will be final.\n\n\nQuizzes\nYou can reschedule quizzes under the following circumstances.\n\nYou have an emergency related to your health, mental health, or wellbeing, or the health, mental health, or wellbeing of your loved ones. No documentation is needed – just let me know.\nYou are traveling for a major athletic event. In this case, you must notify me at least two weeks in advance. Please notify me by email and cc your coach. Usually, athletic conflicts will result in you taking the quiz a day or two early."
+  },
+  {
+    "objectID": "content/modules/12-sets/in-class.html#section",
+    "href": "content/modules/12-sets/in-class.html#section",
+    "title": "In Class: Sets",
+    "section": "",
+    "text": "Recall that \\(\\mathbb{Z} = \\{\\ldots,-2, -1, 0, 1, 2 \\ldots\\}\\) (the integers). Let \\(\\mathbb{Z}^{+} = \\{1, 2, 3 \\ldots\\}\\) be the set of positive integers. Let \\(2\\mathbb{Z}\\) be the set of even integers, \\(3\\mathbb{Z}\\) the set of integers that are multiples of 3, and so on.\n\nIs \\(\\mathbb{Z}^+ \\subseteq \\mathbb{Z}\\)? Why or why not?\nIs \\(2\\mathbb{Z} \\subseteq \\mathbb{Z}^+\\)? Why or why not?\nFind \\(2\\mathbb{Z} \\cap 3\\mathbb{Z}\\). Describe this set in words and using set notation.\nExpress the set \\(\\left\\{x \\in \\mathbb{Z}: \\exists y\\in \\mathbb{Z}((x = 2y) \\lor (x = 3y))\\right\\}\\) as a union or intersection of sets that we’ve used in this problem.\n\nDMOI 0.3.13"
+  },
+  {
+    "objectID": "content/modules/12-sets/in-class.html#section-1",
+    "href": "content/modules/12-sets/in-class.html#section-1",
+    "title": "In Class: Sets",
+    "section": "",
+    "text": "Recall that \\(\\mathbb{Z} = \\{\\ldots,-2, -1, 0, 1, 2 \\ldots\\}\\) (the integers). Let \\(\\mathbb{Z}^{+} = \\{1, 2, 3 \\ldots\\}\\) be the set of positive integers. Let \\(2\\mathbb{Z}\\) be the set of even integers, \\(3\\mathbb{Z}\\) the set of integers that are multiples of 3, and so on.\n\nFind a simple expression for the set \\(2\\mathbb{Z} \\cap 3\\mathbb{Z}\\).\nDescribe the set \\(\\{1, 4, 7, 10, \\ldots\\}\\) in set-builder notation.\nDescribe the set \\(\\{x \\in \\mathbb{Z} : x \\equiv 3 \\pmod 4\\}\\) without using the \\(\\pmod{}\\) operator."
+  },
+  {
+    "objectID": "content/problems/sets/subset-inclusion-1.html#part-c",
+    "href": "content/problems/sets/subset-inclusion-1.html#part-c",
+    "title": "",
+    "section": "Part C",
+    "text": "Part C\nUse the element method to write a proof that \\(A \\subseteq B\\)."
+  },
+  {
+    "objectID": "content/problems/sets/subset-inclusion-1.html#part-d",
+    "href": "content/problems/sets/subset-inclusion-1.html#part-d",
+    "title": "",
+    "section": "Part D",
+    "text": "Part D\nWould your proof still work if we instead defined \\(A = \\{2^{x} \\; : \\; x \\in \\mathbb{N}\\}\\)? Why or why not?"
   }
 ]
