@@ -11,7 +11,7 @@
     "href": "schedule.html#week-2",
     "title": "Schedule",
     "section": "Week 2",
-    "text": "Week 2\n\n\n\n\n\n\n\n\n\n\n\n\n\nM\nSep. 18\nWorking with Symbolic Logic\n\n\n\n\n\nWe introduce formal manipulations of logical expressions and work with the many ways to manipulate conditional statements.\n\n\n\nLearning Objectives\nSets and Logic\n\nPrep\nConditionals and Friends\nIn Class\nConditionals and Friends\n\n\n\n\n\n\n\nW\nSep. 20\nSets and Set Operations\n\n\n\n\n\nSets, set-builder notation, operations on sets.\n\n\n\nLearning Objectives\nSets and Logic\n\nPrep\nSets\nIn Class\nSets\n\n\n\n\n\n\n\nF\nSep. 22\nLab 2: Logic, Boolean Algebra, and Circuits\n\n\n\n\n\nWe introduce boolean logic and use the sum-of-products algorithm for computing binary functions.\n\n\n\nLearning Objectives\nSets and Logic\n\nPrep\nIntroducing Boolean Algebra\nIn Class\nLab 2: Logic, Boolean Algebra, and Circuits\n\nDue\nLab 1: Technical Writing and Truth Tables"
+    "text": "Week 2\n\n\n\n\n\n\n\n\n\n\n\n\n\nM\nSep. 18\nWorking with Symbolic Logic\n\n\n\n\n\nWe introduce formal manipulations of logical expressions and work with the many ways to manipulate conditional statements.\n\n\n\nLearning Objectives\nSets and Logic\n\nPrep\nConditionals and Friends\nIn Class\nConditionals and Friends\n\n\n\n\n\n\n\nW\nSep. 20\nSets and Set Operations\n\n\n\n\n\nSets, set-builder notation, operations on sets.\n\n\n\nLearning Objectives\nSets and Logic\n\nPrep\nSets\nIn Class\nSets\n\n\n\n\n\n\n\nF\nSep. 22\nLab 2: Inclusion-Exclusion\n\n\n\n\n\nWe introduce boolean logic and use the sum-of-products algorithm for computing binary functions.\n\n\n\nLearning Objectives\nSets and Logic\n\nPrep\nTBD\nIn Class\nInclusion-Exclusion\n\nDue\nLab 1: Technical Writing and Truth Tables"
   },
   {
     "objectID": "schedule.html#week-3",
@@ -175,6 +175,13 @@
     "text": "Your Final Grade\nYour final grade in the course will be determined by the bundle of Learning Targets and Lab assessments you achieve by the end of the course, according to the following table. To earn the given grade, you need to meet all requirements for both Learning Targets and Labs. Here’s a version of this table with checkboxes that you can use to track your progress in the course.\n\n\n\n\n\n\n\n\nTier\nLearning Targets(out of 12)\nLabs (out of 7)\n\n\n\n\nA\nAt least 11\n\nNo Ns or Rs\nAt least 4 Es\nRemainder Ms\n\n\n\nB\nAt least 8\n\nNo Ns or Rs\nAt least 2 Es\nRemainder Ms\n\n\n\nC\nAt least 6\n\nNo Ns\nAt least 5 Ms or Es\nRemainder Rs\n\n\n\n\nI reserve the right to modify this table, but only in ways that make it easier to achieve each grade tier.\n\nPartial Completion\nWhen you completely meet both requirements for one tier and completely meet one requirement for a higher tier, you earn the “-” version of the next higher tier grade. For example, you may completely meet the requirements of a B on Learning Targets and completely meet the requirements of an A on Labs. In this case, you earn a minus grade for the higher tier: an A-.\n\n\n\n\n\n\nIf you fully meet the requirements for the C tier and meet the requirements of the A tier for either Learning Targets or Labs (but not both), then you are considered to have partially met the requirements of the B tier. In this case, your final grade would be a B-.\n\n\n\n\n\nAssessment of Warmups\nYou can miss at most three warmups without penalty. After the first three missing warmups, your grade will lower by 1/3 of a letter grade for every two missing warmups. For example, an A would become an A-, a B+ would become a B, a B- would become a C+, etc.\n\n\nIn more detail, the penalties are:\n\n0-3 missing warmups: -0\n4-5 missing warmups: -1/3\n6-7 missing warmups: -2/3\n8-9 missing warmups: -1\netc."
   },
   {
+    "objectID": "syllabus.html#late-work-policies",
+    "href": "syllabus.html#late-work-policies",
+    "title": "Syllabus",
+    "section": "Late Work Policies",
+    "text": "Late Work Policies\n\nWarmups\nExtensions are never given on warmups unless under guidance from the DRC. Remember that you can miss up to 3 warmups without any impact on your final grade in the course.\n\n\nLabs\nFor each lab report, you may receive an extension of up to 3 days (72 hours) from the original due date. To do so, you should fill out this modified due date request form. You can count on receiving such an extension without a negotation if you:\n\nRequest the extension at least one day (24 hours) in advance of the original due date.\nWrite short but thoughtful responses to the questions posed in the form.\n\nLabs that are turned in after the due date (or possibly the extended due date) will still be accepted and assessed. However, these late lab reports will count as your second submission, and the assessment you receive on that lab report will be final.\n\n\nQuizzes\nYou can reschedule quizzes under the following circumstances.\n\nYou have an emergency related to your health, mental health, or wellbeing, or the health, mental health, or wellbeing of your loved ones. No documentation is needed – just let me know.\nYou are traveling for a major athletic event. In this case, you must notify me at least two weeks in advance. Please notify me by email and cc your coach. Usually, athletic conflicts will result in you taking the quiz a day or two early."
+  },
+  {
     "objectID": "syllabus.html#disabilities-and-clearing-barriers",
     "href": "syllabus.html#disabilities-and-clearing-barriers",
     "title": "Syllabus",
@@ -245,11 +252,25 @@
     "text": "© Phil Chodrow, 2023"
   },
   {
-    "objectID": "content/modules/12-sets/in-class.html",
-    "href": "content/modules/12-sets/in-class.html",
+    "objectID": "content/modules/12-sets/in-class.html#section",
+    "href": "content/modules/12-sets/in-class.html#section",
     "title": "In Class: Sets",
     "section": "",
-    "text": "Proving set equality and subset relationships.\nInclusion-exclusion.\nPower sets?\n\n\n\n\n  © Phil Chodrow, 2023"
+    "text": "Recall that \\(\\mathbb{Z} = \\{\\ldots,-2, -1, 0, 1, 2 \\ldots\\}\\) (the integers). Let \\(\\mathbb{Z}^{+} = \\{1, 2, 3 \\ldots\\}\\) be the set of positive integers. Let \\(2\\mathbb{Z}\\) be the set of even integers, \\(3\\mathbb{Z}\\) the set of integers that are multiples of 3, and so on.\n\nIs \\(\\mathbb{Z}^+ \\subseteq \\mathbb{Z}\\)? Why or why not?\nIs \\(2\\mathbb{Z} \\subseteq \\mathbb{Z}^+\\)? Why or why not?\nFind \\(2\\mathbb{Z} \\cap 3\\mathbb{Z}\\). Describe this set in words and using set notation.\nExpress the set \\(\\left\\{x \\in \\mathbb{Z}: \\exists y\\in \\mathbb{Z}((x = 2y) \\lor (x = 3y))\\right\\}\\) as a union or intersection of sets that we’ve used in this problem.\n\nDMOI 0.3.13"
+  },
+  {
+    "objectID": "content/modules/12-sets/in-class.html#section-1",
+    "href": "content/modules/12-sets/in-class.html#section-1",
+    "title": "In Class: Sets",
+    "section": "",
+    "text": "Recall that \\(\\mathbb{Z} = \\{\\ldots,-2, -1, 0, 1, 2 \\ldots\\}\\) (the integers). Let \\(\\mathbb{Z}^{+} = \\{1, 2, 3 \\ldots\\}\\) be the set of positive integers. Let \\(2\\mathbb{Z}\\) be the set of even integers, \\(3\\mathbb{Z}\\) the set of integers that are multiples of 3, and so on.\n\nFind a simple expression for the set \\(2\\mathbb{Z} \\cap 3\\mathbb{Z}\\).\nDescribe the set \\(\\{1, 4, 7, 10, \\ldots\\}\\) in set-builder notation.\nDescribe the set \\(\\{x \\in \\mathbb{Z} : x \\equiv 3 \\pmod 4\\}\\) without using the \\(\\pmod{}\\) operator."
+  },
+  {
+    "objectID": "content/modules/12-sets/in-class.html#section-2",
+    "href": "content/modules/12-sets/in-class.html#section-2",
+    "title": "In Class: Sets",
+    "section": "",
+    "text": "Inclusion-Exclusion Formula"
   },
   {
     "objectID": "content/modules/15-boolean-algebra/prep.html",
@@ -259,39 +280,67 @@
     "text": "Video (~15 mins)\n\nBoolean Algebra in 13 Mins (12:56)\n\n\n\nReading (~20 mins)\nThis reading is pretty dense and it’s ok to skim as long as you’re ready for the warmup problems.\n\nRosen, p. 811-815\n\n\n\nWarmup Problems (~15 mins)\nPlease complete these problems with a pencil/pen and paper. Then, scan/photograph your solutions and upload them to Canvas.\n\nHow is Boolean algebra different from propositional logic? How is it similar?\nHere’s an expression, translate it into Boolean logic (3 variables).\nHere’s an expression, simplify it as much as you can (down to a specified minimum) (3 variables).\n\n\n\n\n\n  © Phil Chodrow, 2023"
   },
   {
-    "objectID": "content/modules/01-math-and-me/in-class.html",
-    "href": "content/modules/01-math-and-me/in-class.html",
-    "title": "In Class: Mathematics and Me",
+    "objectID": "content/modules/01-math-and-me/in-class.html#section",
+    "href": "content/modules/01-math-and-me/in-class.html#section",
+    "title": "Mathematics and Me",
     "section": "",
-    "text": "Here is the warmup for today’s class period.\n© Phil Chodrow, 2023"
+    "text": "First, just write (4 minutes)\n \nWhat’s a way in which your previous classmates have helped you feel welcome or supported in your learning?\n\nWhat’s a way in which your previous classmates have made you feel unwelcome or discouraged in your learning?"
   },
   {
-    "objectID": "content/modules/01-math-and-me/in-class.html#syllabus-review-calculating-final-grades",
-    "href": "content/modules/01-math-and-me/in-class.html#syllabus-review-calculating-final-grades",
+    "objectID": "content/modules/01-math-and-me/in-class.html#section-1",
+    "href": "content/modules/01-math-and-me/in-class.html#section-1",
     "title": "Mathematics and Me",
-    "section": "Syllabus Review: Calculating Final Grades",
-    "text": "Syllabus Review: Calculating Final Grades\nFirst Row: what’s the least number of Learning Targets a student can satisfy in order to earn an A-?\nSecond Row: what’s a scenario in which a student would earn a B+?\nThird Row:"
+    "section": "",
+    "text": "In Groups (8 mins)\n 🥗🥬🥕🍉🥑🍅🍇🥝🥔🍍🍊🍌🍈🥭🍎🍒🍠🍓🍑🥒🍋🍆🧀🌽🫑🍏🍐🥦🌶\n\n\nYour name\nYour affinity vegetable and your “why”\nYour way in which others have helped you feel welcome or supported in your learning\n\nAfter everyone has spoken, go around again with:\n\nYour way in which others have made you have made you feel unwelcome or discouraged in your learning?\n\n 🥗🥬🥕🍉🥑🍅🍇🥝🥔🍍🍊🍌🍈🥭🍎🍒🍠🍓🍑🥒🍋🍆🧀🌽🫑🍏🍐🥦🌶"
   },
   {
-    "objectID": "content/modules/01-math-and-me/in-class.html#discussion",
-    "href": "content/modules/01-math-and-me/in-class.html#discussion",
+    "objectID": "content/modules/01-math-and-me/in-class.html#section-2",
+    "href": "content/modules/01-math-and-me/in-class.html#section-2",
     "title": "Mathematics and Me",
-    "section": "Discussion",
-    "text": "Discussion\nWhat’s something you are better at than most people?\nWere you ever not good at it?\nHow did you get good at it?"
+    "section": "",
+    "text": "Writing Time Again (4 minutes)\n \nWhat’s something you are better at than most people?\nWere you ever not good at it?\nHow did you get good at it?"
   },
   {
-    "objectID": "content/modules/01-math-and-me/in-class.html#examples-mathematical-writing",
-    "href": "content/modules/01-math-and-me/in-class.html#examples-mathematical-writing",
-    "title": "In Class: Mathematics and Me",
-    "section": "Examples: Mathematical Writing",
-    "text": "Examples: Mathematical Writing\nMathematical writing is something we’ll be doing a lot of in this course, and we’re about to start with it in our upcoming warmup and lab assignment. Let’s compare and contrast two examples of mathematical writing.\n\nProve that the sum of two even integers is also even.\n\n\nSolution 1\n\\(2i + 2j = 2(i + j)\\)\n\n\nSolution 2\n\nProposition 1 (Sum of Even Integers is Even) Let \\(m\\) and \\(n\\) be any two even integers. Then, \\(m+n\\) is also an even integer.\n\n\nProof. Let \\(m\\) and \\(n\\) be any two even integers. Then, there is some integer \\(i\\) such that \\(m = 2i\\), and similarly there is some integer \\(j\\) such that \\(n = 2j\\). We can then write\n\\[\nm + n = 2i + 2j = 2(i + j)\\;.\n\\]\nThe second equality follows from the distributive law of multiplication. Therefore, \\(m+n\\) can be written in the form \\(2k\\) for the choice \\(k = i+j\\). Therefore, \\(m+n\\) is an integer, as was to be shown."
-  },
-  {
-    "objectID": "content/modules/01-math-and-me/in-class.html#exercise",
-    "href": "content/modules/01-math-and-me/in-class.html#exercise",
+    "objectID": "content/modules/01-math-and-me/in-class.html#section-3",
+    "href": "content/modules/01-math-and-me/in-class.html#section-3",
     "title": "Mathematics and Me",
-    "section": "Exercise",
-    "text": "Exercise\nDraft a proof, similar to the one above, that the sum of two odd integers is also even. It’s ok not to write out complete sentences, but use abbreviations that would help remind you which sentences to put where.\nSome of these tips are based off of the guide to Writing Mathematics Well by Francis Su at Harvey Mudd College."
+    "section": "",
+    "text": "Back in Groups (8 mins)\n \n\nYour name and affinity vegetable\nYour superpower! Something you are better at than most people.\n\nOnce everyone has spoken, go around again with:\n\nHow did you get good at your superpower?"
+  },
+  {
+    "objectID": "content/modules/01-math-and-me/in-class.html#section-6",
+    "href": "content/modules/01-math-and-me/in-class.html#section-6",
+    "title": "Mathematics and Me",
+    "section": "",
+    "text": "Syllabus Review: Calculating Final Grades\n \nFirst Row: what’s the smallest number of Learning Targets a student can satisfy in order to earn an A-?\nSecond Row: describe, in terms of Learning Targets, Labs, and Warmups, a scenario in which a student would earn a B+.\nThird Row: which of these assignment types have “partial credit”? Which of them have a chance to try again?\n\nWarmups\nQuiz problems\nLab reports"
+  },
+  {
+    "objectID": "content/modules/01-math-and-me/in-class.html#if-time-mathematical-writing",
+    "href": "content/modules/01-math-and-me/in-class.html#if-time-mathematical-writing",
+    "title": "Mathematics and Me",
+    "section": "(If Time) Mathematical Writing",
+    "text": "(If Time) Mathematical Writing\nMathematical writing is something we’ll be doing a lot of in this course, and we’re about to start with it in our upcoming warmup and lab assignment. Let’s compare and contrast two examples of mathematical writing.\n\nProve that the sum of two even integers is also even."
+  },
+  {
+    "objectID": "content/modules/01-math-and-me/in-class.html#section-7",
+    "href": "content/modules/01-math-and-me/in-class.html#section-7",
+    "title": "Mathematics and Me",
+    "section": "",
+    "text": "Solution 1\n\\(2i + 2j = 2(i + j)\\)"
+  },
+  {
+    "objectID": "content/modules/01-math-and-me/in-class.html#section-8",
+    "href": "content/modules/01-math-and-me/in-class.html#section-8",
+    "title": "Mathematics and Me",
+    "section": "",
+    "text": "Solution 2\n\nProposition 1 (Sum of Even Integers is Even) Let \\(m\\) and \\(n\\) be any two even integers. Then, \\(m+n\\) is also an even integer.\n\n\nProof. Let \\(m\\) and \\(n\\) be any two even integers. Then, there is some integer \\(i\\) such that \\(m = 2i\\), and similarly there is some integer \\(j\\) such that \\(n = 2j\\). We can then write\n\\[\nm + n = 2i + 2j = 2(i + j)\\;.\n\\]\nThe second equality follows from the distributive law of multiplication. Therefore, \\(m+n\\) can be written in the form \\(2k\\) for the choice \\(k = i+j\\). Therefore, \\(m+n\\) is an integer, as was to be shown."
+  },
+  {
+    "objectID": "content/modules/01-math-and-me/in-class.html#section-9",
+    "href": "content/modules/01-math-and-me/in-class.html#section-9",
+    "title": "Mathematics and Me",
+    "section": "",
+    "text": "Exercise\nDraft a proof that the sum of two odd integers is also even. It’s ok not to write out complete sentences, but use abbreviations that would help remind you which sentences to put where.\nFor more tips, see the guide to Writing Mathematics Well by Francis Su at Harvey Mudd College."
   },
   {
     "objectID": "content/modules/11-logic-2/in-class.html",
@@ -301,32 +350,39 @@
     "text": "© Phil Chodrow, 2023"
   },
   {
-    "objectID": "content/problems/sets/set-builder-1.html",
-    "href": "content/problems/sets/set-builder-1.html",
+    "objectID": "content/modules/17-quantified-logic/in-class.html",
+    "href": "content/modules/17-quantified-logic/in-class.html",
+    "title": "Practice with Quantified Logic",
+    "section": "",
+    "text": "Consider the following two statements:\n\nEverything is awesome!!!\nEverything is cool when you’re part of a team.\n\nTranslate these statements using quantified logical expressions, using the following predicates:\n\n\\(A(x)\\): \\(x\\) is awesome.\n\\(C(y)\\): \\(y\\) is cool.\n\\(P(z, t)\\): person \\(z\\) is part of team \\(t\\).\n© Phil Chodrow, 2023"
+  },
+  {
+    "objectID": "content/modules/17-quantified-logic/in-class.html#exercise",
+    "href": "content/modules/17-quantified-logic/in-class.html#exercise",
+    "title": "Practice with Quantified Logic",
+    "section": "",
+    "text": "Consider the following two statements:\n\nEverything is awesome!!!\nEverything is cool when you’re part of a team.\n\nTranslate these statements using quantified logical expressions, using the following predicates:\n\n\\(A(x)\\): \\(x\\) is awesome.\n\\(C(y)\\): \\(y\\) is cool.\n\\(P(z, t)\\): person \\(z\\) is part of team \\(t\\)."
+  },
+  {
+    "objectID": "content/problems/sets/dmoi-0-3-13-multiples.html",
+    "href": "content/problems/sets/dmoi-0-3-13-multiples.html",
     "title": "",
     "section": "",
-    "text": "Write the following sets by listing their elements between braces:\n\n\\(\\left\\{ x \\in \\mathbb{Z} \\; : x^2 \\leq 10 \\right\\}\\)\n\\(\\left\\{ x \\in \\mathbb{Z} \\; : x \\leq 10 \\right\\} \\cap \\left\\{ x \\in \\mathbb{Z} \\; : x \\text{ is a prime number.} \\right\\}\\)\n\\(\\left\\{ x \\in \\mathbb{Z} \\; : x/2 \\geq 10 \\right\\} \\cap \\left\\{ x \\in \\mathbb{Z} \\; : 5x &lt; 100 \\right\\}\\)\n\n\n\n\n  © Phil Chodrow, 2023"
+    "text": "Recall that \\(\\mathbb{Z} = \\{\\ldots,-2, -1, 0, 1, 2 \\ldots\\}\\) (the integers). Let \\(\\mathbb{Z}^{+} = \\{1, 2, 3 \\ldots\\}\\) be the set of positive integers. Let \\(2\\mathbb{Z}\\) be the set of even integers, \\(3\\mathbb{Z}\\) the set of integers that are multiples of 3, and so on.\n\nIs \\(\\mathbb{Z}^+ \\subseteq \\mathbb{Z}\\)? Why or why not?\nIs \\(2\\mathbb{Z} \\subseteq \\mathbb{Z}^+\\)? Why or why not?\nFind \\(2\\mathbb{Z} \\cap 3\\mathbb{Z}\\). Describe this set in words and using set notation.\nExpress the set \\(\\left\\{x \\in \\mathbb{Z}: \\exists y\\in \\mathbb{Z}((x = 2y) \\lor (x = 3y))\\right\\}\\) as a union or intersection of sets that we’ve used in this problem.\n\n\n\n\n  © Phil Chodrow, 2023"
   },
   {
-    "objectID": "content/problems/sets/subset-inclusion-1.html",
-    "href": "content/problems/sets/subset-inclusion-1.html",
+    "objectID": "content/problems/sets/set-builder-2.html",
+    "href": "content/problems/sets/set-builder-2.html",
     "title": "",
     "section": "",
-    "text": "Let \\(A = \\{2^{x+1} \\; : \\; x \\in \\mathbb{N}\\}\\) and let \\(B = \\{\\ldots, -4, -2, 0, 2, 4,\\ldots\\}\\).\n© Phil Chodrow, 2023"
+    "text": "Write each of the following sets in set-builder notation. There may be several correct ways.\n\n\n\\(\\left\\{ 2, 4, 8, 16, 32, 64,\\ldots \\right\\}\\) \n\\(\\left\\{ 3, 4, 5, 6, 7, 8 \\right\\}\\)\n\\(\\left\\{ 0, 3, 6, 9, 12, 15 \\right\\}\\)\n\n\n\n\n  © Phil Chodrow, 2023"
   },
   {
-    "objectID": "content/problems/sets/subset-inclusion-1.html#part-a",
-    "href": "content/problems/sets/subset-inclusion-1.html#part-a",
+    "objectID": "content/problems/sets/venn-diagram-1.html",
+    "href": "content/problems/sets/venn-diagram-1.html",
     "title": "",
-    "section": "Part A",
-    "text": "Part A\nIs \\(22 \\in A\\)? Is \\(22 \\in B\\)?"
-  },
-  {
-    "objectID": "content/problems/sets/subset-inclusion-1.html#part-b",
-    "href": "content/problems/sets/subset-inclusion-1.html#part-b",
-    "title": "",
-    "section": "Part B",
-    "text": "Part B\nWrite \\(B\\) in set-builder notation."
+    "section": "",
+    "text": "Draw a Venn diagram to represent the set\n\\[(A \\cap B \\cap \\overline{C}) \\cup (A \\cap \\overline{B} \\cap C) \\cup (\\overline{A}\\cap \\overline{B} \\cap C)\\]\nThen, use your Venn diagram find an alternative expression that represents the same set.\n\n\n\n  © Phil Chodrow, 2023"
   },
   {
     "objectID": "content/problems/logic/implications-3.html",
@@ -382,7 +438,7 @@
     "href": "assignments/labs/01-intro-and-truth-tables.html#exercise-4",
     "title": "Lab 1: Mathematical Writing and Truth Tables",
     "section": "Exercise 4",
-    "text": "Exercise 4\nMake truth tables for the following two expressions:\n\n\\(\\lnot (p \\land q)\\)\n\\(\\lnot p \\lor \\lnot q\\)\n\nIt’s ok to write your truth tables “casually” using Markdown, but you can also structure them as tables using special Markdown syntax. Double click into this markdown cell to see how I created the beginnings of a truth table:\n\n\n\n\\(p\\)\n\\(q\\)\n\\(p \\land q\\)\n\n\n\n\nT\nT\n?\n\n\nT\nF\n?\n\n\n\n[your truth tables here!]"
+    "text": "Exercise 4\nMake truth tables for the following two expressions:\n\n\\(\\lnot (p \\land q)\\)\n\\(\\lnot p \\lor \\lnot q\\)\n\nIt’s ok to write your truth tables “casually” using Markdown, but you can also structure them as tables using some more advanced \\(\\LaTeX\\) syntax. Double click into this markdown cell to see how I created the beginnings of a truth table:\n\\[\n\\begin{array}{c|c|c}\np & q & p \\lor q \\\\\n\\hline\nT & T & ? \\\\\nT & F & ? \\\\\n\\end{array}\n\\]\n[your truth tables here!]"
   },
   {
     "objectID": "assignments/labs/01-intro-and-truth-tables.html#exercise-5",
@@ -399,6 +455,48 @@
     "text": "Exercise 6\nHere are two Python functions that implement a logical operation with three arguments. For each one, write down the logical operation performed, using the symbols \\(\\lnot\\), \\(\\lor\\), and \\(\\land\\). Then, answer the following questions:\n\nWhich function do you find easier to read as code, and why?\nWhich function do you find easier to transcribe into logical symbols, and why?\n\nYou don’t have to construct truth tables for these functions, although you’re welcome to.\n\ndef f_1(p, q, r):\n    a = p and q\n    b = r or q\n    c = not (a or b)\n    return c\n\ndef f_2(p, q, r):\n    return (p and q) or ((r or p) and (r or q))\n\nA logical expression describing f_1 is:\n[your logical expression here]\nA logical expression describing f_2 is:\n[your logical expression here]\nWhich function do you find easier to read as code, and why?\n[your response here]\nWhich function do you find easier to transcribe into logical symbols, and why?\n[your response here]"
   },
   {
+    "objectID": "assignments/labs/02-inclusion-exclusion.html",
+    "href": "assignments/labs/02-inclusion-exclusion.html",
+    "title": "Lab 2: Set Cardinality and Inclusion-Exclusion",
+    "section": "",
+    "text": "Learning Objectives:\nIn this lab, you’ll practice performing mathematical operations on sets. We’re going to focus especially on the problem of computing the cardinality of a set that is formed from other sets.\nOn your own, you’ll continue to practice with writing mathematics and creating symbols with \\(\\LaTeX\\).\n© Phil Chodrow, 2023"
+  },
+  {
+    "objectID": "assignments/labs/02-inclusion-exclusion.html#part-a-refresher",
+    "href": "assignments/labs/02-inclusion-exclusion.html#part-a-refresher",
+    "title": "Lab 2: Set Cardinality and Inclusion-Exclusion",
+    "section": "Part A (Refresher)",
+    "text": "Part A (Refresher)\nDraw a Venn diagram with two intersecting sets \\(A\\) and \\(B\\). By referring to your Venn diagram, write an explanation of the inclusion-exclusion formula:\n\\[\n\\lvert A \\cup B \\rvert = \\lvert A \\rvert + \\lvert B \\rvert - \\lvert A \\cap B \\rvert.\n\\]\nYou should write your explanation on the whiteboard.\nTake a picture of your Venn diagram and save it somewhere where you can find it again.\n\n(After Lab)\nUpload your Venn diagram in this notebook and refer to it when giving your explanation.\n[An image of your Venn Diagram]"
+  },
+  {
+    "objectID": "assignments/labs/02-inclusion-exclusion.html#part-b",
+    "href": "assignments/labs/02-inclusion-exclusion.html#part-b",
+    "title": "Lab 2: Set Cardinality and Inclusion-Exclusion",
+    "section": "Part B",
+    "text": "Part B\nDraw a Venn diagram with 3 intersecting sets \\(A\\), \\(B\\), and \\(C\\). Use your Venn diagram to conjecture an inclusion-exclusion formula for the expression \\(\\lvert A \\cup B \\cup C\\rvert\\). You should explain your formula but you don’t need to write a formal proof.\nTake a picture of your Venn diagram and save it somewhere where you can find it again.\n\n(After Lab)\nUpload your Venn diagram in this notebook and refer to it when writing up your explanation.\n[An image of your Venn Diagram]\n[Your explanation]"
+  },
+  {
+    "objectID": "assignments/labs/02-inclusion-exclusion.html#part-c",
+    "href": "assignments/labs/02-inclusion-exclusion.html#part-c",
+    "title": "Lab 2: Set Cardinality and Inclusion-Exclusion",
+    "section": "Part C",
+    "text": "Part C\nNow let’s perform an algebraic derivation of the 3-set inclusion-exclusion formula. To do this, let’s define \\(D = B \\cup C\\). Then, we can write\n\\(\\lvert A \\cup B \\cup C\\rvert = \\lvert A \\cup D\\rvert\\;.\\)\nFirst, apply the two-set inclusion-exclusion formula to the righthand side of this expression. Then, apply the two-set inclusion exclusion formula again to simplify the expressions that result.\nWrite your derivation (a computation leading to the desired formula) on the whiteboard. It would be good idea to take a picture of it once you’re done.\n\n(After Lab)\nType your derivation below. If you’d like to write sequential equations, which are very suitable for calculations like this one, click into this Markdown cell to see how I did this:\n\\[\n\\begin{aligned}\nx &= y \\\\\n  & = z\\;.\n\\end{aligned}\n\\]\n[Your derivation here.]"
+  },
+  {
+    "objectID": "assignments/labs/02-inclusion-exclusion.html#part-d",
+    "href": "assignments/labs/02-inclusion-exclusion.html#part-d",
+    "title": "Lab 2: Set Cardinality and Inclusion-Exclusion",
+    "section": "Part D",
+    "text": "Part D\nThe following function will compute the size of a union of any number of provided sets.\n\ndef union_size(A, *other_sets):\n    return len(A.union(*other_sets))\n\nHere is it in action:\n\nA = {1, 2, 3}\nB = {2, 3, 4, 5}\nC = {3, 4, 7}\n\nunion_size(A, B, C) # union is {1, 2, 3, 4, 5, 7}\n\n6\n\n\nNow we’re going to write a function that can compute the size of a union using an inclusion-exclusion formula. Here is a function that, when one or more sets are passed as arguments, prints all possible combinations of those sets. Then, it returns 0.\n\nfrom itertools import combinations\ndef ie_union_size(A, *other_sets):\n    union_size = 0\n    all_sets = other_sets + (A,)\n    for i in range(1, len(all_sets) + 1):\n        for sets in combinations(all_sets, i):\n            print(sets)\n    return union_size        \n\nHere it is in action:\n\nx = ie_union_size(A, B, C)\nprint(f\"the current return value is {x}\")\n\n({2, 3, 4, 5},)\n({3, 4, 7},)\n({1, 2, 3},)\n({2, 3, 4, 5}, {3, 4, 7})\n({2, 3, 4, 5}, {1, 2, 3})\n({3, 4, 7}, {1, 2, 3})\n({2, 3, 4, 5}, {3, 4, 7}, {1, 2, 3})\nthe current return value is 0\n\n\nModify this the ie_union_size function so that it correctly computes the size of the union of the input sets using the inclusion-exclusion formula. Your solution should ensure that ie_union_size returns the correct result whenever it is passed either 2 or 3 arguments. Show checks using the sets A, B, and C above to show that your function works in these cases.\nSpecifications:\n\nFor an M, it’s fine to use an if-statement in your solution. For an E, do not use any if-statements. You may find it helpful to run and think about the following line of code:\n\n[(-1)**(i+1) for i in range(1, 5)]\nHints:\n\nYou should add to the variable union_size using the syntax union_size += value_to_add.\nIt’s possible to solve this problem by replacing the print statement with a single careful line of code (under 80 characters), but it’s also ok to use more lines.\nWhen sets is a tuple of sets, the syntax sets[0].intersection(*sets[1:]) will compute the intersection of all the elements of sets.\n\n\n# your solution here \nfrom itertools import combinations\ndef ie_union_size(A, *other_sets):\n    union_size = 0\n    all_sets = other_sets + (A,)\n    for i in range(1, len(all_sets) + 1):\n        for sets in combinations(all_sets, i):\n            # in this part of the loop, the variable sets is a tuple that holds \n            # some sets. Throughout the loop, all possible combinations of sets\n            # appear in this tuple. \n            \n            # to complete this part, you only need to replace the print statement below with some of your own code. Nothing else needs to be touched. \n            print(sets)\n    return union_size        \n\n\n# please add some checks to show that your solution agrees with union_size when passed either 2 or 3 sets."
+  },
+  {
+    "objectID": "assignments/labs/02-inclusion-exclusion.html#part-e-optional-for-m-required-for-e",
+    "href": "assignments/labs/02-inclusion-exclusion.html#part-e-optional-for-m-required-for-e",
+    "title": "Lab 2: Set Cardinality and Inclusion-Exclusion",
+    "section": "Part E (optional for M, required for E)",
+    "text": "Part E (optional for M, required for E)\nYou can skip this problem if you are satisfied with an M on this lab report. If you are aiming for an E, please complete it.\nShow a test of your implementation of ie_union_size against union_size when passed 4 and 5 arguments. If the two functions do not agree, modify union_size until they do agree.\nYou may find it helpful to think about the inclusion-exclusion formula for 4 sets, which reads:\n\\[\n\\begin{aligned}\n\\lvert A \\cup B \\cup C \\cup D \\rvert &= \\lvert A \\rvert + \\lvert B \\rvert + \\lvert C \\rvert + \\lvert D \\rvert \\\\\n&\\quad - \\lvert A \\cap B \\rvert - \\lvert A \\cap C \\rvert - \\lvert A \\cap D \\rvert \\\\\n&\\quad - \\lvert C \\cap C \\rvert - \\lvert B \\cap D \\rvert - \\lvert C \\cap D \\rvert \\\\\n&\\quad + \\lvert A \\cap B \\cap C \\rvert + \\lvert A \\cap B \\cap D \\rvert \\\\\n&\\quad + \\lvert A \\cap C \\cap D \\rvert + \\lvert C \\cap C \\cap D \\rvert \\\\\n&\\quad - \\lvert A \\cap B \\cap C \\cap D \\rvert\\;.  \n\\end{aligned}\n\\]\nCan you find a pattern that you can generalize and use in your solution? It’s not required to prove your pattern – we’ll learn more about how to do that later in the course.\n\n# Show your tests here using 4 and 5 arguments. \n# You can use A, B, and C from above, as well as the following two additional sets: \n\nD = {3, 6, 7, 8}\nE = {1, 3, 4, 5, 7}\n\n# your tests here"
+  },
+  {
     "objectID": "content/problems/logic/truth-tables-1.html",
     "href": "content/problems/logic/truth-tables-1.html",
     "title": "",
@@ -413,25 +511,67 @@
     "text": "Consider the following propositions:\n\n\\(P\\): I achieved a Satisfactory (S) assessment on at least 11 Learning Targets.\n\\(Q\\): I received an E on at least 4 Lab assignments.\n\\(R\\): I had an N or an R on at least one Lab assignment by the end of the semester.\n\\(S\\): I missed 4 or more warmups.\n\\(T\\): I earned an A in CSCI 0200.\n\nConstruct a correct logical statement using \\(\\lnot\\), \\(\\lor\\), \\(\\land\\), and/or \\(\\rightarrow\\) to describe the relationship between these five propositions.\n\n\n\n  © Phil Chodrow, 2023"
   },
   {
-    "objectID": "content/problems/sets/venn-diagram-1.html",
-    "href": "content/problems/sets/venn-diagram-1.html",
+    "objectID": "content/problems/sets/dmoi-0-3-13-follow-up.html",
+    "href": "content/problems/sets/dmoi-0-3-13-follow-up.html",
     "title": "",
     "section": "",
-    "text": "Draw a Venn diagram to represent the set\n\\[(A \\cap B \\cap \\overline{C}) \\cup (A \\cap \\overline{B} \\cap C) \\cup (\\overline{A}\\cap \\overline{B} \\cap C)\\]\nThen, use your Venn diagram find an alternative expression that represents the same set.\n\n\n\n  © Phil Chodrow, 2023"
+    "text": "Recall that \\(\\mathbb{Z} = \\{\\ldots,-2, -1, 0, 1, 2 \\ldots\\}\\) (the integers). Let \\(\\mathbb{Z}^{+} = \\{1, 2, 3 \\ldots\\}\\) be the set of positive integers. Let \\(2\\mathbb{Z}\\) be the set of even integers, \\(3\\mathbb{Z}\\) the set of integers that are multiples of 3, and so on.\n\nFind a simple expression for the set \\(2\\mathbb{Z} \\cap 3\\mathbb{Z}\\).\nDescribe the set \\(\\{1, 4, 7, 10, \\ldots\\}\\) in set-builder notation.\nDescribe the set \\(\\{x \\in \\mathbb{Z} : x \\equiv 3 \\pmod 4\\}\\) without using the \\(\\pmod{}\\) operator.\n\n\n\n\n  © Phil Chodrow, 2023"
   },
   {
-    "objectID": "content/problems/sets/set-builder-2.html",
-    "href": "content/problems/sets/set-builder-2.html",
+    "objectID": "content/problems/sets/subset-inclusion-1.html",
+    "href": "content/problems/sets/subset-inclusion-1.html",
     "title": "",
     "section": "",
-    "text": "Write each of the following sets in set-builder notation. There may be several correct ways.\n\n\n\\(\\left\\{ 2, 4, 8, 16, 32, 64,\\ldots \\right\\}\\) \n\\(\\left\\{ 3, 4, 5, 6, 7, 8 \\right\\}\\)\n\\(\\left\\{ 0, 3, 6, 9, 12, 15 \\right\\}\\)\n\n\n\n\n  © Phil Chodrow, 2023"
+    "text": "Let \\(A = \\{2^{x+1} \\; : \\; x \\in \\mathbb{N}\\}\\) and let \\(B = \\{\\ldots, -4, -2, 0, 2, 4,\\ldots\\}\\).\n© Phil Chodrow, 2023"
+  },
+  {
+    "objectID": "content/problems/sets/subset-inclusion-1.html#part-a",
+    "href": "content/problems/sets/subset-inclusion-1.html#part-a",
+    "title": "",
+    "section": "Part A",
+    "text": "Part A\nIs \\(22 \\in A\\)? Is \\(22 \\in B\\)?"
+  },
+  {
+    "objectID": "content/problems/sets/subset-inclusion-1.html#part-b",
+    "href": "content/problems/sets/subset-inclusion-1.html#part-b",
+    "title": "",
+    "section": "Part B",
+    "text": "Part B\nWrite \\(B\\) in set-builder notation."
+  },
+  {
+    "objectID": "content/problems/sets/subset-inclusion-1.html#part-c",
+    "href": "content/problems/sets/subset-inclusion-1.html#part-c",
+    "title": "",
+    "section": "Part C",
+    "text": "Part C\nUse the element method to write a proof that \\(A \\subseteq B\\)."
+  },
+  {
+    "objectID": "content/problems/sets/subset-inclusion-1.html#part-d",
+    "href": "content/problems/sets/subset-inclusion-1.html#part-d",
+    "title": "",
+    "section": "Part D",
+    "text": "Part D\nWould your proof still work if we instead defined \\(A = \\{2^{x} \\; : \\; x \\in \\mathbb{N}\\}\\)? Why or why not?"
+  },
+  {
+    "objectID": "content/problems/sets/set-builder-1.html",
+    "href": "content/problems/sets/set-builder-1.html",
+    "title": "",
+    "section": "",
+    "text": "Write the following sets by listing their elements between braces:\n\n\\(\\left\\{ x \\in \\mathbb{Z} \\; : x^2 \\leq 10 \\right\\}\\)\n\\(\\left\\{ x \\in \\mathbb{Z} \\; : x \\leq 10 \\right\\} \\cap \\left\\{ x \\in \\mathbb{Z} \\; : x \\text{ is a prime number.} \\right\\}\\)\n\\(\\left\\{ x \\in \\mathbb{Z} \\; : x/2 \\geq 10 \\right\\} \\cap \\left\\{ x \\in \\mathbb{Z} \\; : 5x &lt; 100 \\right\\}\\)\n\n\n\n\n  © Phil Chodrow, 2023"
   },
   {
     "objectID": "content/problems/sets/inclusion-exclusion.html",
     "href": "content/problems/sets/inclusion-exclusion.html",
     "title": "",
     "section": "",
-    "text": "Your excited friend tells you about this cool “fact” that they learned in their structural engineering course, Computing Mathematics of Foundations. Their “fact” is:\nFor any two sets \\(A\\) and \\(B\\), \\[\n\\lvert A \\setminus B \\rvert = \\lvert A \\rvert - \\lvert B \\rvert\\;.\n\\tag{1}\\]\n“How cool,” you say, while politely smiling.\n\nPart A\nGive an example of sets \\(A\\) and \\(B\\) such that Equation 1 is true.\n(Your friend grins.)\n\n\nPart B\nGive an example of sets \\(A\\) and \\(B\\) such that Equation 1 is not true.\n(Your friend groans. Maybe they should have taken CSCI 0200 instead…)\n\n\nPart C\nDerive a correct formula for \\(\\lvert A \\setminus B \\rvert\\). For your final formula, please use only the set complement operator \\(\\bar{B}\\) and the set union operator \\(\\cup\\), but not the set intersection operator \\(\\cap\\). You may also use arithmetic operations like addition, multiplication, and subtraction. Justify each of your steps.\n\n\n\n\n  © Phil Chodrow, 2023"
+    "text": "Your excited friend tells you about this cool “fact” that they learned in their structural engineering course, Computing Mathematics of Foundations. Their “fact” is:\nFor any two sets \\(A\\) and \\(B\\), \\[\n\\lvert A \\setminus B \\rvert = \\lvert A \\rvert - \\lvert B \\rvert\\;.\n\\tag{1}\\]\n“How cool,” you say, while politely smiling.\n\nPart A\nGive an example of sets \\(A\\) and \\(B\\) such that Equation 1 is true.\n(Your friend grins.)\n\n\nPart B\nGive an example of sets \\(A\\) and \\(B\\) such that Equation 1 is not true.\n(Your friend groans. Maybe they should have taken CSCI 0200 instead…)\n\n\nPart C\nDerive a correct formula for \\(\\lvert A \\setminus B \\rvert\\). For your final formula, please use only the set complement operator \\(\\bar{B}\\), the set union operator \\(\\cup\\), the set intersection operator \\(\\cap\\), and the set cardinality operator \\(\\lvert \\cdot \\rvert|\\) (you may not need all of these operators). You may also use arithmetic operations like addition, multiplication, and subtraction. Justify your formula.\n\n\n\n\n  © Phil Chodrow, 2023"
+  },
+  {
+    "objectID": "content/modules/17-quantified-logic/prep.html",
+    "href": "content/modules/17-quantified-logic/prep.html",
+    "title": "",
+    "section": "",
+    "text": "© Phil Chodrow, 2023"
   },
   {
     "objectID": "content/modules/11-logic-2/prep.html",
@@ -560,6 +700,13 @@
     "text": "Math Foundations: What You Need Now To Do All That Stuff Later"
   },
   {
+    "objectID": "content/modules/00-intro/in-class.html#math-and-us",
+    "href": "content/modules/00-intro/in-class.html#math-and-us",
+    "title": "Welcome  to CSCI 0200!",
+    "section": "Math and Us",
+    "text": "Math and Us\n   \nRespond to the second prompt on the Menti poll.\nIf you closed the tab, go to menti.com and enter code 39 98 51 6."
+  },
+  {
     "objectID": "content/modules/00-intro/in-class.html#in-this-class-you-will",
     "href": "content/modules/00-intro/in-class.html#in-this-class-you-will",
     "title": "Welcome  to CSCI 0200!",
@@ -644,13 +791,6 @@
     "text": "Classroom Environment\n \nInclusion, access, and participation are collective projects.\n\nDiscrimination is unjust and it sucks. Don’t do it.\nAddress people respectfully — chosen names and pronouns.\nDon’t leave each other behind in group work.\nBragging about something being easy just makes the people around you feel bad.\n\nAre you fast at the material? Cool. Use your ability to support the learning of the people around you.\n\nI am a mandatory reporter of potential incidents of sexual violence or harassment. There is a link to some confidential resources on the syllabus."
   },
   {
-    "objectID": "content/modules/00-intro/in-class.html#whos-in-the-room-1",
-    "href": "content/modules/00-intro/in-class.html#whos-in-the-room-1",
-    "title": "Welcome  to CSCI 0200!",
-    "section": "Who’s in the Room?",
-    "text": "Who’s in the Room?\n \nWe have folks who…\n\n…took a math class last semester.\n…haven’t taken math in several years.\n…are in their first year of college.\n…are in their last year of college.\n…embody axes of privilege (upper-income, White, male, cishet, able-bodied, etc.)\n…embody axes of marginalization (lower-income, person of color, female or nonbinary, LGBTQ+, disabled, first-gen, etc.)\n…have a joyful relationship with math.\n…have an adversarial relationship with math."
-  },
-  {
     "objectID": "content/modules/00-intro/in-class.html#for-wednesday",
     "href": "content/modules/00-intro/in-class.html#for-wednesday",
     "title": "Welcome  to CSCI 0200!",
@@ -690,21 +830,35 @@
     "href": "content/modules/12-sets/prep.html#problem-3",
     "title": "Sets and Set Operations",
     "section": "Problem 3",
-    "text": "Problem 3\nLet \\(A = \\{2^{x+1} \\; : \\; x \\in \\mathbb{N}\\}\\) and let \\(B = \\{2y \\; :\\; y \\in \\mathbb{Z}\\}\\)."
+    "text": "Problem 3\nLet \\(A = \\{2^{x+1} \\; : \\; x \\in \\mathbb{N}\\}\\) and let \\(B = \\{\\ldots, -4, -2, 0, 2, 4,\\ldots\\}\\)."
   },
   {
     "objectID": "content/modules/12-sets/prep.html#part-a",
     "href": "content/modules/12-sets/prep.html#part-a",
     "title": "Sets and Set Operations",
     "section": "Part A",
-    "text": "Part A\nUse the element method to write a proof that \\(A \\subseteq B\\)."
+    "text": "Part A\nIs \\(22 \\in A\\)? Is \\(22 \\in B\\)?"
   },
   {
     "objectID": "content/modules/12-sets/prep.html#part-b",
     "href": "content/modules/12-sets/prep.html#part-b",
     "title": "Sets and Set Operations",
     "section": "Part B",
-    "text": "Part B\nWould your proof still work if we defined \\(A = \\{2^{x} \\; : \\; x \\in \\mathbb{N}\\}\\)? Why or why not?"
+    "text": "Part B\nWrite \\(B\\) in set-builder notation."
+  },
+  {
+    "objectID": "content/modules/12-sets/prep.html#part-c",
+    "href": "content/modules/12-sets/prep.html#part-c",
+    "title": "Sets and Set Operations",
+    "section": "Part C",
+    "text": "Part C\nUse the element method to write a proof that \\(A \\subseteq B\\)."
+  },
+  {
+    "objectID": "content/modules/12-sets/prep.html#part-d",
+    "href": "content/modules/12-sets/prep.html#part-d",
+    "title": "Sets and Set Operations",
+    "section": "Part D",
+    "text": "Part D\nWould your proof still work if we instead defined \\(A = \\{2^{x} \\; : \\; x \\in \\mathbb{N}\\}\\)? Why or why not?"
   },
   {
     "objectID": "content/modules/10-logic-1/prep.html",
@@ -796,187 +950,5 @@
     "title": "Learning Objectives",
     "section": "",
     "text": "What are the mathematical foundations of computing? What role does mathematics play in computing?\n\nMathematical reasoning about models of computation. What kinds of computations are possible? (301)\nMathematical reasoning about algorithms. How do we know that an algorithm does what it’s supposed to do? In what cases does a given algorithm work? How do we know how fast it is? (302, 451, 461, other)\n\nStandard discrete math\nLinear algebra\nMultivariable calculus\nProbability\n\nThinking about the world mathematically\n\nThis is not about computer science exactly but it can help for things like social impacts, plus it’s fun!\nMaybe can connect to responsible computing\n\n\nFor models of computation, the core skills are:\n\nProof\nRecursion\n\nFor algorithms, the additional core skills are:\n\nCounting\nElementary probability\nGraphs/networks\n\nReasoning about the world mathematically:\n\nApplications of networks and probability\n\n\nLearning Objectives\n\n\n\n\n  © Phil Chodrow, 2023"
-  },
-  {
-    "objectID": "content/modules/17-quantified-logic/in-class.html",
-    "href": "content/modules/17-quantified-logic/in-class.html",
-    "title": "Practice with Quantified Logic",
-    "section": "",
-    "text": "Consider the following two statements:\n\nEverything is awesome!!!\nEverything is cool when you’re part of a team.\n\nTranslate these statements using quantified logical expressions, using the following predicates:\n\n\\(A(x)\\): \\(x\\) is awesome.\n\\(C(y)\\): \\(y\\) is cool.\n\\(P(z, t)\\): person \\(z\\) is part of team \\(t\\).\n© Phil Chodrow, 2023"
-  },
-  {
-    "objectID": "content/modules/17-quantified-logic/in-class.html#exercise",
-    "href": "content/modules/17-quantified-logic/in-class.html#exercise",
-    "title": "Practice with Quantified Logic",
-    "section": "",
-    "text": "Consider the following two statements:\n\nEverything is awesome!!!\nEverything is cool when you’re part of a team.\n\nTranslate these statements using quantified logical expressions, using the following predicates:\n\n\\(A(x)\\): \\(x\\) is awesome.\n\\(C(y)\\): \\(y\\) is cool.\n\\(P(z, t)\\): person \\(z\\) is part of team \\(t\\)."
-  },
-  {
-    "objectID": "content/modules/17-quantified-logic/prep.html",
-    "href": "content/modules/17-quantified-logic/prep.html",
-    "title": "",
-    "section": "",
-    "text": "© Phil Chodrow, 2023"
-  },
-  {
-    "objectID": "content/modules/00-intro/in-class.html#section-1",
-    "href": "content/modules/00-intro/in-class.html#section-1",
-    "title": "Welcome  to CSCI 0200!",
-    "section": "",
-    "text": "CS and Math Go Way Back\n\nAlan Turing was an English mathematician who played a major role in developing the theory of computer science and AI.\nTuring proved that some tasks are impossible for algorithms to perform, no matter how powerful or clever they are.\nThe “Nobel Prize in Computer Science” is named the Turing Award.\nTuring was chemically castrated as a punishment for homosexuality in 1953. The UK managed to apologize for this in…2009."
-  },
-  {
-    "objectID": "content/modules/00-intro/in-class.html#what-you-need-to-do-for-wednesday",
-    "href": "content/modules/00-intro/in-class.html#what-you-need-to-do-for-wednesday",
-    "title": "Welcome  to CSCI 0200!",
-    "section": "What You Need To Do For Wednesday",
-    "text": "What You Need To Do For Wednesday\n\nEntrance Survey: tell me about yourself and help me find your teammates for lab.\nMath autobiography: your history as a learner and user of mathematics."
-  },
-  {
-    "objectID": "content/modules/00-intro/in-class.html#section-18",
-    "href": "content/modules/00-intro/in-class.html#section-18",
-    "title": "Welcome  to CSCI 0200!",
-    "section": "",
-    "text": "Final Grade\n\n\n\n\n\n\n\n\nTier\nLearning Targets\nLabs\n\n\n\n\nA\n▢ ▢ ▢\nE: ▢ ▢ ▢ ▢ M or E: ▢ ▢ ▢\n\n\nB\n▢ ▢\nE: ▢ ▢ M or E: ▢ ▢ ▢ ▢ ▢\n\n\nC\n▢ ▢ ▢ ▢ ▢ ▢\nM or E: ▢ ▢ ▢ ▢ ▢  R, M, or E: ▢ ▢\n\n\n\nMissing many warmups results in a penalty to your final grade."
-  },
-  {
-    "objectID": "content/modules/00-intro/in-class.html#section-19",
-    "href": "content/modules/00-intro/in-class.html#section-19",
-    "title": "Welcome  to CSCI 0200!",
-    "section": "",
-    "text": "Final Grade\n\n\n\n\n\n\n\n\nTier\nLearning Targets\nLabs\n\n\n\n\nA\n▢ ▢ ▢\nE: ▢ ▢ ▢ ▢ M or E: ▢ ▢ ▢\n\n\nB\n▢ ▢\nE: ▢ ▢ M or E: ▢ ▢ ▢ ▢ ▢\n\n\nC\n▢ ▢ ▢ ▢ ▢ ▢\nM or E: ▢ ▢ ▢ ▢ ▢  R, M, or E: ▢ ▢\n\n\n\nMissing many warmups results in a penalty to your final grade."
-  },
-  {
-    "objectID": "content/modules/01-math-and-me/in-class.html#discussion-1",
-    "href": "content/modules/01-math-and-me/in-class.html#discussion-1",
-    "title": "Mathematics and Me",
-    "section": "Discussion",
-    "text": "Discussion\nWhat’s something you are better at than most people?\nWere you ever not good at it?\nHow did you get good at it?"
-  },
-  {
-    "objectID": "content/modules/01-math-and-me/in-class.html#discussion-2",
-    "href": "content/modules/01-math-and-me/in-class.html#discussion-2",
-    "title": "In Class: Mathematics and Me",
-    "section": "Discussion",
-    "text": "Discussion\nWhat’s a way in which you’ve felt welcome or supported in your learning by your classmates?\nWhat’s a way in which you’ve felt unwelcome or discouraged in your learning by your classmates?"
-  },
-  {
-    "objectID": "content/modules/01-math-and-me/in-class.html#optional-mathematical-writing",
-    "href": "content/modules/01-math-and-me/in-class.html#optional-mathematical-writing",
-    "title": "In Class: Mathematics and Me",
-    "section": "(Optional) Mathematical Writing",
-    "text": "(Optional) Mathematical Writing\nMathematical writing is something we’ll be doing a lot of in this course, and we’re about to start with it in our upcoming warmup and lab assignment. Let’s compare and contrast two examples of mathematical writing.\n\nProve that the sum of two even integers is also even.\n\n\nSolution 1\n\\(2i + 2j = 2(i + j)\\)\n\n\nSolution 2\n\nProposition 1 (Sum of Even Integers is Even) Let \\(m\\) and \\(n\\) be any two even integers. Then, \\(m+n\\) is also an even integer.\n\n\nProof. Let \\(m\\) and \\(n\\) be any two even integers. Then, there is some integer \\(i\\) such that \\(m = 2i\\), and similarly there is some integer \\(j\\) such that \\(n = 2j\\). We can then write\n\\[\nm + n = 2i + 2j = 2(i + j)\\;.\n\\]\nThe second equality follows from the distributive law of multiplication. Therefore, \\(m+n\\) can be written in the form \\(2k\\) for the choice \\(k = i+j\\). Therefore, \\(m+n\\) is an integer, as was to be shown."
-  },
-  {
-    "objectID": "content/modules/01-math-and-me/in-class.html#if-time-mathematical-writing",
-    "href": "content/modules/01-math-and-me/in-class.html#if-time-mathematical-writing",
-    "title": "Mathematics and Me",
-    "section": "(If Time) Mathematical Writing",
-    "text": "(If Time) Mathematical Writing\nMathematical writing is something we’ll be doing a lot of in this course, and we’re about to start with it in our upcoming warmup and lab assignment. Let’s compare and contrast two examples of mathematical writing.\n\nProve that the sum of two even integers is also even."
-  },
-  {
-    "objectID": "content/modules/01-math-and-me/in-class.html#section",
-    "href": "content/modules/01-math-and-me/in-class.html#section",
-    "title": "Mathematics and Me",
-    "section": "",
-    "text": "First, just write (4 minutes)\n \nWhat’s a way in which your previous classmates have helped you feel welcome or supported in your learning?\n\nWhat’s a way in which your previous classmates have made you feel unwelcome or discouraged in your learning?"
-  },
-  {
-    "objectID": "content/modules/01-math-and-me/in-class.html#section-1",
-    "href": "content/modules/01-math-and-me/in-class.html#section-1",
-    "title": "Mathematics and Me",
-    "section": "",
-    "text": "In Groups (8 mins)\n 🥗🥬🥕🍉🥑🍅🍇🥝🥔🍍🍊🍌🍈🥭🍎🍒🍠🍓🍑🥒🍋🍆🧀🌽🫑🍏🍐🥦🌶\n\n\nYour name\nYour affinity vegetable and your “why”\nYour way in which others have helped you feel welcome or supported in your learning\n\nAfter everyone has spoken, go around again with:\n\nYour way in which others have made you have made you feel unwelcome or discouraged in your learning?\n\n 🥗🥬🥕🍉🥑🍅🍇🥝🥔🍍🍊🍌🍈🥭🍎🍒🍠🍓🍑🥒🍋🍆🧀🌽🫑🍏🍐🥦🌶"
-  },
-  {
-    "objectID": "content/modules/01-math-and-me/in-class.html#section-2",
-    "href": "content/modules/01-math-and-me/in-class.html#section-2",
-    "title": "Mathematics and Me",
-    "section": "",
-    "text": "Writing Time Again (4 minutes)\n \nWhat’s something you are better at than most people?\nWere you ever not good at it?\nHow did you get good at it?"
-  },
-  {
-    "objectID": "content/modules/01-math-and-me/in-class.html#section-3",
-    "href": "content/modules/01-math-and-me/in-class.html#section-3",
-    "title": "Mathematics and Me",
-    "section": "",
-    "text": "Back in Groups (8 mins)\n \n\nYour name and affinity vegetable\nYour superpower! Something you are better at than most people.\n\nOnce everyone has spoken, go around again with:\n\nHow did you get good at your superpower?"
-  },
-  {
-    "objectID": "content/modules/01-math-and-me/in-class.html#section-4",
-    "href": "content/modules/01-math-and-me/in-class.html#section-4",
-    "title": "Mathematics and Me",
-    "section": "",
-    "text": "Syllabus Review: Calculating Final Grades\n \nFirst Row: what’s the smallest number of Learning Targets a student can satisfy in order to earn an A-?\nSecond Row: describe, in terms of Learning Targets, Labs, and Warmups, a scenario in which a student would earn a B+.\nThird Row: which of these assignment types have “partial credit”? Which of them have a chance to try again?\n\nWarmups\nQuiz problems\nLab reports"
-  },
-  {
-    "objectID": "content/modules/01-math-and-me/in-class.html#section-6",
-    "href": "content/modules/01-math-and-me/in-class.html#section-6",
-    "title": "Mathematics and Me",
-    "section": "",
-    "text": "Syllabus Review: Calculating Final Grades\n \nFirst Row: what’s the smallest number of Learning Targets a student can satisfy in order to earn an A-?\nSecond Row: describe, in terms of Learning Targets, Labs, and Warmups, a scenario in which a student would earn a B+.\nThird Row: which of these assignment types have “partial credit”? Which of them have a chance to try again?\n\nWarmups\nQuiz problems\nLab reports"
-  },
-  {
-    "objectID": "content/modules/01-math-and-me/in-class.html#section-7",
-    "href": "content/modules/01-math-and-me/in-class.html#section-7",
-    "title": "Mathematics and Me",
-    "section": "",
-    "text": "Solution 1\n\\(2i + 2j = 2(i + j)\\)"
-  },
-  {
-    "objectID": "content/modules/01-math-and-me/in-class.html#section-8",
-    "href": "content/modules/01-math-and-me/in-class.html#section-8",
-    "title": "Mathematics and Me",
-    "section": "",
-    "text": "Solution 2\n\nProposition 1 (Sum of Even Integers is Even) Let \\(m\\) and \\(n\\) be any two even integers. Then, \\(m+n\\) is also an even integer.\n\n\nProof. Let \\(m\\) and \\(n\\) be any two even integers. Then, there is some integer \\(i\\) such that \\(m = 2i\\), and similarly there is some integer \\(j\\) such that \\(n = 2j\\). We can then write\n\\[\nm + n = 2i + 2j = 2(i + j)\\;.\n\\]\nThe second equality follows from the distributive law of multiplication. Therefore, \\(m+n\\) can be written in the form \\(2k\\) for the choice \\(k = i+j\\). Therefore, \\(m+n\\) is an integer, as was to be shown."
-  },
-  {
-    "objectID": "content/modules/01-math-and-me/in-class.html#section-9",
-    "href": "content/modules/01-math-and-me/in-class.html#section-9",
-    "title": "Mathematics and Me",
-    "section": "",
-    "text": "Exercise\nDraft a proof that the sum of two odd integers is also even. It’s ok not to write out complete sentences, but use abbreviations that would help remind you which sentences to put where.\nFor more tips, see the guide to Writing Mathematics Well by Francis Su at Harvey Mudd College."
-  },
-  {
-    "objectID": "content/modules/00-intro/in-class.html#math-and-us",
-    "href": "content/modules/00-intro/in-class.html#math-and-us",
-    "title": "Welcome  to CSCI 0200!",
-    "section": "Math and Us",
-    "text": "Math and Us\n   \nRespond to the second prompt on the Menti poll.\nIf you closed the tab, go to menti.com and enter code 39 98 51 6."
-  },
-  {
-    "objectID": "syllabus.html#late-work-policies",
-    "href": "syllabus.html#late-work-policies",
-    "title": "Syllabus",
-    "section": "Late Work Policies",
-    "text": "Late Work Policies\n\nWarmups\nExtensions are never given on warmups unless under guidance from the DRC. Remember that you can miss up to 3 warmups without any impact on your final grade in the course.\n\n\nLabs\nFor each lab report, you may receive an extension of up to 3 days (72 hours) from the original due date. To do so, you should fill out this modified due date request form. You can count on receiving such an extension without a negotation if you:\n\nRequest the extension at least one day (24 hours) in advance of the original due date.\nWrite short but thoughtful responses to the questions posed in the form.\n\nLabs that are turned in after the due date (or possibly the extended due date) will still be accepted and assessed. However, these late lab reports will count as your second submission, and the assessment you receive on that lab report will be final.\n\n\nQuizzes\nYou can reschedule quizzes under the following circumstances.\n\nYou have an emergency related to your health, mental health, or wellbeing, or the health, mental health, or wellbeing of your loved ones. No documentation is needed – just let me know.\nYou are traveling for a major athletic event. In this case, you must notify me at least two weeks in advance. Please notify me by email and cc your coach. Usually, athletic conflicts will result in you taking the quiz a day or two early."
-  },
-  {
-    "objectID": "content/modules/12-sets/in-class.html#section",
-    "href": "content/modules/12-sets/in-class.html#section",
-    "title": "In Class: Sets",
-    "section": "",
-    "text": "Recall that \\(\\mathbb{Z} = \\{\\ldots,-2, -1, 0, 1, 2 \\ldots\\}\\) (the integers). Let \\(\\mathbb{Z}^{+} = \\{1, 2, 3 \\ldots\\}\\) be the set of positive integers. Let \\(2\\mathbb{Z}\\) be the set of even integers, \\(3\\mathbb{Z}\\) the set of integers that are multiples of 3, and so on.\n\nIs \\(\\mathbb{Z}^+ \\subseteq \\mathbb{Z}\\)? Why or why not?\nIs \\(2\\mathbb{Z} \\subseteq \\mathbb{Z}^+\\)? Why or why not?\nFind \\(2\\mathbb{Z} \\cap 3\\mathbb{Z}\\). Describe this set in words and using set notation.\nExpress the set \\(\\left\\{x \\in \\mathbb{Z}: \\exists y\\in \\mathbb{Z}((x = 2y) \\lor (x = 3y))\\right\\}\\) as a union or intersection of sets that we’ve used in this problem.\n\nDMOI 0.3.13"
-  },
-  {
-    "objectID": "content/modules/12-sets/in-class.html#section-1",
-    "href": "content/modules/12-sets/in-class.html#section-1",
-    "title": "In Class: Sets",
-    "section": "",
-    "text": "Recall that \\(\\mathbb{Z} = \\{\\ldots,-2, -1, 0, 1, 2 \\ldots\\}\\) (the integers). Let \\(\\mathbb{Z}^{+} = \\{1, 2, 3 \\ldots\\}\\) be the set of positive integers. Let \\(2\\mathbb{Z}\\) be the set of even integers, \\(3\\mathbb{Z}\\) the set of integers that are multiples of 3, and so on.\n\nFind a simple expression for the set \\(2\\mathbb{Z} \\cap 3\\mathbb{Z}\\).\nDescribe the set \\(\\{1, 4, 7, 10, \\ldots\\}\\) in set-builder notation.\nDescribe the set \\(\\{x \\in \\mathbb{Z} : x \\equiv 3 \\pmod 4\\}\\) without using the \\(\\pmod{}\\) operator."
-  },
-  {
-    "objectID": "content/problems/sets/subset-inclusion-1.html#part-c",
-    "href": "content/problems/sets/subset-inclusion-1.html#part-c",
-    "title": "",
-    "section": "Part C",
-    "text": "Part C\nUse the element method to write a proof that \\(A \\subseteq B\\)."
-  },
-  {
-    "objectID": "content/problems/sets/subset-inclusion-1.html#part-d",
-    "href": "content/problems/sets/subset-inclusion-1.html#part-d",
-    "title": "",
-    "section": "Part D",
-    "text": "Part D\nWould your proof still work if we instead defined \\(A = \\{2^{x} \\; : \\; x \\in \\mathbb{N}\\}\\)? Why or why not?"
   }
 ]

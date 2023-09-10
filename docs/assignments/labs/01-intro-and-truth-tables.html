@@ -287,9 +287,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="part-b-writing-math" class="level1">
 <h1>Part B: Writing Math</h1>
-<p>You can write mathematics in Google Colab’s Markdown engine by enclosing special commands inside $dollar signs$. For example, the command</p>
+<p>You can write mathematics in Google Colab’s Markdown engine by enclosing special commands inside <code>$</code> dollar signs <code>$</code>. For example, the command</p>
 <p><code>$ p \lor q $</code></p>
-<p>will render in Colab as</p>
+<p>entered into a Markdown cell will render in Colab as</p>
 <p><span class="math inline">\(p \lor q\)</span></p>
 <p>Here, the string <code>\lor</code> (“<strong>l</strong>ogical <strong>or</strong>”) is a special string that, when rendered, gives the symbol <span class="math inline">\(\lor\)</span> for the logical <code>or</code> operation that we introduced.</p>
 <p><em>The math notation used by Colab is very similar to the widely used <span class="math inline">\(\LaTeX\)</span> notation for writing mathematical and scientific documents. Most of your CS and math professors write their scientific papers using the <span class="math inline">\(\LaTeX\)</span> markup language. In Colab, the mathematical typesetting is handled by an online utility called <a href="https://www.mathjax.org/">MathJax</a>. In case you have used <span class="math inline">\(\LaTeX\)</span> before, you’ll find that almost all of the symbol commands are the same.</em></p>
@@ -313,28 +313,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li><span class="math inline">\(\lnot (p \land q)\)</span></li>
 <li><span class="math inline">\(\lnot p \lor \lnot q\)</span></li>
 </ol>
-<p>It’s ok to write your truth tables “casually” using Markdown, but you can also structure them as <em>tables</em> using special Markdown syntax. Double click into this markdown cell to see how I created the beginnings of a truth table:</p>
-<table class="table">
-<thead>
-<tr class="header">
-<th><span class="math inline">\(p\)</span></th>
-<th><span class="math inline">\(q\)</span></th>
-<th><span class="math inline">\(p \land q\)</span></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>T</td>
-<td>T</td>
-<td>?</td>
-</tr>
-<tr class="even">
-<td>T</td>
-<td>F</td>
-<td>?</td>
-</tr>
-</tbody>
-</table>
+<p>It’s ok to write your truth tables “casually” using Markdown, but you can also structure them as <em>tables</em> using some more advanced <span class="math inline">\(\LaTeX\)</span> syntax. Double click into this markdown cell to see how I created the beginnings of a truth table:</p>
+<p><span class="math display">\[
+\begin{array}{c|c|c}
+p &amp; q &amp; p \lor q \\
+\hline
+T &amp; T &amp; ? \\
+T &amp; F &amp; ? \\
+\end{array}
+\]</span></p>
 <p>[<em>your truth tables here!</em>]</p>
 </section>
 </section>

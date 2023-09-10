@@ -61,14 +61,14 @@
   publish: true
   due:
 - date: 2023-09-22
-  header: "Lab 2: Logic, Boolean Algebra, and Circuits"
+  header: "Lab 2: Inclusion-Exclusion"
   summary: |
       We introduce boolean logic and use the sum-of-products algorithm for computing binary functions.
   objectives:
       - Sets and Logic
-  prep: <a href="content/modules/15-boolean-algebra/prep.qmd">Introducing Boolean Algebra</a>
+  prep: TBD
   activities:
-      - "Lab 2: Logic, Boolean Algebra, and Circuits"
+      - <a href="https://colab.research.google.com/github/PhilChodrow/CSCI-0200/blob/main/assignments/labs/02-inclusion-exclusion.ipynb">Inclusion-Exclusion</a>
   notes:
   publish: true
   due: "Lab 1: Technical Writing and Truth Tables"
