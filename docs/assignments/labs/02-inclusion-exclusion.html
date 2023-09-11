@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.330">
+<meta name="generator" content="quarto-1.4.339">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -276,7 +276,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h2 class="anchored" data-anchor-id="part-c">Part C</h2>
 <p>Now let’s perform an <em>algebraic</em> derivation of the 3-set inclusion-exclusion formula. To do this, let’s define <span class="math inline">\(D = B \cup C\)</span>. Then, we can write</p>
 <p><span class="math inline">\(\lvert A \cup B \cup C\rvert = \lvert A \cup D\rvert\;.\)</span></p>
-<p>First, apply the two-set inclusion-exclusion formula to the righthand side of this expression. Then, apply the two-set inclusion exclusion formula <em>again</em> to simplify the expressions that result.</p>
+<ul>
+<li>First, apply the two-set inclusion-exclusion formula to the righthand side of this expression.</li>
+<li>Then, apply the two-set inclusion exclusion formula <em>again</em> to simplify the expressions that result.</li>
+</ul>
 <p>Write your derivation (a computation leading to the desired formula) on the whiteboard. It would be good idea to take a picture of it once you’re done.</p>
 <section id="after-lab-2" class="level3">
 <h3 class="anchored" data-anchor-id="after-lab-2">(<em>After Lab</em>)</h3>
@@ -292,24 +295,26 @@ x &amp;= y \\
 </section>
 <section id="part-d" class="level2">
 <h2 class="anchored" data-anchor-id="part-d">Part D</h2>
+<p>Now let’s test our mathematical theory against computational experiments.</p>
 <p>The following function will compute the size of a union of any number of provided sets.</p>
-<div id="cell-11" class="cell" data-execution_count="1">
+<div id="cell-11" class="cell" data-execution_count="5">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> union_size(A, <span class="op">*</span>other_sets):</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="bu">len</span>(A.union(<span class="op">*</span>other_sets))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Here is it in action:</p>
-<div id="cell-13" class="cell" data-execution_count="2">
+<div id="cell-13" class="cell" data-execution_count="6">
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>A <span class="op">=</span> {<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>}</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>B <span class="op">=</span> {<span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>}</span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>C <span class="op">=</span> {<span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">7</span>}</span>
 <span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>union_size(A, B, C) <span class="co"># union is {1, 2, 3, 4, 5, 7}</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="2">
+<div class="cell-output cell-output-display" data-execution_count="6">
 <pre><code>6</code></pre>
 </div>
 </div>
-<p>Now we’re going to write a function that can compute the size of a union using an inclusion-exclusion formula. Here is a function that, when one or more sets are passed as arguments, <em>prints</em> all possible combinations of those sets. Then, it returns <code>0</code>.</p>
-<div id="cell-15" class="cell" data-execution_count="3">
+<p>Now we’re going to write a function that can compute the size of a union using using a different method, using inclusion-exclusion.</p>
+<p>To get you started on this function, I’ve populated a function that, when one or more sets are passed as arguments, <em>prints</em> all possible combinations of those sets. Then, it returns <code>0</code>.</p>
+<div id="cell-15" class="cell" data-execution_count="7">
 <div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> itertools <span class="im">import</span> combinations</span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> ie_union_size(A, <span class="op">*</span>other_sets):</span>
 <span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>    union_size <span class="op">=</span> <span class="dv">0</span></span>
@@ -320,7 +325,7 @@ x &amp;= y \\
 <span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> union_size        </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Here it is in action:</p>
-<div id="cell-17" class="cell" data-execution_count="4">
+<div id="cell-17" class="cell" data-execution_count="8">
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> ie_union_size(A, B, C)</span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"the current return value is </span><span class="sc">{</span>x<span class="sc">}</span><span class="ss">"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -346,7 +351,7 @@ the current return value is 0</code></pre>
 <li>It’s possible to solve this problem by replacing the <code>print</code> statement with a single careful line of code (under 80 characters), but it’s also ok to use more lines.</li>
 <li>When <code>sets</code> is a tuple of sets, the syntax <code>sets[0].intersection(*sets[1:])</code> will compute the intersection of all the elements of <code>sets</code>.</li>
 </ul>
-<div id="cell-19" class="cell" data-execution_count="5">
+<div id="cell-19" class="cell" data-execution_count="9">
 <div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># your solution here </span></span>
 <span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> itertools <span class="im">import</span> combinations</span>
 <span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> ie_union_size(A, <span class="op">*</span>other_sets):</span>
@@ -397,7 +402,7 @@ the current return value is 0</code></pre>
 <h1>Part F: Reflection</h1>
 <p>Write a paragraph in response to the following prompt:</p>
 <ol type="1">
-<li>Approximately how long did it take you to complete this lab, <strong>including Friday’s lab time</strong>?</li>
+<li>Approximately how long did it take you to complete this lab, <strong>including Friday’s in-class lab time</strong>?</li>
 <li>Big picture, how would you describe what this lab was about?</li>
 <li>What are three skills you learned or practiced in this lab?</li>
 <li>What is a way in which your group supported your learning during this lab?</li>

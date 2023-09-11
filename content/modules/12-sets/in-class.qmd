@@ -1,6 +1,6 @@
 ---
 title: "In Class: Sets"  
-subtitle: "Math Foundations of Computer Science, F23"  
+subtitle: "Math Foundations of Computing, F23"  
 date: ""
 title-slide-attributes:
   data-background-opacity: "0.0"  

@@ -1,6 +1,6 @@
 ---
 title: "<span style='color:#EF476F'>Welcome </span> to CSCI 0200!"  
-subtitle: "Math Foundations of Computer Science, F23"  
+subtitle: "Math Foundations of Computing, F23"  
 date: ""
 author: 'Prof. <span class="speaker-highlight">Phil Chodrow</span> <br>Department of Computer Science<br>Middlebury College'    
 title-slide-attributes:

@@ -68,7 +68,7 @@
       - Sets and Logic
   prep: TBD
   activities:
-      - <a href="https://colab.research.google.com/github/PhilChodrow/CSCI-0200/blob/main/assignments/labs/02-inclusion-exclusion.ipynb">Inclusion-Exclusion</a>
+      - <a href="https://colab.research.google.com/github/PhilChodrow/CSCI-0200/blob/main/assignments/labs/02-inclusion-exclusion.ipynb">Lab: Inclusion-Exclusion</a>
   notes:
   publish: true
   due: "Lab 1: Technical Writing and Truth Tables"

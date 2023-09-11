@@ -1,6 +1,6 @@
 ---
 title: "Mathematics and Me"  
-subtitle: "Math Foundations of Computer Science, F23"  
+subtitle: "Math Foundations of Computing, F23"  
 date: ""
 title-slide-attributes:
   data-background-opacity: "0.0"  
@@ -22,6 +22,30 @@ cache: true
 from: markdown+emoji
 ---
 
+
+## {background-image="../../../assets/img/pics/veggies.jpeg" background-size="contain" background-color="black"}
+
+### Your Affinity Vegetable
+
+<br> <br> 
+
+### 1. Split into teams
+
+### 2. Go around and share your name and:
+
+##### If you were a vegetable, which vegetable would you be [and why]{.alert}? 
+
+## {background-image="../../../assets/img/pics/veggies.jpeg" background-size="contain" background-color="black"}
+
+### Your Affinity Vegetable
+
+<br> <br> 
+
+### 3. [Team leader]{.alert}: lead your team in finding a [*delicious dish*]{.alert2} that incorporates all of your vegetables.
+
+##### Be ready to share! 
+
+
 ##  
 
 ### First, just write (4 minutes)
@@ -35,12 +59,14 @@ What's a way in which your previous classmates have helped you feel [**welcome**
 What's a way in which your previous classmates have made you feel [**unwelcome**]{.alert-4} or [**discouraged in your learning**]{.alert-4}?
 
 
+
+
 ## 
 
 ### In Groups (8 mins)
 
 <br> 
-🥗🥬🥕🍉🥑🍅🍇🥝🥔🍍🍊🍌🍈🥭🍎🍒🍠🍓🍑🥒🍋🍆🧀🌽🫑🍏🍐🥦🌶
+🥗🥬🥕🍉🥑🍅🍇🥝🥔🍍🍊🍌🍈🥭🍎🍒🍠🍓🍑🥒🍋🍆🌽🫑🍏🍐🥦🌶
 
 <br> 
 
@@ -53,7 +79,7 @@ What's a way in which your previous classmates have made you feel [**unwelcome**
 4. Your way in which others have made you have made you feel [**unwelcome**]{.alert-4} or [**discouraged in your learning**]{.alert-4}?
 
 <br> 
-🥗🥬🥕🍉🥑🍅🍇🥝🥔🍍🍊🍌🍈🥭🍎🍒🍠🍓🍑🥒🍋🍆🧀🌽🫑🍏🍐🥦🌶
+🥗🥬🥕🍉🥑🍅🍇🥝🥔🍍🍊🍌🍈🥭🍎🍒🍠🍓🍑🥒🍋🍆🌽🫑🍏🍐🥦🌶
 <br> 
 
 ## 
