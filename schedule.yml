@@ -63,12 +63,13 @@
 - date: 2023-09-22
   header: "Lab 2: Inclusion-Exclusion"
   summary: |
-      We introduce boolean logic and use the sum-of-products algorithm for computing binary functions.
+      We use the inclusion-exclusion formula and its generalizations to compute the cardinality of unions of sets. Along the way, we practice writing mathematical computations and performing computational experiments. 
   objectives:
       - Sets and Logic
-  prep: TBD
-  activities:
-      - <a href="https://colab.research.google.com/github/PhilChodrow/CSCI-0200/blob/main/assignments/labs/02-inclusion-exclusion.ipynb">Lab: Inclusion-Exclusion</a>
+  prep: <a href="content/modules/15-sets-2/prep.qmd">More on Sets</a>
+  activities: 
+      - |
+        <a href="https://colab.research.google.com/github/PhilChodrow/CSCI-0200/blob/main/assignments/labs/02-inclusion-exclusion.ipynb">Lab 2: Inclusion-Exclusion</a>
   notes:
   publish: true
   due: "Lab 1: Technical Writing and Truth Tables"

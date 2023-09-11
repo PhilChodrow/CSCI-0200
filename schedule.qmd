@@ -9,7 +9,7 @@ title: Schedule
 
 *This schedule is tentative and subject to change*.  
 
-Warmups are due **every class day**, even if they are not listed under the "Due" column.   
+Warmups are due **every class day**, even if they are not listed under the "Due" column.      
 
  
 :::{#schedule}

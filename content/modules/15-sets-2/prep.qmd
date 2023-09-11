@@ -1,0 +1,30 @@
+---
+title: "More On Sets"
+---
+
+
+
+# Videos (0 mins)
+
+No videos today!
+
+# Reading (~15 mins)
+
+For the warmup, it's enough to review last time's reading, with special focus on the topic of *set cardinality*.
+
+- [DMOI 0.3](https://discrete.openmathbooks.org/dmoi3/sec_intro-sets.html) 
+
+ 
+# Warmup Problems (~30 mins) 
+
+*Please complete these problems with a pencil/pen and paper. Then, scan/photograph your solutions and upload them to Canvas.*
+
+## Problem 1 
+
+(*DMOI 0.3.24*)
+
+{{< include ../../../content/problems/sets/dmoi-0-3-24.qmd >}}
+
+## Problem 2
+
+{{< include ../../../content/problems/sets/cards-1.qmd >}}   
