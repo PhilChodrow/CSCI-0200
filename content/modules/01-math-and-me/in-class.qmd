@@ -22,6 +22,29 @@ cache: true
 from: markdown+emoji
 ---
 
+## 
+
+### Quick Hits
+
+[*Is this a good class to take if I'm not considering further coursework in CS*?]{.fragment} <br>[**You're welcome here, but it's likely that you'll get more out of courses in Math/Stats.** ]{.fragment}
+
+[*Are the warmups also graded using EMRN grading*?]{.fragment} 
+<br>[**No, warmups are just graded Complete/Incomplete.** ]{.fragment}
+
+[*Where will warmups be posted*?]{.fragment} 
+<br>[**I put them on [the course website](https://www.philchodrow.prof/CSCI-0200/schedule.html), but they're also linked from Canvas.** ]{.fragment}
+
+[*What do labs look like for a math class*?]{.fragment}
+<br> [**You'll see.** 😈]{.fragment}
+
+[*Can I watch lectures and do warmups ahead of time*?]{.fragment}
+<br>[**That's totally fine as long as they are fresh in your mind for class.**]{.fragment}
+
+[*I like coming to office hours.*]{.fragment}
+<br> [**That's great! Everyone else should do that too.** 😁]{.fragment}
+
+
+
 
 ## {background-image="../../../assets/img/pics/veggies.jpeg" background-size="contain" background-color="black"}
 
@@ -52,11 +75,11 @@ from: markdown+emoji
 
 <br> <br> 
 
-What's a way in which your previous classmates have helped you feel [**welcome**]{.alert-2} or [**supported in your learning**]{.alert-2}? 
+What's a way in which your ***previous*** classmates have helped you feel [**welcome**]{.alert-2} or [**supported in your learning**]{.alert-2}? 
 
 <br> 
 
-What's a way in which your previous classmates have made you feel [**unwelcome**]{.alert-4} or [**discouraged in your learning**]{.alert-4}?
+What's a way in which your ***previous*** classmates have made you feel [**unwelcome**]{.alert-4} or [**discouraged in your learning**]{.alert-4}?
 
 
 
@@ -84,11 +107,11 @@ What's a way in which your previous classmates have made you feel [**unwelcome**
 
 ## 
 
-### Writing Time Again (4 minutes)
+### Writing Time Again (3 minutes)
 
 <br> <br> 
 
-What's something you are [**better at than most people**]{.alert-2}? 
+What's something you are [**especially good at**]{.alert-2}? 
 
 Were you ever **not** good at it? 
 
@@ -96,12 +119,12 @@ How did you **get** good at it?
 
 ## 
 
-### Back in Groups (8 mins)
+### Back in Groups (5 mins)
 
 <br> <br> 
 
 1. Your name and affinity vegetable
-2. Your superpower! Something you are better at than most people. 
+2. Your superpower! Something you are especially good at. 
 
 
 *Once everyone has spoken, go around **again** with:*
@@ -121,7 +144,7 @@ How did you **get** good at it?
 
 <br> <br> 
 
-**First Row**: what's the **smallest** number of Learning Targets a student can satisfy in order to earn an **A-**? 
+**First Row**: How many Learning Targets could a student **not satisfy** and still earn an A-? How many Labs could a student miss and still earn an A-? 
 
 **Second Row**: describe, in terms of Learning Targets, Labs, and Warmups, a scenario in which a student would earn a **B+**.  
 
@@ -169,7 +192,7 @@ m + n = 2i + 2j = 2(i + j)\;.
 $$
 
 The second equality follows from the distributive law of multiplication. 
-Therefore, $m+n$ can be written in the form $2k$ for the choice $k = i+j$. Therefore, $m+n$ is an integer, as was to be shown. 
+So, $m+n$ can be written in the form $2k$ for the choice $k = i+j$. Therefore, $m+n$ is an integer, as was to be shown. 
 
 ::: 
 
