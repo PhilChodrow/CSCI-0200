@@ -9,3 +9,4 @@ private-notes.qmd
 *problems
 *.DS_Store
 *_cache
+*-sol.*
