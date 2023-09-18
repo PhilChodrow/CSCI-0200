@@ -22,6 +22,40 @@ cache: true
 from: markdown+emoji
 ---
 
+## {.split-50}
+
+::: {.column}
+
+### Inverse, Converse, Contrapositive
+
+Let $A$ and $B$ be sets. Define the following two propositions: 
+
+- $p$: $a \in A$. 
+- $q$: $a \in A \cap B$. 
+
+Consider the logical expression $p \rightarrow q$. We have the: 
+
+- **Inverse**: $\lnot p \rightarrow \lnot q$. 
+- **Converse**: $q \rightarrow p$. 
+- **Contrapositive**: $\lnot q \rightarrow \lnot p$. 
+
+::: 
+
+
+::: {.column}
+
+<br> <br>
+
+Write each of these out, replacing $p$ and $q$ with their definitions in terms of set memberships. 
+
+- Determine which of the original, inverse, converse, and contrapositive statements are true [using Venn diagrams]{.alert-2}
+- Determine which of these statements are true using what we know about [logical equivalences for inverse, converse, and contrapositive]{.alert-2}. You'll still need to know the truth value of the first statement -- you can do that one with Venn diagrams. 
+
+
+
+:::
+
+
 ## 
 
 <br> <br> <br> 
@@ -36,7 +70,7 @@ from: markdown+emoji
 
 {{< include ../../../content/problems/sets/dmoi-0-3-13-follow-up.qmd >}}  
 
-## 
 
-### Inclusion-Exclusion Formula
+
+
 

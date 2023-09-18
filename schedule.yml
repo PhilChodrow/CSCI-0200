@@ -51,7 +51,7 @@
 - date: 2023-09-20
   header: Sets and Set Operations
   summary: |
-      Sets, set-builder notation, operations on sets.
+      We introduce sets, set-builder notation, and operations for combining and measuring sets. 
   objectives:
       - Sets and Logic
   prep: <a href="content/modules/12-sets/prep.qmd">Sets</a>
@@ -74,12 +74,12 @@
   publish: true
   due: "Lab 1: Technical Writing and Truth Tables"
 - date: 2023-09-25
-  header: "Quantified Logic"
+  header: "Quantifiers and Predicate Logic"
   summary: |
       We discuss quantification of propositions over sets and how to apply logical operations to symbolic quantifiers.
   objectives:
       - Sets and Logic
-  prep: TBD
+  prep: <a href="content/modules/17-quantified-logic/prep.qmd">Quantifiers and Predicate Logic</a>
   activities:
       - TBD
   notes:

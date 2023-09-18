@@ -39,9 +39,6 @@ from: markdown+emoji
     3. Contrapositive
 - Translate each of these three back into English. 
 
-
-
-
 ## 
 
 ### Logical Equivalence

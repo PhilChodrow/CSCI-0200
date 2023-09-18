@@ -1,0 +1,29 @@
+---
+title: "More On Sets"
+---
+
+# Reading (~30 mins)
+
+
+- [How To Be Right](https://middlebury.instructure.com/courses/13162/files?preview=2416513) by Dr. Eugenia Cheng
+ 
+# Videos (~30 mins)
+
+- [Predicates and Their Truth Sets](https://youtu.be/9MPA_LUmmoo?si=tn9aGwkkztJq5TYf) (6:03)
+- [Universal and Existential Quantifiers](https://youtu.be/GJpezCUMOxA) (9:32)
+- [Negating Universal and Existential Quantifiers](https://youtu.be/q1rKFGSiZE8) (8:03)
+
+
+# Warmup (~45 mins)
+
+## Problem 1
+
+{{< include ../../../content/problems/quantified-logic/how-to-be-right.qmd >}}
+
+## Problem 2
+
+{{< include ../../../content/problems/quantified-logic/awesome.qmd >}}
+
+
+
+
