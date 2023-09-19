@@ -81,14 +81,15 @@
       - Sets and Logic
   prep: <a href="content/modules/17-quantified-logic/prep.qmd">Quantifiers and Predicate Logic</a>
   activities:
-      - TBD
+      - |
+        <a href="content/modules/17-quantified-logic/in-class.qmd">Quantifiers and Predicate Logic</a>
   notes:
   publish: true
   due:
 - date: 2023-09-27
-  header: "Deduction"
+  header: "Further Topics: Logic and Sets"
   summary: |
-      We discuss standard ways of deducing logical propositions from other logical propositions. Formal deduction will pave the way for more general forms of mathematical proof in the coming weeks.
+      We introduce logical deduction and review topics from the course so far. 
   objectives:
       - Sets and Logic
       - Proof
@@ -107,7 +108,7 @@
   activities:
   notes:
   publish: true
-  due: "Lab 2: Logic, Boolean Algebra, and Circuits"
+  due: "Lab 2: Inclusion-Exclusion"
 - date: 2023-10-2
   header: "Direct Proofs"
   summary:

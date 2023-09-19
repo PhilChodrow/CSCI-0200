@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.330">
+<meta name="generator" content="quarto-1.4.339">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -170,7 +170,11 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#warmup-45-mins" id="toc-warmup-45-mins" class="nav-link" data-scroll-target="#warmup-45-mins">Warmup (~45 mins)</a>
   <ul class="collapse">
   <li><a href="#problem-1" id="toc-problem-1" class="nav-link" data-scroll-target="#problem-1">Problem 1</a></li>
-  <li><a href="#problem-2" id="toc-problem-2" class="nav-link" data-scroll-target="#problem-2">Problem 2</a></li>
+  <li><a href="#problem-2" id="toc-problem-2" class="nav-link" data-scroll-target="#problem-2">Problem 2</a>
+  <ul class="collapse">
+  <li><a href="#note" id="toc-note" class="nav-link" data-scroll-target="#note">Note</a></li>
+  <li><a href="#problem-statement" id="toc-problem-statement" class="nav-link" data-scroll-target="#problem-statement">Problem Statement</a></li>
+  </ul></li>
   </ul></li>
   </ul>
 </nav>
@@ -200,6 +204,7 @@ ul.task-list li input[type="checkbox"] {
 <h1>Reading (~30 mins)</h1>
 <ul>
 <li><a href="https://middlebury.instructure.com/courses/13162/files?preview=2416513">How To Be Right</a> by Dr.&nbsp;Eugenia Cheng</li>
+<li><a href="https://discrete.openmathbooks.org/dmoi3/sec_propositional.html">DMOI</a>, <strong>“Beyond Propositions”</strong> (it’s a short section).</li>
 </ul>
 </section>
 <section id="videos-30-mins" class="level1">
@@ -214,9 +219,29 @@ ul.task-list li input[type="checkbox"] {
 <h1>Warmup (~45 mins)</h1>
 <section id="problem-1" class="level2">
 <h2 class="anchored" data-anchor-id="problem-1">Problem 1</h2>
+<p>Simplify the statements below (so negation appears only directly next to predicates). In these statements without domains of quantification, you may assume that the domain is the set <span class="math inline">\(\mathbb{Z}\)</span> of integers. This implies that <span class="math inline">\(\lnot(x &lt; y)\equiv (y \leq x)\)</span>.</p>
+<ol type="1">
+<li><span class="math inline">\(\lnot \exists x \forall y(\lnot O(x) \lor E(x))\)</span></li>
+<li><span class="math inline">\(\lnot \forall x \lnot \forall y \lnot ((x &lt; y) \land \exists z((x &lt; z)\lor (y &lt; z)))\)</span></li>
+</ol>
+<p><em>Note</em>: <em>this problem is the first two parts of 3.16 in <a href="https://discrete.openmathbooks.org/dmoi3/sec_propositional.html">DMOI</a>, and it has an online solution. I recommend that you try this problem on your own first, carefully <strong>show all your steps</strong>, and then check against the solution.</em></p>
+</section>
+<section id="problem-2" class="level2">
+<h2 class="anchored" data-anchor-id="problem-2">Problem 2</h2>
+<section id="note" class="level3">
+<h3 class="anchored" data-anchor-id="note">Note</h3>
+<p><em>While completing one of the parts of this problem, you’ll need to use a predicate with multiple arguments. Some examples:</em></p>
+<ul>
+<li><span class="math inline">\(P(x, y)\)</span>: <span class="math inline">\(x\)</span> is the parent of <span class="math inline">\(y\)</span>.</li>
+<li><span class="math inline">\(Q(x, y, z)\)</span>: <span class="math inline">\(x\)</span>, <span class="math inline">\(y\)</span>, and <span class="math inline">\(z\)</span> are in a project group.</li>
+<li><span class="math inline">\(R(x, y)\)</span>: <span class="math inline">\(x\)</span> is the number the results from multiplying <span class="math inline">\(y\)</span> by 3; that is, <span class="math inline">\(x = 3y\)</span>.</li>
+</ul>
+</section>
+<section id="problem-statement" class="level3">
+<h3 class="anchored" data-anchor-id="problem-statement">Problem Statement</h3>
 <p>For each of the English statements below:</p>
 <ul>
-<li>Express the statement using quantified predicate logic. Explicitly define any predicates you use, as well as your domain of quantification. If you make any interpretations of English language, state what they are and why. Your “translation” may not be perfect, but it’s ok as ong as you state your assumptions and interpretations.</li>
+<li>Express the statement using quantified predicate logic. Explicitly define any predicates you use, as well as your domain of quantification. If you make any interpretations of English language, state what they are and why. Your “translation” may not be perfect, but it’s ok as long as you state your assumptions and interpretations.</li>
 <li><em>Negate</em> the expression, simplifying the result far enough so that negation <span class="math inline">\(\lnot\)</span> symbols appear only directly before predicates (so, <span class="math inline">\(\lnot P(x)\)</span> is ok but <span class="math inline">\(\lnot (\exists x \;:\; P(x))\)</span> is not).</li>
 <li>Translate the negated version back into English.</li>
 <li>Comment: in your view, is the original statement or its negation correct?</li>
@@ -225,29 +250,16 @@ ul.task-list li input[type="checkbox"] {
 <li>No one likes Mondays.</li>
 <li>Everyone in Vermont loves skiing!<br>
 </li>
+<li>Nobody’s perfect.</li>
 <li>Students are successful in classes with active learning.
 <ul>
-<li><em>for this problem, please use the predicate <span class="math inline">\(A(s, c)\)</span> to mean that student <span class="math inline">\(s\)</span> is successful in class <span class="math inline">\(c\)</span>. Define two appropriate domains of quantification.</em></li>
+<li><em>For this problem, please use the predicate <span class="math inline">\(A(c)\)</span> to mean that class <span class="math inline">\(c\)</span> includes active learning, and use the predicate <span class="math inline">\(S(x, c)\)</span> to mean that student <span class="math inline">\(x\)</span> is successful in class <span class="math inline">\(c\)</span>. Define two appropriate domains of quantification.</em></li>
 </ul></li>
 </ol>
 <p><strong>Finally</strong>, decide which if any of these statements express a “kernel of truth” or a feeling that resonates with you. What would Dr.&nbsp;Cheng suggest with those statements?</p>
+
+
 </section>
-<section id="problem-2" class="level2">
-<h2 class="anchored" data-anchor-id="problem-2">Problem 2</h2>
-<p>Consider the following two statements:</p>
-<ol type="1">
-<li>Everything is awesome!!!</li>
-<li>Everything is cool when you’re part of a team.</li>
-</ol>
-<p>Translate these statements into expressions of predicate logic, using the following predicates:</p>
-<ul>
-<li><span class="math inline">\(A(x)\)</span>: <span class="math inline">\(x\)</span> is awesome.</li>
-<li><span class="math inline">\(C(y)\)</span>: <span class="math inline">\(y\)</span> is cool.</li>
-<li><span class="math inline">\(P(z, t)\)</span>: person <span class="math inline">\(z\)</span> is part of team <span class="math inline">\(t\)</span>.</li>
-</ul>
-<p><em>Hint</em>: In English, the construction “<span class="math inline">\(q\)</span> when <span class="math inline">\(p\)</span>” can be rephrased as “if <span class="math inline">\(p\)</span> then <span class="math inline">\(q\)</span>.”</p>
-
-
 </section>
 </section>
 
