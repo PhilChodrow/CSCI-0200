@@ -270,84 +270,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li><span class="math inline">\((r \lor p) \land (r \lor q)\)</span></li>
 <li><span class="math inline">\(r \lor (p \land q)\)</span></li>
 </ol>
-<div class="callout callout-style-simple callout-note">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-body-container">
-<p><strong>Solution</strong></p>
-<ol type="1">
-<li></li>
-</ol>
-<p><span class="math display">\[
-\begin{array}{c|c|c|c|c|c}
-p &amp; q &amp; r &amp; r \lor p &amp; (r\lor p) \land q\\
-\hline
-T &amp; T &amp; T &amp; T &amp; T\\
-T &amp; T &amp; F &amp; T &amp; T\\
-T &amp; F &amp; T &amp; T &amp; F\\
-T &amp; F &amp; F &amp; T &amp; F\\
-F &amp; T &amp; T &amp; T &amp; T\\
-F &amp; T &amp; F &amp; F &amp; F\\
-F &amp; F &amp; T &amp; T &amp; F\\
-F &amp; F &amp; F &amp; F &amp; F\\
-\end{array}
-\]</span></p>
-<ol start="2" type="1">
-<li></li>
-</ol>
-<p><span class="math display">\[
-\begin{array}{c|c|c|c|c|c}
-p &amp; q &amp; r &amp; r \lor p &amp; (r\lor q) &amp; (r\lor p)\land (r\lor q)\\
-\hline
-T &amp; T &amp; T &amp; T &amp; T &amp; T\\
-T &amp; T &amp; F &amp; T &amp; T &amp; T\\
-T &amp; F &amp; T &amp; T &amp; T &amp; T\\
-T &amp; F &amp; F &amp; T &amp; F &amp; F\\
-F &amp; T &amp; T &amp; T &amp; T &amp; T\\
-F &amp; T &amp; F &amp; F &amp; T &amp; F\\
-F &amp; F &amp; T &amp; T &amp; T &amp; T\\
-F &amp; F &amp; F &amp; F &amp; F &amp; F\\
-\end{array}
-\]</span></p>
-<ol start="3" type="1">
-<li></li>
-</ol>
-<p><span class="math display">\[
-\begin{array}{c|c|c|c|c|c}
-p &amp; q &amp; r &amp; p \land q &amp; r \lor (p \land q)\\
-\hline
-T &amp; T &amp; T &amp; T &amp; T\\
-T &amp; T &amp; F &amp; T &amp; T \\
-T &amp; F &amp; T &amp; F &amp; T \\
-T &amp; F &amp; F &amp; F &amp; F \\
-F &amp; T &amp; T &amp; F &amp; T \\
-F &amp; T &amp; F &amp; F &amp; F \\
-F &amp; F &amp; T &amp; F &amp; T \\
-F &amp; F &amp; F &amp; F &amp; F \\
-\end{array}
-\]</span></p>
-</div>
-</div>
-</div>
 </section>
 <section id="part-b" class="level4">
 <h4 class="anchored" data-anchor-id="part-b">Part B</h4>
 <p>Two of these expressions are <em>logically equivalent</em>: no matter the truth values of <span class="math inline">\(r\)</span>, <span class="math inline">\(p\)</span>, and <span class="math inline">\(q\)</span>, the two expressions always evaluate to the same final truth value. Which are the two equivalent expressions?</p>
-<div class="callout callout-style-simple callout-note">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-body-container">
-<p>The final columns of the truth tables for 2. and 3. are the same, which implies that</p>
-<p><span class="math display">\[
-r \lor (p \land q) \equiv (r \lor p) \land (r \lor q)
-\]</span></p>
-</div>
-</div>
-</div>
 </section>
 </section>
 <section id="problem-2" class="level3">
@@ -368,47 +294,11 @@ r \lor (p \land q) \equiv (r \lor p) \land (r \lor q)
 <section id="part-a-1" class="level4">
 <h4 class="anchored" data-anchor-id="part-a-1">Part A</h4>
 <p>Write a logical expression in terms of <span class="math inline">\(p\)</span>, <span class="math inline">\(q\)</span>, and <span class="math inline">\(r\)</span> (using symbols like <span class="math inline">\(\lnot, \lor, \land\)</span>) which has the same value as the return value of your friend’s function <code>f</code>.</p>
-<div class="callout callout-style-simple callout-note">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-body-container">
-<p><span class="math display">\[
-(p \land q) \land \lnot (q \lor r)
-\]</span></p>
-</div>
-</div>
-</div>
 </section>
 <section id="part-b-1" class="level4">
 <h4 class="anchored" data-anchor-id="part-b-1">Part B</h4>
 <p>Make a truth table for your expression. Please show the values of <code>a</code>, <code>b</code>, and <code>c</code> in each line of your truth table.</p>
 <p>Do you notice anything strange about your truth table?</p>
-<div class="callout callout-style-simple callout-note">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-body-container">
-<p><span class="math display">\[
-\begin{array}{c|c|c|c|c|c}
-p &amp; q &amp; r &amp; a (\equiv p \land q) &amp; b (\equiv \lnot (q \lor r)) &amp; c (\equiv a \land b)\\
-\hline
-T &amp; T &amp; T &amp; T &amp; F &amp; F \\
-T &amp; T &amp; F &amp; T &amp; F &amp; F \\
-T &amp; F &amp; T &amp; F &amp; F &amp; F \\
-T &amp; F &amp; F &amp; F &amp; T &amp; F \\
-F &amp; T &amp; T &amp; F &amp; F &amp; F \\
-F &amp; T &amp; F &amp; F &amp; F &amp; F \\
-F &amp; F &amp; T &amp; F &amp; F &amp; F \\
-F &amp; F &amp; F &amp; F &amp; T &amp; F \\
-\end{array}
-\]</span></p>
-<p>Oh no! The logical expression that your friend has implemented in Python is a contradiction!</p>
-</div>
-</div>
-</div>
 <p><em>Optionally</em>, you might be interested to check the final column of your truth table in Python. Here’s some code you can run in Thonny or any other Python environment. You’ll need to also include the definition of the function <code>f</code> above.</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> itertools</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>tf <span class="op">=</span> [<span class="va">True</span>, <span class="va">False</span>]</span>
