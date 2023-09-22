@@ -8,7 +8,6 @@ title: "More On Sets"
 - [How To Be Right](https://middlebury.instructure.com/courses/13162/files?preview=2416513) by Dr. Eugenia Cheng
 - [DMOI](https://discrete.openmathbooks.org/dmoi3/sec_propositional.html), **"Beyond Propositions"** (it's a short section). 
 
-
 # Videos (~30 mins)
 
 - [Predicates and Their Truth Sets](https://youtu.be/9MPA_LUmmoo?si=tn9aGwkkztJq5TYf) (6:03)
