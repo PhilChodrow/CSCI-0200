@@ -111,10 +111,11 @@
   due: "Lab 2: Inclusion-Exclusion"
 - date: 2023-10-2
   header: "Direct Proofs"
-  summary:
+  summary: We introduce direct proofs, our first general technique for proving statements about mathematics and algorithms.
   objectives:
-  prep:
-  activities:
+  prep: <a href="content/modules/20-direct-proofs/prep.qmd">Direct Proofs</a>
+  activities: 
+    - TBD
   notes:
   publish: true
   due:

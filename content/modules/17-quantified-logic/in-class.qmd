@@ -4,10 +4,3 @@ title: Practice with Quantified Logic
 
 
 
-{{< include ../../../content/problems/quantified-logic/demorgans.qmd >}}
-
-
-
-
-
-
