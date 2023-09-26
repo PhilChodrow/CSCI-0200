@@ -145,18 +145,20 @@
   due:
 - date: 2023-10-09
   header: "Induction"
-  summary:
-  objectives:
-  prep:
+  summary: We introduce mathematical induction, a powerful proof technique for demonstrating that a claim is true for infinitely many cases. 
+  objectives: 
+    - Proof techniques
+  prep: <a href="content/modules/23-induction/prep.qmd">Introduction to Induction</a>
   activities:
   notes:
   publish: true
   due:
 - date: 2023-10-11
-  header: "Strong Induction"
-  summary:
-  objectives:
-  prep:
+  header: "More Induction"
+  summary: We broaden our usage of induction to use strong induction and to write inductive proofs for the correctness of functions. 
+  objectives: 
+    - Proof techniques
+  prep: <a href="content/modules/24-more-induction/prep.qmd">More Induction</a>
   activities:
   notes:
   publish: true
