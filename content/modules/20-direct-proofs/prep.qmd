@@ -1,3 +1,8 @@
+---
+title: "Direct Proofs and Proof by Contrapositive"
+---
+
+
 ## Videos (~40 minutes)
 
 - [Formal Definitions in Math](https://youtu.be/dlKcfGu-WpI?si=Zi8s3lVdnnJkxITS) (3:23)
@@ -7,14 +12,24 @@
 
 ## Reading (~30 minutes)
 
-- [DMOI](https://discrete.openmathbooks.org/dmoi3/sec_logic-proofs.html) through Example 3.2.6. 
+- [DMOI Chapter 3.2](https://discrete.openmathbooks.org/dmoi3/sec_logic-proofs.html) through Example 3.2.6. 
 - [Direct Proofs](https://www.mathcentre.ac.uk/resources/uploaded/mathcentre-direct.pdf) by Katy Dobson and Alan Slomson at the University of Leeds
 
 ## Warmup (~40 minutes)
 
+## Problem 1
+
 *These are the problems at the end of Dobson + Slomson in the reading*
 
+**Hint**: *The video [Proving that Divisibility is Transitive](https://youtu.be/F78_7Lv-7vM?si=0RlFPAo2GU4ANNGp) (11:08) is not required for today but you might find it very helpful with one of the warmup problems.* 
+
 {{< include ../../../content/problems/proofs/dobson-slomson.qmd >}}
+
+## Problem 2
+
+{{< include ../../../content/problems/proofs/dmoi-3.5.qmd >}}
+
+
 
 
 

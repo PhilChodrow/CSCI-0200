@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Direct Proofs and Proof by Contrapositive</title>
+<title>Cases, Contradictions, and Counterexamples</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -165,11 +165,14 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#videos-40-minutes" id="toc-videos-40-minutes" class="nav-link active" data-scroll-target="#videos-40-minutes">Videos (~40 minutes)</a></li>
+  <li><a href="#videos-30-minutes" id="toc-videos-30-minutes" class="nav-link active" data-scroll-target="#videos-30-minutes">Videos (~30 minutes)</a></li>
   <li><a href="#reading-30-minutes" id="toc-reading-30-minutes" class="nav-link" data-scroll-target="#reading-30-minutes">Reading (~30 minutes)</a></li>
-  <li><a href="#warmup-40-minutes" id="toc-warmup-40-minutes" class="nav-link" data-scroll-target="#warmup-40-minutes">Warmup (~40 minutes)</a></li>
+  <li><a href="#warmup-40-minutes" id="toc-warmup-40-minutes" class="nav-link" data-scroll-target="#warmup-40-minutes">Warmup (~40 minutes)</a>
+  <ul class="collapse">
   <li><a href="#problem-1" id="toc-problem-1" class="nav-link" data-scroll-target="#problem-1">Problem 1</a></li>
   <li><a href="#problem-2" id="toc-problem-2" class="nav-link" data-scroll-target="#problem-2">Problem 2</a></li>
+  <li><a href="#problem-3" id="toc-problem-3" class="nav-link" data-scroll-target="#problem-3">Problem 3</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -178,7 +181,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Direct Proofs and Proof by Contrapositive</h1>
+<h1 class="title">Cases, Contradictions, and Counterexamples</h1>
 </div>
 
 
@@ -194,53 +197,54 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="videos-40-minutes" class="level2">
-<h2 class="anchored" data-anchor-id="videos-40-minutes">Videos (~40 minutes)</h2>
+<section id="videos-30-minutes" class="level2">
+<h2 class="anchored" data-anchor-id="videos-30-minutes">Videos (~30 minutes)</h2>
 <ul>
-<li><a href="https://youtu.be/dlKcfGu-WpI?si=Zi8s3lVdnnJkxITS">Formal Definitions in Math</a> (3:23)</li>
-<li><a href="https://youtu.be/L74bnJWdHDo?si=-0Q6AhMYKymAArGw">How to Prove Math Theorems</a> (8:34)</li>
-<li><a href="https://youtu.be/oqTg3D_jZWo?si=uW84KqOVV8zqVyXD">Step-By-Step Guide to Proofs</a> (18:41)</li>
-<li><a href="https://youtu.be/0YqZIHFmVzg?si=Jg2lv1cLN4xaQ-W2">Proof by Contrapositive</a> (3:38)</li>
+<li><a href="https://youtu.be/2A-EaY78bwc?si=e2r6--rJX-Ks5qX3">Proof by Division into Cases</a> (5:40)</li>
+<li><a href="https://youtu.be/huGWXh4l1M0?si=4Uc3GiC-d48OSjCt">Proof by Contradiction</a> (8:59)</li>
+<li><a href="https://youtu.be/TcfVpnRRAvk?si=UpHr6TadFGIhR8pK">Disproving Implications with Counterexamples</a> (8:18)</li>
 </ul>
 </section>
 <section id="reading-30-minutes" class="level2">
 <h2 class="anchored" data-anchor-id="reading-30-minutes">Reading (~30 minutes)</h2>
 <ul>
-<li><a href="https://discrete.openmathbooks.org/dmoi3/sec_logic-proofs.html">DMOI Chapter 3.2</a> through Example 3.2.6.</li>
-<li><a href="https://www.mathcentre.ac.uk/resources/uploaded/mathcentre-direct.pdf">Direct Proofs</a> by Katy Dobson and Alan Slomson at the University of Leeds</li>
+<li><a href="https://discrete.openmathbooks.org/dmoi3/sec_logic-proofs.html">DMOI Chapter 3.2</a>, to the end (new stuff starts at “Proof by Contradiction”)</li>
 </ul>
 </section>
 <section id="warmup-40-minutes" class="level2">
 <h2 class="anchored" data-anchor-id="warmup-40-minutes">Warmup (~40 minutes)</h2>
-</section>
-<section id="problem-1" class="level2">
-<h2 class="anchored" data-anchor-id="problem-1">Problem 1</h2>
-<p><em>These are the problems at the end of Dobson + Slomson in the reading</em></p>
-<p><strong>Hint</strong>: <em>The video <a href="https://youtu.be/F78_7Lv-7vM?si=0RlFPAo2GU4ANNGp">Proving that Divisibility is Transitive</a> (11:08) is not required for today but you might find it very helpful with one of the warmup problems.</em></p>
-<!-- *These problems are taken from the Math Centre Community Project [reading on direct proofs](https://www.mathcentre.ac.uk/resources/uploaded/mathcentre-direct.pdf).* -->
-<p>For each of the following four statements:</p>
-<ul>
-<li>First, represent the statement using logical symbols, including quantifiers. Define any predicates you need.
-<ul>
-<li>For example, a symbolic representation of the first statement would be <span class="math inline">\(\forall m \in \mathbb{Z}: E(m) \rightarrow E(7m+4)\)</span>, where <span class="math inline">\(E(x)\)</span> is the predicate “<span class="math inline">\(x\)</span> is even.”</li>
-</ul></li>
-<li>Then, write a careful proof of the statement, justifying each of your steps. You do not need to use logical symbols in your proofs.</li>
-</ul>
+<section id="problem-1" class="level3">
+<h3 class="anchored" data-anchor-id="problem-1">Problem 1</h3>
+<p>Give a counterexample to each of the following claims. Describe in a sentence or two why your counterexample shows that the claim is false.</p>
+<p><strong>Note</strong>: If the claim refers to multiple numbers like <span class="math inline">\(x\)</span> and <span class="math inline">\(y\)</span>, a complete counterexample includes values for both <span class="math inline">\(x\)</span> <em>and</em> <span class="math inline">\(y\)</span>.</p>
 <ol type="1">
-<li>If <span class="math inline">\(m\)</span> is an even integer then <span class="math inline">\(7m+4\)</span> is an even integer.</li>
-<li>If <span class="math inline">\(m\)</span> is an even integer and <span class="math inline">\(n\)</span> is an odd integer then <span class="math inline">\(m+n\)</span> is an odd integer.</li>
-<li>If <span class="math inline">\(m\)</span> is an even integer and <span class="math inline">\(n\)</span> is an odd integer then <span class="math inline">\(mn\)</span> is an even integer.</li>
-<li>If <span class="math inline">\(a\)</span>, <span class="math inline">\(b\)</span>, and <span class="math inline">\(c\)</span> are integers such that <span class="math inline">\(a\)</span> divides <span class="math inline">\(b\)</span> and <span class="math inline">\(b\)</span> divides <span class="math inline">\(c\)</span>, then <span class="math inline">\(a\)</span> divides <span class="math inline">\(c\)</span>.</li>
+<li><span class="math inline">\(\forall x,y \in \mathbb{Z} \;:\; x^2 &lt; y^2 \rightarrow x &lt; y\)</span>.
+<ul>
+<li>Recall that <span class="math inline">\(\forall x,y\in \mathbb{Z}\)</span> is a notation shortcut for <span class="math inline">\(\forall x \in \mathbb{Z}, \forall y \in \mathbb{Z}\)</span>.</li>
+</ul></li>
+<li><span class="math inline">\(\lnot \exists x \in \mathbb{Z}\;:\; x | 51\)</span>
+<ul>
+<li>Recall that <span class="math inline">\(a|b\)</span> means that <span class="math inline">\(a\)</span> is a divisor of <span class="math inline">\(b\)</span> with remainder <span class="math inline">\(0\)</span>.</li>
+</ul></li>
+<li><span class="math inline">\(\forall x, y \in \mathbb{Z} \;:\; x^2 + y^2 \text{ is an even number}\)</span>.</li>
 </ol>
-<p><em>Notation note</em>: For some of these statements, you may find yourself needing to write things like <span class="math inline">\(\forall x \in \mathbb{Z}, \forall y \in \mathbb{Z}\)</span>. A common notational shortcut is to write <span class="math inline">\(\forall x, y \in \mathbb{Z}\)</span> to mean the same thing while saving some space.</p>
 </section>
-<section id="problem-2" class="level2">
-<h2 class="anchored" data-anchor-id="problem-2">Problem 2</h2>
-<!-- DMOI 3.5 -->
-<p>Prove that for all integers <span class="math inline">\(n\)</span>, it is the case that <span class="math inline">\(n\)</span> is even if and only if <span class="math inline">\(3n\)</span> is even. This proof has two parts: you must show that <span class="math inline">\(n\)</span> being even implies that <span class="math inline">\(3n\)</span> is even; then you must show that <span class="math inline">\(3n\)</span> being even implies that <span class="math inline">\(n\)</span> is even.</p>
-<p>In your proof, please <em>one</em> of the two directions using direct proof. Then, prove the other direction using proof by contrapositive.</p>
+<section id="problem-2" class="level3">
+<h3 class="anchored" data-anchor-id="problem-2">Problem 2</h3>
+<p>Prove that <span class="math inline">\(\sqrt{6}\)</span> is not a rational number; i.e.&nbsp;there are no integers <span class="math inline">\(a,b \in \mathbb{Z}\)</span> such that <span class="math inline">\(\sqrt{6} = \frac{a}{b}\)</span>.</p>
+<p><strong>Notes</strong>:</p>
+<ul>
+<li>A fraction <span class="math inline">\(\frac{a}{b}\)</span> is in <em>lowest terms</em> if there is no integer <span class="math inline">\(k\)</span> that divides both <span class="math inline">\(a\)</span> and <span class="math inline">\(b\)</span>.</li>
+<li>It is traditional in math classes that you can use anything you have previously proven. You might find a problem from the last warmup to be helpful.</li>
+</ul>
+</section>
+<section id="problem-3" class="level3">
+<h3 class="anchored" data-anchor-id="problem-3">Problem 3</h3>
+<p>Prove that if <span class="math inline">\(n\)</span> is an integer, then <span class="math inline">\(3n^2 + n + 4\)</span> is even.</p>
+<p><strong>Hint</strong>: Divide into cases based on whether <span class="math inline">\(n\)</span> is odd or even.</p>
 
 
+</section>
 </section>
 
 <p><br> <br> <span style="color:grey;">© Phil Chodrow, 2023</span></p></main> <!-- /main -->

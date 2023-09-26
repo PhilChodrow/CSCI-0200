@@ -112,7 +112,8 @@
 - date: 2023-10-2
   header: "Direct Proofs"
   summary: We introduce direct proofs, our first general technique for proving statements about mathematics and algorithms.
-  objectives:
+  objectives: 
+    - Proof techniques
   prep: <a href="content/modules/20-direct-proofs/prep.qmd">Direct Proofs</a>
   activities: 
     - TBD
@@ -120,21 +121,25 @@
   publish: true
   due:
 - date: 2023-10-04
-  header: "Indirect Proofs"
-  summary:
-  objectives:
-  prep:
+  header: "Cases, Contradictions, and Counterexamples"
+  summary: We introduce several additional proof techniques, as well as the practice of counterexamples for disproving incorrect implications. 
+  objectives: 
+    - Proof techniques
+  prep: <a href="content/modules/21-indirect-proofs/prep.qmd">Cases, Contradictions, and Counterexamples</a>
   activities:
   notes:
   publish: true
   due:
 - date: 2023-10-06
-  header: "Lab 3: TBD"
+  header: "Lab 3: Proof Practice"
   summary:
   objectives:
   prep:
+    - |
+      TBD
   activities:
-      - "Lab 3: TBD"
+    - |
+      <a href="https://colab.research.google.com/github/PhilChodrow/CSCI-0200/blob/main/assignments/labs/03-proof-practice.ipynb">Lab 3: Proof Practice</a>
   notes:
   publish: true
   due:
