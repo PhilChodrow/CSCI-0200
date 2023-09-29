@@ -25,7 +25,7 @@
     "href": "schedule.html#week-4",
     "title": "Schedule",
     "section": "Week 4",
-    "text": "Week 4\n\n\n\n\n\n\n\n\n\n\n\n\n\nM\nOct. 02\nDirect Proofs\n\n\n\n\n\nWe introduce direct proofs, our first general technique for proving statements about mathematics and algorithms.\n\n\n\nLearning Objectives\nProof techniques\n\nPrep\nDirect Proofs\nIn Class\nTBD\n\n\n\n\n\n\n\nW\nOct. 04\nCases, Contradictions, and Counterexamples\n\n\n\n\n\nWe introduce several additional proof techniques, as well as the practice of counterexamples for disproving incorrect implications.\n\n\n\nLearning Objectives\nProof techniques\n\nPrep\nCases, Contradictions, and Counterexamples\n\n\n\n\n\n\n\nF\nOct. 06\nLab 3: Proof Practice\n\n\n\n\n\n\n\n\n\n\nPrep\nTBD\nIn Class\nLab 3: Proof Practice"
+    "text": "Week 4\n\n\n\n\n\n\n\n\n\n\n\n\n\nM\nOct. 02\nDirect Proofs\n\n\n\n\n\nWe introduce direct proofs, our first general technique for proving statements about mathematics and algorithms.\n\n\n\nLearning Objectives\nProof techniques\n\nPrep\nDirect Proofs\nIn Class\nTBD\n\n\n\n\n\n\n\nW\nOct. 04\nCases, Contradictions, and Counterexamples\n\n\n\n\n\nWe introduce several additional proof techniques, as well as the practice of counterexamples for disproving incorrect implications.\n\n\n\nLearning Objectives\nProof techniques\n\nPrep\nCases, Contradictions, and Counterexamples\n\n\n\n\n\n\n\nF\nOct. 06\nLab 3: Proof Practice\n\n\n\n\n\n\n\n\n\n\nPrep\nProof Style\nIn Class\nLab 3: Proof Practice"
   },
   {
     "objectID": "schedule.html#week-5",
@@ -483,74 +483,74 @@
     "text": "Use strong induction to prove the following statement:\nProposition: Suppose that \\(x\\in \\mathbb{R}\\) is some real number with the property that \\(x + \\frac{1}{x}\\) is an integer. Then, for any \\(n \\geq 1\\), the number\n\\[\n\\begin{aligned}\n    x^n + \\frac{1}{x^n}\n\\end{aligned}\n\\]\nis also an integer.\n\nOptional Challenge\n(not required)\nIn the problem, we assumed that \\(x + \\frac{1}{x}\\) was an integer. Call this integer \\(h\\). So, we have assumed that \\(x + \\frac{1}{x} = h\\).\n\nWhat is required of \\(h\\) in order to guarantee that this equation indeed has a real solution in \\(x\\)?\nSuppose that this equation has at least one real solution in \\(x\\). How many possible solutions in \\(x\\) are there?\n\n\n\n\n\n  © Phil Chodrow, 2023"
   },
   {
-    "objectID": "content/problems/induction/proving-a-function 2.html",
-    "href": "content/problems/induction/proving-a-function 2.html",
+    "objectID": "content/problems/sets/inclusion-exclusion.html",
+    "href": "content/problems/sets/inclusion-exclusion.html",
     "title": "",
     "section": "",
-    "text": "In computer science, we often use induction to prove the correctness of a function that we or someone else has written. For example, consider the Python function below, which reverses an input string using recursion.\n\ndef reverse_string(s):\n    \"\"\"\n    reverse the string s. The first letter becomes the last letter, the second letter becomes the second-to-last letter, etc. \n\n    args: \n      s, the string to be reversed\n\n    returns: the reversed string\n    \"\"\"\n\n    if s == \"\":\n        return \"\"\n    else:\n        return reverse_string(s[1:]) + s[0]\n\nHere it is in action.\n\nreverse_string(\"CSCI 0200\")\n\nWe got the right answer on this example!\nBut…would we get the right answer on every possible input?\n\n\n\n  © Phil Chodrow, 2023"
+    "text": "Your excited friend tells you about this cool “fact” that they learned in their structural engineering course, STEN 0200: Computing Mathematics of Foundations. Their “fact” is:\nFor any two sets \\(A\\) and \\(B\\), \\[\n\\lvert A \\setminus B \\rvert = \\lvert A \\rvert - \\lvert B \\rvert\\;.\n\\tag{1}\\]\n“How cool,” you say, while politely smiling and effortlessly remembering that \\(A\\setminus B\\) is the set of elements of \\(A\\) which are not elements of \\(B\\).\n\nPart A\nGive an example of sets \\(A\\) and \\(B\\) such that Equation 1 is true.\n(Your friend grins.)\n\n\nPart B\nGive an example of sets \\(A\\) and \\(B\\) such that Equation 1 is not true, and explain why.\n(Your friend groans. Maybe they should have taken CSCI 0200 instead…)\n\n\nPart C\nDerive a correct formula for \\(\\lvert A \\setminus B \\rvert\\), justifying each step of your calculation. Please use only the set complement operator \\(\\bar{B}\\), the set union operator \\(\\cup\\), and the set cardinality operator \\(\\lvert \\cdot \\rvert\\) (you may not need all of these operators). You can also use arithmetic operations like \\(+\\), \\(-\\), etc.\n(Your friend listens eagerly to your algebraic derivation! They are especially impressed with the way you took things step by step and justified each of your operations.)\n\n\nPart D\nUsing Venn diagrams, find a simple formula for \\(\\lvert A \\setminus B \\rvert\\) which uses only the set cardinality operator \\(\\lvert \\cdot \\rvert\\) and the set intersection operator \\(\\cap\\), but not the union operator \\(\\cup\\) or the complement operator \\(\\bar{B}\\).\n(Wow! Your friend thinks your drawing looks really cool, and that you two really should hang out more.)\n\n\n\n\n  © Phil Chodrow, 2023"
   },
   {
-    "objectID": "content/problems/sets/dmoi-0-3-13-multiples.html",
-    "href": "content/problems/sets/dmoi-0-3-13-multiples.html",
+    "objectID": "content/problems/sets/set-builder-1.html",
+    "href": "content/problems/sets/set-builder-1.html",
     "title": "",
     "section": "",
-    "text": "Recall that \\(\\mathbb{Z} = \\{\\ldots,-2, -1, 0, 1, 2 \\ldots\\}\\) (the integers). Let \\(\\mathbb{Z}^{+} = \\{1, 2, 3 \\ldots\\}\\) be the set of positive integers. Let \\(2\\mathbb{Z}\\) be the set of even integers, \\(3\\mathbb{Z}\\) the set of integers that are multiples of 3, and so on.\n\nIs \\(\\mathbb{Z}^+ \\subseteq \\mathbb{Z}\\)? Why or why not?\nIs \\(2\\mathbb{Z} \\subseteq \\mathbb{Z}^+\\)? Why or why not?\nFind \\(2\\mathbb{Z} \\cap 3\\mathbb{Z}\\). Describe this set in words, using set notation, and using the notation defined in this problem. \n\n\n\n\n  © Phil Chodrow, 2023"
+    "text": "Write the following sets by listing their elements between braces:\n\n\\(\\left\\{ x \\in \\mathbb{Z} \\; : x^2 \\leq 10 \\right\\}\\)\n\\(\\left\\{ x \\in \\mathbb{N} \\; : x \\leq 10 \\right\\} \\cap \\left\\{ x \\in \\mathbb{Z} \\; : x \\text{ is a prime number.} \\right\\}\\)\n\\(\\left\\{ x \\in \\mathbb{Z} \\; : x/2 \\geq 10 \\right\\} \\cap \\left\\{ x \\in \\mathbb{Z} \\; : 5x &lt; 100 \\right\\}\\)\n\n\n\n\n  © Phil Chodrow, 2023"
   },
   {
-    "objectID": "content/problems/sets/set-builder-2.html",
-    "href": "content/problems/sets/set-builder-2.html",
+    "objectID": "content/problems/sets/element-method-2.html",
+    "href": "content/problems/sets/element-method-2.html",
     "title": "",
     "section": "",
-    "text": "Write each of the following sets in set-builder notation. There may be several correct ways.\n\n\n\\(\\left\\{ 2, 4, 8, 16, 32, 64,\\ldots \\right\\}\\) \n\\(\\left\\{ 3, 4, 5, 6, 7, 8 \\right\\}\\)\n\\(\\left\\{ 0, 3, 6, 9, 12, 15 \\right\\}\\)\n\n\n\n\n  © Phil Chodrow, 2023"
+    "text": "Define the two sets\n\\[\n\\begin{aligned}\nA &= \\{x \\in \\mathbb{Z} \\;|\\; x &gt; 0\\;,\\; x^2 \\leq 32\\} \\\\\nB &= \\{x \\in \\mathbb{Z} \\;|\\; x &gt; 0 \\;,\\; \\log_2 x &lt; 7\\}\n\\end{aligned}\n\\]\nUse the element method to write a proof that that \\(A \\subseteq B\\).\n\n\n\n  © Phil Chodrow, 2023"
   },
   {
-    "objectID": "content/problems/sets/subset-inclusion-1.html",
-    "href": "content/problems/sets/subset-inclusion-1.html",
+    "objectID": "content/problems/sets/venn-diagram-1.html",
+    "href": "content/problems/sets/venn-diagram-1.html",
     "title": "",
     "section": "",
-    "text": "Let \\(A = \\{x \\in \\mathbb{Z} \\;:\\; x = 4y+1 \\text{ for some } y \\in \\mathbb{Z}\\}\\) and let \\(B = \\{x \\in \\mathbb{z} \\;:\\; x = 2k+1 \\text{ for some } k \\in \\mathbb{Z}\\}\\).\n\nPart A\nWrite out at least three distinct elements of \\(A\\) and three distinct elements of \\(B\\).\n\n\nPart B\nIs \\(7 \\in A\\)? Is \\(7 \\in B\\)?\n\n\nPart C\nUse the element method to write a proof that \\(A \\subseteq B\\).\n\n\nPart D\nWould your proof still work if we instead defined \\(B = \\{x \\in \\mathbb{z} \\;:\\; x = 2k+1 \\text{ for some } k \\in \\mathbb{N}\\}\\)? Why or why not?\n\n\n\n\n  © Phil Chodrow, 2023"
+    "text": "Draw a Venn diagram to represent the set\n\\[(A \\cap B \\cap \\overline{C}) \\cup (A \\cap \\overline{B} \\cap C) \\cup (\\overline{A}\\cap \\overline{B} \\cap C)\\]\nThen, use your Venn diagram find an alternative expression that represents the same set.\n\n\n\n  © Phil Chodrow, 2023"
   },
   {
-    "objectID": "content/problems/sets/dmoi-0-3-13-follow-up.html",
-    "href": "content/problems/sets/dmoi-0-3-13-follow-up.html",
+    "objectID": "content/problems/sets/dmoi-0-3-24.html",
+    "href": "content/problems/sets/dmoi-0-3-24.html",
     "title": "",
     "section": "",
-    "text": "Recall that \\(\\mathbb{Z} = \\{\\ldots,-2, -1, 0, 1, 2 \\ldots\\}\\) (the integers). Let \\(\\mathbb{Z}^{+} = \\{1, 2, 3 \\ldots\\}\\) be the set of positive integers. Let \\(2\\mathbb{Z}\\) be the set of even integers, \\(3\\mathbb{Z}\\) the set of integers that are multiples of 3, and so on.\n\nDescribe the set \\(\\{1, 4, 7, 10, \\ldots\\}\\) in set-builder notation. Do this two ways: once using the notation \\(k\\mathbb{Z}\\) defined above, and once by not using this notation.\nRecall that, for integers \\(x\\), \\(y\\), and $zY, \\(x \\equiv y \\pmod z\\) if \\(x\\) and \\(y\\) have the same integer remainder when divided by \\(z\\). Describe the set \\(\\{x \\in \\mathbb{Z} : x \\equiv 3 \\pmod 4\\}\\) in set-builder notation without using the \\(\\pmod{}\\) operator.\n\n\n\n\n  © Phil Chodrow, 2023"
+    "text": "Let \\(X = \\{n \\in \\mathbb{N}: 10 \\leq n &lt; 20\\}\\). Find examples of sets with the following properties and briefly explain why your examples are correct.\n\nA set \\(A \\subseteq \\mathbb{N}\\) with \\(\\lvert A \\rvert = 10\\) such that \\(X \\setminus A = \\{10, 12, 14\\}\\).\nA set \\(B \\in \\mathcal{P}(X)\\) with \\(\\lvert B \\rvert = 5\\).\nA set \\(C \\subseteq \\mathcal{P}(X)\\) with \\(\\lvert C \\rvert = 5\\).\nA set \\(D \\subseteq X\\times X\\) with \\(\\lvert D \\rvert = 5\\).\nA set \\(E \\subseteq X\\) such that \\(\\lvert E \\rvert \\in E\\).\n\n\n\n\n  © Phil Chodrow, 2023"
   },
   {
-    "objectID": "content/problems/sets/cards-1.html",
-    "href": "content/problems/sets/cards-1.html",
+    "objectID": "content/problems/logic/implications-3.html",
+    "href": "content/problems/logic/implications-3.html",
     "title": "",
     "section": "",
-    "text": "In a standard deck of playing cards, there are a total of 52 cards. Each card has a number and a suit.\n\nThe card numbers can be from 1 to 13.\n\nThe 1 is usually called the ace. Cards 11-13 are usually called the jack, queen, and king, and are collectively referred to as “face cards.”\n\nThe card suits are spades, clubs, hearts and diamonds. Spades and clubs are “black” suits while hearts and diamonds are “red” suits.\n\n\nPart A\nDescribe two sets \\(A\\) and \\(B\\) such that the set \\(D = A\\times B\\) describes a deck of cards. In particular, \\(D\\) should have 52 elements and you should describe a recipe for figuring out which card corresponds to which element of \\(D\\).\n\n\nPart B\nCompute the following cardinalities:\n\nThe number of cards that have a red suit.\nThe number of face cards.\nThe number of cards that have a red suit or which are face cards.\n\nComment on your answer in item 3. How does it relate to the sum of the answers in items 1 and 2? How do you explain the difference?\n\n\n\n\n  © Phil Chodrow, 2023"
+    "text": "We often write the biconditional “if and only if” as \\(p \\leftrightarrow q\\). Make a truth table for \\(p \\leftrightarrow q\\) by making a detailed truth table for its expanded form, \\((p \\rightarrow q) \\land (q \\rightarrow p)\\).\n\n\n\n  © Phil Chodrow, 2023"
   },
   {
-    "objectID": "content/problems/logic/implications-2.html",
-    "href": "content/problems/logic/implications-2.html",
+    "objectID": "content/problems/logic/implications-1.html",
+    "href": "content/problems/logic/implications-1.html",
     "title": "",
     "section": "",
-    "text": "Consider the following propositions:\n\n\\(P\\): I achieved a Satisfactory (S) assessment on at least 11 Learning Targets.\n\\(Q\\): I received an E on at least 4 Lab assignments.\n\\(R\\): I had an N or an R on at least one Lab assignment by the end of the semester.\n\\(S\\): I missed 4 or more warmups.\n\\(T\\): I earned an A in CSCI 0200.\n\nConstruct a correct logical statement using \\(\\lnot\\), \\(\\lor\\), \\(\\land\\), \\(\\rightarrow\\), and/or \\(\\leftrightarrow\\) to describe the relationship between these five propositions.\n\n\n\n  © Phil Chodrow, 2023"
+    "text": "Consider the expression \\(\\lnot P \\land (Q \\rightarrow P)\\).\nUse logical equivalences to simplify this expression as far as you can. If you knew this expression was true, what could you conclude about \\(Q\\)?\nHint: Get everything in terms of \\(\\land\\), \\(\\lor\\), and \\(\\lnot\\) and then use the following two rules of logical equivalence:\n\nDistributive Law: \\(A \\land (B \\lor C) \\equiv (A \\land B) \\lor (A \\land C)\\).\nLaw of Excluded Middle: \\(A \\land \\lnot A \\equiv \\mathrm{F}\\), i.e. \\(A \\land \\lnot A\\) is a logical contradiction.\n\n\n\n\n  © Phil Chodrow, 2023"
   },
   {
-    "objectID": "content/problems/logic/truth-tables-1.html",
-    "href": "content/problems/logic/truth-tables-1.html",
+    "objectID": "content/problems/logic/python-to-logic-1.html",
+    "href": "content/problems/logic/python-to-logic-1.html",
     "title": "",
     "section": "",
-    "text": "Part A\nCreate truth tables for each of the three logical expressions:\n\n\\((r \\lor p) \\land q\\)\n\\((r \\lor p) \\land (r \\lor q)\\)\n\\(r \\lor (p \\land q)\\)\n\n\n\nPart B\nTwo of these expressions are logically equivalent: no matter the truth values of \\(r\\), \\(p\\), and \\(q\\), the two expressions always evaluate to the same final truth value. Which are the two equivalent expressions?\n\n\n\n\n  © Phil Chodrow, 2023"
+    "text": "Your friend tells you about a cool function they wrote in Python. Their function accepts 3 boolean arguments and returns a boolean return value.\n\ndef f(p, q, r):\n    \"\"\"\n    p, q, and r are assumed to be booleans. \n    returns: boolean\n    \"\"\"\n    \n    a = p and q\n    b = not (q or r)\n    c = a and b\n    \n    return c\n\nPart A\nWrite a logical expression in terms of \\(p\\), \\(q\\), and \\(r\\) (using symbols like \\(\\lnot, \\lor, \\land\\)) which has the same value as the return value of your friend’s function f.\n\n\nPart B\nMake a truth table for your expression. Please show the values of a, b, and c in each line of your truth table.\nDo you notice anything strange about your truth table?\n\n\n\n\n  © Phil Chodrow, 2023"
   },
   {
-    "objectID": "content/problems/proofs/dobson-slomson.html",
-    "href": "content/problems/proofs/dobson-slomson.html",
+    "objectID": "content/problems/proofs/cases.html",
+    "href": "content/problems/proofs/cases.html",
     "title": "",
     "section": "",
-    "text": "For each of the following four statements:\n\nFirst, represent the statement using logical symbols, including quantifiers. Define any predicates you need.\n\nFor example, a symbolic representation of the first statement would be \\(\\forall m \\in \\mathbb{Z}: E(m) \\rightarrow E(7m+4)\\), where \\(E(x)\\) is the predicate “\\(x\\) is even.”\n\nThen, write a careful proof of the statement, justifying each of your steps. You do not need to use logical symbols in your proofs.\n\n\nIf \\(m\\) is an even integer then \\(7m+4\\) is an even integer.\nIf \\(m\\) is an even integer and \\(n\\) is an odd integer then \\(m+n\\) is an odd integer.\nIf \\(m\\) is an even integer and \\(n\\) is an odd integer then \\(mn\\) is an even integer.\nIf \\(a\\), \\(b\\), and \\(c\\) are integers such that \\(a\\) divides \\(b\\) and \\(b\\) divides \\(c\\), then \\(a\\) divides \\(c\\).\n\nNotation note: For some of these statements, you may find yourself needing to write things like \\(\\forall x \\in \\mathbb{Z}, \\forall y \\in \\mathbb{Z}\\). A common notational shortcut is to write \\(\\forall x, y \\in \\mathbb{Z}\\) to mean the same thing while saving some space.\n\n\n\n  © Phil Chodrow, 2023"
+    "text": "Prove that if \\(n\\) is an integer, then \\(3n^2 + n + 4\\) is even.\n\n\n\n  © Phil Chodrow, 2023"
   },
   {
-    "objectID": "content/problems/proofs/dmoi-3.5.html",
-    "href": "content/problems/proofs/dmoi-3.5.html",
+    "objectID": "content/problems/proofs/counterexamples.html",
+    "href": "content/problems/proofs/counterexamples.html",
     "title": "",
     "section": "",
-    "text": "Prove that for all integers \\(n\\), it is the case that \\(n\\) is even if and only if \\(3n\\) is even. This proof has two parts: you must show that \\(n\\) being even implies that \\(3n\\) is even; then you must show that \\(3n\\) being even implies that \\(n\\) is even.\nIn your proof, please one of the two directions using direct proof. Then, prove the other direction using proof by contrapositive.\n\n\n\n  © Phil Chodrow, 2023"
+    "text": "Give a counterexample to each of the following claims. Describe in a sentence or two why your counterexample shows that the claim is false.\nNote: If the claim refers to multiple numbers like \\(x\\) and \\(y\\), a complete counterexample includes values for both \\(x\\) and \\(y\\).\n\n\\(\\forall x,y \\in \\mathbb{Z} \\;:\\; x^2 &lt; y^2 \\rightarrow x &lt; y\\).\n\nRecall that \\(\\forall x,y\\in \\mathbb{Z}\\) is a notation shortcut for \\(\\forall x \\in \\mathbb{Z}, \\forall y \\in \\mathbb{Z}\\).\n\n\\(\\lnot \\exists x \\in \\mathbb{Z}\\;:\\; x | 51\\)\n\nRecall that \\(a|b\\) means that \\(a\\) is a divisor of \\(b\\) with remainder \\(0\\).\n\n\\(\\forall x, y \\in \\mathbb{Z} \\;:\\; x^2 + y^2 \\text{ is an even number}\\).\n\n\n\n\n  © Phil Chodrow, 2023"
   },
   {
     "objectID": "content/problems/proofs/contradiction.html",
@@ -963,7 +963,14 @@
     "href": "assignments/labs/03-proof-practice.html",
     "title": "Lab 3: Proof Practice",
     "section": "",
-    "text": "[Your name]\n[The name of one of your group members]\n[The name of your other group member]\nLearning Objectives:\nAssessment:\nLabs are assessed according to the posted EMRN rubric.\n© Phil Chodrow, 2023"
+    "text": "[Your name]\n[The name of one of your group members]\n[The name of your other group member]\n© Phil Chodrow, 2023"
+  },
+  {
+    "objectID": "assignments/labs/03-proof-practice.html#collaboration-statement",
+    "href": "assignments/labs/03-proof-practice.html#collaboration-statement",
+    "title": "Lab 3: Proof Practice",
+    "section": "Collaboration Statement",
+    "text": "Collaboration Statement\n[Please describe the contributions of each group member. Please also describe the support you received from Course Assistants, other classmates, and any online resources such as StackExchange or ChatGPT.]\nLearning Objectives:\n\nYou will practice assessing which proof technique to use for a given problem.\nYou will continue to practice correctly typesetting proofs using the \\(\\LaTeX\\) typesetting system.\n\nAssessment:\nLabs are assessed according to the posted EMRN rubric."
   },
   {
     "objectID": "assignments/labs/03-proof-practice.html#for-this-lab",
@@ -1015,11 +1022,25 @@
     "text": "Part E\nClaim: For any real numbers \\(x\\) and \\(y\\), if \\(x &lt; y\\), then there exists a real number \\(x\\) such that \\(x &lt; z &lt; y\\).\n[Your proof here, including your declaration of your proof technique.]"
   },
   {
+    "objectID": "assignments/labs/03-proof-practice.html#part-f",
+    "href": "assignments/labs/03-proof-practice.html#part-f",
+    "title": "Lab 3: Proof Practice",
+    "section": "Part F",
+    "text": "Part F\nPlease review the list of guidelines for mathematical writing in Book of Proof Chapter 5.3. Then, check carefully that each of your written proofs in the previous parts does not violate any of the items on this checklist. Revise if necessary before turning in your lab report.\nOptional Suggestion: trade your draft lab report with a group member or another student in the class. Ask them to identify places in which your lab report should be revised in order to align with the list of guidelines, and do the same for then. Then, each of you can revise in response to your feedback. If you do this with a peer, please name them in your collaboration statement at the beginning of this lab report.\nYou are likely to write better proofs this way, but it’s not required."
+  },
+  {
     "objectID": "assignments/labs/03-proof-practice-sol.html",
     "href": "assignments/labs/03-proof-practice-sol.html",
     "title": "Lab 3 SOLUTION: Proof Practice",
     "section": "",
-    "text": "[Your name]\n[The name of one of your group members]\n[The name of your other group member]\nLearning Objectives:\nAssessment:\nLabs are assessed according to the posted EMRN rubric.\n© Phil Chodrow, 2023"
+    "text": "[Your name]\n[The name of one of your group members]\n[The name of your other group member]\n© Phil Chodrow, 2023"
+  },
+  {
+    "objectID": "assignments/labs/03-proof-practice-sol.html#collaboration-statement",
+    "href": "assignments/labs/03-proof-practice-sol.html#collaboration-statement",
+    "title": "Lab 3 SOLUTION: Proof Practice",
+    "section": "Collaboration Statement",
+    "text": "Collaboration Statement\n[Please describe the contributions of each group member. Please also describe the support you received from Course Assistants, other classmates, and any online resources such as StackExchange or ChatGPT.]\nLearning Objectives:\n\nYou will practice assessing which proof technique to use for a given problem.\nYou will continue to practice correctly typesetting proofs using the \\(\\LaTeX\\) typesetting system.\n\nAssessment:\nLabs are assessed according to the posted EMRN rubric."
   },
   {
     "objectID": "assignments/labs/03-proof-practice-sol.html#for-this-lab",
@@ -1071,6 +1092,13 @@
     "text": "Part E\nClaim: For any real numbers \\(x\\) and \\(y\\), if \\(x &lt; y\\), then there exists a real number \\(x\\) such that \\(x &lt; z &lt; y\\).\n\n\n\n\n\n\nSuppose that \\(x &lt; y\\). Define \\(z = \\frac{x+y}{2}\\). Then, since \\(x &lt; y\\), \\(z &lt; \\frac{y + y}{2} = y\\). Similarly, \\(z &gt; \\frac{x+x}{2} = x\\). So, \\(x &lt; z &lt; y\\), as was to be shown."
   },
   {
+    "objectID": "assignments/labs/03-proof-practice-sol.html#part-f",
+    "href": "assignments/labs/03-proof-practice-sol.html#part-f",
+    "title": "Lab 3 SOLUTION: Proof Practice",
+    "section": "Part F",
+    "text": "Part F\nPlease review the list of guidelines for mathematical writing in Book of Proof Chapter 5.3. Then, check carefully that each of your written proofs in the previous parts does not violate any of the items on this checklist. Revise if necessary before turning in your lab report.\nOptional Suggestion: trade your draft lab report with a group member or another student in the class. Ask them to identify places in which your lab report should be revised in order to align with the list of guidelines, and do the same for then. Then, each of you can revise in response to your feedback. If you do this with a peer, please name them in your collaboration statement at the beginning of this lab report.\nYou are likely to write better proofs this way, but it’s not required."
+  },
+  {
     "objectID": "content/problems/quantified-logic/implications.html",
     "href": "content/problems/quantified-logic/implications.html",
     "title": "",
@@ -1089,14 +1117,14 @@
     "href": "content/problems/quantified-logic/awesome.html#part-a",
     "title": "",
     "section": "Part A",
-    "text": "Part A\nTranslate these statements into expressions of predicate logic, using the following predicates:\n\n\\(A(x)\\): \\(x\\) is AWESOME!!!\n\\(C(y)\\): \\(y\\) is cool.\n\\(P(z, t)\\): person \\(z\\) is part of team \\(t\\).\n\nHint: In English, the construction “\\(q\\) when \\(p\\)” can be rephrased as “if \\(p\\) then \\(q\\).” Your solution should therefore include \\(\\rightarrow\\)."
+    "text": "Part A\nTranslate of these statements into expressions of predicate logic, using the following predicates:\n\n\\(A(x)\\): \\(x\\) is awesome!\n\\(C(y)\\): \\(y\\) is cool.\n\\(P(z, t)\\): person \\(z\\) is part of team \\(t\\).\n\nHint: In English, the construction “\\(q\\) when \\(p\\)” can be rephrased as “if \\(p\\) then \\(q\\).” Your solution should therefore include \\(\\rightarrow\\)."
   },
   {
     "objectID": "content/problems/quantified-logic/awesome.html#part-b",
     "href": "content/problems/quantified-logic/awesome.html#part-b",
     "title": "",
     "section": "Part B",
-    "text": "Part B\nThe contrapositive of the implication \\(p\\rightarrow q\\) is the statement \\(\\lnot q \\rightarrow \\lnot p\\). Compute the contrapositive of your answer in Part A. Please simplify your results so that negation symbols \\(\\lnot\\) appear directly in front of predicates, and not quantifiers or parenthetical expressions. So, an expression like \\(\\lnot \\forall x : P(x)\\) needs further simplification, as does \\(\\exists y: \\lnot (P(y) \\lor Q(y))\\). Please show your steps."
+    "text": "Part B\nThe contrapositive of the implication \\(p\\rightarrow q\\) is the statement \\(\\lnot q \\rightarrow \\lnot p\\). Compute the contrapositive of your answer for the second statement in Part A. Please simplify your results so that negation symbols \\(\\lnot\\) appear directly in front of predicates, and not quantifiers or parenthetical expressions. So, an expression like \\(\\lnot \\forall x : P(x)\\) needs further simplification, as does \\(\\exists y: \\lnot (P(y) \\lor Q(y))\\). Please show your steps."
   },
   {
     "objectID": "content/problems/quantified-logic/quantified-contrapositive.html",
@@ -1113,74 +1141,74 @@
     "text": "Simplify the statements below (so negation appears only directly next to predicates). In these statements without domains of quantification, you may assume that the domain is the set \\(\\mathbb{Z}\\) of integers. This implies that \\(\\lnot(x &lt; y)\\equiv (y \\leq x)\\).\n\n\\(\\lnot \\exists x \\forall y(\\lnot O(x) \\lor E(x))\\)\n\\(\\lnot \\forall x \\lnot \\forall y \\lnot ((x &lt; y) \\land \\exists z((x &lt; z)\\lor (y &lt; z)))\\)\n\n\n\n\n  © Phil Chodrow, 2023"
   },
   {
-    "objectID": "content/problems/proofs/counterexamples.html",
-    "href": "content/problems/proofs/counterexamples.html",
+    "objectID": "content/problems/proofs/style-1.html",
+    "href": "content/problems/proofs/style-1.html",
     "title": "",
     "section": "",
-    "text": "Give a counterexample to each of the following claims. Describe in a sentence or two why your counterexample shows that the claim is false.\nNote: If the claim refers to multiple numbers like \\(x\\) and \\(y\\), a complete counterexample includes values for both \\(x\\) and \\(y\\).\n\n\\(\\forall x,y \\in \\mathbb{Z} \\;:\\; x^2 &lt; y^2 \\rightarrow x &lt; y\\).\n\nRecall that \\(\\forall x,y\\in \\mathbb{Z}\\) is a notation shortcut for \\(\\forall x \\in \\mathbb{Z}, \\forall y \\in \\mathbb{Z}\\).\n\n\\(\\lnot \\exists x \\in \\mathbb{Z}\\;:\\; x | 51\\)\n\nRecall that \\(a|b\\) means that \\(a\\) is a divisor of \\(b\\) with remainder \\(0\\).\n\n\\(\\forall x, y \\in \\mathbb{Z} \\;:\\; x^2 + y^2 \\text{ is an even number}\\).\n\n\n\n\n  © Phil Chodrow, 2023"
+    "text": "Here are three facts about modular congruence which will become important for us later in the course.\n\nSymmetry: For any \\(a, b, n \\in \\mathbb{Z}\\), if \\(a \\equiv b \\pmod{n}\\), then \\(b \\equiv a \\pmod{n}\\).\n\nReflexivity: For any \\(a, n \\in \\mathbb{Z}\\), it is the case that \\(a \\equiv a \\pmod{n}\\).\n\nTransitivity: For any \\(a, b, c, n \\in \\mathbb{Z}\\), if \\(a \\equiv b \\pmod{n}\\) and \\(b\\equiv c \\pmod{n}\\), then \\(a \\equiv c \\pmod{n}\\).\n\n\nPart A\nHere are “proofs” of Symmetry and Reflexivity. These proofs contain the right general idea, but they are written very poorly.\nSymmetry: \\(a, b, n \\in \\mathbb{Z}\\). \\(a - b = cn\\), \\(b - a = -cn\\). \\(b = a \\pmod{n}\\).\nReflexivity: \\(a-a=0\\), since this is true for any integer. It is \\(=\\) to \\(0n\\).\nFix these proofs. For each of the two, go down the checklist in Chapter 5.3 of Book of Proof. Using this checklist, write correct, beautiful proofs that does not violate any of the rules in the list.\n\n\nPart B\nWrite a correct, beautiful proof of Transitivity which does not violate any of the rules in the list.\n\n\n\n\n  © Phil Chodrow, 2023"
   },
   {
-    "objectID": "content/problems/proofs/cases.html",
-    "href": "content/problems/proofs/cases.html",
+    "objectID": "content/problems/proofs/dmoi-3.5.html",
+    "href": "content/problems/proofs/dmoi-3.5.html",
     "title": "",
     "section": "",
-    "text": "Prove that if \\(n\\) is an integer, then \\(3n^2 + n + 4\\) is even.\n\n\n\n  © Phil Chodrow, 2023"
+    "text": "Prove that for all integers \\(n\\), it is the case that \\(n\\) is even if and only if \\(3n\\) is even. This proof has two parts: you must show that \\(n\\) being even implies that \\(3n\\) is even; then you must show that \\(3n\\) being even implies that \\(n\\) is even.\nIn your proof, please one of the two directions using direct proof. Then, prove the other direction using proof by contrapositive.\n\n\n\n  © Phil Chodrow, 2023"
   },
   {
-    "objectID": "content/problems/logic/python-to-logic-1.html",
-    "href": "content/problems/logic/python-to-logic-1.html",
+    "objectID": "content/problems/proofs/dobson-slomson.html",
+    "href": "content/problems/proofs/dobson-slomson.html",
     "title": "",
     "section": "",
-    "text": "Your friend tells you about a cool function they wrote in Python. Their function accepts 3 boolean arguments and returns a boolean return value.\n\ndef f(p, q, r):\n    \"\"\"\n    p, q, and r are assumed to be booleans. \n    returns: boolean\n    \"\"\"\n    \n    a = p and q\n    b = not (q or r)\n    c = a and b\n    \n    return c\n\nPart A\nWrite a logical expression in terms of \\(p\\), \\(q\\), and \\(r\\) (using symbols like \\(\\lnot, \\lor, \\land\\)) which has the same value as the return value of your friend’s function f.\n\n\nPart B\nMake a truth table for your expression. Please show the values of a, b, and c in each line of your truth table.\nDo you notice anything strange about your truth table?\n\n\n\n\n  © Phil Chodrow, 2023"
+    "text": "For each of the following four statements:\n\nFirst, represent the statement using logical symbols, including quantifiers. Define any predicates you need.\n\nFor example, a symbolic representation of the first statement would be \\(\\forall m \\in \\mathbb{Z}: E(m) \\rightarrow E(7m+4)\\), where \\(E(x)\\) is the predicate “\\(x\\) is even.”\n\nThen, write a careful proof of the statement, justifying each of your steps. You do not need to use logical symbols in your proofs.\n\n\nIf \\(m\\) is an even integer then \\(7m+4\\) is an even integer.\nIf \\(m\\) is an even integer and \\(n\\) is an odd integer then \\(m+n\\) is an odd integer.\nIf \\(m\\) is an even integer and \\(n\\) is an odd integer then \\(mn\\) is an even integer.\nIf \\(a\\), \\(b\\), and \\(c\\) are integers such that \\(a\\) divides \\(b\\) and \\(b\\) divides \\(c\\), then \\(a\\) divides \\(c\\).\n\nNotation note: For some of these statements, you may find yourself needing to write things like \\(\\forall x \\in \\mathbb{Z}, \\forall y \\in \\mathbb{Z}\\). A common notational shortcut is to write \\(\\forall x, y \\in \\mathbb{Z}\\) to mean the same thing while saving some space.\n\n\n\n  © Phil Chodrow, 2023"
   },
   {
-    "objectID": "content/problems/logic/implications-1.html",
-    "href": "content/problems/logic/implications-1.html",
+    "objectID": "content/problems/logic/truth-tables-1.html",
+    "href": "content/problems/logic/truth-tables-1.html",
     "title": "",
     "section": "",
-    "text": "Consider the expression \\(\\lnot P \\land (Q \\rightarrow P)\\).\nUse logical equivalences to simplify this expression as far as you can. If you knew this expression was true, what could you conclude about \\(Q\\)?\nHint: Get everything in terms of \\(\\land\\), \\(\\lor\\), and \\(\\lnot\\) and then use the following two rules of logical equivalence:\n\nDistributive Law: \\(A \\land (B \\lor C) \\equiv (A \\land B) \\lor (A \\land C)\\).\nLaw of Excluded Middle: \\(A \\land \\lnot A \\equiv \\mathrm{F}\\), i.e. \\(A \\land \\lnot A\\) is a logical contradiction.\n\n\n\n\n  © Phil Chodrow, 2023"
+    "text": "Part A\nCreate truth tables for each of the three logical expressions:\n\n\\((r \\lor p) \\land q\\)\n\\((r \\lor p) \\land (r \\lor q)\\)\n\\(r \\lor (p \\land q)\\)\n\n\n\nPart B\nTwo of these expressions are logically equivalent: no matter the truth values of \\(r\\), \\(p\\), and \\(q\\), the two expressions always evaluate to the same final truth value. Which are the two equivalent expressions?\n\n\n\n\n  © Phil Chodrow, 2023"
   },
   {
-    "objectID": "content/problems/logic/implications-3.html",
-    "href": "content/problems/logic/implications-3.html",
+    "objectID": "content/problems/logic/implications-2.html",
+    "href": "content/problems/logic/implications-2.html",
     "title": "",
     "section": "",
-    "text": "We often write the biconditional “if and only if” as \\(p \\leftrightarrow q\\). Make a truth table for \\(p \\leftrightarrow q\\) by making a detailed truth table for its expanded form, \\((p \\rightarrow q) \\land (q \\rightarrow p)\\).\n\n\n\n  © Phil Chodrow, 2023"
+    "text": "Consider the following propositions:\n\n\\(P\\): I achieved a Satisfactory (S) assessment on at least 11 Learning Targets.\n\\(Q\\): I received an E on at least 4 Lab assignments.\n\\(R\\): I had an N or an R on at least one Lab assignment by the end of the semester.\n\\(S\\): I missed 4 or more warmups.\n\\(T\\): I earned an A in CSCI 0200.\n\nConstruct a correct logical statement using \\(\\lnot\\), \\(\\lor\\), \\(\\land\\), \\(\\rightarrow\\), and/or \\(\\leftrightarrow\\) to describe the relationship between these five propositions.\n\n\n\n  © Phil Chodrow, 2023"
   },
   {
-    "objectID": "content/problems/sets/dmoi-0-3-24.html",
-    "href": "content/problems/sets/dmoi-0-3-24.html",
+    "objectID": "content/problems/sets/cards-1.html",
+    "href": "content/problems/sets/cards-1.html",
     "title": "",
     "section": "",
-    "text": "Let \\(X = \\{n \\in \\mathbb{N}: 10 \\leq n &lt; 20\\}\\). Find examples of sets with the following properties and briefly explain why your examples are correct.\n\nA set \\(A \\subseteq \\mathbb{N}\\) with \\(\\lvert A \\rvert = 10\\) such that \\(X \\setminus A = \\{10, 12, 14\\}\\).\nA set \\(B \\in \\mathcal{P}(X)\\) with \\(\\lvert B \\rvert = 5\\).\nA set \\(C \\subseteq \\mathcal{P}(X)\\) with \\(\\lvert C \\rvert = 5\\).\nA set \\(D \\subseteq X\\times X\\) with \\(\\lvert D \\rvert = 5\\).\nA set \\(E \\subseteq X\\) such that \\(\\lvert E \\rvert \\in E\\).\n\n\n\n\n  © Phil Chodrow, 2023"
+    "text": "In a standard deck of playing cards, there are a total of 52 cards. Each card has a number and a suit.\n\nThe card numbers can be from 1 to 13.\n\nThe 1 is usually called the ace. Cards 11-13 are usually called the jack, queen, and king, and are collectively referred to as “face cards.”\n\nThe card suits are spades, clubs, hearts and diamonds. Spades and clubs are “black” suits while hearts and diamonds are “red” suits.\n\n\nPart A\nDescribe two sets \\(A\\) and \\(B\\) such that the set \\(D = A\\times B\\) describes a deck of cards. In particular, \\(D\\) should have 52 elements and you should describe a recipe for figuring out which card corresponds to which element of \\(D\\).\n\n\nPart B\nCompute the following cardinalities:\n\nThe number of cards that have a red suit.\nThe number of face cards.\nThe number of cards that have a red suit or which are face cards.\n\nComment on your answer in item 3. How does it relate to the sum of the answers in items 1 and 2? How do you explain the difference?\n\n\n\n\n  © Phil Chodrow, 2023"
   },
   {
-    "objectID": "content/problems/sets/venn-diagram-1.html",
-    "href": "content/problems/sets/venn-diagram-1.html",
+    "objectID": "content/problems/sets/dmoi-0-3-13-follow-up.html",
+    "href": "content/problems/sets/dmoi-0-3-13-follow-up.html",
     "title": "",
     "section": "",
-    "text": "Draw a Venn diagram to represent the set\n\\[(A \\cap B \\cap \\overline{C}) \\cup (A \\cap \\overline{B} \\cap C) \\cup (\\overline{A}\\cap \\overline{B} \\cap C)\\]\nThen, use your Venn diagram find an alternative expression that represents the same set.\n\n\n\n  © Phil Chodrow, 2023"
+    "text": "Recall that \\(\\mathbb{Z} = \\{\\ldots,-2, -1, 0, 1, 2 \\ldots\\}\\) (the integers). Let \\(\\mathbb{Z}^{+} = \\{1, 2, 3 \\ldots\\}\\) be the set of positive integers. Let \\(2\\mathbb{Z}\\) be the set of even integers, \\(3\\mathbb{Z}\\) the set of integers that are multiples of 3, and so on.\n\nDescribe the set \\(\\{1, 4, 7, 10, \\ldots\\}\\) in set-builder notation. Do this two ways: once using the notation \\(k\\mathbb{Z}\\) defined above, and once by not using this notation.\nRecall that, for integers \\(x\\), \\(y\\), and $zY, \\(x \\equiv y \\pmod z\\) if \\(x\\) and \\(y\\) have the same integer remainder when divided by \\(z\\). Describe the set \\(\\{x \\in \\mathbb{Z} : x \\equiv 3 \\pmod 4\\}\\) in set-builder notation without using the \\(\\pmod{}\\) operator.\n\n\n\n\n  © Phil Chodrow, 2023"
   },
   {
-    "objectID": "content/problems/sets/element-method-2.html",
-    "href": "content/problems/sets/element-method-2.html",
+    "objectID": "content/problems/sets/subset-inclusion-1.html",
+    "href": "content/problems/sets/subset-inclusion-1.html",
     "title": "",
     "section": "",
-    "text": "Define the two sets\n\\[\n\\begin{aligned}\nA &= \\{x \\in \\mathbb{Z} \\;|\\; x &gt; 0\\;,\\; x^2 \\leq 32\\} \\\\\nB &= \\{x \\in \\mathbb{Z} \\;|\\; x &gt; 0 \\;,\\; \\log_2 x &lt; 7\\}\n\\end{aligned}\n\\]\nUse the element method to write a proof that that \\(A \\subseteq B\\).\n\n\n\n  © Phil Chodrow, 2023"
+    "text": "Let \\(A = \\{x \\in \\mathbb{Z} \\;:\\; x = 4y+1 \\text{ for some } y \\in \\mathbb{Z}\\}\\) and let \\(B = \\{x \\in \\mathbb{Z} \\;:\\; x = 2k+1 \\text{ for some } k \\in \\mathbb{Z}\\}\\).\n\nPart A\nWrite out at least three distinct elements of \\(A\\) and three distinct elements of \\(B\\).\n\n\nPart B\nIs \\(7 \\in A\\)? Is \\(7 \\in B\\)?\n\n\nPart C\nUse the element method to write a proof that \\(A \\subseteq B\\).\n\n\nPart D\nWould your proof still work if we instead defined \\(B = \\{x \\in \\mathbb{z} \\;:\\; x = 2k+1 \\text{ for some } k \\in \\mathbb{N}\\}\\)? Briefly explain why or why not.\n\n\n\n\n  © Phil Chodrow, 2023"
   },
   {
-    "objectID": "content/problems/sets/set-builder-1.html",
-    "href": "content/problems/sets/set-builder-1.html",
+    "objectID": "content/problems/sets/set-builder-2.html",
+    "href": "content/problems/sets/set-builder-2.html",
     "title": "",
     "section": "",
-    "text": "Write the following sets by listing their elements between braces:\n\n\\(\\left\\{ x \\in \\mathbb{Z} \\; : x^2 \\leq 10 \\right\\}\\)\n\\(\\left\\{ x \\in \\mathbb{N} \\; : x \\leq 10 \\right\\} \\cap \\left\\{ x \\in \\mathbb{Z} \\; : x \\text{ is a prime number.} \\right\\}\\)\n\\(\\left\\{ x \\in \\mathbb{Z} \\; : x/2 \\geq 10 \\right\\} \\cap \\left\\{ x \\in \\mathbb{Z} \\; : 5x &lt; 100 \\right\\}\\)\n\n\n\n\n  © Phil Chodrow, 2023"
+    "text": "Write each of the following sets in set-builder notation. There may be several correct ways.\n\n\n\\(\\left\\{ 2, 4, 8, 16, 32, 64,\\ldots \\right\\}\\) \n\\(\\left\\{ 3, 4, 5, 6, 7, 8 \\right\\}\\)\n\\(\\left\\{ 0, 3, 6, 9, 12, 15 \\right\\}\\)\n\n\n\n\n  © Phil Chodrow, 2023"
   },
   {
-    "objectID": "content/problems/sets/inclusion-exclusion.html",
-    "href": "content/problems/sets/inclusion-exclusion.html",
+    "objectID": "content/problems/sets/dmoi-0-3-13-multiples.html",
+    "href": "content/problems/sets/dmoi-0-3-13-multiples.html",
     "title": "",
     "section": "",
-    "text": "Your excited friend tells you about this cool “fact” that they learned in their structural engineering course, STEN 0200: Computing Mathematics of Foundations. Their “fact” is:\nFor any two sets \\(A\\) and \\(B\\), \\[\n\\lvert A \\setminus B \\rvert = \\lvert A \\rvert - \\lvert B \\rvert\\;.\n\\tag{1}\\]\n“How cool,” you say, while politely smiling and effortlessly remembering that \\(A\\setminus B\\) is the set of elements of \\(A\\) which are not elements of \\(B\\).\n\nPart A\nGive an example of sets \\(A\\) and \\(B\\) such that Equation 1 is true.\n(Your friend grins.)\n\n\nPart B\nGive an example of sets \\(A\\) and \\(B\\) such that Equation 1 is not true, and explain why.\n(Your friend groans. Maybe they should have taken CSCI 0200 instead…)\n\n\nPart C\nDerive a correct formula for \\(\\lvert A \\setminus B \\rvert\\), justifying each step of your calculation. Please use only the set complement operator \\(\\bar{B}\\), the set union operator \\(\\cup\\), and the set cardinality operator \\(\\lvert \\cdot \\rvert\\) (you may not need all of these operators). You can also use arithmetic operations like \\(+\\), \\(-\\), etc.\n\n\nPart D\nUsing Venn diagrams, find a simple formula for \\(\\lvert A \\setminus B \\rvert\\) which uses only the set cardinality operator \\(\\lvert \\cdot \\rvert\\) and the set intersection operator \\(\\cap\\), but not the union operator \\(\\cup\\) or the complement operator \\(\\bar{B}\\).\n\n\n\n\n  © Phil Chodrow, 2023"
+    "text": "Recall that \\(\\mathbb{Z} = \\{\\ldots,-2, -1, 0, 1, 2 \\ldots\\}\\) (the integers). Let \\(\\mathbb{Z}^{+} = \\{1, 2, 3 \\ldots\\}\\) be the set of positive integers. Let \\(2\\mathbb{Z}\\) be the set of even integers, \\(3\\mathbb{Z}\\) the set of integers that are multiples of 3, and so on.\n\nIs \\(\\mathbb{Z}^+ \\subseteq \\mathbb{Z}\\)? Why or why not?\nIs \\(2\\mathbb{Z} \\subseteq \\mathbb{Z}^+\\)? Why or why not?\nFind \\(2\\mathbb{Z} \\cap 3\\mathbb{Z}\\). Describe this set in words, using set notation, and using the notation defined in this problem. \n\n\n\n\n  © Phil Chodrow, 2023"
   },
   {
     "objectID": "content/problems/induction/induction-example-1.html",
@@ -1321,6 +1349,34 @@
     "title": "More On Sets",
     "section": "Problem 3",
     "text": "Problem 3\nIn a standard deck of playing cards, there are a total of 52 cards. Each card has a number and a suit.\n\nThe card numbers can be from 1 to 13.\n\nThe 1 is usually called the ace. Cards 11-13 are usually called the jack, queen, and king, and are collectively referred to as “face cards.”\n\nThe card suits are spades, clubs, hearts and diamonds. Spades and clubs are “black” suits while hearts and diamonds are “red” suits.\n\n\nPart A\nDescribe two sets \\(A\\) and \\(B\\) such that the set \\(D = A\\times B\\) describes a deck of cards. In particular, \\(D\\) should have 52 elements and you should describe a recipe for figuring out which card corresponds to which element of \\(D\\).\n\n\nPart B\nCompute the following cardinalities:\n\nThe number of cards that have a red suit.\nThe number of face cards.\nThe number of cards that have a red suit or which are face cards.\n\nComment on your answer in item 3. How does it relate to the sum of the answers in items 1 and 2? How do you explain the difference?"
+  },
+  {
+    "objectID": "content/modules/22-proof-practice/prep.html",
+    "href": "content/modules/22-proof-practice/prep.html",
+    "title": "Practice with Proofs",
+    "section": "",
+    "text": "No videos for today.\n© Phil Chodrow, 2023"
+  },
+  {
+    "objectID": "content/modules/22-proof-practice/prep.html#videos-0-minutes",
+    "href": "content/modules/22-proof-practice/prep.html#videos-0-minutes",
+    "title": "Practice with Proofs",
+    "section": "",
+    "text": "No videos for today."
+  },
+  {
+    "objectID": "content/modules/22-proof-practice/prep.html#reading-45-minutes",
+    "href": "content/modules/22-proof-practice/prep.html#reading-45-minutes",
+    "title": "Practice with Proofs",
+    "section": "Reading (~45 minutes)",
+    "text": "Reading (~45 minutes)\n\nBook of Proof, Chapter 5.\n\nFocus on:\n\nReviewing the idea of contrapositive proof.\nCongruence of integers (\\(a \\equiv b \\mod{n}\\)).\nProof style."
+  },
+  {
+    "objectID": "content/modules/22-proof-practice/prep.html#warmup-40-minutes",
+    "href": "content/modules/22-proof-practice/prep.html#warmup-40-minutes",
+    "title": "Practice with Proofs",
+    "section": "Warmup (~40 minutes)",
+    "text": "Warmup (~40 minutes)\n\nProblem 1\nHere are three facts about modular congruence which will become important for us later in the course.\n\nSymmetry: For any \\(a, b, n \\in \\mathbb{Z}\\), if \\(a \\equiv b \\pmod{n}\\), then \\(b \\equiv a \\pmod{n}\\).\n\nReflexivity: For any \\(a, n \\in \\mathbb{Z}\\), it is the case that \\(a \\equiv a \\pmod{n}\\).\n\nTransitivity: For any \\(a, b, c, n \\in \\mathbb{Z}\\), if \\(a \\equiv b \\pmod{n}\\) and \\(b\\equiv c \\pmod{n}\\), then \\(a \\equiv c \\pmod{n}\\).\n\n\n\nPart A\nHere are “proofs” of Symmetry and Reflexivity. These proofs contain the right general idea, but they are written very poorly.\nSymmetry: \\(a, b, n \\in \\mathbb{Z}\\). \\(a - b = cn\\), \\(b - a = -cn\\). \\(b = a \\pmod{n}\\).\nReflexivity: \\(a-a=0\\), since this is true for any integer. It is \\(=\\) to \\(0n\\).\nFix these proofs. For each of the two, go down the checklist in Chapter 5.3 of Book of Proof. Using this checklist, write correct, beautiful proofs that does not violate any of the rules in the list.\n\n\nPart B\nWrite a correct, beautiful proof of Transitivity which does not violate any of the rules in the list."
   },
   {
     "objectID": "content/modules/00-intro/in-class.html#whos-in-the-room",
@@ -1593,7 +1649,7 @@
     "href": "content/modules/12-sets/prep.html#problem-3",
     "title": "Sets and Set Operations",
     "section": "Problem 3",
-    "text": "Problem 3\nLet \\(A = \\{x \\in \\mathbb{Z} \\;:\\; x = 4y+1 \\text{ for some } y \\in \\mathbb{Z}\\}\\) and let \\(B = \\{x \\in \\mathbb{z} \\;:\\; x = 2k+1 \\text{ for some } k \\in \\mathbb{Z}\\}\\).\n\nPart A\nWrite out at least three distinct elements of \\(A\\) and three distinct elements of \\(B\\).\n\n\nPart B\nIs \\(7 \\in A\\)? Is \\(7 \\in B\\)?\n\n\nPart C\nUse the element method to write a proof that \\(A \\subseteq B\\).\n\n\nPart D\nWould your proof still work if we instead defined \\(B = \\{x \\in \\mathbb{z} \\;:\\; x = 2k+1 \\text{ for some } k \\in \\mathbb{N}\\}\\)? Why or why not?"
+    "text": "Problem 3\nLet \\(A = \\{x \\in \\mathbb{Z} \\;:\\; x = 4y+1 \\text{ for some } y \\in \\mathbb{Z}\\}\\) and let \\(B = \\{x \\in \\mathbb{Z} \\;:\\; x = 2k+1 \\text{ for some } k \\in \\mathbb{Z}\\}\\).\n\nPart A\nWrite out at least three distinct elements of \\(A\\) and three distinct elements of \\(B\\).\n\n\nPart B\nIs \\(7 \\in A\\)? Is \\(7 \\in B\\)?\n\n\nPart C\nUse the element method to write a proof that \\(A \\subseteq B\\).\n\n\nPart D\nWould your proof still work if we instead defined \\(B = \\{x \\in \\mathbb{z} \\;:\\; x = 2k+1 \\text{ for some } k \\in \\mathbb{N}\\}\\)? Briefly explain why or why not."
   },
   {
     "objectID": "content/modules/12-sets/in-class.html#section",

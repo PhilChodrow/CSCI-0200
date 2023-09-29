@@ -135,8 +135,7 @@
   summary:
   objectives:
   prep:
-    - |
-      TBD
+    - <a href="content/modules/22-proof-practice/prep.qmd">Proof Style</a> 
   activities:
     - |
       <a href="https://colab.research.google.com/github/PhilChodrow/CSCI-0200/blob/main/assignments/labs/03-proof-practice.ipynb">Lab 3: Proof Practice</a>
