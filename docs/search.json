@@ -39,7 +39,7 @@
     "href": "schedule.html#week-6",
     "title": "Schedule",
     "section": "Week 6",
-    "text": "Week 6\n\n\n\n\n\n\n\n\n\n\n\n\n\nM\nOct. 16\nRelations\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nW\nOct. 18\nFunctions\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\nOct. 20\nQuiz 2\n\n\n\n\n\n\n\n\n\n\n\n\nDue\nLab 3: TBD"
+    "text": "Week 6\n\n\n\n\n\n\n\n\n\n\n\n\n\nM\nOct. 16\nRecursion and Recurrence Relations\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nW\nOct. 18\nRecursion and Recurrence Relations\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\nOct. 20\nQuiz 2\n\n\n\n\n\n\n\n\n\n\n\n\nDue\nLab 3: Proof Practice"
   },
   {
     "objectID": "schedule.html#week-7",
@@ -53,14 +53,14 @@
     "href": "schedule.html#week-8",
     "title": "Schedule",
     "section": "Week 8",
-    "text": "Week 8\n\n\n\n\n\n\n\n\n\n\n\n\n\nM\nOct. 30\nRecursion\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nW\nNov. 01\nRecursion\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\nNov. 03\nLab 5: TBD\n\n\n\n\n\n\n\n\n\n\n\n\nDue\nLab 4: TBD"
+    "text": "Week 8\n\n\n\n\n\n\n\n\n\n\n\n\n\nM\nOct. 30\nAsymptotics and Big-Oh\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nW\nNov. 01\nFlex\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\nNov. 03\nLab 5: TBD\n\n\n\n\n\n\n\n\n\n\n\n\nDue\nLab 4: TBD"
   },
   {
     "objectID": "schedule.html#week-9",
     "href": "schedule.html#week-9",
     "title": "Schedule",
     "section": "Week 9",
-    "text": "Week 9\n\n\n\n\n\n\n\n\n\n\n\n\n\nM\nNov. 06\nAsymptotics and Big-Oh\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nW\nNov. 08\nFlex\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\nNov. 10\nQuiz 3\n\n\n\n\n\n\n\n\n\n\n\n\nDue\nLab 5: TBD"
+    "text": "Week 9\n\n\n\n\n\n\n\n\n\n\n\n\n\nM\nNov. 06\nRelations\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nW\nNov. 08\nFunctions\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\nNov. 10\nQuiz 3\n\n\n\n\n\n\n\n\n\n\n\n\nDue\nLab 5: TBD"
   },
   {
     "objectID": "schedule.html#week-10",
@@ -116,7 +116,7 @@
     "href": "pages/learning-targets.html",
     "title": "Learning Targets",
     "section": "",
-    "text": "Targets LS1-3 are introduced on Quiz 1. Targets PF1, PF2, and FR1 are introduced on Quiz 2. Targets CR1-3 are introduced on Quiz 3. Targets G1, P1, and P2 are introduced on Quiz 4.\nLogic and Sets \n\nLS1: I can simplify and evaluate logical expressions that include quantifiers and boolean operations.\nLS2: I can represent sets in set-builder notation; determine whether an object is an element of a set; and prove that one set is equal to or a subset of another.\nLS3: I can perform operations on sets (intersection, union, complement, difference, Cartesian product) and determine the cardinality of a set.\n\nProofs \n\nPF1: I can use proof-by-contradiction to prove mathematical statements.\nPF2: I can choose between weak and strong induction and write correct inductive proofs that include both a base case and an inductive step.\n\nFunctions and Relations\n\nFR1: I can determine whether or not a given relation is an equivalence relation.\n\nCounting and Recursion\n\nCR1: I can use the principles of addition, multiplication, and inclusion-exclusion to solve counting problems.\nCR2: I can use permutations and combinations to count the number of candidate solutions to a given problem.\nCR3: I can prove that a recurrence relation describes a simple algorithm’s runtime and use this relation to determine the big-oh asymptotic runtime.\n\nGraphs\n\nG1: I can write correct proofs of simple mathematical propositions about the structure of graphs.\n\nProbability\n\nPR1: I can evaluate marginal, joint, and conditional probabilities of events on discrete sample spaces.\nPR2: I can evaluate expectations and conditional expectations of random variables on discrete sample spaces.\n\n\n\n\n  © Phil Chodrow, 2023"
+    "text": "Targets LS1-3 are introduced on Quiz 1. Targets PF1, PF2, and R1 are introduced on Quiz 2. Targets C1, C2, and FR1 are introduced on Quiz 3. Targets G1, P1, and P2 are introduced on Quiz 4.\nLogic and Sets \n\nLS1: I can simplify and evaluate logical expressions that include quantifiers and boolean operations.\nLS2: I can represent sets in set-builder notation; determine whether an object is an element of a set; and prove that one set is equal to or a subset of another.\nLS3: I can perform operations on sets (intersection, union, complement, difference, Cartesian product) and determine the cardinality of a set.\n\nProofs \n\nPF1: I can use proof-by-contradiction to prove mathematical statements.\nPF2: I can choose between weak and strong induction and write correct inductive proofs that include both a base case and an inductive step.\n\nRecursion and Recurrence Relations\n\nR1: I can use recurrence relations to model and analyze simple mathematical processes and algorithms.\n\nCounting\n\nC1: I can use the principles of addition, multiplication, and inclusion-exclusion to solve counting problems.\nC2: I can use permutations and combinations to count the number of candidate solutions to a given problem.\n\nFunctions and Relations\n\nFR1: I can determine whether or not a given relation is an equivalence relation.\n\nGraphs\n\nG1: I can write correct proofs of simple mathematical propositions about the structure of graphs.\n\nProbability\n\nPR1: I can evaluate marginal, joint, and conditional probabilities of events on discrete sample spaces.\nPR2: I can evaluate expectations and conditional expectations of random variables on discrete sample spaces.\n\n\n\n\n  © Phil Chodrow, 2023"
   },
   {
     "objectID": "pages/llms.html",
@@ -1019,7 +1019,7 @@
     "href": "assignments/labs/03-proof-practice.html#part-c",
     "title": "Lab 3: Proof Practice",
     "section": "Part C",
-    "text": "Part C\nProve the following statement, using any proof method. There may be multiple good approaches.\nClaim: For all \\(x\\in \\mathbb{R}\\),\n\\[\n|x - 2| \\geq |x| - 2\\;.\n\\]\nNote: Recall that\n\\[\n|x| = \\begin{cases}\n\\phantom{-}x &\\quad x \\geq 0 \\\\\n-x& \\quad x &lt; 0\\;.\n\\end{cases}\n\\]\n[Your proof here, including your declaration of your proof technique.]"
+    "text": "Part C\nProve the following statement, using any proof method. There may be multiple good approaches.\nClaim: For all \\(x \\in \\mathbb{R}\\),\n\\[\n|x - 2| \\geq |x| - 2\\;.\n\\]\nNote: Recall that\n\\[\n|x| = \\begin{cases}\n\\phantom{-}x &\\quad x \\geq 0 \\\\\n-x& \\quad x &lt; 0\\;.\n\\end{cases}\n\\]\n[Your proof here, including your declaration of your proof technique.]"
   },
   {
     "objectID": "assignments/labs/03-proof-practice.html#part-d",
@@ -1068,7 +1068,7 @@
     "href": "assignments/labs/03-proof-practice-sol.html#part-c",
     "title": "For This Lab",
     "section": "Part C",
-    "text": "Part C\nProve the following statement, using any proof method. There may be multiple good approaches.\nClaim: For all \\(x\\in \\R\\),\n\\[\n|x - 2| \\geq |x| - 2\\;.\n\\]\nNote: Recall that\n\\[\n|x| = \\begin{cases}\n\\phantom{-}x&\\quad x \\geq 0 \\\\\n-x &\\quad x &lt; 0\\;.\n\\end{cases}\n\\]\n\n\n\n\n\n\nWe’ll do a proof by cases. Suppose first that \\(x - 2 \\geq 0\\). Then, \\(|x-2| = x-2\\). In this case, we know that \\(x &gt; 2\\). We therefore have\n\\[\n\\begin{aligned}\n|x-2| &= x-2 \\\\\n&= |x|-2\\;,\n\\end{aligned}\n\\] since we know that \\(x &gt; 2\\), which means that \\(x &gt; 0\\), and therefore \\(x = |x|\\).\nOn the other hand, suppose that \\(x - 2 &lt; 0\\). Then, \\(|x-2| = 2-x\\). In this case, since \\(x - 2 &lt; 0\\), we know that \\(x &lt; 2\\). Let’s divide further into cases based on whether \\(x \\leq 0\\) or \\(0 &lt; x &lt; 2\\). If \\(x \\leq 0\\), then \\(|x| = -x\\). Therefore, we would have\n\\[\n\\begin{aligned}\n    |x-2| &= 2-x \\\\\n    &= 2 + |x| \\\\\n    &\\geq |x| - 2\n\\end{aligned}\n\\]\nOn the other hand, suppose that \\(0 &lt; x &lt; 2\\). Then, we know that \\(|x| = x\\). We can calculate\n\\[\n\\begin{aligned}\n    |x-2| &= 2-x \\\\\n    &= 2 - |x| \\\\\n    &\\geq |x|-2\n\\end{aligned}\n\\]\nIn the last inequality, we’ve used the fact that, since \\(0&lt;x &lt; 2\\), \\(|x| &lt; 2\\). So, \\(2-|x|\\) is a positive number, and if \\(x \\geq 0\\) then \\(x \\geq -x\\)."
+    "text": "Part C\nProve the following statement, using any proof method. There may be multiple good approaches.\nClaim: For all \\(x \\in \\mathbb{R}\\),\n\\[\n|x - 2| \\geq |x| - 2\\;.\n\\]\nNote: Recall that\n\\[\n|x| = \\begin{cases}\n\\phantom{-}x&\\quad x \\geq 0 \\\\\n-x &\\quad x &lt; 0\\;.\n\\end{cases}\n\\]\n\n\n\n\n\n\nWe’ll do a proof by cases. Suppose first that \\(x - 2 \\geq 0\\). Then, \\(|x-2| = x-2\\). In this case, we know that \\(x &gt; 2\\). We therefore have\n\\[\n\\begin{aligned}\n|x-2| &= x-2 \\\\\n&= |x|-2\\;,\n\\end{aligned}\n\\] since we know that \\(x &gt; 2\\), which means that \\(x &gt; 0\\), and therefore \\(x = |x|\\).\nOn the other hand, suppose that \\(x - 2 &lt; 0\\). Then, \\(|x-2| = 2-x\\). In this case, since \\(x - 2 &lt; 0\\), we know that \\(x &lt; 2\\). Let’s divide further into cases based on whether \\(x \\leq 0\\) or \\(0 &lt; x &lt; 2\\). If \\(x \\leq 0\\), then \\(|x| = -x\\). Therefore, we would have\n\\[\n\\begin{aligned}\n    |x-2| &= 2-x \\\\\n    &= 2 + |x| \\\\\n    &\\geq |x| - 2\n\\end{aligned}\n\\]\nOn the other hand, suppose that \\(0 &lt; x &lt; 2\\). Then, we know that \\(|x| = x\\). We can calculate\n\\[\n\\begin{aligned}\n    |x-2| &= 2-x \\\\\n    &= 2 - |x| \\\\\n    &\\geq |x|-2\n\\end{aligned}\n\\]\nIn the last inequality, we’ve used the fact that, since \\(0&lt;x &lt; 2\\), \\(|x| &lt; 2\\). So, \\(2-|x|\\) is a positive number, and if \\(x \\geq 0\\) then \\(x \\geq -x\\)."
   },
   {
     "objectID": "assignments/labs/03-proof-practice-sol.html#part-d",

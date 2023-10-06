@@ -172,7 +172,7 @@
   publish: true
   due: "Lab 3: Proof Practice"
 - date: 2023-10-16
-  header: "Relations"
+  header: "Recursion and Recurrence Relations"
   summary:
   objectives:
   prep:
@@ -181,7 +181,7 @@
   publish: true
   due:
 - date: 2023-10-18
-  header: "Functions"
+  header: "Recursion and Recurrence Relations"
   summary:
   objectives:
   prep:
@@ -197,7 +197,7 @@
   activities:
   notes:
   publish: true
-  due: "Lab 3: TBD"
+  due: "Lab 3: Proof Practice"
 - date: 2023-10-23
   header: "Counting"
   summary:
@@ -226,7 +226,7 @@
   publish: true
   due: "Lab 3: TBD"
 - date: 2023-10-30
-  header: "Recursion"
+  header: "Asymptotics and Big-Oh"
   summary:
   objectives:
   prep:
@@ -235,7 +235,7 @@
   publish: true
   due:
 - date: 2023-11-01
-  header: "Recursion"
+  header: "Flex"
   summary:
   objectives:
   prep:
@@ -253,7 +253,7 @@
   publish: true
   due: "Lab 4: TBD"
 - date: 2023-11-06
-  header: "Asymptotics and Big-Oh"
+  header: "Relations"
   summary:
   objectives:
   prep:
@@ -262,7 +262,7 @@
   publish: true
   due:
 - date: 2023-11-08
-  header: "Flex"
+  header: "Functions"
   summary:
   objectives:
   prep:
