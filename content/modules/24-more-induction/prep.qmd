@@ -16,7 +16,7 @@ title: "More Induction"
 
 ### Problem 1
 
-{{< include ../../../content/problems/induction/strong-induction.qmd >}}
+{{< include ../../../content/problems/induction/nim.qmd >}}
  
 ### Problem 2   
 

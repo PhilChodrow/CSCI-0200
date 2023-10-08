@@ -132,7 +132,7 @@
   due:
 - date: 2023-10-06
   header: "Lab 3: Proof Practice"
-  summary:
+  summary: We practice proving mathematical statements using a variety of techniques. 
   objectives:
   prep:
     - <a href="content/modules/22-proof-practice/prep.qmd">Proof Style</a> 

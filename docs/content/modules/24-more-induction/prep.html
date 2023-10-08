@@ -247,30 +247,17 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h2 class="anchored" data-anchor-id="warmup-50-minutes">Warmup (~50 minutes)</h2>
 <section id="problem-1" class="level3">
 <h3 class="anchored" data-anchor-id="problem-1">Problem 1</h3>
-<!-- DMOI 2.22 -->
-<p>Use strong induction to prove the following statement:</p>
-<p><strong>Proposition</strong>: Suppose that <span class="math inline">\(x\in \mathbb{R}\)</span> is some real number with the property that <span class="math inline">\(x + \frac{1}{x}\)</span> is an integer. Then, for any <span class="math inline">\(n \geq 1\)</span>, the number</p>
-<p><span class="math display">\[
-\begin{aligned}
-    x^n + \frac{1}{x^n}
-\end{aligned}
-\]</span></p>
-<p>is also an integer.</p>
-<section id="optional-challenge" class="level4">
-<h4 class="anchored" data-anchor-id="optional-challenge">Optional Challenge</h4>
-<p><em>(not required)</em></p>
-<p>In the problem, we assumed that <span class="math inline">\(x + \frac{1}{x}\)</span> was an integer. Call this integer <span class="math inline">\(h\)</span>. So, we have assumed that <span class="math inline">\(x + \frac{1}{x} = h\)</span>.</p>
-<ol type="1">
-<li>What is required of <span class="math inline">\(h\)</span> in order to guarantee that this equation indeed has a real solution in <span class="math inline">\(x\)</span>?</li>
-<li>Suppose that this equation has at least one real solution in <span class="math inline">\(x\)</span>. How many possible solutions in <span class="math inline">\(x\)</span> are there?</li>
-</ol>
-</section>
+<p>You and your friend are playing the following (fun!) game. There are two piles of apples. The first player removes some positive integer number of apples from one of the piles. Then, the second player also removes some number of apples from one of the piles. Each player can remove any number of apples from <em>one</em> of the two piles, but cannot take apples from both piles simultaneously.</p>
+<p>The players alternate until one of them removes the very last apple (from either pile). That player, who removes the very last apple, wins.</p>
+<p>You deviously encourage your friend to go first. Then, you use a simple copycat strategy: whenever your friend removes <span class="math inline">\(j\)</span> apples from one pile, you always remove the same number <span class="math inline">\(j\)</span> apples from the second pile.</p>
+<p>Prove the following statement using strong induction:</p>
+<p><strong>Proposition</strong>: <em>If at the beginning of the game the two piles contain the same number of apples, then you (the second player) always win using your copycat strategy.</em></p>
 </section>
 <section id="problem-2" class="level3">
 <h3 class="anchored" data-anchor-id="problem-2">Problem 2</h3>
 <section id="motivation" class="level4">
 <h4 class="anchored" data-anchor-id="motivation">Motivation</h4>
-<p>In computer science, we often use induction to prove the correctness of a function that we or someone else has written. This is sometimes called “proving a function.” For example, consider the Python function below, which reverses an input string using recursion.</p>
+<p>In computer science, we often use induction to prove the correctness of a function – that is, we prove formally that the function does what it is supposed to do. This is sometimes called “proving a function.” For example, consider the Python function below, which reverses an input string using recursion.</p>
 <div id="04299dfb" class="cell" data-execution_count="2">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> reverse_string(s):</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">"""</span></span>
@@ -300,7 +287,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h4 class="anchored" data-anchor-id="problem-statement">Problem Statement</h4>
 <p>We’ll write a string with <span class="math inline">\(n\)</span> characters as <span class="math inline">\(s_1s_2s_3\cdots s_{n-2}s_{n-1}s_n\)</span>.</p>
 <p>Now we can state the thing we want to prove:</p>
-<p><strong>Claim</strong>: For any <span class="math inline">\(n \in \mathbb{N}\)</span>, the result of calling the function <code>reverse_string</code> on the string <span class="math inline">\(s_1s_2s_3\cdots s_{n-2}s_{n-1}s_n\)</span> is the reversal of <span class="math inline">\(s\)</span>, that is, the string <span class="math inline">\(s_ns_{n-1}s_{n-2}\cdots s_3s_2s_1\)</span>.</p>
+<p><strong>Proposition</strong>: For any <span class="math inline">\(n \in \mathbb{N}\)</span>, the result of calling the function <code>reverse_string</code> on the string <span class="math inline">\(s_1s_2s_3\cdots s_{n-2}s_{n-1}s_n\)</span> is the reversal of <span class="math inline">\(s\)</span>, that is, the string <span class="math inline">\(s_ns_{n-1}s_{n-2}\cdots s_3s_2s_1\)</span>.</p>
 <p>Prove this claim using induction.</p>
 <p><strong>Note</strong>: The empty string <span class="math inline">\(\epsilon\)</span> is the string with no elements at all; this string is its own reversal.</p>
 
