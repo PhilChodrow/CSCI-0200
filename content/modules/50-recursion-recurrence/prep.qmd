@@ -1,0 +1,14 @@
+---
+title: "Recurrence Relations"
+---
+
+## Videos
+
+[Recursive Sequences](https://youtu.be/0OcUAjOXmFc?si=90nCL6v2wVUA_xse) (7:36)
+[The Fibonnaci Sequence](https://youtu.be/qmm9GPhA1MY?si=fmv3XTap98XC-ypc) (6:22)
+
+## Reading
+
+- [DMOI 2.1](https://discrete.openmathbooks.org/dmoi3/sec_seq_intro.html)
+- [DMOI 2.3](https://discrete.openmathbooks.org/dmoi3/sec_recurrence.html) 
+

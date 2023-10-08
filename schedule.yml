@@ -132,7 +132,7 @@
   due:
 - date: 2023-10-06
   header: "Lab 3: Proof Practice"
-  summary: We practice proving mathematical statements using a variety of techniques. 
+  summary: We practice proving mathematical statements using a variety of techniques.
   objectives:
   prep:
     - <a href="content/modules/22-proof-practice/prep.qmd">Proof Style</a> 
@@ -172,16 +172,17 @@
   publish: true
   due: "Lab 3: Proof Practice"
 - date: 2023-10-16
-  header: "Recursion and Recurrence Relations"
-  summary:
-  objectives:
-  prep:
+  header: "Relations"
+  summary: We introduce relations, with a special focus on equivalence relations on sets.  
+  objectives: 
+    - Relations and functions
+  prep: <a href="content/modules/30-relations/prep.qmd">Relations</a>
   activities:
   notes:
   publish: true
   due:
 - date: 2023-10-18
-  header: "Recursion and Recurrence Relations"
+  header: "Functions"
   summary:
   objectives:
   prep:
@@ -225,7 +226,7 @@
   notes:
   publish: true
   due: "Lab 3: TBD"
-- date: 2023-10-30
+- date: 2023-11-06
   header: "Asymptotics and Big-Oh"
   summary:
   objectives:
@@ -234,8 +235,8 @@
   notes:
   publish: true
   due:
-- date: 2023-11-01
-  header: "Flex"
+- date: 2023-11-08
+  header: "Analyzing Algorithms: The Tree Method"
   summary:
   objectives:
   prep:
@@ -252,8 +253,8 @@
   notes:
   publish: true
   due: "Lab 4: TBD"
-- date: 2023-11-06
-  header: "Relations"
+- date: 2023-10-30
+  header: "Recursion and Recurrence Relations"
   summary:
   objectives:
   prep:
@@ -261,8 +262,8 @@
   notes:
   publish: true
   due:
-- date: 2023-11-08
-  header: "Functions"
+- date: 2023-11-01 
+  header: "Recursion and Recurrence Relations"
   summary:
   objectives:
   prep:

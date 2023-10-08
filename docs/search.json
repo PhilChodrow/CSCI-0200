@@ -39,7 +39,7 @@
     "href": "schedule.html#week-6",
     "title": "Schedule",
     "section": "Week 6",
-    "text": "Week 6\n\n\n\n\n\n\n\n\n\n\n\n\n\nM\nOct. 16\nRecursion and Recurrence Relations\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nW\nOct. 18\nRecursion and Recurrence Relations\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\nOct. 20\nQuiz 2\n\n\n\n\n\n\n\n\n\n\n\n\nDue\nLab 3: Proof Practice"
+    "text": "Week 6\n\n\n\n\n\n\n\n\n\n\n\n\n\nM\nOct. 16\nRelations\n\n\n\n\n\nWe introduce relations, with a special focus on equivalence relations on sets.\n\n\n\nLearning Objectives\nRelations and functions\n\nPrep\nRelations\n\n\n\n\n\n\n\nW\nOct. 18\nFunctions\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\nOct. 20\nQuiz 2\n\n\n\n\n\n\n\n\n\n\n\n\nDue\nLab 3: Proof Practice"
   },
   {
     "objectID": "schedule.html#week-7",
@@ -53,14 +53,14 @@
     "href": "schedule.html#week-8",
     "title": "Schedule",
     "section": "Week 8",
-    "text": "Week 8\n\n\n\n\n\n\n\n\n\n\n\n\n\nM\nOct. 30\nAsymptotics and Big-Oh\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nW\nNov. 01\nFlex\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\nNov. 03\nLab 5: TBD\n\n\n\n\n\n\n\n\n\n\n\n\nDue\nLab 4: TBD"
+    "text": "Week 8\n\n\n\n\n\n\n\n\n\n\n\n\n\nM\nOct. 30\nRecursion and Recurrence Relations\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nW\nNov. 01\nRecursion and Recurrence Relations\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\nNov. 03\nLab 5: TBD\n\n\n\n\n\n\n\n\n\n\n\n\nDue\nLab 4: TBD"
   },
   {
     "objectID": "schedule.html#week-9",
     "href": "schedule.html#week-9",
     "title": "Schedule",
     "section": "Week 9",
-    "text": "Week 9\n\n\n\n\n\n\n\n\n\n\n\n\n\nM\nNov. 06\nRelations\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nW\nNov. 08\nFunctions\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\nNov. 10\nQuiz 3\n\n\n\n\n\n\n\n\n\n\n\n\nDue\nLab 5: TBD"
+    "text": "Week 9\n\n\n\n\n\n\n\n\n\n\n\n\n\nM\nNov. 06\nAsymptotics and Big-Oh\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nW\nNov. 08\nAnalyzing Algorithms: The Tree Method\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\nNov. 10\nQuiz 3\n\n\n\n\n\n\n\n\n\n\n\n\nDue\nLab 5: TBD"
   },
   {
     "objectID": "schedule.html#week-10",
@@ -116,7 +116,7 @@
     "href": "pages/learning-targets.html",
     "title": "Learning Targets",
     "section": "",
-    "text": "Targets LS1-3 are introduced on Quiz 1. Targets PF1, PF2, and R1 are introduced on Quiz 2. Targets C1, C2, and FR1 are introduced on Quiz 3. Targets G1, P1, and P2 are introduced on Quiz 4.\nLogic and Sets \n\nLS1: I can simplify and evaluate logical expressions that include quantifiers and boolean operations.\nLS2: I can represent sets in set-builder notation; determine whether an object is an element of a set; and prove that one set is equal to or a subset of another.\nLS3: I can perform operations on sets (intersection, union, complement, difference, Cartesian product) and determine the cardinality of a set.\n\nProofs \n\nPF1: I can use proof-by-contradiction to prove mathematical statements.\nPF2: I can choose between weak and strong induction and write correct inductive proofs that include both a base case and an inductive step.\n\nRecursion and Recurrence Relations\n\nR1: I can use recurrence relations to model and analyze simple mathematical processes and algorithms.\n\nCounting\n\nC1: I can use the principles of addition, multiplication, and inclusion-exclusion to solve counting problems.\nC2: I can use permutations and combinations to count the number of candidate solutions to a given problem.\n\nFunctions and Relations\n\nFR1: I can determine whether or not a given relation is an equivalence relation.\n\nGraphs\n\nG1: I can write correct proofs of simple mathematical propositions about the structure of graphs.\n\nProbability\n\nPR1: I can evaluate marginal, joint, and conditional probabilities of events on discrete sample spaces.\nPR2: I can evaluate expectations and conditional expectations of random variables on discrete sample spaces.\n\n\n\n\n  © Phil Chodrow, 2023"
+    "text": "Targets LS1-3 are introduced on Quiz 1. Targets PF1, PF2, and FR1 are introduced on Quiz 2. Targets C1, C2, and R1 are introduced on Quiz 3. Targets G1, P1, and P2 are introduced on Quiz 4.\nLogic and Sets \n\nLS1: I can simplify and evaluate logical expressions that include quantifiers and boolean operations.\nLS2: I can represent sets in set-builder notation; determine whether an object is an element of a set; and prove that one set is equal to or a subset of another.\nLS3: I can perform operations on sets (intersection, union, complement, difference, Cartesian product) and determine the cardinality of a set.\n\nProofs \n\nPF1: I can use proof-by-contradiction to prove mathematical statements.\nPF2: I can choose between weak and strong induction and write correct inductive proofs that include both a base case and an inductive step.\n\nFunctions and Relations\n\nFR1: I can determine whether or not a given relation is an equivalence relation.\n\nCounting\n\nC1: I can use the principles of addition, multiplication, and inclusion-exclusion to solve counting problems.\nC2: I can use permutations and combinations to count the number of candidate solutions to a given problem.\n\nRecursion and Recurrence Relations\n\nR1: I can use recurrence relations to model and analyze simple mathematical processes and algorithms.\n\nGraphs\n\nG1: I can write correct proofs of simple mathematical propositions about the structure of graphs.\n\nProbability\n\nPR1: I can evaluate marginal, joint, and conditional probabilities of events on discrete sample spaces.\nPR2: I can evaluate expectations and conditional expectations of random variables on discrete sample spaces.\n\n\n\n\n  © Phil Chodrow, 2023"
   },
   {
     "objectID": "pages/llms.html",
@@ -313,6 +313,230 @@
     "title": "Introduction to Induction",
     "section": "Part B",
     "text": "Part B\nHere are three attempted inductive proofs of the correct theorem. None of them are correct. For each one, explain what’s wrong.\n“Proof 1:” Suppose that \\(n = 1\\). Then,\n\\[\n\\begin{aligned}\n\\sum_{i = 0}^n i &= \\sum_{i = 1}^n i \\\\\n                 &= 1 \\\\\n                 &= \\frac{1(1+1)}{2}\\;,\n\\end{aligned}\n\\]\nas was to be shown. This completes the proof.\n“Proof 2:” Suppose that the theorem holds for some \\(n = k\\). We’ll show that this implies that it also holds for \\(n = k+1\\). We can calculate\n\\[\n\\begin{aligned}\n    \\sum_{i = 0}^{k+1} i &= \\sum_{i = 0}^k i + (k+1) &\\text{(manipulating sum)} \\\\\n                         &= \\frac{k(k+1)}{2} + (k+1) &\\text{(inductive hypothesis)} \\\\\n                         &= \\frac{(k+1)(k+2)}{2}  &\\text{(algebra)} \\\\\n                         &= \\frac{(k+1)((k+1) + 1)}{2}  &\\text{(algebra)}\\;.\n\\end{aligned}\n\\]\nThis shows that the statement is true for \\(n = k+1\\), which completes the proof.\n“Proof 3:” First, we’ll do the base case. Suppose that \\(n = 1\\). Then,\n\\[\n\\begin{aligned}\n\\sum_{i = 0}^n i &= \\sum_{i = 1}^n i \\\\\n                 &= 1 \\\\\n                 &= \\frac{1(1+1)}{2}\\;.  \n\\end{aligned}\n\\]\nSo, the statement is true for \\(n = 1\\), completing the base case. Now we’ll do the inductive step. Suppose that the statement is true for \\(n = k+1\\). We’ll show that it’s also true for \\(n = k\\). We can calculate\n\\[\n\\begin{aligned}\n    \\sum_{i = 0}^{k+1} i &= \\frac{(k+1)(k+2)}{2} &\\text{(inductive hypothesis)} \\\\\n                         &= \\frac{k(k+1)}{2} + \\frac{2(k+1)}{2} &\\text{(algebra)}\\;.\n\\end{aligned}\n\\]\nSince what’s left includes the formula for the case \\(n = k\\), this completes the inductive step.\n\nProblem 2\n\nUse mathematical induction to prove that, for any integer \\(n &gt;= 1\\),\n\\[\n\\begin{aligned}\n    \\sum_{k = 0}^n 2^k = 2^{n+1} - 1\n\\end{aligned}\n\\]"
+  },
+  {
+    "objectID": "content/modules/00-intro/in-class.html#whos-in-the-room",
+    "href": "content/modules/00-intro/in-class.html#whos-in-the-room",
+    "title": "Welcome  to CSCI 0200!",
+    "section": "Who’s In the Room?",
+    "text": "Who’s In the Room?\n  \nGo to menti.com\nEnter code 39 98 51 6\nRespond to the first prompt.\nKeep the tab open – we’ll come back to it"
+  },
+  {
+    "objectID": "content/modules/00-intro/in-class.html#section",
+    "href": "content/modules/00-intro/in-class.html#section",
+    "title": "Welcome  to CSCI 0200!",
+    "section": "",
+    "text": "Soooooo\n…a math class\n…in the CS department\n…?"
+  },
+  {
+    "objectID": "content/modules/00-intro/in-class.html#section-2",
+    "href": "content/modules/00-intro/in-class.html#section-2",
+    "title": "Welcome  to CSCI 0200!",
+    "section": "",
+    "text": "CS and Math Go Way Back\n\nAda Lovelace was an English mathematician and author of the first published computer program (1840).\nHer program was designed to compute an important sequence of mathematical constants on the “Difference Engine” designed by Charles Babbage.\nBabbage never completed his Difference Engine, so Lovelace’s program was never run.\nLovelace described her approach to math as “poetical science.”\n\n\n\nAda King, Countess of Lovelace. Portrait possibly by Alfred Edward Chalon, image from Wikipedia."
+  },
+  {
+    "objectID": "content/modules/00-intro/in-class.html#section-3",
+    "href": "content/modules/00-intro/in-class.html#section-3",
+    "title": "Welcome  to CSCI 0200!",
+    "section": "",
+    "text": "CS and Math Go Way Back\n\nAlan Turing was an English mathematician who played a major role in developing the theory of computer science and AI.\nTuring proved that some tasks are impossible for algorithms to perform, no matter how powerful or clever they are.\nThe “Nobel Prize in Computer Science” is named the Turing Award.\nTuring was chemically castrated as a punishment for homosexuality in 1953. The UK managed to apologize for this in…2009."
+  },
+  {
+    "objectID": "content/modules/00-intro/in-class.html#section-4",
+    "href": "content/modules/00-intro/in-class.html#section-4",
+    "title": "Welcome  to CSCI 0200!",
+    "section": "",
+    "text": "CS and Math Go Way Back\n\nJohn von Neumann was a Hungarian mathematician who guided the development of the first digital computers.\nThe “von Neumann architecture” remains the high-level architectural basis of the design of modern computers.\nIf you’re wondering what the first digital computers were used for, watch Oppenheimer. 😬😬😬"
+  },
+  {
+    "objectID": "content/modules/00-intro/in-class.html#section-5",
+    "href": "content/modules/00-intro/in-class.html#section-5",
+    "title": "Welcome  to CSCI 0200!",
+    "section": "",
+    "text": "Ok, but…\n…what is mathematics?"
+  },
+  {
+    "objectID": "content/modules/00-intro/in-class.html#section-6",
+    "href": "content/modules/00-intro/in-class.html#section-6",
+    "title": "Welcome  to CSCI 0200!",
+    "section": "",
+    "text": "Mathematics is the heart of AI and data science\n\n\nBrin, Sergey. “The PageRank citation ranking: bringing order to the web.” Proceedings of ASIS, 1998 98 (1998): 161-172."
+  },
+  {
+    "objectID": "content/modules/00-intro/in-class.html#section-7",
+    "href": "content/modules/00-intro/in-class.html#section-7",
+    "title": "Welcome  to CSCI 0200!",
+    "section": "",
+    "text": "Mathematics is the heart of machine learning\n\n\nSupport Vector Machine (SVM) is an algorithm for classifying data into groups based on past observations.\nDeisenroth, Faisal, and Ong (2020). Mathematics for Machine Learning"
+  },
+  {
+    "objectID": "content/modules/00-intro/in-class.html#section-8",
+    "href": "content/modules/00-intro/in-class.html#section-8",
+    "title": "Welcome  to CSCI 0200!",
+    "section": "",
+    "text": "Mathematics is the heart of algorithmic problem-solving\n\n    \nDijkstra’s algorithm finds shortest paths between points in a graph.\n(Used for e.g. vehicle routing)"
+  },
+  {
+    "objectID": "content/modules/00-intro/in-class.html#section-9",
+    "href": "content/modules/00-intro/in-class.html#section-9",
+    "title": "Welcome  to CSCI 0200!",
+    "section": "",
+    "text": "Math Foundations: What You Need Now To Do All That Stuff Later"
+  },
+  {
+    "objectID": "content/modules/00-intro/in-class.html#math-and-us",
+    "href": "content/modules/00-intro/in-class.html#math-and-us",
+    "title": "Welcome  to CSCI 0200!",
+    "section": "Math and Us",
+    "text": "Math and Us\n   \nRespond to the second prompt on the Menti poll.\nIf you closed the tab, go to menti.com and enter code 39 98 51 6."
+  },
+  {
+    "objectID": "content/modules/00-intro/in-class.html#in-this-class-you-will",
+    "href": "content/modules/00-intro/in-class.html#in-this-class-you-will",
+    "title": "Welcome  to CSCI 0200!",
+    "section": "In This Class, You Will…",
+    "text": "In This Class, You Will…\n  \n\n\n…build a mathematical toolbox for reasoning theoretically about data structures, algorithms, and the world around you.\n…test mathematical theory against computational experiments.\n…cultivate a joyful relationship with the practice of mathematics."
+  },
+  {
+    "objectID": "content/modules/00-intro/in-class.html#the-big-picture",
+    "href": "content/modules/00-intro/in-class.html#the-big-picture",
+    "title": "Welcome  to CSCI 0200!",
+    "section": "The Big Picture",
+    "text": "The Big Picture\n\n\n\n\nmindmap\n  root((CSCI 0200))\n    )**Module 1**(\n        (Logic)\n          (Propositional logic)\n            (Boolean algebra)\n            (Circuit design)\n        (Sets)\n            (Set Operations)\n            (Logical quantifiers)\n    )**Module 2**(\n        (Relations)\n            (Functions)\n            (Equivalence Relations)\n        (Proof Techniques)\n            (Direct)\n            (Indirect)\n            (Contradiction)\n            (Induction)\n                (Weak)\n                (Strong)\n    )**Module 3**(\n        (Counting)\n            (Sum and product principles)\n            (Permutations and combinations)\n            (Combinatorial proofs)\n        (Recurrence Relations)\n            (Asymptotics)\n            (Divide and combine)\n    )**Module 4**(\n        (Probability)\n            (Distributions)\n                (Conditioning)\n            (Random variables)\n                (Expectation)\n        (Graphs)\n            (Special graphs)\n                (Trees )\n                (Cycles)\n            (Algorithms)"
+  },
+  {
+    "objectID": "content/modules/00-intro/in-class.html#section-10",
+    "href": "content/modules/00-intro/in-class.html#section-10",
+    "title": "Welcome  to CSCI 0200!",
+    "section": "",
+    "text": "Your Affinity Vegetable\n \n1. Split into teams\n2. Go around and share your name and:\nIf you were a vegetable, which vegetable would you be and why?"
+  },
+  {
+    "objectID": "content/modules/00-intro/in-class.html#section-11",
+    "href": "content/modules/00-intro/in-class.html#section-11",
+    "title": "Welcome  to CSCI 0200!",
+    "section": "",
+    "text": "Your Affinity Vegetable\n \n3. Team leader: lead your team in finding a delicious dish that incorporates all of your vegetables.\nBe ready to share!"
+  },
+  {
+    "objectID": "content/modules/00-intro/in-class.html#section-12",
+    "href": "content/modules/00-intro/in-class.html#section-12",
+    "title": "Welcome  to CSCI 0200!",
+    "section": "",
+    "text": "In a flipped classroom, you complete readings and watch lectures before our scheduled class time."
+  },
+  {
+    "objectID": "content/modules/00-intro/in-class.html#section-13",
+    "href": "content/modules/00-intro/in-class.html#section-13",
+    "title": "Welcome  to CSCI 0200!",
+    "section": "",
+    "text": "Mondays and Wednesdays\nBefore Each Class (1.5-2 hrs)\n\nPrep: Videos and readings\nWarmups: practice problems, graded on completion\n\nIn Class (1 hr)\n\nQuestions\nGroup work\nActivities\nAdditional topics, demonstrations, etc."
+  },
+  {
+    "objectID": "content/modules/00-intro/in-class.html#section-14",
+    "href": "content/modules/00-intro/in-class.html#section-14",
+    "title": "Welcome  to CSCI 0200!",
+    "section": "",
+    "text": "Friday Labs\n\n7 total throughout the semester\nStart in class with assigned groups\nFinish as homework and submit a week later\n\nAssessment\nAssessed as Excellent (E), Meets Expectations (M), Needs Revision (R), or Not Complete (N). You want Es and Ms.\nRevision\nYou can revise and resubmit your labs after your first assessment in order to achieve a higher assessment."
+  },
+  {
+    "objectID": "content/modules/00-intro/in-class.html#section-15",
+    "href": "content/modules/00-intro/in-class.html#section-15",
+    "title": "Welcome  to CSCI 0200!",
+    "section": "",
+    "text": "Quizzes\n\n4 total, on Fridays\nTimed for 45 minutes (contact me with DRC letters!!)\n\nLearning Targets\n\nWe have 12 Learning Targets related to core course competencies.\nYou’ll have multiple opportunities to complete each Learning Target, but you only need to do it once.\n3 targets are added on each quiz, but you only need to attempt ones you haven’t already gotten.\n\nFinal Exam\nIncludes opportunities to complete all 12 learning targets, with 3 hours."
+  },
+  {
+    "objectID": "content/modules/00-intro/in-class.html#section-16",
+    "href": "content/modules/00-intro/in-class.html#section-16",
+    "title": "Welcome  to CSCI 0200!",
+    "section": "",
+    "text": "A Typical 3-Week Module\n\n\n\n\ngantt\n    title A CSCI 0200 Module\n    axisFormat %A\n    tickInterval 1day\n    section Week A\n    Prep, warmup            :active, a1, 2014-01-06, 1d\n    Class            :2014-01-06, 1d\n    Prep, warmup         :active, a2, 2014-01-08, 1d\n    Class         :2014-01-08, 1d\n    Prep, warmup    :active, a1, 2014-01-10, 1d\n    Lab A           :a3, 2014-01-10, 1d\n    section Week B\n    Prep, warmup            :active, a1, 2014-01-06, 1d\n    Class            :2014-01-06, 1d\n    Prep, warmup         :active, a2, 2014-01-08, 1d\n    Class         :2014-01-08, 1d\n    Prep, warmup    :active, a1, 2014-01-10, 1d\n    Lab B           :a3, 2014-01-10, 1d\n    Lab A due         :done, b3, 2014-01-10, 1d\n    section Week C\n    Prep, warmup            :active, b1, 2014-01-06, 1d\n    Class            :2014-01-06, 1d\n    Prep, warmup         :active, b2, 2014-01-08, 1d\n    Class            :2014-01-08, 1d\n    Lab B due         :done, b3, 2014-01-10, 1d\n    Quiz              :crit, done, c3,  2014-01-10, 1d"
+  },
+  {
+    "objectID": "content/modules/00-intro/in-class.html#section-17",
+    "href": "content/modules/00-intro/in-class.html#section-17",
+    "title": "Welcome  to CSCI 0200!",
+    "section": "",
+    "text": "Final Grade\n\n\n\n\n\n\n\n\nTier\nLearning Targets\nLabs\n\n\n\n\nA\n▢ ▢ ▢\nE: ▢ ▢ ▢ ▢ M or E: ▢ ▢ ▢\n\n\nB\n▢ ▢\nE: ▢ ▢ M or E: ▢ ▢ ▢ ▢ ▢\n\n\nC\n▢ ▢ ▢ ▢ ▢ ▢\nM or E: ▢ ▢ ▢ ▢ ▢  R, M, or E: ▢ ▢\n\n\n\nMissing many warmups results in a penalty to your final grade."
+  },
+  {
+    "objectID": "content/modules/00-intro/in-class.html#support-resources",
+    "href": "content/modules/00-intro/in-class.html#support-resources",
+    "title": "Welcome  to CSCI 0200!",
+    "section": "Support Resources",
+    "text": "Support Resources\nAcademic support\n\nStudent Hours are your time: come talk to me about anything! Mondays 2pm-4pm, Thursdays 3pm-4pm.\nEvening Peer Help, hours TBD.\nOur Assistant in Instruction Smith Gakuya holds Student Hours for CSCI 0200.\nOnline Q&A forum.\n\nClearing barriers to learning\n\nThe DRC can help you obtain a letter of accommodation for timed assessments.\nLegally, I need your letter in order to offer you accommodations."
+  },
+  {
+    "objectID": "content/modules/00-intro/in-class.html#classroom-environment",
+    "href": "content/modules/00-intro/in-class.html#classroom-environment",
+    "title": "Welcome  to CSCI 0200!",
+    "section": "Classroom Environment",
+    "text": "Classroom Environment\n \nInclusion, access, and participation are collective projects.\n\nDiscrimination is unjust and it sucks. Don’t do it.\nAddress people respectfully — chosen names and pronouns.\nDon’t leave each other behind in group work.\nBragging about something being easy just makes the people around you feel bad.\n\nAre you fast at the material? Cool. Use your ability to support the learning of the people around you.\n\nI am a mandatory reporter of potential incidents of sexual violence or harassment. There is a link to some confidential resources on the syllabus."
+  },
+  {
+    "objectID": "content/modules/00-intro/in-class.html#for-wednesday",
+    "href": "content/modules/00-intro/in-class.html#for-wednesday",
+    "title": "Welcome  to CSCI 0200!",
+    "section": "For Wednesday",
+    "text": "For Wednesday\n \nEntrance Survey: tell me about yourself and help me find your teammates for lab.\nMath autobiography: your history as a learner and user of mathematics.\nThese assignments are on Canvas."
+  },
+  {
+    "objectID": "content/modules/22-proof-practice/prep.html",
+    "href": "content/modules/22-proof-practice/prep.html",
+    "title": "Practice with Proofs",
+    "section": "",
+    "text": "No videos for today.\n© Phil Chodrow, 2023"
+  },
+  {
+    "objectID": "content/modules/22-proof-practice/prep.html#videos-0-minutes",
+    "href": "content/modules/22-proof-practice/prep.html#videos-0-minutes",
+    "title": "Practice with Proofs",
+    "section": "",
+    "text": "No videos for today."
+  },
+  {
+    "objectID": "content/modules/22-proof-practice/prep.html#reading-45-minutes",
+    "href": "content/modules/22-proof-practice/prep.html#reading-45-minutes",
+    "title": "Practice with Proofs",
+    "section": "Reading (~45 minutes)",
+    "text": "Reading (~45 minutes)\n\nBook of Proof, Chapter 5.\n\nFocus on:\n\nReviewing the idea of contrapositive proof.\nCongruence of integers (\\(a \\equiv b \\mod{n}\\)).\nProof style."
+  },
+  {
+    "objectID": "content/modules/22-proof-practice/prep.html#warmup-40-minutes",
+    "href": "content/modules/22-proof-practice/prep.html#warmup-40-minutes",
+    "title": "Practice with Proofs",
+    "section": "Warmup (~40 minutes)",
+    "text": "Warmup (~40 minutes)\n\nProblem 1\nHere are three facts about modular congruence which will become important for us later in the course.\n\nSymmetry: For any \\(a, b, n \\in \\mathbb{Z}\\), if \\(a \\equiv b \\pmod{n}\\), then \\(b \\equiv a \\pmod{n}\\).\n\nReflexivity: For any \\(a, n \\in \\mathbb{Z}\\), it is the case that \\(a \\equiv a \\pmod{n}\\).\n\nTransitivity: For any \\(a, b, c, n \\in \\mathbb{Z}\\), if \\(a \\equiv b \\pmod{n}\\) and \\(b\\equiv c \\pmod{n}\\), then \\(a \\equiv c \\pmod{n}\\).\n\n\n\nPart A\nHere are “proofs” of Symmetry and Reflexivity. These proofs contain the right general idea, but they are written very poorly.\nSymmetry: \\(a, b, n \\in \\mathbb{Z}\\). \\(a - b = cn\\), \\(b - a = -cn\\). \\(b = a \\pmod{n}\\).\nReflexivity: \\(a-a=0\\), since this is true for any integer. It is \\(=\\) to \\(0n\\).\nFix these proofs. For each of the two, go down the checklist in Chapter 5.3 of Book of Proof. Using this checklist, write correct, beautiful proofs that does not violate any of the rules in the list.\n\n\nPart B\nWrite a correct, beautiful proof of Transitivity which does not violate any of the rules in the list."
+  },
+  {
+    "objectID": "content/modules/15-sets-2/prep.html",
+    "href": "content/modules/15-sets-2/prep.html",
+    "title": "More On Sets",
+    "section": "",
+    "text": "No videos today!\n© Phil Chodrow, 2023"
+  },
+  {
+    "objectID": "content/modules/15-sets-2/prep.html#problem-1",
+    "href": "content/modules/15-sets-2/prep.html#problem-1",
+    "title": "More On Sets",
+    "section": "Problem 1",
+    "text": "Problem 1\nDefine the two sets\n\\[\n\\begin{aligned}\nA &= \\{x \\in \\mathbb{Z} \\;|\\; x &gt; 0\\;,\\; x^2 \\leq 32\\} \\\\\nB &= \\{x \\in \\mathbb{Z} \\;|\\; x &gt; 0 \\;,\\; \\log_2 x &lt; 7\\}\n\\end{aligned}\n\\]\nUse the element method to write a proof that that \\(A \\subseteq B\\).\nHint: Recall that your proof should begin with the phrase “Let \\(x\\in A\\)” and end with a phrase similar to “Therefore, \\(x \\in B\\).”\nHint: You may find it helpful to recall the following property of logarithms. For any \\(a &gt; 0\\) and \\(b \\in \\mathbb{R}\\), \\(\\log_2a^b = b\\log_2a\\)."
+  },
+  {
+    "objectID": "content/modules/15-sets-2/prep.html#problem-2",
+    "href": "content/modules/15-sets-2/prep.html#problem-2",
+    "title": "More On Sets",
+    "section": "Problem 2",
+    "text": "Problem 2\n(DMOI 0.3.24)\nLet \\(X = \\{n \\in \\mathbb{N}: 10 \\leq n &lt; 20\\}\\). Find examples of sets with the following properties and briefly explain why your examples are correct.\n\nA set \\(A \\subseteq \\mathbb{N}\\) with \\(\\lvert A \\rvert = 10\\) such that \\(X \\setminus A = \\{10, 12, 14\\}\\).\nA set \\(B \\in \\mathcal{P}(X)\\) with \\(\\lvert B \\rvert = 5\\).\nA set \\(C \\subseteq \\mathcal{P}(X)\\) with \\(\\lvert C \\rvert = 5\\).\nA set \\(D \\subseteq X\\times X\\) with \\(\\lvert D \\rvert = 5\\).\nA set \\(E \\subseteq X\\) such that \\(\\lvert E \\rvert \\in E\\)."
+  },
+  {
+    "objectID": "content/modules/15-sets-2/prep.html#problem-3",
+    "href": "content/modules/15-sets-2/prep.html#problem-3",
+    "title": "More On Sets",
+    "section": "Problem 3",
+    "text": "Problem 3\nIn a standard deck of playing cards, there are a total of 52 cards. Each card has a number and a suit.\n\nThe card numbers can be from 1 to 13.\n\nThe 1 is usually called the ace. Cards 11-13 are usually called the jack, queen, and king, and are collectively referred to as “face cards.”\n\nThe card suits are spades, clubs, hearts and diamonds. Spades and clubs are “black” suits while hearts and diamonds are “red” suits.\n\n\nPart A\nDescribe two sets \\(A\\) and \\(B\\) such that the set \\(D = A\\times B\\) describes a deck of cards. In particular, \\(D\\) should have 52 elements and you should describe a recipe for figuring out which card corresponds to which element of \\(D\\).\n\n\nPart B\nCompute the following cardinalities:\n\nThe number of cards that have a red suit.\nThe number of face cards.\nThe number of cards that have a red suit or which are face cards.\n\nComment on your answer in item 3. How does it relate to the sum of the answers in items 1 and 2? How do you explain the difference?"
   },
   {
     "objectID": "content/modules/01-math-and-me/in-class.html#section",
@@ -586,6 +810,20 @@
     "title": "",
     "section": "",
     "text": "Suppose that we want to prove that \\(\\sqrt{x}\\) is not a rational number; i.e. there are no rational numbers \\(a, b \\in \\mathbb{Z}\\) such that \\(\\sqrt{x} = \\frac{a}{b}\\).\nWrite a proof that follows the same strategy as we used for \\(\\sqrt{2}\\). Then describe: for which values of \\(x\\) does your proof work? Finally, state the result you have proven as a careful theorem.\n\n\n\n  © Phil Chodrow, 2023"
+  },
+  {
+    "objectID": "content/problems/relations/mod.html",
+    "href": "content/problems/relations/mod.html",
+    "title": "",
+    "section": "",
+    "text": "Part A\nRecall that we write \\(x \\equiv y \\pmod{p}\\) for integers \\(x\\), \\(y\\), and \\(p\\) if there exists an integer \\(c\\) such that \\((x-y) = cp\\). For example, \\(16 \\equiv 2 \\pmod{7}\\) because \\((16 - 2) = 2\\times 7\\).\nWrite a complete, careful proof that, for any \\(p\\), the relation \\(\\;\\equiv \\pmod {p}\\) is an equivalence relation.\n\n\nPart B\nList all the equivalence classes of the relation \\(\\equiv \\pmod{3}\\). You can use either set-builder or roster notation.\n\n\n\n\n  © Phil Chodrow, 2023"
+  },
+  {
+    "objectID": "content/problems/relations/bop-11-3-4.html",
+    "href": "content/problems/relations/bop-11-3-4.html",
+    "title": "",
+    "section": "",
+    "text": "Let \\(A = \\{a, b, c, d, e\\}\\). Suppose that \\(R\\) is an equivalence relation on \\(A\\). Suppose that it is the case that \\(aRd\\), \\(bRc\\), \\(eRa\\), and \\(cRe\\). How many equivalence classes does \\(R\\) have?\n\n\n\n  © Phil Chodrow, 2023"
   },
   {
     "objectID": "content/problems/quantified-logic/dmoi-3-16.html",
@@ -1085,6 +1323,20 @@
     "text": "Let \\(D = \\{a, b\\}\\). Let \\(P(x)\\) be an arbitrary predicate. Let \\(Q\\) be the proposition that both \\(P(a)\\) is true and \\(P(b)\\) is true.\n\nPart A\nWrite out \\(Q\\) in terms of \\(P\\), \\(a\\), and \\(b\\) using only logical operators like \\(\\lor\\), \\(\\land\\), \\(\\lnot\\), or \\(\\rightarrow\\). Don’t overthink this one.\n\n\nPart B\nNow write \\(Q\\) in terms of \\(P\\) using at least one quantifier (existential or universal), and without \\(\\lor\\) or \\(\\land\\). Make sure to specify the domain of the quantifier. Please ensure that negations \\(\\lnot\\) appear only directly before predicates, rather than e.g. outside parenthetical expressions.\n\n\nPart C\nWrite out \\(\\lnot Q\\) in terms of \\(P\\), \\(a\\), and \\(b\\) using only logical operators like \\(\\lor\\), \\(\\land\\), \\(\\lnot\\), or \\(\\rightarrow\\). Please ensure that negations \\(\\lnot\\) appear only directly before predicates, rather than e.g. outside parenthetical expressions.\n\n\nPart D\nNow write out \\(\\lnot Q\\) in terms of \\(P\\) using at least one quantifier (existential or universal) without \\(\\lor\\) or \\(\\land\\). Make sure to specify the domain of the quantifier. Please ensure that negations \\(\\lnot\\) appear only directly before predicates, rather than e.g. outside parenthetical expressions.\n\n\nPart E\nYour forgetful friend can never remember how to negate quantifiers, but they do remember DeMorgan’s laws for propositional logic. Write a brief explanation for how your friend could use DeMorgan’s laws to remember the right formulas for negating quantifiers.\n\n\n\n\n  © Phil Chodrow, 2023"
   },
   {
+    "objectID": "content/problems/relations/bop-11-3-3.html",
+    "href": "content/problems/relations/bop-11-3-3.html",
+    "title": "",
+    "section": "",
+    "text": "Let \\(A = \\{a, b, c, d, e\\}\\). Suppose that \\(R\\) is an equivalence relation on \\(A\\). Suppose further that \\(R\\) has two equivalence classes, and that \\(aRd\\), \\(bRc\\), and \\(eRd\\). Fully describe \\(R\\) by either writing it as a set or drawing it.\n\n\n\n  © Phil Chodrow, 2023"
+  },
+  {
+    "objectID": "content/problems/relations/bop-11-3-8.html",
+    "href": "content/problems/relations/bop-11-3-8.html",
+    "title": "",
+    "section": "",
+    "text": "Define a relation \\(R\\) on \\(\\mathbb{Z}\\) as \\(xRy\\) if and only if \\(x^2 + y^2\\) is even.\n\nWrite a formal proof that \\(R\\) is an equivalence relation.\nDescribe the equivalence classes of \\(R\\). How many are there?\n\n\n\n\n  © Phil Chodrow, 2023"
+  },
+  {
     "objectID": "content/problems/proofs/contradiction.html",
     "href": "content/problems/proofs/contradiction.html",
     "title": "",
@@ -1267,228 +1519,32 @@
     "text": "Specifications\nFormat: You can prepare your math autobiography using any software you wish, but you must submit it as a PDF file on Canvas. If you like using word processors, the simplest way to achieve this is to Print as PDF.\nLength: Your math autobiography should show reflection on your experiences. If you’re only writing few paragraphs, there’s more for you to think about. More than a (single-spaced) page probably isn’t necessary. If you find yourself spending more than 90 minutes on this assignment, wrap up your current sentence and submit your autobiography.\nGrading: This is our first warmup assignment. Per the syllabus, warmup assignments are graded Complete or Incomplete/Missing. For Complete, you just need to spend some careful time thinking and writing. Typos, grammar mistakes, etc. are not an issue on this assignment.\nSubmission: Please submit your math autobiography on Canvas."
   },
   {
-    "objectID": "content/modules/15-sets-2/prep.html",
-    "href": "content/modules/15-sets-2/prep.html",
-    "title": "More On Sets",
+    "objectID": "content/modules/31-functions/prep.html",
+    "href": "content/modules/31-functions/prep.html",
+    "title": "",
     "section": "",
-    "text": "No videos today!\n© Phil Chodrow, 2023"
+    "text": "https://discrete.openmathbooks.org/dmoi3/sec_intro-functions.html\n\n\n\n  © Phil Chodrow, 2023"
   },
   {
-    "objectID": "content/modules/15-sets-2/prep.html#problem-1",
-    "href": "content/modules/15-sets-2/prep.html#problem-1",
-    "title": "More On Sets",
-    "section": "Problem 1",
-    "text": "Problem 1\nDefine the two sets\n\\[\n\\begin{aligned}\nA &= \\{x \\in \\mathbb{Z} \\;|\\; x &gt; 0\\;,\\; x^2 \\leq 32\\} \\\\\nB &= \\{x \\in \\mathbb{Z} \\;|\\; x &gt; 0 \\;,\\; \\log_2 x &lt; 7\\}\n\\end{aligned}\n\\]\nUse the element method to write a proof that that \\(A \\subseteq B\\).\nHint: Recall that your proof should begin with the phrase “Let \\(x\\in A\\)” and end with a phrase similar to “Therefore, \\(x \\in B\\).”\nHint: You may find it helpful to recall the following property of logarithms. For any \\(a &gt; 0\\) and \\(b \\in \\mathbb{R}\\), \\(\\log_2a^b = b\\log_2a\\)."
-  },
-  {
-    "objectID": "content/modules/15-sets-2/prep.html#problem-2",
-    "href": "content/modules/15-sets-2/prep.html#problem-2",
-    "title": "More On Sets",
-    "section": "Problem 2",
-    "text": "Problem 2\n(DMOI 0.3.24)\nLet \\(X = \\{n \\in \\mathbb{N}: 10 \\leq n &lt; 20\\}\\). Find examples of sets with the following properties and briefly explain why your examples are correct.\n\nA set \\(A \\subseteq \\mathbb{N}\\) with \\(\\lvert A \\rvert = 10\\) such that \\(X \\setminus A = \\{10, 12, 14\\}\\).\nA set \\(B \\in \\mathcal{P}(X)\\) with \\(\\lvert B \\rvert = 5\\).\nA set \\(C \\subseteq \\mathcal{P}(X)\\) with \\(\\lvert C \\rvert = 5\\).\nA set \\(D \\subseteq X\\times X\\) with \\(\\lvert D \\rvert = 5\\).\nA set \\(E \\subseteq X\\) such that \\(\\lvert E \\rvert \\in E\\)."
-  },
-  {
-    "objectID": "content/modules/15-sets-2/prep.html#problem-3",
-    "href": "content/modules/15-sets-2/prep.html#problem-3",
-    "title": "More On Sets",
-    "section": "Problem 3",
-    "text": "Problem 3\nIn a standard deck of playing cards, there are a total of 52 cards. Each card has a number and a suit.\n\nThe card numbers can be from 1 to 13.\n\nThe 1 is usually called the ace. Cards 11-13 are usually called the jack, queen, and king, and are collectively referred to as “face cards.”\n\nThe card suits are spades, clubs, hearts and diamonds. Spades and clubs are “black” suits while hearts and diamonds are “red” suits.\n\n\nPart A\nDescribe two sets \\(A\\) and \\(B\\) such that the set \\(D = A\\times B\\) describes a deck of cards. In particular, \\(D\\) should have 52 elements and you should describe a recipe for figuring out which card corresponds to which element of \\(D\\).\n\n\nPart B\nCompute the following cardinalities:\n\nThe number of cards that have a red suit.\nThe number of face cards.\nThe number of cards that have a red suit or which are face cards.\n\nComment on your answer in item 3. How does it relate to the sum of the answers in items 1 and 2? How do you explain the difference?"
-  },
-  {
-    "objectID": "content/modules/22-proof-practice/prep.html",
-    "href": "content/modules/22-proof-practice/prep.html",
-    "title": "Practice with Proofs",
+    "objectID": "content/modules/50-recursion-recurrence/prep.html",
+    "href": "content/modules/50-recursion-recurrence/prep.html",
+    "title": "Recurrence Relations",
     "section": "",
-    "text": "No videos for today.\n© Phil Chodrow, 2023"
+    "text": "Recursive Sequences (7:36) The Fibonnaci Sequence (6:22)\n© Phil Chodrow, 2023"
   },
   {
-    "objectID": "content/modules/22-proof-practice/prep.html#videos-0-minutes",
-    "href": "content/modules/22-proof-practice/prep.html#videos-0-minutes",
-    "title": "Practice with Proofs",
+    "objectID": "content/modules/50-recursion-recurrence/prep.html#videos",
+    "href": "content/modules/50-recursion-recurrence/prep.html#videos",
+    "title": "Recurrence Relations",
     "section": "",
-    "text": "No videos for today."
+    "text": "Recursive Sequences (7:36) The Fibonnaci Sequence (6:22)"
   },
   {
-    "objectID": "content/modules/22-proof-practice/prep.html#reading-45-minutes",
-    "href": "content/modules/22-proof-practice/prep.html#reading-45-minutes",
-    "title": "Practice with Proofs",
-    "section": "Reading (~45 minutes)",
-    "text": "Reading (~45 minutes)\n\nBook of Proof, Chapter 5.\n\nFocus on:\n\nReviewing the idea of contrapositive proof.\nCongruence of integers (\\(a \\equiv b \\mod{n}\\)).\nProof style."
-  },
-  {
-    "objectID": "content/modules/22-proof-practice/prep.html#warmup-40-minutes",
-    "href": "content/modules/22-proof-practice/prep.html#warmup-40-minutes",
-    "title": "Practice with Proofs",
-    "section": "Warmup (~40 minutes)",
-    "text": "Warmup (~40 minutes)\n\nProblem 1\nHere are three facts about modular congruence which will become important for us later in the course.\n\nSymmetry: For any \\(a, b, n \\in \\mathbb{Z}\\), if \\(a \\equiv b \\pmod{n}\\), then \\(b \\equiv a \\pmod{n}\\).\n\nReflexivity: For any \\(a, n \\in \\mathbb{Z}\\), it is the case that \\(a \\equiv a \\pmod{n}\\).\n\nTransitivity: For any \\(a, b, c, n \\in \\mathbb{Z}\\), if \\(a \\equiv b \\pmod{n}\\) and \\(b\\equiv c \\pmod{n}\\), then \\(a \\equiv c \\pmod{n}\\).\n\n\n\nPart A\nHere are “proofs” of Symmetry and Reflexivity. These proofs contain the right general idea, but they are written very poorly.\nSymmetry: \\(a, b, n \\in \\mathbb{Z}\\). \\(a - b = cn\\), \\(b - a = -cn\\). \\(b = a \\pmod{n}\\).\nReflexivity: \\(a-a=0\\), since this is true for any integer. It is \\(=\\) to \\(0n\\).\nFix these proofs. For each of the two, go down the checklist in Chapter 5.3 of Book of Proof. Using this checklist, write correct, beautiful proofs that does not violate any of the rules in the list.\n\n\nPart B\nWrite a correct, beautiful proof of Transitivity which does not violate any of the rules in the list."
-  },
-  {
-    "objectID": "content/modules/00-intro/in-class.html#whos-in-the-room",
-    "href": "content/modules/00-intro/in-class.html#whos-in-the-room",
-    "title": "Welcome  to CSCI 0200!",
-    "section": "Who’s In the Room?",
-    "text": "Who’s In the Room?\n  \nGo to menti.com\nEnter code 39 98 51 6\nRespond to the first prompt.\nKeep the tab open – we’ll come back to it"
-  },
-  {
-    "objectID": "content/modules/00-intro/in-class.html#section",
-    "href": "content/modules/00-intro/in-class.html#section",
-    "title": "Welcome  to CSCI 0200!",
-    "section": "",
-    "text": "Soooooo\n…a math class\n…in the CS department\n…?"
-  },
-  {
-    "objectID": "content/modules/00-intro/in-class.html#section-2",
-    "href": "content/modules/00-intro/in-class.html#section-2",
-    "title": "Welcome  to CSCI 0200!",
-    "section": "",
-    "text": "CS and Math Go Way Back\n\nAda Lovelace was an English mathematician and author of the first published computer program (1840).\nHer program was designed to compute an important sequence of mathematical constants on the “Difference Engine” designed by Charles Babbage.\nBabbage never completed his Difference Engine, so Lovelace’s program was never run.\nLovelace described her approach to math as “poetical science.”\n\n\n\nAda King, Countess of Lovelace. Portrait possibly by Alfred Edward Chalon, image from Wikipedia."
-  },
-  {
-    "objectID": "content/modules/00-intro/in-class.html#section-3",
-    "href": "content/modules/00-intro/in-class.html#section-3",
-    "title": "Welcome  to CSCI 0200!",
-    "section": "",
-    "text": "CS and Math Go Way Back\n\nAlan Turing was an English mathematician who played a major role in developing the theory of computer science and AI.\nTuring proved that some tasks are impossible for algorithms to perform, no matter how powerful or clever they are.\nThe “Nobel Prize in Computer Science” is named the Turing Award.\nTuring was chemically castrated as a punishment for homosexuality in 1953. The UK managed to apologize for this in…2009."
-  },
-  {
-    "objectID": "content/modules/00-intro/in-class.html#section-4",
-    "href": "content/modules/00-intro/in-class.html#section-4",
-    "title": "Welcome  to CSCI 0200!",
-    "section": "",
-    "text": "CS and Math Go Way Back\n\nJohn von Neumann was a Hungarian mathematician who guided the development of the first digital computers.\nThe “von Neumann architecture” remains the high-level architectural basis of the design of modern computers.\nIf you’re wondering what the first digital computers were used for, watch Oppenheimer. 😬😬😬"
-  },
-  {
-    "objectID": "content/modules/00-intro/in-class.html#section-5",
-    "href": "content/modules/00-intro/in-class.html#section-5",
-    "title": "Welcome  to CSCI 0200!",
-    "section": "",
-    "text": "Ok, but…\n…what is mathematics?"
-  },
-  {
-    "objectID": "content/modules/00-intro/in-class.html#section-6",
-    "href": "content/modules/00-intro/in-class.html#section-6",
-    "title": "Welcome  to CSCI 0200!",
-    "section": "",
-    "text": "Mathematics is the heart of AI and data science\n\n\nBrin, Sergey. “The PageRank citation ranking: bringing order to the web.” Proceedings of ASIS, 1998 98 (1998): 161-172."
-  },
-  {
-    "objectID": "content/modules/00-intro/in-class.html#section-7",
-    "href": "content/modules/00-intro/in-class.html#section-7",
-    "title": "Welcome  to CSCI 0200!",
-    "section": "",
-    "text": "Mathematics is the heart of machine learning\n\n\nSupport Vector Machine (SVM) is an algorithm for classifying data into groups based on past observations.\nDeisenroth, Faisal, and Ong (2020). Mathematics for Machine Learning"
-  },
-  {
-    "objectID": "content/modules/00-intro/in-class.html#section-8",
-    "href": "content/modules/00-intro/in-class.html#section-8",
-    "title": "Welcome  to CSCI 0200!",
-    "section": "",
-    "text": "Mathematics is the heart of algorithmic problem-solving\n\n    \nDijkstra’s algorithm finds shortest paths between points in a graph.\n(Used for e.g. vehicle routing)"
-  },
-  {
-    "objectID": "content/modules/00-intro/in-class.html#section-9",
-    "href": "content/modules/00-intro/in-class.html#section-9",
-    "title": "Welcome  to CSCI 0200!",
-    "section": "",
-    "text": "Math Foundations: What You Need Now To Do All That Stuff Later"
-  },
-  {
-    "objectID": "content/modules/00-intro/in-class.html#math-and-us",
-    "href": "content/modules/00-intro/in-class.html#math-and-us",
-    "title": "Welcome  to CSCI 0200!",
-    "section": "Math and Us",
-    "text": "Math and Us\n   \nRespond to the second prompt on the Menti poll.\nIf you closed the tab, go to menti.com and enter code 39 98 51 6."
-  },
-  {
-    "objectID": "content/modules/00-intro/in-class.html#in-this-class-you-will",
-    "href": "content/modules/00-intro/in-class.html#in-this-class-you-will",
-    "title": "Welcome  to CSCI 0200!",
-    "section": "In This Class, You Will…",
-    "text": "In This Class, You Will…\n  \n\n\n…build a mathematical toolbox for reasoning theoretically about data structures, algorithms, and the world around you.\n…test mathematical theory against computational experiments.\n…cultivate a joyful relationship with the practice of mathematics."
-  },
-  {
-    "objectID": "content/modules/00-intro/in-class.html#the-big-picture",
-    "href": "content/modules/00-intro/in-class.html#the-big-picture",
-    "title": "Welcome  to CSCI 0200!",
-    "section": "The Big Picture",
-    "text": "The Big Picture\n\n\n\n\nmindmap\n  root((CSCI 0200))\n    )**Module 1**(\n        (Logic)\n          (Propositional logic)\n            (Boolean algebra)\n            (Circuit design)\n        (Sets)\n            (Set Operations)\n            (Logical quantifiers)\n    )**Module 2**(\n        (Relations)\n            (Functions)\n            (Equivalence Relations)\n        (Proof Techniques)\n            (Direct)\n            (Indirect)\n            (Contradiction)\n            (Induction)\n                (Weak)\n                (Strong)\n    )**Module 3**(\n        (Counting)\n            (Sum and product principles)\n            (Permutations and combinations)\n            (Combinatorial proofs)\n        (Recurrence Relations)\n            (Asymptotics)\n            (Divide and combine)\n    )**Module 4**(\n        (Probability)\n            (Distributions)\n                (Conditioning)\n            (Random variables)\n                (Expectation)\n        (Graphs)\n            (Special graphs)\n                (Trees )\n                (Cycles)\n            (Algorithms)"
-  },
-  {
-    "objectID": "content/modules/00-intro/in-class.html#section-10",
-    "href": "content/modules/00-intro/in-class.html#section-10",
-    "title": "Welcome  to CSCI 0200!",
-    "section": "",
-    "text": "Your Affinity Vegetable\n \n1. Split into teams\n2. Go around and share your name and:\nIf you were a vegetable, which vegetable would you be and why?"
-  },
-  {
-    "objectID": "content/modules/00-intro/in-class.html#section-11",
-    "href": "content/modules/00-intro/in-class.html#section-11",
-    "title": "Welcome  to CSCI 0200!",
-    "section": "",
-    "text": "Your Affinity Vegetable\n \n3. Team leader: lead your team in finding a delicious dish that incorporates all of your vegetables.\nBe ready to share!"
-  },
-  {
-    "objectID": "content/modules/00-intro/in-class.html#section-12",
-    "href": "content/modules/00-intro/in-class.html#section-12",
-    "title": "Welcome  to CSCI 0200!",
-    "section": "",
-    "text": "In a flipped classroom, you complete readings and watch lectures before our scheduled class time."
-  },
-  {
-    "objectID": "content/modules/00-intro/in-class.html#section-13",
-    "href": "content/modules/00-intro/in-class.html#section-13",
-    "title": "Welcome  to CSCI 0200!",
-    "section": "",
-    "text": "Mondays and Wednesdays\nBefore Each Class (1.5-2 hrs)\n\nPrep: Videos and readings\nWarmups: practice problems, graded on completion\n\nIn Class (1 hr)\n\nQuestions\nGroup work\nActivities\nAdditional topics, demonstrations, etc."
-  },
-  {
-    "objectID": "content/modules/00-intro/in-class.html#section-14",
-    "href": "content/modules/00-intro/in-class.html#section-14",
-    "title": "Welcome  to CSCI 0200!",
-    "section": "",
-    "text": "Friday Labs\n\n7 total throughout the semester\nStart in class with assigned groups\nFinish as homework and submit a week later\n\nAssessment\nAssessed as Excellent (E), Meets Expectations (M), Needs Revision (R), or Not Complete (N). You want Es and Ms.\nRevision\nYou can revise and resubmit your labs after your first assessment in order to achieve a higher assessment."
-  },
-  {
-    "objectID": "content/modules/00-intro/in-class.html#section-15",
-    "href": "content/modules/00-intro/in-class.html#section-15",
-    "title": "Welcome  to CSCI 0200!",
-    "section": "",
-    "text": "Quizzes\n\n4 total, on Fridays\nTimed for 45 minutes (contact me with DRC letters!!)\n\nLearning Targets\n\nWe have 12 Learning Targets related to core course competencies.\nYou’ll have multiple opportunities to complete each Learning Target, but you only need to do it once.\n3 targets are added on each quiz, but you only need to attempt ones you haven’t already gotten.\n\nFinal Exam\nIncludes opportunities to complete all 12 learning targets, with 3 hours."
-  },
-  {
-    "objectID": "content/modules/00-intro/in-class.html#section-16",
-    "href": "content/modules/00-intro/in-class.html#section-16",
-    "title": "Welcome  to CSCI 0200!",
-    "section": "",
-    "text": "A Typical 3-Week Module\n\n\n\n\ngantt\n    title A CSCI 0200 Module\n    axisFormat %A\n    tickInterval 1day\n    section Week A\n    Prep, warmup            :active, a1, 2014-01-06, 1d\n    Class            :2014-01-06, 1d\n    Prep, warmup         :active, a2, 2014-01-08, 1d\n    Class         :2014-01-08, 1d\n    Prep, warmup    :active, a1, 2014-01-10, 1d\n    Lab A           :a3, 2014-01-10, 1d\n    section Week B\n    Prep, warmup            :active, a1, 2014-01-06, 1d\n    Class            :2014-01-06, 1d\n    Prep, warmup         :active, a2, 2014-01-08, 1d\n    Class         :2014-01-08, 1d\n    Prep, warmup    :active, a1, 2014-01-10, 1d\n    Lab B           :a3, 2014-01-10, 1d\n    Lab A due         :done, b3, 2014-01-10, 1d\n    section Week C\n    Prep, warmup            :active, b1, 2014-01-06, 1d\n    Class            :2014-01-06, 1d\n    Prep, warmup         :active, b2, 2014-01-08, 1d\n    Class            :2014-01-08, 1d\n    Lab B due         :done, b3, 2014-01-10, 1d\n    Quiz              :crit, done, c3,  2014-01-10, 1d"
-  },
-  {
-    "objectID": "content/modules/00-intro/in-class.html#section-17",
-    "href": "content/modules/00-intro/in-class.html#section-17",
-    "title": "Welcome  to CSCI 0200!",
-    "section": "",
-    "text": "Final Grade\n\n\n\n\n\n\n\n\nTier\nLearning Targets\nLabs\n\n\n\n\nA\n▢ ▢ ▢\nE: ▢ ▢ ▢ ▢ M or E: ▢ ▢ ▢\n\n\nB\n▢ ▢\nE: ▢ ▢ M or E: ▢ ▢ ▢ ▢ ▢\n\n\nC\n▢ ▢ ▢ ▢ ▢ ▢\nM or E: ▢ ▢ ▢ ▢ ▢  R, M, or E: ▢ ▢\n\n\n\nMissing many warmups results in a penalty to your final grade."
-  },
-  {
-    "objectID": "content/modules/00-intro/in-class.html#support-resources",
-    "href": "content/modules/00-intro/in-class.html#support-resources",
-    "title": "Welcome  to CSCI 0200!",
-    "section": "Support Resources",
-    "text": "Support Resources\nAcademic support\n\nStudent Hours are your time: come talk to me about anything! Mondays 2pm-4pm, Thursdays 3pm-4pm.\nEvening Peer Help, hours TBD.\nOur Assistant in Instruction Smith Gakuya holds Student Hours for CSCI 0200.\nOnline Q&A forum.\n\nClearing barriers to learning\n\nThe DRC can help you obtain a letter of accommodation for timed assessments.\nLegally, I need your letter in order to offer you accommodations."
-  },
-  {
-    "objectID": "content/modules/00-intro/in-class.html#classroom-environment",
-    "href": "content/modules/00-intro/in-class.html#classroom-environment",
-    "title": "Welcome  to CSCI 0200!",
-    "section": "Classroom Environment",
-    "text": "Classroom Environment\n \nInclusion, access, and participation are collective projects.\n\nDiscrimination is unjust and it sucks. Don’t do it.\nAddress people respectfully — chosen names and pronouns.\nDon’t leave each other behind in group work.\nBragging about something being easy just makes the people around you feel bad.\n\nAre you fast at the material? Cool. Use your ability to support the learning of the people around you.\n\nI am a mandatory reporter of potential incidents of sexual violence or harassment. There is a link to some confidential resources on the syllabus."
-  },
-  {
-    "objectID": "content/modules/00-intro/in-class.html#for-wednesday",
-    "href": "content/modules/00-intro/in-class.html#for-wednesday",
-    "title": "Welcome  to CSCI 0200!",
-    "section": "For Wednesday",
-    "text": "For Wednesday\n \nEntrance Survey: tell me about yourself and help me find your teammates for lab.\nMath autobiography: your history as a learner and user of mathematics.\nThese assignments are on Canvas."
+    "objectID": "content/modules/50-recursion-recurrence/prep.html#reading",
+    "href": "content/modules/50-recursion-recurrence/prep.html#reading",
+    "title": "Recurrence Relations",
+    "section": "Reading",
+    "text": "Reading\n\nDMOI 2.1\nDMOI 2.3"
   },
   {
     "objectID": "content/modules/24-more-induction/prep.html",
@@ -1643,6 +1699,27 @@
     "title": "Cases, Contradictions, and Counterexamples",
     "section": "Warmup (~40 minutes)",
     "text": "Warmup (~40 minutes)\n\nProblem 1\nGive a counterexample to each of the following claims. Describe in a sentence or two why your counterexample shows that the claim is false.\nNote: If the claim refers to multiple numbers like \\(x\\) and \\(y\\), a complete counterexample includes values for both \\(x\\) and \\(y\\).\n\n\\(\\forall x,y \\in \\mathbb{Z} \\;:\\; x^2 &lt; y^2 \\rightarrow x &lt; y\\).\n\nRecall that \\(\\forall x,y\\in \\mathbb{Z}\\) is a notation shortcut for \\(\\forall x \\in \\mathbb{Z}, \\forall y \\in \\mathbb{Z}\\).\n\n\\(\\lnot \\exists x \\in \\mathbb{Z}\\;:\\; x | 51\\)\n\nRecall that \\(a|b\\) means that \\(a\\) is a divisor of \\(b\\) with remainder \\(0\\).\n\n\\(\\forall x, y \\in \\mathbb{Z} \\;:\\; x^2 + y^2 \\text{ is an even number}\\).\n\n\n\nProblem 2\nProve that \\(\\sqrt{6}\\) is not a rational number; i.e. there are no integers \\(a,b \\in \\mathbb{Z}\\) such that \\(\\sqrt{6} = \\frac{a}{b}\\).\nNotes:\n\nA fraction \\(\\frac{a}{b}\\) is in lowest terms if there is no integer \\(k\\) that divides both \\(a\\) and \\(b\\).\nIt is traditional in math classes that you can use anything you have previously proven. You might find a problem from the last warmup to be helpful.\nIt is also traditional that you may “use without proof” facts that the instructor tells you are acceptable to use without proof. In this case, you may use without proof the fact that, for any integer \\(n\\), it is the case that \\(n^2\\) is even if and only if \\(n\\) is even.\n\n\n\nProblem 3\nProve that if \\(n\\) is an integer, then \\(3n^2 + n + 4\\) is even.\nHint: Divide into cases based on whether \\(n\\) is odd or even."
+  },
+  {
+    "objectID": "content/modules/30-relations/prep.html",
+    "href": "content/modules/30-relations/prep.html",
+    "title": "Relations",
+    "section": "",
+    "text": "Relations Between Two Sets: Definition + First Examples (6:39)\nRelations and their Inverses (2:49)\nReflexive, Symmetric, and Transitive Relations on a Set (6:54)\nEquivalence Relations: Reflexive, Symmetric, and Transitive (4:36)\nYou need to check EVERY spot for reflexivity, symmetry, and transitivity (3:40)\n© Phil Chodrow, 2023"
+  },
+  {
+    "objectID": "content/modules/30-relations/prep.html#problem-1",
+    "href": "content/modules/30-relations/prep.html#problem-1",
+    "title": "Relations",
+    "section": "Problem 1",
+    "text": "Problem 1\n\nPart A\nRecall that we write \\(x \\equiv y \\pmod{p}\\) for integers \\(x\\), \\(y\\), and \\(p\\) if there exists an integer \\(c\\) such that \\((x-y) = cp\\). For example, \\(16 \\equiv 2 \\pmod{7}\\) because \\((16 - 2) = 2\\times 7\\).\nWrite a complete, careful proof that, for any \\(p\\), the relation \\(\\;\\equiv \\pmod {p}\\) is an equivalence relation.\n\n\nPart B\nList all the equivalence classes of the relation \\(\\equiv \\pmod{3}\\). You can use either set-builder or roster notation."
+  },
+  {
+    "objectID": "content/modules/30-relations/prep.html#problem-2",
+    "href": "content/modules/30-relations/prep.html#problem-2",
+    "title": "Relations",
+    "section": "Problem 2",
+    "text": "Problem 2\n\nLet \\(A = \\{a, b, c, d, e\\}\\). Suppose that \\(R\\) is an equivalence relation on \\(A\\). Suppose further that \\(R\\) has two equivalence classes, and that \\(aRd\\), \\(bRc\\), and \\(eRd\\). Fully describe \\(R\\) by either writing it as a set or drawing it."
   },
   {
     "objectID": "index.html",

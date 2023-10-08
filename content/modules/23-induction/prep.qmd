@@ -21,6 +21,6 @@ title: "Introduction to Induction"
 
 ### Problem 2
 
-{{< include ../../../content/problems/induction/induction-example-1.qmd >}}
+{{< include ../../../content/problems/induction/induction-example-1.qmd >}}  
 
 

@@ -4,7 +4,7 @@ listing:
   contents: schedule.yml
   template: assets/ejs/schedule.ejs
 toc: false
-title: Schedule 
+title: Schedule     
 --- 
 
 *This schedule is tentative and subject to change*.  
@@ -12,8 +12,8 @@ title: Schedule
 Warmups are due **every class day**, even if they are not listed under the "Due" column.      
 
  
-:::{#schedule} 
-:::
+:::{#schedule}  
+:::      
  
 ## Final Exam 
   
