@@ -102,7 +102,7 @@
 - date: 2023-09-29
   header: "Quiz 1"
   summary: |
-      The first of four quizzes in which students have an opportunity to complete Learning Targets. This quiz includes targets <b>LS1</b>, <b>LS2</b>, and <b>LS3</b>.
+      The first of four quizzes in which students have an opportunity to complete <a href="pages/learning-targets.qmd">Learning Targets</a>. This quiz includes targets <b>LS1</b>, <b>LS2</b>, and <b>LS3</b>. 
   objectives:
   prep:
   activities:
@@ -183,16 +183,17 @@
   due:
 - date: 2023-10-18
   header: "Functions"
-  summary:
+  summary: We introduce functions, with a focus on recursive definitions of functions. 
   objectives:
-  prep:
+    - Relations and functions
+  prep: <a href="content/modules/31-functions/prep.qmd">Functions</a>
   activities:
   notes:
   publish: true
   due:
 - date: 2023-10-20
   header: "Quiz 2"
-  summary:
+  summary: The second of four quizzes in which students have an opportunity to complete <a href="pages/learning-targets.qmd">Learning Targets</a>. This quiz includes targets <b>LS1</b>, <b>LS2</b>, <b>LS3</b>, <b>PF1</b>, <b>PF2</b>, and <b>FR1</b>.
   objectives:
   prep:
   activities:
