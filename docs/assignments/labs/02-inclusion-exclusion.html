@@ -206,7 +206,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <ul class="collapse">
   <li><a href="#exercise-a.1" id="toc-exercise-a.1" class="nav-link" data-scroll-target="#exercise-a.1">Exercise A.1</a></li>
   <li><a href="#after-lab" id="toc-after-lab" class="nav-link" data-scroll-target="#after-lab">(<em>After Lab</em>)</a></li>
-  <li><a href="#exercise-a.2" id="toc-exercise-a.2" class="nav-link" data-scroll-target="#exercise-a.2">Exercise A.2</a></li>
   </ul></li>
   <li><a href="#part-b" id="toc-part-b" class="nav-link" data-scroll-target="#part-b">Part B</a>
   <ul class="collapse">
@@ -289,14 +288,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="after-lab" class="level3">
 <h3 class="anchored" data-anchor-id="after-lab">(<em>After Lab</em>)</h3>
-<p>Upload your image in this notebook. Then, give a carefully edited, typed version of your explanation, using mathematical symbols as appropriate.</p>
-<p>[<em>YOUR ANSWER HERE: An image of your Venn Diagram followed by a carefully-written explanation. Your image show show your whiteboard explanation, but please edit and type your explanation here after the lab period.</em>]</p>
-</section>
-<section id="exercise-a.2" class="level3">
-<h3 class="anchored" data-anchor-id="exercise-a.2">Exercise A.2</h3>
-<p>Suppose that <span class="math inline">\(U\)</span> is the universal set, that <span class="math inline">\(U\)</span> is finite, and that <span class="math inline">\(\lvert U \rvert = m\)</span>. Find a formula for <span class="math inline">\(\lvert\bar{A} \cap \bar{B}\rvert\)</span> that uses the inclusion-exclusion formula. Your final formula **should not involve any set complement symbols like <span class="math inline">\(\bar{A}\)</span>. Write your derivation on the whiteboard and take a picture.</p>
-<p><em>Hint</em>: There are several approaches. One way is to draw another Venn diagram that will allow you to convert <span class="math inline">\(\bar{A} \cap \bar{B}\)</span> into an expression involving a union <span class="math inline">\(\cup\)</span>. Another way is to rearrange the terms of the inclusion-exclusion formula.</p>
-<p><em>[YOUR ANSWER HERE: An image of your derivation on the whiteboard. Then, a carefully-written, typed derivation using mathematical symbols as needed.]</em></p>
+<p>Based on your whiteboard work, give a carefully edited, typed version of your explanation, using mathematical symbols as appropriate.</p>
+<p>[<em>YOUR ANSWER HERE: a carefully-written explanation of your argument</em>]</p>
 </section>
 </section>
 <section id="part-b" class="level2">
@@ -309,7 +302,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="after-lab-1" class="level3">
 <h3 class="anchored" data-anchor-id="after-lab-1">(<em>After Lab</em>)</h3>
 <p>Upload your Venn diagram in this notebook and refer to it when writing up your explanation.</p>
-<p>[<em>YOUR ANSWER HERE: An image of your Venn diagram (with explanation) followed by a carefully-written typped explanation. Your image show show your whiteboard explanation, but please edit and type your explanation here after the lab period.</em>]</p>
+<p>[<em>YOUR ANSWER HERE: A carefully-written typed explanation of your argument using Venn diagrams. It’s ok if your argument is a little difficult to write without a picture – just do your best.</em>]</p>
 </section>
 </section>
 <section id="part-c" class="level2">
@@ -333,11 +326,11 @@ A \cap (B \cup C) = (A \cap B) \cup (A \cap C)
 <p>Type your derivation below. If you’d like to write sequential equations, which are very suitable for calculations like this one, click into this Markdown cell to see how I did this:</p>
 <p><span class="math display">\[
 \begin{aligned}
-x &amp;= y \\
-  &amp; = z\;.
+x &amp;= y  &amp;\text{(a justification)}\\
+  &amp; = z &amp;\text{(another justification)}\;.
 \end{aligned}
 \]</span></p>
-<p>[<em>YOUR ANSWER HERE: An image of your work on the whiteboard, followed by a carefully-typed derivation using mathematical symbols as appropriate.</em>]</p>
+<p>[<em>YOUR ANSWER HERE: A carefully-typed derivation using mathematical symbols as appropriate, as well as justifications for each step.</em>]</p>
 </section>
 </section>
 <section id="part-d" class="level2">
@@ -345,12 +338,12 @@ x &amp;= y \\
 <p><em>You should run each of the Python cells in this part, including the ones that don’t require you to write any new code</em>.</p>
 <p>Now let’s test our mathematical theory against computational experiments.</p>
 <p>The following function will compute the size of a union of any number of provided sets.</p>
-<div id="cell-12" class="cell" data-execution_count="1">
+<div id="cell-10" class="cell" data-execution_count="1">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> union_size(A, <span class="op">*</span>other_sets):</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="bu">len</span>(A.union(<span class="op">*</span>other_sets))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Here is it in action:</p>
-<div id="cell-14" class="cell" data-execution_count="2">
+<div id="cell-12" class="cell" data-execution_count="2">
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>A <span class="op">=</span> {<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>}</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>B <span class="op">=</span> {<span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>}</span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>C <span class="op">=</span> {<span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">7</span>}</span>
@@ -362,7 +355,7 @@ x &amp;= y \\
 </div>
 <p>Now we’re going to write a function that can compute the size of a union using using a different method, using inclusion-exclusion.</p>
 <p>To get you started on this function, I’ve populated a function that, when one or more sets are passed as arguments, <em>prints</em> all possible combinations of those sets. Then, it returns <code>0</code>.</p>
-<div id="cell-16" class="cell" data-execution_count="3">
+<div id="cell-14" class="cell" data-execution_count="3">
 <div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> itertools <span class="im">import</span> combinations</span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> ie_union_size(A, <span class="op">*</span>other_sets):</span>
 <span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>    union_size <span class="op">=</span> <span class="dv">0</span></span>
@@ -373,7 +366,7 @@ x &amp;= y \\
 <span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> union_size        </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Here it is in action:</p>
-<div id="cell-18" class="cell" data-execution_count="4">
+<div id="cell-16" class="cell" data-execution_count="4">
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> ie_union_size(A, B, C)</span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"the current return value is </span><span class="sc">{</span>x<span class="sc">}</span><span class="ss">"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -400,8 +393,9 @@ the current return value is 0</code></pre>
 <li>You should add to the variable <code>union_size</code> using the syntax <code>union_size += value_to_add</code>.</li>
 <li>It’s possible to solve this problem by replacing the <code>print</code> statement with a single careful line of code (under 80 characters), but it’s also ok to use more lines.</li>
 <li>When <code>sets</code> is a tuple of sets, the syntax <code>sets[0].intersection(*sets[1:])</code> will compute the intersection of all the elements of <code>sets</code>.</li>
+<li>You’ll need to do something with the <em>signs</em> of the cardinalities of sets. It’s helpful to look at the number of sets involved. For example, <span class="math inline">\(|A|\)</span> will appear with a <span class="math inline">\(+\)</span> sign but <span class="math inline">\(|A\cap B|\)</span> will appear with a <span class="math inline">\(-\)</span> sign. What about <span class="math inline">\(|A\cap B \cap C|\)</span>? What pattern fo you observe?</li>
 </ul>
-<div id="cell-20" class="cell" data-execution_count="5">
+<div id="cell-18" class="cell" data-execution_count="5">
 <div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># your solution here </span></span>
 <span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> itertools <span class="im">import</span> combinations</span>
 <span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> ie_union_size(A, <span class="op">*</span>other_sets):</span>
@@ -413,13 +407,12 @@ the current return value is 0</code></pre>
 <span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a>            <span class="co"># some sets. Throughout the loop, all possible combinations of sets</span></span>
 <span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a>            <span class="co"># appear in this tuple. </span></span>
 <span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a>            </span>
-<span id="cb8-12"><a href="#cb8-12" aria-hidden="true" tabindex="-1"></a>            <span class="co"># to complete this part, you only need to replace the print statement below with some of your own code. Nothing else needs to be touched. </span></span>
+<span id="cb8-12"><a href="#cb8-12" aria-hidden="true" tabindex="-1"></a>            <span class="co"># to complete this part, you only need to replace the print statement below with some of your own code that modifies the union_size variable. Nothing else needs to be touched. </span></span>
 <span id="cb8-13"><a href="#cb8-13" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(sets)</span>
 <span id="cb8-14"><a href="#cb8-14" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> union_size        </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div id="cell-21" class="cell" data-execution_count="6">
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># please add some checks to show that your solution agrees with union_size when passed either 2 or 3 sets. </span></span>
-<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div id="cell-19" class="cell" data-execution_count="6">
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># please add some checks to show that your solution agrees with union_size when passed either 2 or 3 sets. </span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 </section>
@@ -441,7 +434,7 @@ the current return value is 0</code></pre>
 \end{aligned}
 \]</span></p>
 <p>Can you find a pattern that you can generalize and use in your solution? It’s not required to prove your pattern – we’ll learn more about how to do that later in the course.</p>
-<div id="cell-23" class="cell" data-execution_count="7">
+<div id="cell-21" class="cell" data-execution_count="7">
 <div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Show your tests here using 4 and 5 arguments. </span></span>
 <span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="co"># You can use A, B, and C from above, as well as the following two additional sets: </span></span>
 <span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a></span>

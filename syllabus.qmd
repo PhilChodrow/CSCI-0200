@@ -258,7 +258,7 @@ Warmups are here to help you <span style="color:#7030a0">**remember**</span> and
 
 ::: {.callout-tip}
 
-Warmups are due by 8:30am on the day of class. Warmups are never accepted late and there are no extensions. However, [you can miss up to ~~three~~ five warmups](#assessment-of-warmups) without any impact on your grade. 
+Warmups are due by 8:30am on the day of class. Warmups are never accepted late and there are no extensions. However, [you can miss up to ~~three~~ ~~five~~ six warmups](#assessment-of-warmups) without any impact on your grade. 
 
 :::
 
@@ -357,7 +357,7 @@ If you fully meet the requirements for the **C** tier and meet the requirements 
 
 #### Assessment of Warmups
 
-You can miss **at most ~~three~~ five** warmups without penalty. After the first three missing warmups, your grade will lower by **1/3 of a letter grade for every two missing warmups**. For example, an **A** would become an **A-**, a **B+** would become a **B**, a **B-** would become a **C+**, etc. 
+You can miss **at most ~~three~~ ~~five~~ six** warmups without penalty. After the first three missing warmups, your grade will lower by **1/3 of a letter grade for every two missing warmups**. For example, an **A** would become an **A-**, a **B+** would become a **B**, a **B-** would become a **C+**, etc. 
 
 ::: {.aside}
 
@@ -375,7 +375,7 @@ In more detail, the penalties are:
 
 ### Warmups
 
-Extensions are never given on warmups unless under guidance from the DRC. Remember that you can miss up to ~~three~~ five warmups without any impact on your final grade in the course. 
+Extensions are never given on warmups unless under guidance from the DRC. Remember that you can miss up to ~~three~~ ~~five~~ six warmups without any impact on your final grade in the course. 
 
 ### Labs
 

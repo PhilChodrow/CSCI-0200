@@ -5,7 +5,6 @@
 - [Formal Definition of a Function using the Cartesian Product](https://youtu.be/-a5FaFp87N4?si=N8cvr9lQ5kVOqofh) (5:47)
 - [Example: Is this Relation a Function?](https://youtu.be/b_sxTCjruJE?si=60hUA4KtpUzzNfB0) (5:09)
 
-
 # Reading (~30 minutes)
 
 - [DMOI 0.4](https://discrete.openmathbooks.org/dmoi3/sec_intro-functions.html) 
