@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Recurrence Relations</title>
+<title>In-Class Activity: Introduction to Counting</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -163,12 +163,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#videos" id="toc-videos" class="nav-link active" data-scroll-target="#videos">Videos</a>
-  <ul class="collapse">
-  <li><a href="#new" id="toc-new" class="nav-link" data-scroll-target="#new">New</a></li>
-  <li><a href="#useful-review" id="toc-useful-review" class="nav-link" data-scroll-target="#useful-review">Useful Review</a></li>
-  </ul></li>
-  <li><a href="#reading" id="toc-reading" class="nav-link" data-scroll-target="#reading">Reading</a></li>
+  <li><a href="#part-a" id="toc-part-a" class="nav-link active" data-scroll-target="#part-a">Part A</a></li>
+  <li><a href="#part-b" id="toc-part-b" class="nav-link" data-scroll-target="#part-b">Part B</a></li>
+  <li><a href="#part-c" id="toc-part-c" class="nav-link" data-scroll-target="#part-c">Part C</a></li>
+  <li><a href="#part-d" id="toc-part-d" class="nav-link" data-scroll-target="#part-d">Part D</a></li>
+  <li><a href="#part-e" id="toc-part-e" class="nav-link" data-scroll-target="#part-e">Part E</a></li>
   </ul>
 </nav>
     </div>
@@ -177,7 +176,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Recurrence Relations</h1>
+<h1 class="title">In-Class Activity: Introduction to Counting</h1>
 </div>
 
 
@@ -193,30 +192,46 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="videos" class="level2">
-<h2 class="anchored" data-anchor-id="videos">Videos</h2>
-<section id="new" class="level3">
-<h3 class="anchored" data-anchor-id="new">New</h3>
+<p><em>Note: it is recommended to eat <strong>before</strong> completing this problem.</em></p>
+<p>Consider the <a href="https://www.nooniesdeli.com/all-day-menu">All Day Menu</a> at Noonie’s Deli here in Middlebury, VT.</p>
+<p>This menu includes three main sections:</p>
 <ul>
-<li><a href="https://youtu.be/3kezO88rEvE?si=W_M2IGZi2ckdayGQ">The formal definition of a sequence</a> (3:49)</li>
-<li><a href="https://youtu.be/0OcUAjOXmFc?si=90nCL6v2wVUA_xse">Recursive Sequences</a> (7:36)</li>
-<li><a href="https://youtu.be/qmm9GPhA1MY?si=fmv3XTap98XC-ypc">The Fibonnaci Sequence</a> (6:22)</li>
-</ul>
-</section>
-<section id="useful-review" class="level3">
-<h3 class="anchored" data-anchor-id="useful-review">Useful Review</h3>
+<li><strong>Our Favorite Sandwiches</strong>, a list of pre-determined sandwiches that you can order as described.</li>
+<li><strong>Our Favorite Salads</strong>, a list of pre-determined salads that you can order as described.</li>
+<li><strong>Make Your Own</strong>, in which you can assemble a custom sandwich by choosing your main ingredient, bread/wrap, cheese, vegetables, and dressing.
 <ul>
-<li><a href="https://youtu.be/VG9ft4_dK24?si=zwbGwYigMXD0gVmC">Introduction to sequences</a> (6:13)</li>
-<li><a href="https://youtu.be/q7jHR9ar1Fo?si=qE4cBEoikaS-TvKr">The sum and product of finite sequences</a> (9:20)</li>
+<li>For the purposes of this problem, ignore the “Choose Any Extras,” “Drinks,” and “Baked Goods” sections.</li>
+</ul></li>
 </ul>
-</section>
-</section>
-<section id="reading" class="level2">
-<h2 class="anchored" data-anchor-id="reading">Reading</h2>
+<p><strong>For the purposes of this problem, a <em>meal</em> means either a sandwich or salad</strong>.</p>
 <ul>
-<li><a href="https://discrete.openmathbooks.org/dmoi3/sec_seq_intro.html">DMOI 2.1</a></li>
-<li><a href="https://discrete.openmathbooks.org/dmoi3/sec_recurrence.html">DMOI 2.3</a></li>
+<li>You can ignore the advertised possibility of 1/2 sandwiches.</li>
 </ul>
+<p>Use the menu and the principles of multiplication, addition/summation, and inclusion-exclusion to answer the following questions.</p>
+<section id="part-a" class="level2">
+<h2 class="anchored" data-anchor-id="part-a">Part A</h2>
+<p>Nia and Marcus are going to order a meal from Noonie’s. Nia only eats sandwiches, but doesn’t want to go through the hassle of designing her own. Marcus only eats salads.</p>
+<p><strong>How many distinct ways are there for Nia and Marcus to order their meal?</strong></p>
+</section>
+<section id="part-b" class="level2">
+<h2 class="anchored" data-anchor-id="part-b">Part B</h2>
+<p>Luis likes both salads and sandwiches, but doesn’t want to go through the hassle of designing their own. He’ll order either a salad or a sandwich, but not both.</p>
+<p><strong>How many ways are there for Luis to order a meal?</strong></p>
+</section>
+<section id="part-c" class="level2">
+<h2 class="anchored" data-anchor-id="part-c">Part C</h2>
+<p>Maia wants to make her own custom sandwich. She’s happy with any of the main ingredients, but doesn’t want to pay extra for premium breads, additional vegetables, or extras.</p>
+<p><strong>How many ways are there for Maia to order her custom sandwich?</strong></p>
+</section>
+<section id="part-d" class="level2">
+<h2 class="anchored" data-anchor-id="part-d">Part D</h2>
+<p>Hiroki wants to make a custom sandwich. He’s willing to have one with <strong>either</strong> a premium bread OR an extra (like avocado or hummus), but <strong>not</strong> both. He’s also willing to make a custom sandwich with neither a premium bread nor extras. Hiroki doesn’t want any extra vegetables.</p>
+<p><strong>How many ways are there for Hiroki to order his custom sandwich?</strong></p>
+</section>
+<section id="part-e" class="level2">
+<h2 class="anchored" data-anchor-id="part-e">Part E</h2>
+<p>Aryana wants a custom sandwich without any premium breads, extras. She thinks that pickled red onions really make roasted tomatoes taste great, and she isn’t willing to order a sandwich that includes only one of these two things: either the sandwich has both pickled red onions and roasted tomatoes, or it has neither.</p>
+<p><strong>How many ways are there for Aryana to order her custom sandwich?</strong></p>
 
 
 </section>

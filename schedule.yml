@@ -204,8 +204,8 @@
   header: "Counting"
   summary:
   objectives:
-  prep:
-  activities:
+  prep: <a href="content/modules/40-counting-1/prep.qmd">Counting</a>
+  activities: <a href="content/modules/40-counting-1/in-class.qmd">Counting Activity</a>
   notes:
   publish: true
   due:
@@ -213,7 +213,7 @@
   header: "Counting"
   summary:
   objectives:
-  prep:
+  prep: 
   activities:
   notes:
   publish: true

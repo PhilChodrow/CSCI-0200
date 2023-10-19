@@ -1,0 +1,8 @@
+---
+title: "More Counting: Permutations and Combinations"
+---
+
+
+- [Permutations: How many ways to rearrange the letters in a word?](https://youtu.be/a7X8N1h0yWg?si=dVDGUCqgC9kmYP0K) (6:52) 
+- [Combinations Formula: Counting the number of ways to choose $r$ items from $n$ items](https://youtu.be/6KYp4zjqT6s?si=DCOn0pMzqmep4u7h) (6:33)
+- [How many ways are there to reorder the word MISSSISSIPPI?](https://youtu.be/je6xyt2UZCw?si=pOds8WGUQ2-GDtNF) (7:03)

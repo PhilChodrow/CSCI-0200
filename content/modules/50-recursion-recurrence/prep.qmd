@@ -4,8 +4,16 @@ title: "Recurrence Relations"
 
 ## Videos
 
-[Recursive Sequences](https://youtu.be/0OcUAjOXmFc?si=90nCL6v2wVUA_xse) (7:36)
-[The Fibonnaci Sequence](https://youtu.be/qmm9GPhA1MY?si=fmv3XTap98XC-ypc) (6:22)
+### New
+
+- [The formal definition of a sequence](https://youtu.be/3kezO88rEvE?si=W_M2IGZi2ckdayGQ) (3:49)
+- [Recursive Sequences](https://youtu.be/0OcUAjOXmFc?si=90nCL6v2wVUA_xse) (7:36)
+- [The Fibonnaci Sequence](https://youtu.be/qmm9GPhA1MY?si=fmv3XTap98XC-ypc) (6:22)
+
+### Useful Review
+
+- [Introduction to sequences](https://youtu.be/VG9ft4_dK24?si=zwbGwYigMXD0gVmC) (6:13)
+- [The sum and product of finite sequences](https://youtu.be/q7jHR9ar1Fo?si=qE4cBEoikaS-TvKr) (9:20)
 
 ## Reading
 
