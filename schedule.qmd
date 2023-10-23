@@ -3,7 +3,7 @@ listing:
   id: schedule
   contents: schedule.yml
   template: assets/ejs/schedule.ejs
-toc: false
+toc: false 
 title: Schedule      
 --- 
 
@@ -11,7 +11,7 @@ title: Schedule
 
 Warmups are due **every class day**, even if they are not listed under the "Due" column.      
 
-     
+                
 :::{#schedule}  
 :::      
  
