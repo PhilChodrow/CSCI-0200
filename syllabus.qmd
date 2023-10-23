@@ -325,7 +325,28 @@ After receiving feedback on your lab report, you may revise it in response to th
 ## Your Final Grade
 
 Your final grade in the course will be determined by the bundle of Learning Targets and Lab assessments you achieve by the end of the course, according to the following table. To earn the given grade, you need to meet all requirements for **both** Learning Targets and Labs. 
-[Here's [a version of this table with checkboxes](pages/checkbox-table.qmd) that you can use to track your progress in the course.]{.aside} 
+
++-----+---------------------------------+---------------------------------+
+|Tier | Learning Targets<br>(out of 12) | Labs (out of 7)                 |
++:====+=================================+=================================+
+|**A**|   At least 11                   | - At most 1 **R**               |
+|     |                                 | - At least 3 **E**s             |
+|     |                                 | - Remainder **M**s              |
++-----+---------------------------------+---------------------------------+
+|**B**|   At least 8                    | - At most 1  **R**              |
+|     |                                 | - At least 2 **E**s             |
+|     |                                 | - Remainder **M**s              |
++-----+---------------------------------+---------------------------------+
+|**C**|   At least 6                    | - At most 2 **R**s              |
+|     |                                 | - At least 5 **M**s or **E**s   |
++-----+---------------------------------+---------------------------------+
+|**D**|   At least 4                    | - At most 2 **N**s              |
+|     |                                 | - At least 4 **M**s or **E**s   |
++-----+---------------------------------+---------------------------------+
+
+## Old Version: Final Grade
+
+At the beginning of the semester, we had in place the following scheme for assigning final grades. This table is now out of date and is provided only for historical context. 
 
 +-----+---------------------------------+---------------------------------+
 |Tier | Learning Targets<br>(out of 12) | Labs (out of 7)                 |

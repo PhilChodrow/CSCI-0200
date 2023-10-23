@@ -226,7 +226,7 @@
   summary: "We use binomial coefficients and Python programming to efficiently compute the number of paths through grids."
   objectives:
   - Counting
-  prep: <a href="content/modules/45-lattice-paths">Counting Lattice Paths</a>
+  prep: <a href="content/modules/45-lattice-paths/prep.qmd">Counting Lattice Paths</a>
   activities:
   - |
       <a href="https://colab.research.google.com/github/PhilChodrow/CSCI-0200/blob/main/assignments/labs/04-lattice-paths.ipynb">Lab 4: Counting Lattice Paths</a>
