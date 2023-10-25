@@ -262,9 +262,9 @@
   due: "Lab 4: TBD"
 - date: 2023-10-30
   header: "Recursion and Recurrence Relations"
-  summary:
+  summary: "We introduce recurrence relations and simple methods for solving them." 
   objectives:
-  prep:
+  prep: <a href="content/modules/50-recursion-recurrence/prep.qmd">Recursion and Recurrence Relations</a>
   activities:
   notes:
   publish: true
