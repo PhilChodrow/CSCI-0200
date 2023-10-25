@@ -322,25 +322,193 @@
     "text": "Part B\nHere are three attempted inductive proofs of the correct theorem. None of them are correct. For each one, explain what’s wrong.\n“Proof 1:” Suppose that \\(n = 1\\). Then,\n\\[\n\\begin{aligned}\n\\sum_{i = 0}^n i &= \\sum_{i = 1}^n i \\\\\n                 &= 1 \\\\\n                 &= \\frac{1(1+1)}{2}\\;,\n\\end{aligned}\n\\]\nas was to be shown. This completes the proof.\n“Proof 2:” Suppose that the theorem holds for some \\(n = k\\). We’ll show that this implies that it also holds for \\(n = k+1\\). We can calculate\n\\[\n\\begin{aligned}\n    \\sum_{i = 0}^{k+1} i &= \\sum_{i = 0}^k i + (k+1) &\\text{(manipulating sum)} \\\\\n                         &= \\frac{k(k+1)}{2} + (k+1) &\\text{(inductive hypothesis)} \\\\\n                         &= \\frac{(k+1)(k+2)}{2}  &\\text{(algebra)} \\\\\n                         &= \\frac{(k+1)((k+1) + 1)}{2}  &\\text{(algebra)}\\;.\n\\end{aligned}\n\\]\nThis shows that the statement is true for \\(n = k+1\\), which completes the proof.\n“Proof 3:” First, we’ll do the base case. Suppose that \\(n = 1\\). Then,\n\\[\n\\begin{aligned}\n\\sum_{i = 0}^n i &= \\sum_{i = 1}^n i \\\\\n                 &= 1 \\\\\n                 &= \\frac{1(1+1)}{2}\\;.  \n\\end{aligned}\n\\]\nSo, the statement is true for \\(n = 1\\), completing the base case. Now we’ll do the inductive step. Suppose that the statement is true for \\(n = k+1\\). We’ll show that it’s also true for \\(n = k\\). We can calculate\n\\[\n\\begin{aligned}\n    \\sum_{i = 0}^{k+1} i &= \\frac{(k+1)(k+2)}{2} &\\text{(inductive hypothesis)} \\\\\n                         &= \\frac{k(k+1)}{2} + \\frac{2(k+1)}{2} &\\text{(algebra)}\\;.\n\\end{aligned}\n\\]\nSince what’s left includes the formula for the case \\(n = k\\), this completes the inductive step.\n\nProblem 2\n\nUse mathematical induction to prove that, for any integer \\(n &gt;= 1\\),\n\\[\n\\begin{aligned}\n    \\sum_{i = 0}^n 2^i = 2^{n+1} - 1\n\\end{aligned}\n\\]"
   },
   {
-    "objectID": "content/modules/50-recursion-recurrence/prep.html",
-    "href": "content/modules/50-recursion-recurrence/prep.html",
-    "title": "Recurrence Relations",
+    "objectID": "content/modules/41-counting-2/prep.html",
+    "href": "content/modules/41-counting-2/prep.html",
+    "title": "More Counting: Permutations and Combinations",
     "section": "",
-    "text": "The formal definition of a sequence (3:49)\nRecursive Sequences (7:36)\nThe Fibonnaci Sequence (6:22)\n\n\n\n\n\nIntroduction to sequences (6:13)\nThe sum and product of finite sequences (9:20)\n© Phil Chodrow, 2023"
+    "text": "Permutations: How many ways to rearrange the letters in a word? (6:52)\nCombinations Formula: Counting the number of ways to choose \\(r\\) items from \\(n\\) items (6:33)\nHow many ways are there to reorder the word MISSISSIPPI? (7:03)\n© Phil Chodrow, 2023"
   },
   {
-    "objectID": "content/modules/50-recursion-recurrence/prep.html#videos",
-    "href": "content/modules/50-recursion-recurrence/prep.html#videos",
-    "title": "Recurrence Relations",
-    "section": "",
-    "text": "The formal definition of a sequence (3:49)\nRecursive Sequences (7:36)\nThe Fibonnaci Sequence (6:22)\n\n\n\n\n\nIntroduction to sequences (6:13)\nThe sum and product of finite sequences (9:20)"
+    "objectID": "content/modules/41-counting-2/prep.html#problem-1",
+    "href": "content/modules/41-counting-2/prep.html#problem-1",
+    "title": "More Counting: Permutations and Combinations",
+    "section": "Problem 1",
+    "text": "Problem 1\nConsider the four letters \\(a,b,c,d\\).\n\nPart A\nWrite down 6 permutations of these letters. How many total permutations are there?\n\n\nPart B\nWrite down 4 \\(3\\)-permutations of these letters. How many total \\(3\\)-permutations are there?\n\n\nPart C\nPick one combination of 3 letters from \\(abcd\\), and write down all permutations of this combination.\nHow many combinations of 3 letters are there from \\(abcd\\)?"
   },
   {
-    "objectID": "content/modules/50-recursion-recurrence/prep.html#reading",
-    "href": "content/modules/50-recursion-recurrence/prep.html#reading",
-    "title": "Recurrence Relations",
-    "section": "Reading",
-    "text": "Reading\n\nDMOI 2.1\nDMOI 2.3"
+    "objectID": "content/modules/41-counting-2/prep.html#problem-2",
+    "href": "content/modules/41-counting-2/prep.html#problem-2",
+    "title": "More Counting: Permutations and Combinations",
+    "section": "Problem 2",
+    "text": "Problem 2\nIn the video “How many ways are there to reorder the word MISSISSIPPI?” by Dr. Trefor Bazett, Dr. Bazett computes the number of reorderings as follows. First he considers the number of places to put all the “S”s, then all the “I”s, then the two “Ps”, and finally the “M”. The resulting expression is\n\\[\n\\begin{aligned}\n    \\binom{11}{4} \\binom{7}{4} \\binom{4}{2} \\binom{1}{1}\\;.\n\\end{aligned}\n\\tag{1}\\]\n\nPart A\nFind the mistake in Dr. Bazett’s solution. Describe what the error is and write down the correct solution!\nYes, math profs make mistakes too…\n\n\nPart B\nPerform the same analysis as Dr. Bazett, but start by placing the “M”, then the two “P”s, then the four “I”s, and then the four “S”s. You should get an expression that is similar to your corrected answer in Part A, including some of the same numbers, but in different places.\n\n\nPart C\nUsing the formula for \\(\\binom{n}{k}\\), write a calculation to show that your answer in Part B agrees with (is the same number as) Dr. Bazett’s solution in Equation 1 (after your correction from Part A).\n\n\nPart D\nThe method of combinatorial proof is used to show that two expressions are equal by demonstrating that they are different ways of counting the same thing. Use a combinatorial proof to show that, for any integers \\(n\\), \\(k\\), and \\(j\\) such that \\(k + j \\leq n\\),\n\\[\n\\begin{aligned}\n    \\binom{n}{k}\\binom{n-k}{j} = \\binom{n}{j}\\binom{n-k}{k}\\;.\n\\end{aligned}\n\\]\nNote: it is possible to do this with algebra, but please don’t! The combinatorial proof is simpler and nicer.\nHint: consider the number of ways to reorder a word of length \\(n\\) containing only three kinds of distinct letters."
+  },
+  {
+    "objectID": "content/modules/00-intro/in-class.html#whos-in-the-room",
+    "href": "content/modules/00-intro/in-class.html#whos-in-the-room",
+    "title": "Welcome  to CSCI 0200!",
+    "section": "Who’s In the Room?",
+    "text": "Who’s In the Room?\n  \nGo to menti.com\nEnter code 39 98 51 6\nRespond to the first prompt.\nKeep the tab open – we’ll come back to it"
+  },
+  {
+    "objectID": "content/modules/00-intro/in-class.html#section",
+    "href": "content/modules/00-intro/in-class.html#section",
+    "title": "Welcome  to CSCI 0200!",
+    "section": "",
+    "text": "Soooooo\n…a math class\n…in the CS department\n…?"
+  },
+  {
+    "objectID": "content/modules/00-intro/in-class.html#section-2",
+    "href": "content/modules/00-intro/in-class.html#section-2",
+    "title": "Welcome  to CSCI 0200!",
+    "section": "",
+    "text": "CS and Math Go Way Back\n\nAda Lovelace was an English mathematician and author of the first published computer program (1840).\nHer program was designed to compute an important sequence of mathematical constants on the “Difference Engine” designed by Charles Babbage.\nBabbage never completed his Difference Engine, so Lovelace’s program was never run.\nLovelace described her approach to math as “poetical science.”\n\n\n\nAda King, Countess of Lovelace. Portrait possibly by Alfred Edward Chalon, image from Wikipedia."
+  },
+  {
+    "objectID": "content/modules/00-intro/in-class.html#section-3",
+    "href": "content/modules/00-intro/in-class.html#section-3",
+    "title": "Welcome  to CSCI 0200!",
+    "section": "",
+    "text": "CS and Math Go Way Back\n\nAlan Turing was an English mathematician who played a major role in developing the theory of computer science and AI.\nTuring proved that some tasks are impossible for algorithms to perform, no matter how powerful or clever they are.\nThe “Nobel Prize in Computer Science” is named the Turing Award.\nTuring was chemically castrated as a punishment for homosexuality in 1953. The UK managed to apologize for this in…2009."
+  },
+  {
+    "objectID": "content/modules/00-intro/in-class.html#section-4",
+    "href": "content/modules/00-intro/in-class.html#section-4",
+    "title": "Welcome  to CSCI 0200!",
+    "section": "",
+    "text": "CS and Math Go Way Back\n\nJohn von Neumann was a Hungarian mathematician who guided the development of the first digital computers.\nThe “von Neumann architecture” remains the high-level architectural basis of the design of modern computers.\nIf you’re wondering what the first digital computers were used for, watch Oppenheimer. 😬😬😬"
+  },
+  {
+    "objectID": "content/modules/00-intro/in-class.html#section-5",
+    "href": "content/modules/00-intro/in-class.html#section-5",
+    "title": "Welcome  to CSCI 0200!",
+    "section": "",
+    "text": "Ok, but…\n…what is mathematics?"
+  },
+  {
+    "objectID": "content/modules/00-intro/in-class.html#section-6",
+    "href": "content/modules/00-intro/in-class.html#section-6",
+    "title": "Welcome  to CSCI 0200!",
+    "section": "",
+    "text": "Mathematics is the heart of AI and data science\n\n\nBrin, Sergey. “The PageRank citation ranking: bringing order to the web.” Proceedings of ASIS, 1998 98 (1998): 161-172."
+  },
+  {
+    "objectID": "content/modules/00-intro/in-class.html#section-7",
+    "href": "content/modules/00-intro/in-class.html#section-7",
+    "title": "Welcome  to CSCI 0200!",
+    "section": "",
+    "text": "Mathematics is the heart of machine learning\n\n\nSupport Vector Machine (SVM) is an algorithm for classifying data into groups based on past observations.\nDeisenroth, Faisal, and Ong (2020). Mathematics for Machine Learning"
+  },
+  {
+    "objectID": "content/modules/00-intro/in-class.html#section-8",
+    "href": "content/modules/00-intro/in-class.html#section-8",
+    "title": "Welcome  to CSCI 0200!",
+    "section": "",
+    "text": "Mathematics is the heart of algorithmic problem-solving\n\n    \nDijkstra’s algorithm finds shortest paths between points in a graph.\n(Used for e.g. vehicle routing)"
+  },
+  {
+    "objectID": "content/modules/00-intro/in-class.html#section-9",
+    "href": "content/modules/00-intro/in-class.html#section-9",
+    "title": "Welcome  to CSCI 0200!",
+    "section": "",
+    "text": "Math Foundations: What You Need Now To Do All That Stuff Later"
+  },
+  {
+    "objectID": "content/modules/00-intro/in-class.html#math-and-us",
+    "href": "content/modules/00-intro/in-class.html#math-and-us",
+    "title": "Welcome  to CSCI 0200!",
+    "section": "Math and Us",
+    "text": "Math and Us\n   \nRespond to the second prompt on the Menti poll.\nIf you closed the tab, go to menti.com and enter code 39 98 51 6."
+  },
+  {
+    "objectID": "content/modules/00-intro/in-class.html#in-this-class-you-will",
+    "href": "content/modules/00-intro/in-class.html#in-this-class-you-will",
+    "title": "Welcome  to CSCI 0200!",
+    "section": "In This Class, You Will…",
+    "text": "In This Class, You Will…\n  \n\n\n…build a mathematical toolbox for reasoning theoretically about data structures, algorithms, and the world around you.\n…test mathematical theory against computational experiments.\n…cultivate a joyful relationship with the practice of mathematics."
+  },
+  {
+    "objectID": "content/modules/00-intro/in-class.html#the-big-picture",
+    "href": "content/modules/00-intro/in-class.html#the-big-picture",
+    "title": "Welcome  to CSCI 0200!",
+    "section": "The Big Picture",
+    "text": "The Big Picture\n\n\n\n\nmindmap\n  root((CSCI 0200))\n    )**Module 1**(\n        (Logic)\n          (Propositional logic)\n            (Boolean algebra)\n            (Circuit design)\n        (Sets)\n            (Set Operations)\n            (Logical quantifiers)\n    )**Module 2**(\n        (Relations)\n            (Functions)\n            (Equivalence Relations)\n        (Proof Techniques)\n            (Direct)\n            (Indirect)\n            (Contradiction)\n            (Induction)\n                (Weak)\n                (Strong)\n    )**Module 3**(\n        (Counting)\n            (Sum and product principles)\n            (Permutations and combinations)\n            (Combinatorial proofs)\n        (Recurrence Relations)\n            (Asymptotics)\n            (Divide and combine)\n    )**Module 4**(\n        (Probability)\n            (Distributions)\n                (Conditioning)\n            (Random variables)\n                (Expectation)\n        (Graphs)\n            (Special graphs)\n                (Trees )\n                (Cycles)\n            (Algorithms)"
+  },
+  {
+    "objectID": "content/modules/00-intro/in-class.html#section-10",
+    "href": "content/modules/00-intro/in-class.html#section-10",
+    "title": "Welcome  to CSCI 0200!",
+    "section": "",
+    "text": "Your Affinity Vegetable\n \n1. Split into teams\n2. Go around and share your name and:\nIf you were a vegetable, which vegetable would you be and why?"
+  },
+  {
+    "objectID": "content/modules/00-intro/in-class.html#section-11",
+    "href": "content/modules/00-intro/in-class.html#section-11",
+    "title": "Welcome  to CSCI 0200!",
+    "section": "",
+    "text": "Your Affinity Vegetable\n \n3. Team leader: lead your team in finding a delicious dish that incorporates all of your vegetables.\nBe ready to share!"
+  },
+  {
+    "objectID": "content/modules/00-intro/in-class.html#section-12",
+    "href": "content/modules/00-intro/in-class.html#section-12",
+    "title": "Welcome  to CSCI 0200!",
+    "section": "",
+    "text": "In a flipped classroom, you complete readings and watch lectures before our scheduled class time."
+  },
+  {
+    "objectID": "content/modules/00-intro/in-class.html#section-13",
+    "href": "content/modules/00-intro/in-class.html#section-13",
+    "title": "Welcome  to CSCI 0200!",
+    "section": "",
+    "text": "Mondays and Wednesdays\nBefore Each Class (1.5-2 hrs)\n\nPrep: Videos and readings\nWarmups: practice problems, graded on completion\n\nIn Class (1 hr)\n\nQuestions\nGroup work\nActivities\nAdditional topics, demonstrations, etc."
+  },
+  {
+    "objectID": "content/modules/00-intro/in-class.html#section-14",
+    "href": "content/modules/00-intro/in-class.html#section-14",
+    "title": "Welcome  to CSCI 0200!",
+    "section": "",
+    "text": "Friday Labs\n\n7 total throughout the semester\nStart in class with assigned groups\nFinish as homework and submit a week later\n\nAssessment\nAssessed as Excellent (E), Meets Expectations (M), Needs Revision (R), or Not Complete (N). You want Es and Ms.\nRevision\nYou can revise and resubmit your labs after your first assessment in order to achieve a higher assessment."
+  },
+  {
+    "objectID": "content/modules/00-intro/in-class.html#section-15",
+    "href": "content/modules/00-intro/in-class.html#section-15",
+    "title": "Welcome  to CSCI 0200!",
+    "section": "",
+    "text": "Quizzes\n\n4 total, on Fridays\nTimed for 45 minutes (contact me with DRC letters!!)\n\nLearning Targets\n\nWe have 12 Learning Targets related to core course competencies.\nYou’ll have multiple opportunities to complete each Learning Target, but you only need to do it once.\n3 targets are added on each quiz, but you only need to attempt ones you haven’t already gotten.\n\nFinal Exam\nIncludes opportunities to complete all 12 learning targets, with 3 hours."
+  },
+  {
+    "objectID": "content/modules/00-intro/in-class.html#section-16",
+    "href": "content/modules/00-intro/in-class.html#section-16",
+    "title": "Welcome  to CSCI 0200!",
+    "section": "",
+    "text": "A Typical 3-Week Module\n\n\n\n\ngantt\n    title A CSCI 0200 Module\n    axisFormat %A\n    tickInterval 1day\n    section Week A\n    Prep, warmup            :active, a1, 2014-01-06, 1d\n    Class            :2014-01-06, 1d\n    Prep, warmup         :active, a2, 2014-01-08, 1d\n    Class         :2014-01-08, 1d\n    Prep, warmup    :active, a1, 2014-01-10, 1d\n    Lab A           :a3, 2014-01-10, 1d\n    section Week B\n    Prep, warmup            :active, a1, 2014-01-06, 1d\n    Class            :2014-01-06, 1d\n    Prep, warmup         :active, a2, 2014-01-08, 1d\n    Class         :2014-01-08, 1d\n    Prep, warmup    :active, a1, 2014-01-10, 1d\n    Lab B           :a3, 2014-01-10, 1d\n    Lab A due         :done, b3, 2014-01-10, 1d\n    section Week C\n    Prep, warmup            :active, b1, 2014-01-06, 1d\n    Class            :2014-01-06, 1d\n    Prep, warmup         :active, b2, 2014-01-08, 1d\n    Class            :2014-01-08, 1d\n    Lab B due         :done, b3, 2014-01-10, 1d\n    Quiz              :crit, done, c3,  2014-01-10, 1d"
+  },
+  {
+    "objectID": "content/modules/00-intro/in-class.html#section-17",
+    "href": "content/modules/00-intro/in-class.html#section-17",
+    "title": "Welcome  to CSCI 0200!",
+    "section": "",
+    "text": "Final Grade\n\n\n\n\n\n\n\n\nTier\nLearning Targets\nLabs\n\n\n\n\nA\n▢ ▢ ▢\nE: ▢ ▢ ▢ ▢ M or E: ▢ ▢ ▢\n\n\nB\n▢ ▢\nE: ▢ ▢ M or E: ▢ ▢ ▢ ▢ ▢\n\n\nC\n▢ ▢ ▢ ▢ ▢ ▢\nM or E: ▢ ▢ ▢ ▢ ▢  R, M, or E: ▢ ▢\n\n\n\nMissing many warmups results in a penalty to your final grade."
+  },
+  {
+    "objectID": "content/modules/00-intro/in-class.html#support-resources",
+    "href": "content/modules/00-intro/in-class.html#support-resources",
+    "title": "Welcome  to CSCI 0200!",
+    "section": "Support Resources",
+    "text": "Support Resources\nAcademic support\n\nStudent Hours are your time: come talk to me about anything! Mondays 2pm-4pm, Thursdays 3pm-4pm.\nEvening Peer Help, hours TBD.\nOur Assistant in Instruction Smith Gakuya holds Student Hours for CSCI 0200.\nOnline Q&A forum.\n\nClearing barriers to learning\n\nThe DRC can help you obtain a letter of accommodation for timed assessments.\nLegally, I need your letter in order to offer you accommodations."
+  },
+  {
+    "objectID": "content/modules/00-intro/in-class.html#classroom-environment",
+    "href": "content/modules/00-intro/in-class.html#classroom-environment",
+    "title": "Welcome  to CSCI 0200!",
+    "section": "Classroom Environment",
+    "text": "Classroom Environment\n \nInclusion, access, and participation are collective projects.\n\nDiscrimination is unjust and it sucks. Don’t do it.\nAddress people respectfully — chosen names and pronouns.\nDon’t leave each other behind in group work.\nBragging about something being easy just makes the people around you feel bad.\n\nAre you fast at the material? Cool. Use your ability to support the learning of the people around you.\n\nI am a mandatory reporter of potential incidents of sexual violence or harassment. There is a link to some confidential resources on the syllabus."
+  },
+  {
+    "objectID": "content/modules/00-intro/in-class.html#for-wednesday",
+    "href": "content/modules/00-intro/in-class.html#for-wednesday",
+    "title": "Welcome  to CSCI 0200!",
+    "section": "For Wednesday",
+    "text": "For Wednesday\n \nEntrance Survey: tell me about yourself and help me find your teammates for lab.\nMath autobiography: your history as a learner and user of mathematics.\nThese assignments are on Canvas."
   },
   {
     "objectID": "content/modules/45-lattice-paths/prep.html",
@@ -830,7 +998,7 @@
     "href": "content/problems/counting/word-reordering-1.html",
     "title": "",
     "section": "",
-    "text": "In the video “How many ways are there to reorder the word MISSISSIPPI?” by Dr. Trefor Bazett, Dr. Bazett computes the number of reorderings as follows. First he considers the number of places to put all the “S”s, then all the “I”s, then the two “Ps”, and finally the “M”. The resulting expression is\n\\[\n\\begin{aligned}\n    \\binom{11}{4} \\binom{7}{4} \\binom{4}{2} \\binom{1}{1}\\;.\n\\end{aligned}\n\\tag{1}\\]\n\nPart A\nFind the mistake in Dr. Bazett’s solution. Describe what the error is and write down the correct solution!\nYes, math profs make mistakes too…\n\n\nPart B\nPerform the same analysis, but start by placing the “M”, then the two “P”s, then the four “I”s, and then the four “S”s. You should get an expression that is similar to your corrected answer in Part A, including some of the same numbers, but in different places.\n\n\nPart C\nUsing the formula for \\(\\binom{n}{k}\\), write a calculation to show that your answer in Part A agrees with (is the same number as) Dr. Bazett’s solution in Equation 1.\n\n\nPart D\nThe method of combinatorial proof is used to show that two expressions are equal by demonstrating that they are different ways of counting the same thing. Use a combinatorial proof to show that, for any integers \\(n\\), \\(k\\), and \\(j\\) such that \\(k + j \\leq n\\),\n\\[\n\\begin{aligned}\n    \\binom{n}{k}\\binom{n-k}{j} = \\binom{n}{j}\\binom{n-k}{k}\\;.\n\\end{aligned}\n\\]\nNote: it is possible to do this with algebra, but please don’t! The combinatorial proof is simpler and nicer.\nHint: consider the number of ways to reorder a word of length \\(n\\) containing only three kinds of distinct letters.\n\n\n\n\n  © Phil Chodrow, 2023"
+    "text": "In the video “How many ways are there to reorder the word MISSISSIPPI?” by Dr. Trefor Bazett, Dr. Bazett computes the number of reorderings as follows. First he considers the number of places to put all the “S”s, then all the “I”s, then the two “Ps”, and finally the “M”. The resulting expression is\n\\[\n\\begin{aligned}\n    \\binom{11}{4} \\binom{7}{4} \\binom{4}{2} \\binom{1}{1}\\;.\n\\end{aligned}\n\\tag{1}\\]\n\nPart A\nFind the mistake in Dr. Bazett’s solution. Describe what the error is and write down the correct solution!\nYes, math profs make mistakes too…\n\n\nPart B\nPerform the same analysis as Dr. Bazett, but start by placing the “M”, then the two “P”s, then the four “I”s, and then the four “S”s. You should get an expression that is similar to your corrected answer in Part A, including some of the same numbers, but in different places.\n\n\nPart C\nUsing the formula for \\(\\binom{n}{k}\\), write a calculation to show that your answer in Part B agrees with (is the same number as) Dr. Bazett’s solution in Equation 1 (after your correction from Part A).\n\n\nPart D\nThe method of combinatorial proof is used to show that two expressions are equal by demonstrating that they are different ways of counting the same thing. Use a combinatorial proof to show that, for any integers \\(n\\), \\(k\\), and \\(j\\) such that \\(k + j \\leq n\\),\n\\[\n\\begin{aligned}\n    \\binom{n}{k}\\binom{n-k}{j} = \\binom{n}{j}\\binom{n-k}{k}\\;.\n\\end{aligned}\n\\]\nNote: it is possible to do this with algebra, but please don’t! The combinatorial proof is simpler and nicer.\nHint: consider the number of ways to reorder a word of length \\(n\\) containing only three kinds of distinct letters.\n\n\n\n\n  © Phil Chodrow, 2023"
   },
   {
     "objectID": "content/problems/counting/string-sequences.html",
@@ -1848,193 +2016,25 @@
     "text": "Exercise\nDraft a proof that the sum of two odd integers is also even. It’s ok not to write out complete sentences, but use abbreviations that would help remind you which sentences to put where.\nFor more tips, see the guide to Writing Mathematics Well by Francis Su at Harvey Mudd College."
   },
   {
-    "objectID": "content/modules/00-intro/in-class.html#whos-in-the-room",
-    "href": "content/modules/00-intro/in-class.html#whos-in-the-room",
-    "title": "Welcome  to CSCI 0200!",
-    "section": "Who’s In the Room?",
-    "text": "Who’s In the Room?\n  \nGo to menti.com\nEnter code 39 98 51 6\nRespond to the first prompt.\nKeep the tab open – we’ll come back to it"
-  },
-  {
-    "objectID": "content/modules/00-intro/in-class.html#section",
-    "href": "content/modules/00-intro/in-class.html#section",
-    "title": "Welcome  to CSCI 0200!",
+    "objectID": "content/modules/50-recursion-recurrence/prep.html",
+    "href": "content/modules/50-recursion-recurrence/prep.html",
+    "title": "Recurrence Relations",
     "section": "",
-    "text": "Soooooo\n…a math class\n…in the CS department\n…?"
+    "text": "The formal definition of a sequence (3:49)\nRecursive Sequences (7:36)\nThe Fibonnaci Sequence (6:22)\n\n\n\n\n\nIntroduction to sequences (6:13)\nThe sum and product of finite sequences (9:20)\n© Phil Chodrow, 2023"
   },
   {
-    "objectID": "content/modules/00-intro/in-class.html#section-2",
-    "href": "content/modules/00-intro/in-class.html#section-2",
-    "title": "Welcome  to CSCI 0200!",
+    "objectID": "content/modules/50-recursion-recurrence/prep.html#videos",
+    "href": "content/modules/50-recursion-recurrence/prep.html#videos",
+    "title": "Recurrence Relations",
     "section": "",
-    "text": "CS and Math Go Way Back\n\nAda Lovelace was an English mathematician and author of the first published computer program (1840).\nHer program was designed to compute an important sequence of mathematical constants on the “Difference Engine” designed by Charles Babbage.\nBabbage never completed his Difference Engine, so Lovelace’s program was never run.\nLovelace described her approach to math as “poetical science.”\n\n\n\nAda King, Countess of Lovelace. Portrait possibly by Alfred Edward Chalon, image from Wikipedia."
+    "text": "The formal definition of a sequence (3:49)\nRecursive Sequences (7:36)\nThe Fibonnaci Sequence (6:22)\n\n\n\n\n\nIntroduction to sequences (6:13)\nThe sum and product of finite sequences (9:20)"
   },
   {
-    "objectID": "content/modules/00-intro/in-class.html#section-3",
-    "href": "content/modules/00-intro/in-class.html#section-3",
-    "title": "Welcome  to CSCI 0200!",
-    "section": "",
-    "text": "CS and Math Go Way Back\n\nAlan Turing was an English mathematician who played a major role in developing the theory of computer science and AI.\nTuring proved that some tasks are impossible for algorithms to perform, no matter how powerful or clever they are.\nThe “Nobel Prize in Computer Science” is named the Turing Award.\nTuring was chemically castrated as a punishment for homosexuality in 1953. The UK managed to apologize for this in…2009."
-  },
-  {
-    "objectID": "content/modules/00-intro/in-class.html#section-4",
-    "href": "content/modules/00-intro/in-class.html#section-4",
-    "title": "Welcome  to CSCI 0200!",
-    "section": "",
-    "text": "CS and Math Go Way Back\n\nJohn von Neumann was a Hungarian mathematician who guided the development of the first digital computers.\nThe “von Neumann architecture” remains the high-level architectural basis of the design of modern computers.\nIf you’re wondering what the first digital computers were used for, watch Oppenheimer. 😬😬😬"
-  },
-  {
-    "objectID": "content/modules/00-intro/in-class.html#section-5",
-    "href": "content/modules/00-intro/in-class.html#section-5",
-    "title": "Welcome  to CSCI 0200!",
-    "section": "",
-    "text": "Ok, but…\n…what is mathematics?"
-  },
-  {
-    "objectID": "content/modules/00-intro/in-class.html#section-6",
-    "href": "content/modules/00-intro/in-class.html#section-6",
-    "title": "Welcome  to CSCI 0200!",
-    "section": "",
-    "text": "Mathematics is the heart of AI and data science\n\n\nBrin, Sergey. “The PageRank citation ranking: bringing order to the web.” Proceedings of ASIS, 1998 98 (1998): 161-172."
-  },
-  {
-    "objectID": "content/modules/00-intro/in-class.html#section-7",
-    "href": "content/modules/00-intro/in-class.html#section-7",
-    "title": "Welcome  to CSCI 0200!",
-    "section": "",
-    "text": "Mathematics is the heart of machine learning\n\n\nSupport Vector Machine (SVM) is an algorithm for classifying data into groups based on past observations.\nDeisenroth, Faisal, and Ong (2020). Mathematics for Machine Learning"
-  },
-  {
-    "objectID": "content/modules/00-intro/in-class.html#section-8",
-    "href": "content/modules/00-intro/in-class.html#section-8",
-    "title": "Welcome  to CSCI 0200!",
-    "section": "",
-    "text": "Mathematics is the heart of algorithmic problem-solving\n\n    \nDijkstra’s algorithm finds shortest paths between points in a graph.\n(Used for e.g. vehicle routing)"
-  },
-  {
-    "objectID": "content/modules/00-intro/in-class.html#section-9",
-    "href": "content/modules/00-intro/in-class.html#section-9",
-    "title": "Welcome  to CSCI 0200!",
-    "section": "",
-    "text": "Math Foundations: What You Need Now To Do All That Stuff Later"
-  },
-  {
-    "objectID": "content/modules/00-intro/in-class.html#math-and-us",
-    "href": "content/modules/00-intro/in-class.html#math-and-us",
-    "title": "Welcome  to CSCI 0200!",
-    "section": "Math and Us",
-    "text": "Math and Us\n   \nRespond to the second prompt on the Menti poll.\nIf you closed the tab, go to menti.com and enter code 39 98 51 6."
-  },
-  {
-    "objectID": "content/modules/00-intro/in-class.html#in-this-class-you-will",
-    "href": "content/modules/00-intro/in-class.html#in-this-class-you-will",
-    "title": "Welcome  to CSCI 0200!",
-    "section": "In This Class, You Will…",
-    "text": "In This Class, You Will…\n  \n\n\n…build a mathematical toolbox for reasoning theoretically about data structures, algorithms, and the world around you.\n…test mathematical theory against computational experiments.\n…cultivate a joyful relationship with the practice of mathematics."
-  },
-  {
-    "objectID": "content/modules/00-intro/in-class.html#the-big-picture",
-    "href": "content/modules/00-intro/in-class.html#the-big-picture",
-    "title": "Welcome  to CSCI 0200!",
-    "section": "The Big Picture",
-    "text": "The Big Picture\n\n\n\n\nmindmap\n  root((CSCI 0200))\n    )**Module 1**(\n        (Logic)\n          (Propositional logic)\n            (Boolean algebra)\n            (Circuit design)\n        (Sets)\n            (Set Operations)\n            (Logical quantifiers)\n    )**Module 2**(\n        (Relations)\n            (Functions)\n            (Equivalence Relations)\n        (Proof Techniques)\n            (Direct)\n            (Indirect)\n            (Contradiction)\n            (Induction)\n                (Weak)\n                (Strong)\n    )**Module 3**(\n        (Counting)\n            (Sum and product principles)\n            (Permutations and combinations)\n            (Combinatorial proofs)\n        (Recurrence Relations)\n            (Asymptotics)\n            (Divide and combine)\n    )**Module 4**(\n        (Probability)\n            (Distributions)\n                (Conditioning)\n            (Random variables)\n                (Expectation)\n        (Graphs)\n            (Special graphs)\n                (Trees )\n                (Cycles)\n            (Algorithms)"
-  },
-  {
-    "objectID": "content/modules/00-intro/in-class.html#section-10",
-    "href": "content/modules/00-intro/in-class.html#section-10",
-    "title": "Welcome  to CSCI 0200!",
-    "section": "",
-    "text": "Your Affinity Vegetable\n \n1. Split into teams\n2. Go around and share your name and:\nIf you were a vegetable, which vegetable would you be and why?"
-  },
-  {
-    "objectID": "content/modules/00-intro/in-class.html#section-11",
-    "href": "content/modules/00-intro/in-class.html#section-11",
-    "title": "Welcome  to CSCI 0200!",
-    "section": "",
-    "text": "Your Affinity Vegetable\n \n3. Team leader: lead your team in finding a delicious dish that incorporates all of your vegetables.\nBe ready to share!"
-  },
-  {
-    "objectID": "content/modules/00-intro/in-class.html#section-12",
-    "href": "content/modules/00-intro/in-class.html#section-12",
-    "title": "Welcome  to CSCI 0200!",
-    "section": "",
-    "text": "In a flipped classroom, you complete readings and watch lectures before our scheduled class time."
-  },
-  {
-    "objectID": "content/modules/00-intro/in-class.html#section-13",
-    "href": "content/modules/00-intro/in-class.html#section-13",
-    "title": "Welcome  to CSCI 0200!",
-    "section": "",
-    "text": "Mondays and Wednesdays\nBefore Each Class (1.5-2 hrs)\n\nPrep: Videos and readings\nWarmups: practice problems, graded on completion\n\nIn Class (1 hr)\n\nQuestions\nGroup work\nActivities\nAdditional topics, demonstrations, etc."
-  },
-  {
-    "objectID": "content/modules/00-intro/in-class.html#section-14",
-    "href": "content/modules/00-intro/in-class.html#section-14",
-    "title": "Welcome  to CSCI 0200!",
-    "section": "",
-    "text": "Friday Labs\n\n7 total throughout the semester\nStart in class with assigned groups\nFinish as homework and submit a week later\n\nAssessment\nAssessed as Excellent (E), Meets Expectations (M), Needs Revision (R), or Not Complete (N). You want Es and Ms.\nRevision\nYou can revise and resubmit your labs after your first assessment in order to achieve a higher assessment."
-  },
-  {
-    "objectID": "content/modules/00-intro/in-class.html#section-15",
-    "href": "content/modules/00-intro/in-class.html#section-15",
-    "title": "Welcome  to CSCI 0200!",
-    "section": "",
-    "text": "Quizzes\n\n4 total, on Fridays\nTimed for 45 minutes (contact me with DRC letters!!)\n\nLearning Targets\n\nWe have 12 Learning Targets related to core course competencies.\nYou’ll have multiple opportunities to complete each Learning Target, but you only need to do it once.\n3 targets are added on each quiz, but you only need to attempt ones you haven’t already gotten.\n\nFinal Exam\nIncludes opportunities to complete all 12 learning targets, with 3 hours."
-  },
-  {
-    "objectID": "content/modules/00-intro/in-class.html#section-16",
-    "href": "content/modules/00-intro/in-class.html#section-16",
-    "title": "Welcome  to CSCI 0200!",
-    "section": "",
-    "text": "A Typical 3-Week Module\n\n\n\n\ngantt\n    title A CSCI 0200 Module\n    axisFormat %A\n    tickInterval 1day\n    section Week A\n    Prep, warmup            :active, a1, 2014-01-06, 1d\n    Class            :2014-01-06, 1d\n    Prep, warmup         :active, a2, 2014-01-08, 1d\n    Class         :2014-01-08, 1d\n    Prep, warmup    :active, a1, 2014-01-10, 1d\n    Lab A           :a3, 2014-01-10, 1d\n    section Week B\n    Prep, warmup            :active, a1, 2014-01-06, 1d\n    Class            :2014-01-06, 1d\n    Prep, warmup         :active, a2, 2014-01-08, 1d\n    Class         :2014-01-08, 1d\n    Prep, warmup    :active, a1, 2014-01-10, 1d\n    Lab B           :a3, 2014-01-10, 1d\n    Lab A due         :done, b3, 2014-01-10, 1d\n    section Week C\n    Prep, warmup            :active, b1, 2014-01-06, 1d\n    Class            :2014-01-06, 1d\n    Prep, warmup         :active, b2, 2014-01-08, 1d\n    Class            :2014-01-08, 1d\n    Lab B due         :done, b3, 2014-01-10, 1d\n    Quiz              :crit, done, c3,  2014-01-10, 1d"
-  },
-  {
-    "objectID": "content/modules/00-intro/in-class.html#section-17",
-    "href": "content/modules/00-intro/in-class.html#section-17",
-    "title": "Welcome  to CSCI 0200!",
-    "section": "",
-    "text": "Final Grade\n\n\n\n\n\n\n\n\nTier\nLearning Targets\nLabs\n\n\n\n\nA\n▢ ▢ ▢\nE: ▢ ▢ ▢ ▢ M or E: ▢ ▢ ▢\n\n\nB\n▢ ▢\nE: ▢ ▢ M or E: ▢ ▢ ▢ ▢ ▢\n\n\nC\n▢ ▢ ▢ ▢ ▢ ▢\nM or E: ▢ ▢ ▢ ▢ ▢  R, M, or E: ▢ ▢\n\n\n\nMissing many warmups results in a penalty to your final grade."
-  },
-  {
-    "objectID": "content/modules/00-intro/in-class.html#support-resources",
-    "href": "content/modules/00-intro/in-class.html#support-resources",
-    "title": "Welcome  to CSCI 0200!",
-    "section": "Support Resources",
-    "text": "Support Resources\nAcademic support\n\nStudent Hours are your time: come talk to me about anything! Mondays 2pm-4pm, Thursdays 3pm-4pm.\nEvening Peer Help, hours TBD.\nOur Assistant in Instruction Smith Gakuya holds Student Hours for CSCI 0200.\nOnline Q&A forum.\n\nClearing barriers to learning\n\nThe DRC can help you obtain a letter of accommodation for timed assessments.\nLegally, I need your letter in order to offer you accommodations."
-  },
-  {
-    "objectID": "content/modules/00-intro/in-class.html#classroom-environment",
-    "href": "content/modules/00-intro/in-class.html#classroom-environment",
-    "title": "Welcome  to CSCI 0200!",
-    "section": "Classroom Environment",
-    "text": "Classroom Environment\n \nInclusion, access, and participation are collective projects.\n\nDiscrimination is unjust and it sucks. Don’t do it.\nAddress people respectfully — chosen names and pronouns.\nDon’t leave each other behind in group work.\nBragging about something being easy just makes the people around you feel bad.\n\nAre you fast at the material? Cool. Use your ability to support the learning of the people around you.\n\nI am a mandatory reporter of potential incidents of sexual violence or harassment. There is a link to some confidential resources on the syllabus."
-  },
-  {
-    "objectID": "content/modules/00-intro/in-class.html#for-wednesday",
-    "href": "content/modules/00-intro/in-class.html#for-wednesday",
-    "title": "Welcome  to CSCI 0200!",
-    "section": "For Wednesday",
-    "text": "For Wednesday\n \nEntrance Survey: tell me about yourself and help me find your teammates for lab.\nMath autobiography: your history as a learner and user of mathematics.\nThese assignments are on Canvas."
-  },
-  {
-    "objectID": "content/modules/41-counting-2/prep.html",
-    "href": "content/modules/41-counting-2/prep.html",
-    "title": "More Counting: Permutations and Combinations",
-    "section": "",
-    "text": "Permutations: How many ways to rearrange the letters in a word? (6:52)\nCombinations Formula: Counting the number of ways to choose \\(r\\) items from \\(n\\) items (6:33)\nHow many ways are there to reorder the word MISSISSIPPI? (7:03)\n© Phil Chodrow, 2023"
-  },
-  {
-    "objectID": "content/modules/41-counting-2/prep.html#problem-1",
-    "href": "content/modules/41-counting-2/prep.html#problem-1",
-    "title": "More Counting: Permutations and Combinations",
-    "section": "Problem 1",
-    "text": "Problem 1\nConsider the four letters \\(a,b,c,d\\).\n\nPart A\nWrite down 6 permutations of these letters. How many total permutations are there?\n\n\nPart B\nWrite down 4 \\(3\\)-permutations of these letters. How many total \\(3\\)-permutations are there?\n\n\nPart C\nPick one combination of 3 letters from \\(abcd\\), and write down all permutations of this combination.\nHow many combinations of 3 letters are there from \\(abcd\\)?"
-  },
-  {
-    "objectID": "content/modules/41-counting-2/prep.html#problem-2",
-    "href": "content/modules/41-counting-2/prep.html#problem-2",
-    "title": "More Counting: Permutations and Combinations",
-    "section": "Problem 2",
-    "text": "Problem 2\nIn the video “How many ways are there to reorder the word MISSISSIPPI?” by Dr. Trefor Bazett, Dr. Bazett computes the number of reorderings as follows. First he considers the number of places to put all the “S”s, then all the “I”s, then the two “Ps”, and finally the “M”. The resulting expression is\n\\[\n\\begin{aligned}\n    \\binom{11}{4} \\binom{7}{4} \\binom{4}{2} \\binom{1}{1}\\;.\n\\end{aligned}\n\\tag{1}\\]\n\nPart A\nFind the mistake in Dr. Bazett’s solution. Describe what the error is and write down the correct solution!\nYes, math profs make mistakes too…\n\n\nPart B\nPerform the same analysis, but start by placing the “M”, then the two “P”s, then the four “I”s, and then the four “S”s. You should get an expression that is similar to your corrected answer in Part A, including some of the same numbers, but in different places.\n\n\nPart C\nUsing the formula for \\(\\binom{n}{k}\\), write a calculation to show that your answer in Part A agrees with (is the same number as) Dr. Bazett’s solution in Equation 1.\n\n\nPart D\nThe method of combinatorial proof is used to show that two expressions are equal by demonstrating that they are different ways of counting the same thing. Use a combinatorial proof to show that, for any integers \\(n\\), \\(k\\), and \\(j\\) such that \\(k + j \\leq n\\),\n\\[\n\\begin{aligned}\n    \\binom{n}{k}\\binom{n-k}{j} = \\binom{n}{j}\\binom{n-k}{k}\\;.\n\\end{aligned}\n\\]\nNote: it is possible to do this with algebra, but please don’t! The combinatorial proof is simpler and nicer.\nHint: consider the number of ways to reorder a word of length \\(n\\) containing only three kinds of distinct letters."
+    "objectID": "content/modules/50-recursion-recurrence/prep.html#reading",
+    "href": "content/modules/50-recursion-recurrence/prep.html#reading",
+    "title": "Recurrence Relations",
+    "section": "Reading",
+    "text": "Reading\n\nDMOI 2.1\nDMOI 2.3"
   },
   {
     "objectID": "content/modules/24-more-induction/prep.html",
