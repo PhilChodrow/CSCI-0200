@@ -266,6 +266,7 @@
   objectives:
   prep: <a href="content/modules/50-recursion-recurrence/prep.qmd">Recursion and Recurrence Relations</a>
   activities:
+    - <a href="content/modules/50-recursion-recurrence/in-class.qmd">Tower of Hanoi</a>
   notes:
   publish: true
   due:

@@ -12,7 +12,7 @@ title: Schedule
 Warmups are due **every class day**, even if they are not listed under the "Due" column.      
 
                 
-:::{#schedule}  
+:::{#schedule}   
 :::      
  
 ## Final Exam 

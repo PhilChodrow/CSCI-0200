@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>More Counting: Permutations and Combinations</title>
+<title>in-class</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -165,23 +165,17 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#videos-25-mins" id="toc-videos-25-mins" class="nav-link active" data-scroll-target="#videos-25-mins">Videos (~25 mins)</a></li>
-  <li><a href="#reading-40-mins" id="toc-reading-40-mins" class="nav-link" data-scroll-target="#reading-40-mins">Reading (~40 mins)</a></li>
-  <li><a href="#warmup-40-mins" id="toc-warmup-40-mins" class="nav-link" data-scroll-target="#warmup-40-mins">Warmup (~40 mins)</a>
+  <li><a href="#in-class-the-tower-of-hanoi" id="toc-in-class-the-tower-of-hanoi" class="nav-link active" data-scroll-target="#in-class-the-tower-of-hanoi">In Class: The Tower of Hanoi</a>
   <ul class="collapse">
-  <li><a href="#problem-1" id="toc-problem-1" class="nav-link" data-scroll-target="#problem-1">Problem 1</a>
-  <ul class="collapse">
+  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link" data-scroll-target="#learning-objectives">Learning Objectives</a></li>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction">Introduction</a></li>
   <li><a href="#part-a" id="toc-part-a" class="nav-link" data-scroll-target="#part-a">Part A</a></li>
   <li><a href="#part-b" id="toc-part-b" class="nav-link" data-scroll-target="#part-b">Part B</a></li>
   <li><a href="#part-c" id="toc-part-c" class="nav-link" data-scroll-target="#part-c">Part C</a></li>
-  </ul></li>
-  <li><a href="#problem-2" id="toc-problem-2" class="nav-link" data-scroll-target="#problem-2">Problem 2</a>
-  <ul class="collapse">
-  <li><a href="#part-a-1" id="toc-part-a-1" class="nav-link" data-scroll-target="#part-a-1">Part A</a></li>
-  <li><a href="#part-b-1" id="toc-part-b-1" class="nav-link" data-scroll-target="#part-b-1">Part B</a></li>
-  <li><a href="#part-c-1" id="toc-part-c-1" class="nav-link" data-scroll-target="#part-c-1">Part C</a></li>
   <li><a href="#part-d" id="toc-part-d" class="nav-link" data-scroll-target="#part-d">Part D</a></li>
-  </ul></li>
+  <li><a href="#part-e" id="toc-part-e" class="nav-link" data-scroll-target="#part-e">Part E</a></li>
+  <li><a href="#part-f" id="toc-part-f" class="nav-link" data-scroll-target="#part-f">Part F</a></li>
+  <li><a href="#part-g" id="toc-part-g" class="nav-link" data-scroll-target="#part-g">Part G</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -189,92 +183,66 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">More Counting: Permutations and Combinations</h1>
-</div>
 
 
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-<section id="videos-25-mins" class="level1">
-<h1>Videos (~25 mins)</h1>
+<section id="in-class-the-tower-of-hanoi" class="level1">
+<h1>In Class: The Tower of Hanoi</h1>
+<section id="learning-objectives" class="level2">
+<h2 class="anchored" data-anchor-id="learning-objectives">Learning Objectives</h2>
 <ul>
-<li><a href="https://youtu.be/a7X8N1h0yWg?si=dVDGUCqgC9kmYP0K">Permutations: How many ways to rearrange the letters in a word?</a> (6:52)</li>
-<li><a href="https://youtu.be/6KYp4zjqT6s?si=DCOn0pMzqmep4u7h">Combinations Formula: Counting the number of ways to choose <span class="math inline">\(r\)</span> items from <span class="math inline">\(n\)</span> items</a> (6:33)</li>
-<li><a href="https://youtu.be/je6xyt2UZCw?si=pOds8WGUQ2-GDtNF">How many ways are there to reorder the word MISSISSIPPI?</a> (7:03)</li>
+<li>You will formulate a simple recursive algorithm to solve a puzzle.</li>
+<li>You will use recurrence relations and proof by induction to describe the runtime of your algorithm.</li>
 </ul>
 </section>
-<section id="reading-40-mins" class="level1">
-<h1>Reading (~40 mins)</h1>
-<ul>
-<li><a href="https://discrete.openmathbooks.org/dmoi3/sec_counting-binom.html">DMOI 1.2: Binomial Coefficients</a></li>
-<li><a href="https://discrete.openmathbooks.org/dmoi3/sec_counting-combperm.html">DMOI 1.3: Combinations and Permutations</a></li>
-</ul>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>In the classic puzzle of the Tower of Hanoi, you start with a stack of disks on one of three pegs. The disks are stacked by size: largest at the bottom, smallest at the top:</p>
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Tower_of_Hanoi.jpeg/300px-Tower_of_Hanoi.jpeg" class="img-fluid"></p>
+<p>The challenge is to move the complete stack from one peg to another, subject to the following rules:</p>
+<ol type="1">
+<li>You can move one disk at a time from one peg to another. You can choose which peg to move to. For example, in the initial configuration, the topmost disk can move to the second peg or the third.</li>
+<li>A larger disk can never be on top of a smaller disk.</li>
+</ol>
 </section>
-<section id="warmup-40-mins" class="level1">
-<h1>Warmup (~40 mins)</h1>
-<section id="problem-1" class="level2">
-<h2 class="anchored" data-anchor-id="problem-1">Problem 1</h2>
-<p>Consider the four letters <span class="math inline">\(a,b,c,d\)</span>.</p>
-<section id="part-a" class="level3">
-<h3 class="anchored" data-anchor-id="part-a">Part A</h3>
-<p>Write down 6 <em>permutations</em> of these letters. How many total permutations are there?</p>
+<section id="part-a" class="level2">
+<h2 class="anchored" data-anchor-id="part-a">Part A</h2>
+<p>On a device of your choosing, navigate to <a href="https://www.mathsisfun.com/games/towerofhanoi.html">this website on which you can play the Tower of Hanoi</a>. Then, play with two, three, and four disks.</p>
 </section>
-<section id="part-b" class="level3">
-<h3 class="anchored" data-anchor-id="part-b">Part B</h3>
-<p>Write down 4 <span class="math inline">\(3\)</span>-permutations of these letters. How many total <span class="math inline">\(3\)</span>-permutations are there?</p>
+<section id="part-b" class="level2">
+<h2 class="anchored" data-anchor-id="part-b">Part B</h2>
+<p>Describe an algorithm for solving the Tower of Hanoi with <span class="math inline">\(n = 1\)</span> disk. Don’t overthink it!</p>
 </section>
-<section id="part-c" class="level3">
-<h3 class="anchored" data-anchor-id="part-c">Part C</h3>
-<p>Pick one <em>combination</em> of 3 letters from <span class="math inline">\(abcd\)</span>, and write down all permutations of this combination.</p>
-<p>How many <em>combinations</em> of 3 letters are there from <span class="math inline">\(abcd\)</span>?</p>
+<section id="part-c" class="level2">
+<h2 class="anchored" data-anchor-id="part-c">Part C</h2>
+<p>Imagine now that you had an algorithm for solving the Tower of Hanoi with <span class="math inline">\(n = k\)</span> disks. How could you use this algorithm to solve the Tower of Hanoi with <span class="math inline">\(n = k+1\)</span> disks?</p>
+<p><em>Hint</em>: first move the top <span class="math inline">\(k\)</span> disks to another peg using your algorithm.</p>
 </section>
-</section>
-<section id="problem-2" class="level2">
-<h2 class="anchored" data-anchor-id="problem-2">Problem 2</h2>
-<p>In the video “How many ways are there to reorder the word MISSISSIPPI?” by Dr.&nbsp;Trefor Bazett, Dr.&nbsp;Bazett computes the number of reorderings as follows. First he considers the number of places to put all the “S”s, then all the “I”s, then the two “Ps”, and finally the “M”. The resulting expression is</p>
-<p><span id="eq-mississippi"><span class="math display">\[
-\begin{aligned}
-    \binom{11}{4} \binom{7}{4} \binom{4}{2} \binom{1}{1}\;.
-\end{aligned}
-\tag{1}\]</span></span></p>
-<section id="part-a-1" class="level3">
-<h3 class="anchored" data-anchor-id="part-a-1">Part A</h3>
-<p>Find the mistake in Dr.&nbsp;Bazett’s solution. Describe what the error is and write down the correct solution!</p>
-<p><em>Yes, math profs make mistakes too…</em></p>
-</section>
-<section id="part-b-1" class="level3">
-<h3 class="anchored" data-anchor-id="part-b-1">Part B</h3>
-<p>Perform the same analysis as Dr.&nbsp;Bazett, but start by placing the “M”, then the two “P”s, then the four “I”s, and then the four “S”s. You should get an expression that is similar to your corrected answer in Part A, including some of the same numbers, but in different places.</p>
-</section>
-<section id="part-c-1" class="level3">
-<h3 class="anchored" data-anchor-id="part-c-1">Part C</h3>
-<p>Using the formula for <span class="math inline">\(\binom{n}{k}\)</span>, write a calculation to show that your answer in Part B agrees with (is the same number as) Dr.&nbsp;Bazett’s solution in <a href="#eq-mississippi" class="quarto-xref">Equation&nbsp;1</a> (after your correction from Part A).</p>
-</section>
-<section id="part-d" class="level3">
-<h3 class="anchored" data-anchor-id="part-d">Part D</h3>
-<p>The method of <em>combinatorial proof</em> is used to show that two expressions are equal by demonstrating that they are different ways of counting the same thing. Use a combinatorial proof to show that, for any integers <span class="math inline">\(n\)</span>, <span class="math inline">\(k\)</span>, and <span class="math inline">\(j\)</span> such that <span class="math inline">\(k + j \leq n\)</span>,</p>
+<section id="part-d" class="level2">
+<h2 class="anchored" data-anchor-id="part-d">Part D</h2>
+<p>Let <span class="math inline">\(t_n\)</span> be the minimum number of moves necessary to solve the Tower of Hanoi problem with <span class="math inline">\(n\)</span> disks. The sequence <span class="math inline">\(t_n\)</span> satisfies a recurrence relation of the form</p>
 <p><span class="math display">\[
-\begin{aligned}
-    \binom{n}{k}\binom{n-k}{j} = \binom{n}{j}\binom{n-j}{k}\;.
-\end{aligned}
+t_{n+1} = at_n + b
 \]</span></p>
-<p><strong>Note</strong>: it is possible to do this with algebra, but <strong><em>please don’t</em></strong>! The combinatorial proof is simpler and nicer.</p>
-<p><strong>Hint</strong>: consider the number of ways to reorder a word of length <span class="math inline">\(n\)</span> containing only three kinds of distinct letters.</p>
-
-
+<p>with initial condition <span class="math inline">\(t_1 = c\)</span> for some <span class="math inline">\(a, b, c \in \mathbb{Z}\)</span>.</p>
+<p>Using your response from Parts B and C, fill in the values of <span class="math inline">\(a\)</span>, <span class="math inline">\(b\)</span>, and <span class="math inline">\(c\)</span>.</p>
 </section>
+<section id="part-e" class="level2">
+<h2 class="anchored" data-anchor-id="part-e">Part E</h2>
+<p>Compute <span class="math inline">\(t_2\)</span>, <span class="math inline">\(t_3\)</span>, <span class="math inline">\(t_4\)</span>, and <span class="math inline">\(t_5\)</span> by hand.</p>
+</section>
+<section id="part-f" class="level2">
+<h2 class="anchored" data-anchor-id="part-f">Part F</h2>
+<p>The sequence <span class="math inline">\(t_n\)</span> has closed-form solution</p>
+<p><span class="math display">\[
+t_n = d^n + e
+\]</span></p>
+<p>for some <span class="math inline">\(d, e \in \mathbb{Z}\)</span>. Using your response from Part E, guess the values of <span class="math inline">\(d\)</span> and <span class="math inline">\(e\)</span>.</p>
+</section>
+<section id="part-g" class="level2">
+<h2 class="anchored" data-anchor-id="part-g">Part G</h2>
+<p>Write a proof by induction that your closed-form solution from Part F is indeed a solution to the recurrence relation from Part D.</p>
+
+
 </section>
 </section>
 
