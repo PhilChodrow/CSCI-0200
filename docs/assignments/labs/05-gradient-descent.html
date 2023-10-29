@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Lab 5 SOLUTION: Analyzing Gradient Descent</title>
+<title>Lab 5: Analyzing Gradient Descent</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -230,7 +230,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Lab 5 SOLUTION: Analyzing Gradient Descent</h1>
+<h1 class="title">Lab 5: Analyzing Gradient Descent</h1>
 </div>
 
 
@@ -331,7 +331,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="the-gradient-descent-algorithm-for-fx-frac12x2" class="level2">
 <h2 class="anchored" data-anchor-id="the-gradient-descent-algorithm-for-fx-frac12x2">The Gradient Descent Algorithm For <span class="math inline">\(f(x) = \frac{1}{2}x^2\)</span></h2>
 <p>The algorithm for gradient descent for <span class="math inline">\(f(x) = \frac{1}{2}x^2\)</span> works as follows.</p>
-<p><strong>Inputs</strong>: initial guess <span class="math inline">\(x_0\)</span>, learning rate <span class="math inline">\(\alpha \in \R^+\)</span>, total number of timesteps <span class="math inline">\(T\)</span>.</p>
+<p><strong>Inputs</strong>: initial guess <span class="math inline">\(x_0\)</span>, learning rate <span class="math inline">\(\alpha \in \mathbb{R}^+\)</span>, total number of timesteps <span class="math inline">\(T\)</span>.</p>
 <ol type="1">
 <li>Set <span class="math inline">\(t \gets 0\)</span>.</li>
 <li>While <span class="math inline">\(t &lt; T\)</span>:
@@ -457,7 +457,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p><em>If you are happy with an <strong>M</strong> on this assignment, you can skip all of Part C. You should solve this part only if you want an E.</em></p>
 <p>Consider now the general quadratic function <span class="math inline">\(f(x) = \frac{1}{2} ax^2 + bx + c\)</span> for some <span class="math inline">\(a &gt; 0\)</span> and <span class="math inline">\(b, c \in \mathbb{R}\)</span>.</p>
 <p>This function has its minimum at the point <span class="math inline">\(x_* = -\frac{b}{a}\)</span>. For this function, the gradient descent algorithm is just a little bit different:</p>
-<p><strong>Inputs</strong>: initial guess <span class="math inline">\(x_0\)</span>, learning rate <span class="math inline">\(\alpha \in \R^+\)</span>, total number of timesteps <span class="math inline">\(T\)</span>.</p>
+<p><strong>Inputs</strong>: initial guess <span class="math inline">\(x_0\)</span>, learning rate <span class="math inline">\(\alpha \in \mathbb{R}^+\)</span>, total number of timesteps <span class="math inline">\(T\)</span>.</p>
 <ol type="1">
 <li>Set <span class="math inline">\(t \gets 0\)</span>.</li>
 <li>While <span class="math inline">\(t &lt; T\)</span>:

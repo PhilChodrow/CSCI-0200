@@ -258,7 +258,7 @@
   header: "Lab 5: Analyzing Gradient Descent"
   summary:
   objectives:
-  prep:
+  prep: <a href="content/modules/55-numerical-algorithms/prep.qmd">Numerical Algorithms</a>
   activities:
   - |
       <a href="https://colab.research.google.com/github/PhilChodrow/CSCI-0200/blob/main/assignments/labs/05-gradient-descent.ipynb">Lab 5: Analyzing Gradient Descent</a>

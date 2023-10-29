@@ -53,7 +53,7 @@
     "href": "schedule.html#week-8",
     "title": "Schedule",
     "section": "Week 8",
-    "text": "Week 8\n\n\n\n\n\n\n\n\n\n\n\n\n\nM\nOct. 30\nRecursion and Recurrence Relations\n\n\n\n\n\nWe introduce recurrence relations and simple methods for solving them.\n\n\n\nLearning Objectives\nRecurrence Relations\n\nPrep\nRecursion and Recurrence Relations\nIn Class\nTower of Hanoi\n\n\n\n\n\n\n\nW\nNov. 01\nRecursion and Recurrence Relations\n\n\n\n\n\nWe practice writing recurrence relations to describe quantities of interest and develop further techniques to solve them.\n\n\n\n\nPrep\nMore Recursion and Recurrence Relations\nIn Class\nParking Spaces\n\n\n\n\n\n\n\nF\nNov. 03\nLab 5: Analyzing Gradient Descent\n\n\n\n\n\n\n\n\n\n\n\nIn Class\nLab 5: Analyzing Gradient Descent\n\nDue\nLab 4: Counting Lattice Paths"
+    "text": "Week 8\n\n\n\n\n\n\n\n\n\n\n\n\n\nM\nOct. 30\nRecursion and Recurrence Relations\n\n\n\n\n\nWe introduce recurrence relations and simple methods for solving them.\n\n\n\nLearning Objectives\nRecurrence Relations\n\nPrep\nRecursion and Recurrence Relations\nIn Class\nTower of Hanoi\n\n\n\n\n\n\n\nW\nNov. 01\nRecursion and Recurrence Relations\n\n\n\n\n\nWe practice writing recurrence relations to describe quantities of interest and develop further techniques to solve them.\n\n\n\n\nPrep\nMore Recursion and Recurrence Relations\nIn Class\nParking Spaces\n\n\n\n\n\n\n\nF\nNov. 03\nLab 5: Analyzing Gradient Descent\n\n\n\n\n\n\n\n\n\n\nPrep\nNumerical Algorithms\nIn Class\nLab 5: Analyzing Gradient Descent\n\nDue\nLab 4: Counting Lattice Paths"
   },
   {
     "objectID": "schedule.html#week-9",
@@ -1549,65 +1549,65 @@
   {
     "objectID": "assignments/labs/05-gradient-descent.html",
     "href": "assignments/labs/05-gradient-descent.html",
-    "title": "Lab 5 SOLUTION: Analyzing Gradient Descent",
+    "title": "Lab 5: Analyzing Gradient Descent",
     "section": "",
     "text": "[Your name]\n[The name of one of your group members]\n[The name of your other group member]\nLearning Objectives:\nAssessment:\nLabs are assessed according to the posted EMRN rubric.\n© Phil Chodrow, 2023"
   },
   {
     "objectID": "assignments/labs/05-gradient-descent.html#the-gradient-descent-algorithm-for-fx-frac12x2",
     "href": "assignments/labs/05-gradient-descent.html#the-gradient-descent-algorithm-for-fx-frac12x2",
-    "title": "Lab 5 SOLUTION: Analyzing Gradient Descent",
+    "title": "Lab 5: Analyzing Gradient Descent",
     "section": "The Gradient Descent Algorithm For \\(f(x) = \\frac{1}{2}x^2\\)",
-    "text": "The Gradient Descent Algorithm For \\(f(x) = \\frac{1}{2}x^2\\)\nThe algorithm for gradient descent for \\(f(x) = \\frac{1}{2}x^2\\) works as follows.\nInputs: initial guess \\(x_0\\), learning rate \\(\\alpha \\in \\R^+\\), total number of timesteps \\(T\\).\n\nSet \\(t \\gets 0\\).\nWhile \\(t &lt; T\\):\n\nSet \\(x_t \\gets x_{t-1} - \\alpha x_{t-1}\\).\n\\(t \\gets t+1\\).\n\n\nYou can see this algorithm in action in the code block and plot above."
+    "text": "The Gradient Descent Algorithm For \\(f(x) = \\frac{1}{2}x^2\\)\nThe algorithm for gradient descent for \\(f(x) = \\frac{1}{2}x^2\\) works as follows.\nInputs: initial guess \\(x_0\\), learning rate \\(\\alpha \\in \\mathbb{R}^+\\), total number of timesteps \\(T\\).\n\nSet \\(t \\gets 0\\).\nWhile \\(t &lt; T\\):\n\nSet \\(x_t \\gets x_{t-1} - \\alpha x_{t-1}\\).\n\\(t \\gets t+1\\).\n\n\nYou can see this algorithm in action in the code block and plot above."
   },
   {
     "objectID": "assignments/labs/05-gradient-descent.html#part-a-gradient-descent-converges-sometimes",
     "href": "assignments/labs/05-gradient-descent.html#part-a-gradient-descent-converges-sometimes",
-    "title": "Lab 5 SOLUTION: Analyzing Gradient Descent",
+    "title": "Lab 5: Analyzing Gradient Descent",
     "section": "Part A: Gradient Descent Converges (Sometimes)",
     "text": "Part A: Gradient Descent Converges (Sometimes)\nLet \\(\\delta_t = |x_t - 0| = |x_t|\\) be the error in our current estimate. You can think of \\(\\delta_t\\) as the distance between the correct answer (which is \\(x^* = 0\\)) and our current guess \\(x_t\\). We’d like to make the error \\(\\delta_t\\) close to 0, and we’d like to do so as quickly as possible.\n\nExercise A.1\nAt the board with your group, write a careful calculation which proves the recursion relation\n\\[\n\\delta_t = |1 - \\alpha | \\delta_{t-1}\\;.\n\\]\nfor the error \\(\\delta_t\\) when using the gradient descent algorithm outlined above. Then, after lab, type your calculation and place it below.\nHints:\n\n\\(|a|\\) is the absolute value of \\(a\\).\nFor any \\(a, b \\in \\mathbb{R}\\), \\(|ab| = |a||b|\\).\n\n[Type a careful version of your calculation below.]\n\n\nExercise A.2\nAt the board, write a proof using induction on the timestep \\(t\\) to prove solve the recurrence relation:\n\\[\n\\delta_t = |1-\\alpha|^{t} \\delta_0\\;.\n\\]\nThen, after lab, type your proof and place it below. Please remember to include both a base case and an inductive step. Use Exercise A.1!\n[Type a careful proof by induction based on your work.]\nThe number \\(\\alpha\\) is often called the learning rate. It’s nice for the learning rate to be large, because this often allows us to get good approximations quickly. However, we can’t choose this number to be too large…"
   },
   {
     "objectID": "assignments/labs/05-gradient-descent.html#exercise-a.3",
     "href": "assignments/labs/05-gradient-descent.html#exercise-a.3",
-    "title": "Lab 5 SOLUTION: Analyzing Gradient Descent",
+    "title": "Lab 5: Analyzing Gradient Descent",
     "section": "Exercise A.3",
     "text": "Exercise A.3\nThere exist numbers \\(\\alpha_*\\) and \\(\\alpha^*\\) with the property that \\(\\delta_t &lt; \\delta_{t-1}\\) if and only if \\(\\alpha_* &lt; \\alpha &lt; \\alpha^*\\). Determine the values of \\(\\alpha_*\\) and \\(\\alpha^*\\) and explain. You’ll need to use the recursion relation in A.2.\n[Your solution here]"
   },
   {
     "objectID": "assignments/labs/05-gradient-descent.html#exercise-a.4",
     "href": "assignments/labs/05-gradient-descent.html#exercise-a.4",
-    "title": "Lab 5 SOLUTION: Analyzing Gradient Descent",
+    "title": "Lab 5: Analyzing Gradient Descent",
     "section": "Exercise A.4",
     "text": "Exercise A.4\nSuppose that we do \\(1,000\\) steps of gradient descent, so that \\(T = 1,000\\). Consider the following three possibilities:\n\n\\(\\delta_T\\) becomes very close to 0.\n\\(\\delta_T\\) stays at its original value \\(\\delta_0\\).\n\\(\\delta_T\\) becomes very large.\n\nDescribe which of these possibilities will occur in the following scenarios:\n\nScenario I: \\(\\alpha = 0\\).\nScenario II: \\(\\alpha = 3\\).\nScenario III: \\(\\alpha = 1/2\\).\n\n[Your response here]"
   },
   {
     "objectID": "assignments/labs/05-gradient-descent.html#exercise-a.5",
     "href": "assignments/labs/05-gradient-descent.html#exercise-a.5",
-    "title": "Lab 5 SOLUTION: Analyzing Gradient Descent",
+    "title": "Lab 5: Analyzing Gradient Descent",
     "section": "Exercise A.5",
     "text": "Exercise A.5\nFill in the blanks and write a proof of the following theorem.\nTheorem: If we do many steps of gradient descent for the function \\(f(x) = \\frac{1}{2}x^2\\) with learning rate \\(\\alpha\\), the error \\(\\delta_t\\) will converge (become very close) to 0 if and only if \\(\\_\\_\\_ &lt; \\alpha &lt; \\_\\_\\_\\).\nHint: To prove the theorem, you should just cite your answers to the previous parts. You don’t actually have to do very much new mathematics in this exercise; you just have to connect your results together in a full proof.\n[Your proof here.]"
   },
   {
     "objectID": "assignments/labs/05-gradient-descent.html#exercise-a.6",
     "href": "assignments/labs/05-gradient-descent.html#exercise-a.6",
-    "title": "Lab 5 SOLUTION: Analyzing Gradient Descent",
+    "title": "Lab 5: Analyzing Gradient Descent",
     "section": "Exercise A.6",
     "text": "Exercise A.6\nSuppose that I start with an initial guess \\(x_0\\). I would like to run my gradient descent algorithm long enough that, in my final timestep \\(t\\), \\(\\delta_T &lt; \\epsilon\\) for some small number \\(\\epsilon &gt; 0\\). \\(\\epsilon\\) is often called the tolerance. Using your response from Exercise A.2, solve for \\(T\\) in terms of the tolerance \\(\\epsilon\\). Please show your work! The result should be a formula for the necessary number of timesteps \\(T\\) in terms of \\(\\epsilon\\).\nHint: You will need to use logs to solve for \\(T\\).\n[Your calculation for the required number of steps \\(T\\) to achieve a given tolerance]\nSOLUTION:"
   },
   {
     "objectID": "assignments/labs/05-gradient-descent.html#part-b",
     "href": "assignments/labs/05-gradient-descent.html#part-b",
-    "title": "Lab 5 SOLUTION: Analyzing Gradient Descent",
+    "title": "Lab 5: Analyzing Gradient Descent",
     "section": "Part B",
     "text": "Part B\nBelow, I’ve started a computational experiment in which I’ve run the gradient descent algorithm for two separate values of \\(\\alpha\\). On the horizontal axis I’ve plotted the iteration number, and on the vertical axis I’ve plotted the error \\(\\delta_t\\) on log-scaled axes.\nFor the value of \\(\\alpha\\) I chose, the error decreases on the log-scled axes.\nGuided by your results in the previous parts, add two values of \\(\\alpha\\) to the alpha_vals list such that:\n\nIn one case, the error increases. Bad!\nIn another case, the error is constant and never changes. Whoops!\n\nAll you need to do is add two values to the alpha_vals list and then run the code cell.\n\n# you only need to edit this list!\n\n# SOLUTION (lots of valid values)\nalpha_vals = [.1]\n\n## -------\n## no need to touch anything below\n## -------\n\ncolors = [\"orange\", \"blue\", \"black\", \"grey\"]\nfor i in range(len(alpha_vals)): # for each value of alpha\n    \n    # do a complete algorithm run\n    x_guess = 0.9\n    alpha = alpha_vals[i]\n    color = colors[i]\n    \n    T = 100\n    t = 0\n\n    # plot the results\n    plt.scatter([t], [x_guess], zorder = 10, s = 5, color = color, label = r\"$\\alpha = $\" + str(alpha))\n    while t &lt; T: \n        plt.scatter([t], [x_guess], zorder = 10, s = 5, color = color)\n        x_guess = x_guess - alpha*x_guess\n        t = t+1\n\n# label the plot\nplt.semilogy()\nplt.legend()\nlabs = plt.gca().set(xlabel = \"Iteration $t$\", ylabel = r\"Error $\\delta_t$ (log-scale)\")"
   },
   {
     "objectID": "assignments/labs/05-gradient-descent.html#part-c-required-for-e-optional-for-m",
     "href": "assignments/labs/05-gradient-descent.html#part-c-required-for-e-optional-for-m",
-    "title": "Lab 5 SOLUTION: Analyzing Gradient Descent",
+    "title": "Lab 5: Analyzing Gradient Descent",
     "section": "Part C (Required for E, optional for M)",
-    "text": "Part C (Required for E, optional for M)\nIf you are happy with an M on this assignment, you can skip all of Part C. You should solve this part only if you want an E.\nConsider now the general quadratic function \\(f(x) = \\frac{1}{2} ax^2 + bx + c\\) for some \\(a &gt; 0\\) and \\(b, c \\in \\mathbb{R}\\).\nThis function has its minimum at the point \\(x_* = -\\frac{b}{a}\\). For this function, the gradient descent algorithm is just a little bit different:\nInputs: initial guess \\(x_0\\), learning rate \\(\\alpha \\in \\R^+\\), total number of timesteps \\(T\\).\n\nSet \\(t \\gets 0\\).\nWhile \\(t &lt; T\\):\n\nSet \\(x_t \\gets x_{t-1} - \\alpha (ax_{t-1} + b)\\).\n\\(t \\gets t+1\\).\n\n\nIn this section, you’ll repeat the exercises in Part A for this more general function. The results will be similar but a little more complicated.\n\nExercise C.1\nDefine \\(\\delta_t = |x_t - x_*|\\). Prove the recursion relation\n\\[\n\\delta_t = |1 - \\alpha a | \\delta_{t-1}\\;.\n\\]\nHint: the algebra here is messier but it’s nothing more than grouping, rearranging fractions, and factoring.\n[Your proof here]\n\n\nExercise C.2\nThere exist numbers \\(\\alpha_*\\) and \\(\\alpha^*\\) such that we are guaranteed that \\(\\delta_t \\rightarrow 0\\) if any only if \\(\\alpha_* &lt; \\alpha &lt; \\alpha^*\\). What are \\(\\alpha_*\\) and \\(\\alpha^*\\) in terms of \\(a\\), \\(b\\), and \\(c\\)? Justify your response.\n[your response here]\n\n\nExercise C.3\nSuppose that indeed \\(\\alpha_* &lt; \\alpha &lt; \\alpha^*\\). Suppose that we start with initial guess \\(x_0\\). Suppose that we wish to run our algorithm for a number of timesteps \\(T\\) so that the error \\(\\delta_T\\) is guaranteed to be less than \\(\\epsilon\\). Solve for \\(T\\) in terms of \\(\\epsilon\\), \\(x_0\\), \\(a\\), \\(b\\), and \\(c\\) to find the required number of steps. Please show your work!\n[Your calculation here]"
+    "text": "Part C (Required for E, optional for M)\nIf you are happy with an M on this assignment, you can skip all of Part C. You should solve this part only if you want an E.\nConsider now the general quadratic function \\(f(x) = \\frac{1}{2} ax^2 + bx + c\\) for some \\(a &gt; 0\\) and \\(b, c \\in \\mathbb{R}\\).\nThis function has its minimum at the point \\(x_* = -\\frac{b}{a}\\). For this function, the gradient descent algorithm is just a little bit different:\nInputs: initial guess \\(x_0\\), learning rate \\(\\alpha \\in \\mathbb{R}^+\\), total number of timesteps \\(T\\).\n\nSet \\(t \\gets 0\\).\nWhile \\(t &lt; T\\):\n\nSet \\(x_t \\gets x_{t-1} - \\alpha (ax_{t-1} + b)\\).\n\\(t \\gets t+1\\).\n\n\nIn this section, you’ll repeat the exercises in Part A for this more general function. The results will be similar but a little more complicated.\n\nExercise C.1\nDefine \\(\\delta_t = |x_t - x_*|\\). Prove the recursion relation\n\\[\n\\delta_t = |1 - \\alpha a | \\delta_{t-1}\\;.\n\\]\nHint: the algebra here is messier but it’s nothing more than grouping, rearranging fractions, and factoring.\n[Your proof here]\n\n\nExercise C.2\nThere exist numbers \\(\\alpha_*\\) and \\(\\alpha^*\\) such that we are guaranteed that \\(\\delta_t \\rightarrow 0\\) if any only if \\(\\alpha_* &lt; \\alpha &lt; \\alpha^*\\). What are \\(\\alpha_*\\) and \\(\\alpha^*\\) in terms of \\(a\\), \\(b\\), and \\(c\\)? Justify your response.\n[your response here]\n\n\nExercise C.3\nSuppose that indeed \\(\\alpha_* &lt; \\alpha &lt; \\alpha^*\\). Suppose that we start with initial guess \\(x_0\\). Suppose that we wish to run our algorithm for a number of timesteps \\(T\\) so that the error \\(\\delta_T\\) is guaranteed to be less than \\(\\epsilon\\). Solve for \\(T\\) in terms of \\(\\epsilon\\), \\(x_0\\), \\(a\\), \\(b\\), and \\(c\\) to find the required number of steps. Please show your work!\n[Your calculation here]"
   },
   {
     "objectID": "assignments/labs/05-gradient-descent-sol.html",
