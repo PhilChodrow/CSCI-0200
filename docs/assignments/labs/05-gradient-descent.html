@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Lab 5: Analyzing Gradient Descent</title>
+<title>Lab 5 SOLUTION: Analyzing Gradient Descent</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -221,6 +221,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#exercise-c.3" id="toc-exercise-c.3" class="nav-link" data-scroll-target="#exercise-c.3">Exercise C.3</a></li>
   </ul></li>
   </ul></li>
+  <li><a href="#part-d-reflection" id="toc-part-d-reflection" class="nav-link" data-scroll-target="#part-d-reflection">Part D: Reflection</a></li>
   </ul>
 </nav>
     </div>
@@ -229,7 +230,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Lab 5: Analyzing Gradient Descent</h1>
+<h1 class="title">Lab 5 SOLUTION: Analyzing Gradient Descent</h1>
 </div>
 
 
@@ -258,8 +259,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </ul>
 <p><strong>Assessment</strong>:</p>
 <p>Labs are assessed according to <a href="https://www.philchodrow.prof/CSCI-0200/pages/lab-assessment.html">the posted EMRN rubric</a>.</p>
-<section id="collaboration-statement" class="level2">
-<h2 class="anchored" data-anchor-id="collaboration-statement">Collaboration Statement</h2>
+<section id="collaboration-statement" class="level1">
+<h1>Collaboration Statement</h1>
 <p>[<em>Please describe the contributions of each group member. Please also describe the support you received from Course Assistants, other classmates, and any online resources such as StackExchange or ChatGPT.</em>]</p>
 </section>
 <section id="instructions" class="level1">
@@ -269,53 +270,67 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li>Remember your group norms from Lab 1.</li>
 <li>Pass the marker often, <em>at minimum</em> twice in every Part.</li>
 <li>Every group member should take a picture before erasing anything.</li>
-<li>For problems that require you to submit an image of a whiteboard, if you are working on those problems after the lab period, it’s also acceptable to submit a hand-drawn image on paper or a tablet.</li>
 </ul>
 </section>
 <section id="background-gradient-descent" class="level1">
 <h1>Background: Gradient Descent</h1>
 <p>In many contexts in data science, machine learning, artificial intelligence, and various forms of engineering, it is necessary to <em>minimize a function</em> – find it’s smallest value. If you’ve ever wondered why OpenAI needs all that money, the answer is that they need to use supercomputers in order to minimize extremely complicated functions very efficiently.</p>
 <p><strong>Definition</strong>: A function <span class="math inline">\(f: \mathbb{R} \rightarrow \mathbb{R}\)</span> has a (strict) <em>minimizer</em> <span class="math inline">\(x^*\in \mathbb{R}\)</span> if, for all <span class="math inline">\(x \in \mathbb{R}\)</span> such that <span class="math inline">\(x \neq x^*\)</span>, it is the case that <span class="math inline">\(f(x^*) &lt; f(x)\)</span>. In this case, the <em>minimum value</em> of <span class="math inline">\(f\)</span> is <span class="math inline">\(f(x^*)\)</span>. The task of <em>minimizing a function</em> is the task of finding a minimum <span class="math inline">\(x^*\)</span>, if it exists.</p>
-<p>For example, the function <span class="math inline">\(f(x) = x^2\)</span> has a strict minimizer at <span class="math inline">\(x = 0\)</span>, with minimum value <span class="math inline">\(0\)</span>. Here’s how that looks on a graph:</p>
-<div id="cell-3" class="cell" data-execution_count="35">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> matplotlib <span class="im">import</span> pyplot <span class="im">as</span> plt </span>
+<p>For example, the function <span class="math inline">\(f(x) = \frac{1}{2}x^2\)</span> has a strict minimizer at <span class="math inline">\(x^* = 0\)</span>, with minimum value <span class="math inline">\(0\)</span>. Here’s how that looks on a graph:</p>
+<div id="cell-3" class="cell" data-execution_count="1">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># numerical and visualization packages</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np </span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> np.linspace(<span class="op">-</span><span class="dv">1</span>, <span class="dv">1</span>, <span class="dv">1001</span>)</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> <span class="dv">1</span><span class="op">/</span><span class="dv">2</span><span class="op">*</span>x<span class="op">**</span><span class="dv">2</span> </span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>plt.plot(x, y, label <span class="op">=</span> <span class="vs">r"$f(x) = \frac</span><span class="sc">{1}{2}</span><span class="vs">x^2$"</span>)</span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>plt.scatter([<span class="dv">0</span>], [<span class="dv">0</span>], color <span class="op">=</span> <span class="st">"black"</span>, label <span class="op">=</span> <span class="vs">r"($x^*, f(x^*)$)"</span>, zorder <span class="op">=</span> <span class="dv">10</span>)</span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>plt.legend()</span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>labs <span class="op">=</span> plt.gca().<span class="bu">set</span>(xlabel <span class="op">=</span> <span class="vs">r"$x$"</span>, ylabel <span class="op">=</span> <span class="vs">r"$y = f(x) = \frac</span><span class="sc">{1}{2}</span><span class="vs">x^2$"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> matplotlib <span class="im">import</span> pyplot <span class="im">as</span> plt </span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co"># arrays to hold function values</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> np.linspace(<span class="op">-</span><span class="dv">1</span>, <span class="dv">1</span>, <span class="dv">1001</span>)</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> <span class="dv">1</span><span class="op">/</span><span class="dv">2</span><span class="op">*</span>x<span class="op">**</span><span class="dv">2</span> </span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="co"># plot </span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>plt.plot(x, y, label <span class="op">=</span> <span class="vs">r"$f(x) = \frac</span><span class="sc">{1}{2}</span><span class="vs">x^2$"</span>)</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>plt.scatter([<span class="dv">0</span>], [<span class="dv">0</span>], color <span class="op">=</span> <span class="st">"black"</span>, label <span class="op">=</span> <span class="vs">r"($x^*, f(x^*)$)"</span>, zorder <span class="op">=</span> <span class="dv">10</span>)</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>plt.legend()</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>labs <span class="op">=</span> plt.gca().<span class="bu">set</span>(xlabel <span class="op">=</span> <span class="vs">r"$x$"</span>, ylabel <span class="op">=</span> <span class="vs">r"$y = f(x) = \frac</span><span class="sc">{1}{2}</span><span class="vs">x^2$"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <p><img src="05-gradient-descent_files/figure-html/cell-2-output-1.png" class="img-fluid"></p>
 </div>
 </div>
 <p>In all real-world applications, we have to deal with more complicated functions whose minimizers we don’t know exactly. To do this, we use an algorithm called <em>gradient descent</em>, in which we take a small step in (what is hopefully) the right direction many times over. For example, here’s an example of gradient descent in action on this function. We start off with an initial guess that might be very far from the correct minimizer. Then, we take little steps in the right direction, towards the basin of the parabola. As we go, we get closer and closer to the correct minimizer at <span class="math inline">\(x = 0\)</span>. It’s easiest to start with a picture:</p>
-<div id="cell-5" class="cell" data-execution_count="40">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>plt.plot(x, y, label <span class="op">=</span> <span class="vs">r"$f(x) = x^2$"</span>)</span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>x_guess <span class="op">=</span> <span class="fl">0.9</span></span>
+<div id="cell-5" class="cell" data-execution_count="2">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># start the plot</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>plt.plot(x, y, label <span class="op">=</span> <span class="vs">r"$f(x) = x^2$"</span>)</span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>plt.scatter([x_guess], [<span class="dv">1</span><span class="op">/</span><span class="dv">2</span><span class="op">*</span>x_guess<span class="op">**</span><span class="dv">2</span>], color <span class="op">=</span> <span class="st">"black"</span>, zorder <span class="op">=</span> <span class="dv">10</span>, s <span class="op">=</span> <span class="dv">30</span>)</span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>T <span class="op">=</span> <span class="dv">100</span></span>
-<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>t <span class="op">=</span> <span class="dv">0</span></span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>alpha <span class="op">=</span> <span class="fl">0.1</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="co"># begin with an initial guess about the location of the minimizer</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>x_guess <span class="op">=</span> <span class="fl">0.9</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="co"># plot the guess</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>plt.scatter([x_guess], [<span class="dv">1</span><span class="op">/</span><span class="dv">2</span><span class="op">*</span>x_guess<span class="op">**</span><span class="dv">2</span>], color <span class="op">=</span> <span class="st">"black"</span>, zorder <span class="op">=</span> <span class="dv">10</span>, s <span class="op">=</span> <span class="dv">30</span>)</span>
 <span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="cf">while</span> t <span class="op">&lt;</span> T: </span>
-<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>    plt.scatter([x_guess], [<span class="dv">1</span><span class="op">/</span><span class="dv">2</span><span class="op">*</span>x_guess<span class="op">**</span><span class="dv">2</span>], color <span class="op">=</span> <span class="st">"black"</span>, zorder <span class="op">=</span> <span class="dv">10</span>, s <span class="op">=</span> <span class="dv">5</span>, alpha <span class="op">=</span> <span class="fl">0.5</span>)</span>
-<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>    x_guess <span class="op">=</span> x_guess <span class="op">-</span> alpha<span class="op">*</span>x_guess</span>
-<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>    t <span class="op">=</span> t<span class="op">+</span><span class="dv">1</span></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>T <span class="op">=</span> <span class="dv">100</span>     <span class="co"># number of iterations</span></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>t <span class="op">=</span> <span class="dv">0</span>       <span class="co"># initial timestep</span></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>alpha <span class="op">=</span> <span class="fl">0.1</span> <span class="co"># learning rate</span></span>
 <span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>labs <span class="op">=</span> plt.gca().<span class="bu">set</span>(xlabel <span class="op">=</span> <span class="vs">r"$x$"</span>, ylabel <span class="op">=</span> <span class="vs">r"$y = f(x) = \frac</span><span class="sc">{1}{2}</span><span class="vs">x^2$"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a><span class="cf">while</span> t <span class="op">&lt;</span> T: </span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>    <span class="co"># plot current guess</span></span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>    plt.scatter([x_guess], [<span class="dv">1</span><span class="op">/</span><span class="dv">2</span><span class="op">*</span>x_guess<span class="op">**</span><span class="dv">2</span>], color <span class="op">=</span> <span class="st">"black"</span>, zorder <span class="op">=</span> <span class="dv">10</span>, s <span class="op">=</span> <span class="dv">5</span>, alpha <span class="op">=</span> <span class="fl">0.5</span>)</span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a>    <span class="co"># adjust the guess</span></span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a>    x_guess <span class="op">=</span> x_guess <span class="op">-</span> alpha<span class="op">*</span>x_guess</span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a>    <span class="co"># increment the timestep</span></span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a>    t <span class="op">=</span> t<span class="op">+</span><span class="dv">1</span></span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a>labs <span class="op">=</span> plt.gca().<span class="bu">set</span>(xlabel <span class="op">=</span> <span class="vs">r"$x$"</span>, ylabel <span class="op">=</span> <span class="vs">r"$y = f(x) = \frac</span><span class="sc">{1}{2}</span><span class="vs">x^2$"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <p><img src="05-gradient-descent_files/figure-html/cell-3-output-1.png" class="img-fluid"></p>
 </div>
 </div>
-<p>In this lab, we are going to formally state that the gradient descent algorithm works (successfully comes close to the minimizer) and describe how quickly this occurs. We’re going to focus our attention on the function <span class="math inline">\(f(x) = x^2\)</span>, although we’ll consider more general quadratic functions in the last part of the lab.</p>
+<p>In this lab, we are going to formally state that the gradient descent algorithm works (successfully comes close to the minimizer) and describe how quickly this occurs. We’re going to focus our attention on the function <span class="math inline">\(f(x) = \frac{1}{2}x^2\)</span>, although we’ll consider more general quadratic functions in the last part of the lab.</p>
 <section id="the-gradient-descent-algorithm-for-fx-frac12x2" class="level2">
 <h2 class="anchored" data-anchor-id="the-gradient-descent-algorithm-for-fx-frac12x2">The Gradient Descent Algorithm For <span class="math inline">\(f(x) = \frac{1}{2}x^2\)</span></h2>
-<p>The algorithm for gradient descent for <span class="math inline">\(f(x) = x^2\)</span> works as follows.</p>
+<p>The algorithm for gradient descent for <span class="math inline">\(f(x) = \frac{1}{2}x^2\)</span> works as follows.</p>
 <p><strong>Inputs</strong>: initial guess <span class="math inline">\(x_0\)</span>, learning rate <span class="math inline">\(\alpha \in \R^+\)</span>, total number of timesteps <span class="math inline">\(T\)</span>.</p>
 <ol type="1">
 <li>Set <span class="math inline">\(t \gets 0\)</span>.</li>
@@ -329,24 +344,29 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="part-a-gradient-descent-converges-sometimes" class="level2">
 <h2 class="anchored" data-anchor-id="part-a-gradient-descent-converges-sometimes">Part A: Gradient Descent Converges (Sometimes)</h2>
-<p>Let <span class="math inline">\(\delta_t = |x_t|\)</span> be the <em>error</em> in our current estimate. You can think of <span class="math inline">\(\delta_t\)</span> as the distance between the correct answer (which is <span class="math inline">\(x^* = 0\)</span>) and our current guess <span class="math inline">\(x_t\)</span>. We’d like to make the error <span class="math inline">\(\delta_t\)</span> close to 0, and we’d like to do so as quickly as possible.</p>
+<p>Let <span class="math inline">\(\delta_t = |x_t - 0| = |x_t|\)</span> be the <em>error</em> in our current estimate. You can think of <span class="math inline">\(\delta_t\)</span> as the distance between the correct answer (which is <span class="math inline">\(x^* = 0\)</span>) and our current guess <span class="math inline">\(x_t\)</span>. We’d like to make the error <span class="math inline">\(\delta_t\)</span> close to 0, and we’d like to do so as quickly as possible.</p>
 <section id="exercise-a.1" class="level3">
 <h3 class="anchored" data-anchor-id="exercise-a.1">Exercise A.1</h3>
 <p>At the board with your group, write a careful calculation which proves the recursion relation</p>
 <p><span class="math display">\[
 \delta_t = |1 - \alpha | \delta_{t-1}\;.
 \]</span></p>
-<p>Then, after lab, type your calculation and place it below, alongside a photo of your board from lab.</p>
-<p>[<em>Attach a picture of your calculation at the board. Then, type a careful version of your calculation below.</em>]</p>
+<p>for the error <span class="math inline">\(\delta_t\)</span> when using the gradient descent algorithm outlined above. Then, after lab, type your calculation and place it below.</p>
+<p><strong>Hints</strong>:</p>
+<ul>
+<li><span class="math inline">\(|a|\)</span> is the absolute value of <span class="math inline">\(a\)</span>.</li>
+<li>For any <span class="math inline">\(a, b \in \mathbb{R}\)</span>, <span class="math inline">\(|ab| = |a||b|\)</span>.</li>
+</ul>
+<p>[<em>Type a careful version of your calculation below.</em>]</p>
 </section>
 <section id="exercise-a.2" class="level3">
 <h3 class="anchored" data-anchor-id="exercise-a.2">Exercise A.2</h3>
-<p>At the board, write a proof using weak induction on the timestep <span class="math inline">\(t\)</span> to prove that</p>
+<p>At the board, write a proof using induction on the timestep <span class="math inline">\(t\)</span> to prove solve the recurrence relation:</p>
 <p><span class="math display">\[
 \delta_t = |1-\alpha|^{t} \delta_0\;.
 \]</span></p>
-<p>Then, after lab, type your proof and place it below, alongside a photo of your board from the lab period.</p>
-<p>[<em>Attach a picture of your proof at the board. Then, type a careful proof by induction based on your work.</em>]</p>
+<p>Then, after lab, type your proof and place it below. Please remember to include both a base case and an inductive step. Use Exercise A.1!</p>
+<p>[<em>Type a careful proof by induction based on your work.</em>]</p>
 <p>The number <span class="math inline">\(\alpha\)</span> is often called the <em>learning rate</em>. It’s nice for the learning rate to be large, because this often allows us to get good approximations quickly. However, we can’t choose this number to be too large…</p>
 </section>
 </section>
@@ -380,25 +400,26 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="exercise-a.6" class="level2">
 <h2 class="anchored" data-anchor-id="exercise-a.6">Exercise A.6</h2>
-<p>Suppose that I start with an initial guess <span class="math inline">\(x_0\)</span>. I would like to run my gradient descent algorithm long enough that, in my final timestep <span class="math inline">\(t\)</span>, <span class="math inline">\(\delta_T &lt; \epsilon\)</span> for some small number <span class="math inline">\(\epsilon &gt; 0\)</span>. <span class="math inline">\(\epsilon\)</span> is often called the <em>tolerance</em>. Using your response from Exercise A.2, solve for <span class="math inline">\(T\)</span>. <strong>Please show your work!</strong></p>
-<p>If you want to <em>reduce</em> the tolerance <span class="math inline">\(\epsilon\)</span>, what do you have to do the number of iterations?</p>
+<p>Suppose that I start with an initial guess <span class="math inline">\(x_0\)</span>. I would like to run my gradient descent algorithm long enough that, in my final timestep <span class="math inline">\(t\)</span>, <span class="math inline">\(\delta_T &lt; \epsilon\)</span> for some small number <span class="math inline">\(\epsilon &gt; 0\)</span>. <span class="math inline">\(\epsilon\)</span> is often called the <em>tolerance</em>. Using your response from Exercise A.2, solve for <span class="math inline">\(T\)</span> in terms of the tolerance <span class="math inline">\(\epsilon\)</span>. <strong>Please show your work!</strong> The result should be a formula for the necessary number of timesteps <span class="math inline">\(T\)</span> in terms of <span class="math inline">\(\epsilon\)</span>.</p>
+<p><strong>Hint</strong>: You will need to use logs to solve for <span class="math inline">\(T\)</span>.</p>
 <p>[<em>Your calculation for the required number of steps <span class="math inline">\(T\)</span> to achieve a given tolerance</em>]</p>
+<p><strong>SOLUTION</strong>:</p>
 </section>
 <section id="part-b" class="level2">
 <h2 class="anchored" data-anchor-id="part-b">Part B</h2>
 <p>Below, I’ve started a computational experiment in which I’ve run the gradient descent algorithm for two separate values of <span class="math inline">\(\alpha\)</span>. On the horizontal axis I’ve plotted the iteration number, and on the vertical axis I’ve plotted the error <span class="math inline">\(\delta_t\)</span> on log-scaled axes.</p>
-<p>For the value of <span class="math inline">\(\alpha\)</span> I chose, the error decreases.</p>
+<p>For the value of <span class="math inline">\(\alpha\)</span> I chose, the error decreases on the log-scled axes.</p>
 <p>Guided by your results in the previous parts, add two values of <span class="math inline">\(\alpha\)</span> to the <code>alpha_vals</code> list such that:</p>
 <ul>
 <li>In one case, the error <em>increases</em>. Bad!</li>
 <li>In another case, the error is constant and never changes. Whoops!</li>
 </ul>
 <p>All you need to do is add two values to the <code>alpha_vals</code> list and then run the code cell.</p>
-<div id="cell-21" class="cell" data-execution_count="83">
+<div id="cell-21" class="cell" data-execution_count="3">
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># you only need to edit this list!</span></span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="co"># SOLUTION (lots of valid values)</span></span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>alpha_vals <span class="op">=</span> [<span class="fl">.1</span>, <span class="fl">2.1</span>, <span class="dv">0</span>]</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>alpha_vals <span class="op">=</span> [<span class="fl">.1</span>]</span>
 <span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="co">## -------</span></span>
 <span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="co">## no need to touch anything below</span></span>
@@ -433,7 +454,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="part-c-required-for-e-optional-for-m" class="level2">
 <h2 class="anchored" data-anchor-id="part-c-required-for-e-optional-for-m">Part C (Required for <strong>E</strong>, optional for <strong>M</strong>)</h2>
-<p><em>If you are happy with an <strong>M</strong> on this assignment, you can skip this part. Otherwise, please proceed.</em></p>
+<p><em>If you are happy with an <strong>M</strong> on this assignment, you can skip all of Part C. You should solve this part only if you want an E.</em></p>
 <p>Consider now the general quadratic function <span class="math inline">\(f(x) = \frac{1}{2} ax^2 + bx + c\)</span> for some <span class="math inline">\(a &gt; 0\)</span> and <span class="math inline">\(b, c \in \mathbb{R}\)</span>.</p>
 <p>This function has its minimum at the point <span class="math inline">\(x_* = -\frac{b}{a}\)</span>. For this function, the gradient descent algorithm is just a little bit different:</p>
 <p><strong>Inputs</strong>: initial guess <span class="math inline">\(x_0\)</span>, learning rate <span class="math inline">\(\alpha \in \R^+\)</span>, total number of timesteps <span class="math inline">\(T\)</span>.</p>
@@ -464,10 +485,23 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h3 class="anchored" data-anchor-id="exercise-c.3">Exercise C.3</h3>
 <p>Suppose that indeed <span class="math inline">\(\alpha_* &lt; \alpha &lt; \alpha^*\)</span>. Suppose that we start with initial guess <span class="math inline">\(x_0\)</span>. Suppose that we wish to run our algorithm for a number of timesteps <span class="math inline">\(T\)</span> so that the error <span class="math inline">\(\delta_T\)</span> is guaranteed to be less than <span class="math inline">\(\epsilon\)</span>. Solve for <span class="math inline">\(T\)</span> in terms of <span class="math inline">\(\epsilon\)</span>, <span class="math inline">\(x_0\)</span>, <span class="math inline">\(a\)</span>, <span class="math inline">\(b\)</span>, and <span class="math inline">\(c\)</span> to find the required number of steps. <strong>Please show your work!</strong></p>
 <p>[<em>Your calculation here</em>]</p>
-
-
 </section>
 </section>
+</section>
+<section id="part-d-reflection" class="level1">
+<h1>Part D: Reflection</h1>
+<p>Write a paragraph in response to the following prompt:</p>
+<ol type="1">
+<li>Approximately how long did it take you to complete this lab, <strong>including Friday’s in-class lab time</strong>?</li>
+<li>Big picture, how would you describe what this lab was about?</li>
+<li>What are three skills you learned or practiced in this lab?</li>
+<li>What is a way in which your group supported your learning during this lab?</li>
+<li>What’s something you found interesting, stimulating, or fun about this lab?</li>
+<li>What’s something you found challenging, disappointing, or frustrating about this lab?</li>
+</ol>
+<p>[<em>Your reflection here</em>]</p>
+
+
 </section>
 
 <p><br> <br> <span style="color:grey;">© Phil Chodrow, 2023</span></p></main> <!-- /main -->

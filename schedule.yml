@@ -233,6 +233,37 @@
   notes:
   publish: true
   due: 
+- date: 2023-10-30
+  header: "Recursion and Recurrence Relations"
+  summary: "We introduce recurrence relations and simple methods for solving them." 
+  objectives:
+    - Recurrence Relations
+  prep: <a href="content/modules/50-recursion-recurrence/prep.qmd">Recursion and Recurrence Relations</a>
+  activities:
+    - <a href="content/modules/50-recursion-recurrence/in-class.qmd">Tower of Hanoi</a>
+  notes:
+  publish: true
+  due:
+- date: 2023-11-01 
+  header: "Recursion and Recurrence Relations"
+  summary: "We practice writing recurrence relations to describe quantities of interest and develop further techniques to solve them."
+  objectives:
+  prep:
+  activities:
+  notes:
+  publish: true
+  due:
+- date: 2023-11-03
+  header: "Lab 5: Analyzing Gradient Descent"
+  summary:
+  objectives:
+  prep:
+  activities:
+  - |
+      <a href="https://colab.research.google.com/github/PhilChodrow/CSCI-0200/blob/main/assignments/labs/05-gradient-descent.ipynb">Lab 5: Analyzing Gradient Descent</a>
+  notes:
+  publish: true
+  due: "Lab 4: Counting Lattice Paths"
 - date: 2023-11-06
   header: Asymptotics and Big-Oh
   summary:
@@ -243,35 +274,7 @@
   publish: true
   due:
 - date: 2023-11-08
-  header: Analyzing algorithms
-  summary:
-  objectives:
-  prep:
-  activities:
-  notes:
-  publish: true
-  due:
-- date: 2023-11-03
-  header: "Lab 5: TBD"
-  summary:
-  objectives:
-  prep:
-  activities:
-  notes:
-  publish: true
-  due: "Lab 4: TBD"
-- date: 2023-10-30
-  header: "Recursion and Recurrence Relations"
-  summary: "We introduce recurrence relations and simple methods for solving them." 
-  objectives:
-  prep: <a href="content/modules/50-recursion-recurrence/prep.qmd">Recursion and Recurrence Relations</a>
-  activities:
-    - <a href="content/modules/50-recursion-recurrence/in-class.qmd">Tower of Hanoi</a>
-  notes:
-  publish: true
-  due:
-- date: 2023-11-01 
-  header: "Recursion and Recurrence Relations"
+  header: "Analyzing algorithms: The Tree Method"
   summary:
   objectives:
   prep:

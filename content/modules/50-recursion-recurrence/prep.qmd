@@ -8,7 +8,7 @@ title: "Recurrence Relations"
 
 - [The formal definition of a sequence](https://youtu.be/3kezO88rEvE?si=W_M2IGZi2ckdayGQ) (3:49)
 - [Recursive Sequences](https://youtu.be/0OcUAjOXmFc?si=90nCL6v2wVUA_xse) (7:36)
-- [The Fibonnaci Sequence](https://youtu.be/qmm9GPhA1MY?si=fmv3XTap98XC-ypc) (6:22)
+- [The Fibonacci Sequence](https://youtu.be/qmm9GPhA1MY?si=fmv3XTap98XC-ypc) (6:22)
 
 ## Useful Review
 
