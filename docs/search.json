@@ -53,14 +53,14 @@
     "href": "schedule.html#week-8",
     "title": "Schedule",
     "section": "Week 8",
-    "text": "Week 8\n\n\n\n\n\n\n\n\n\n\n\n\n\nM\nOct. 30\nRecursion and Recurrence Relations\n\n\n\n\n\nWe introduce recurrence relations and simple methods for solving them.\n\n\n\n\nPrep\nRecursion and Recurrence Relations\nIn Class\nTower of Hanoi\n\n\n\n\n\n\n\nW\nNov. 01\nRecursion and Recurrence Relations\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\nNov. 03\nLab 5: TBD\n\n\n\n\n\n\n\n\n\n\n\n\nDue\nLab 4: TBD"
+    "text": "Week 8\n\n\n\n\n\n\n\n\n\n\n\n\n\nM\nOct. 30\nRecursion and Recurrence Relations\n\n\n\n\n\nWe introduce recurrence relations and simple methods for solving them.\n\n\n\nLearning Objectives\nRecurrence Relations\n\nPrep\nRecursion and Recurrence Relations\nIn Class\nTower of Hanoi\n\n\n\n\n\n\n\nW\nNov. 01\nRecursion and Recurrence Relations\n\n\n\n\n\nWe practice writing recurrence relations to describe quantities of interest and develop further techniques to solve them.\n\n\n\n\nPrep\nMore Recursion and Recurrence Relations\nIn Class\nParking Spaces\n\n\n\n\n\n\n\nF\nNov. 03\nLab 5: Analyzing Gradient Descent\n\n\n\n\n\n\n\n\n\n\n\nIn Class\nLab 5: Analyzing Gradient Descent\n\nDue\nLab 4: Counting Lattice Paths"
   },
   {
     "objectID": "schedule.html#week-9",
     "href": "schedule.html#week-9",
     "title": "Schedule",
     "section": "Week 9",
-    "text": "Week 9\n\n\n\n\n\n\n\n\n\n\n\n\n\nM\nNov. 06\nAsymptotics and Big-Oh\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nW\nNov. 08\nAnalyzing algorithms\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\nNov. 10\nQuiz 3\n\n\n\n\n\n\n\n\n\n\n\n\nDue\nLab 5: TBD"
+    "text": "Week 9\n\n\n\n\n\n\n\n\n\n\n\n\n\nM\nNov. 06\nAsymptotics and Big-Oh\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nW\nNov. 08\nAnalyzing algorithms: The Tree Method\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\nNov. 10\nQuiz 3\n\n\n\n\n\n\n\n\n\n\n\n\nDue\nLab 5: TBD"
   },
   {
     "objectID": "schedule.html#week-10",
@@ -252,74 +252,74 @@
     "text": "Letters of Recommendation\nWriting letters of recommendation for students is a fundamental part of my job and something that I am usually very happy to do. Here’s how to ask me for a letter."
   },
   {
+    "objectID": "content/modules/51-recursion-recurrence-2/in-class.html",
+    "href": "content/modules/51-recursion-recurrence-2/in-class.html",
+    "title": "In Class: Combinatorial Arguments and Recurrence Relations",
+    "section": "",
+    "text": "You will use combinatorial reasoning to derive linear recurrence relations.\nYou will use combinatorial proof to demonstrate identities between numbers with combinatorial interpretations.\n\n\n\n\nSuppose that we have a row of \\(n\\) parking spaces. An urban planner with a mathematical hobby has asked the following question:\n\nIf all cars take up one parking space, and all trucks take up two parkings paces, how many ways are there to fill a row of \\(n\\) parking spaces with cars and trucks?\n\nFor example, here are the 5 ways to fill a row of 4 parking spaces with cars and trucks.\nImage credit: John Hammond\n\nIf we let \\(P_n\\) describe the number of ways to fill \\(n\\) parking spaces with cars and trucks, this illustration shows that \\(P_4 = 5\\).\n\n\n\nDraw pictures to compute the values of \\(P_1\\), \\(P_2\\), and \\(P_3\\).\n\n\n\nMake a guess about the value of \\(P_n\\) for any \\(n\\) in terms of a sequence we’ve seen before in this class.\n\n\n\nLet’s see if we can prove your guess. Consider a row of \\(n \\geq 3\\) parking spaces. The first space can be occupied by either a car or a truck (which then also occupies the second space). In either case, there is some number of ways to fill in the remaining spaces.\n\nHow many ways are there to fill in the remaining spaces if the first space is occupied by a car?\nHow many ways are there to fill in the remaining spaces if the first space is occupied by a truck?\nCombine these two results in order to obtain a recurrence relation for \\(P_n\\). You should choose between the principles of multiplication and addition.\n\n\n\n\nUse a combinatorial proof to prove the following theorem: for all \\(n \\geq 1\\),\n\\[\n\\begin{aligned}\n    P_n^2 + P_{n+1}^2 = P_{2n+2}\\;.\n\\end{aligned}\n\\]\nRemember that in a combinatorial proof, you don’t do much algebra! Instead, you just argue that both sides of the equation are different methods of counting the number of ways to do the same thing. In this case, you should count the number of ways to fill a row of \\(2n+2\\) parking spaces.\nHint: Consider whether or not there is a single truck occupying both of the spaces \\(n+1\\) and \\(n+2\\).\n© Phil Chodrow, 2023"
+  },
+  {
+    "objectID": "content/modules/51-recursion-recurrence-2/in-class.html#learning-objectives",
+    "href": "content/modules/51-recursion-recurrence-2/in-class.html#learning-objectives",
+    "title": "In Class: Combinatorial Arguments and Recurrence Relations",
+    "section": "",
+    "text": "You will use combinatorial reasoning to derive linear recurrence relations.\nYou will use combinatorial proof to demonstrate identities between numbers with combinatorial interpretations."
+  },
+  {
+    "objectID": "content/modules/51-recursion-recurrence-2/in-class.html#introduction",
+    "href": "content/modules/51-recursion-recurrence-2/in-class.html#introduction",
+    "title": "In Class: Combinatorial Arguments and Recurrence Relations",
+    "section": "",
+    "text": "Suppose that we have a row of \\(n\\) parking spaces. An urban planner with a mathematical hobby has asked the following question:\n\nIf all cars take up one parking space, and all trucks take up two parkings paces, how many ways are there to fill a row of \\(n\\) parking spaces with cars and trucks?\n\nFor example, here are the 5 ways to fill a row of 4 parking spaces with cars and trucks.\nImage credit: John Hammond\n\nIf we let \\(P_n\\) describe the number of ways to fill \\(n\\) parking spaces with cars and trucks, this illustration shows that \\(P_4 = 5\\)."
+  },
+  {
+    "objectID": "content/modules/51-recursion-recurrence-2/in-class.html#part-a",
+    "href": "content/modules/51-recursion-recurrence-2/in-class.html#part-a",
+    "title": "In Class: Combinatorial Arguments and Recurrence Relations",
+    "section": "",
+    "text": "Draw pictures to compute the values of \\(P_1\\), \\(P_2\\), and \\(P_3\\)."
+  },
+  {
+    "objectID": "content/modules/51-recursion-recurrence-2/in-class.html#part-b",
+    "href": "content/modules/51-recursion-recurrence-2/in-class.html#part-b",
+    "title": "In Class: Combinatorial Arguments and Recurrence Relations",
+    "section": "",
+    "text": "Make a guess about the value of \\(P_n\\) for any \\(n\\) in terms of a sequence we’ve seen before in this class."
+  },
+  {
+    "objectID": "content/modules/51-recursion-recurrence-2/in-class.html#part-c",
+    "href": "content/modules/51-recursion-recurrence-2/in-class.html#part-c",
+    "title": "In Class: Combinatorial Arguments and Recurrence Relations",
+    "section": "",
+    "text": "Let’s see if we can prove your guess. Consider a row of \\(n \\geq 3\\) parking spaces. The first space can be occupied by either a car or a truck (which then also occupies the second space). In either case, there is some number of ways to fill in the remaining spaces.\n\nHow many ways are there to fill in the remaining spaces if the first space is occupied by a car?\nHow many ways are there to fill in the remaining spaces if the first space is occupied by a truck?\nCombine these two results in order to obtain a recurrence relation for \\(P_n\\). You should choose between the principles of multiplication and addition."
+  },
+  {
+    "objectID": "content/modules/51-recursion-recurrence-2/in-class.html#part-d",
+    "href": "content/modules/51-recursion-recurrence-2/in-class.html#part-d",
+    "title": "In Class: Combinatorial Arguments and Recurrence Relations",
+    "section": "",
+    "text": "Use a combinatorial proof to prove the following theorem: for all \\(n \\geq 1\\),\n\\[\n\\begin{aligned}\n    P_n^2 + P_{n+1}^2 = P_{2n+2}\\;.\n\\end{aligned}\n\\]\nRemember that in a combinatorial proof, you don’t do much algebra! Instead, you just argue that both sides of the equation are different methods of counting the number of ways to do the same thing. In this case, you should count the number of ways to fill a row of \\(2n+2\\) parking spaces.\nHint: Consider whether or not there is a single truck occupying both of the spaces \\(n+1\\) and \\(n+2\\)."
+  },
+  {
     "objectID": "content/modules/51-recursion-recurrence-2/prep.html",
     "href": "content/modules/51-recursion-recurrence-2/prep.html",
-    "title": "Videos (~20-30 mins)",
+    "title": "Linear Recurrence Relations and the Fibonacci Numbers",
     "section": "",
-    "text": "The formal definition of a sequence (3:49)\nRecursive Sequences (7:36)\nThe Fibonnaci Sequence (6:22)\n© Phil Chodrow, 2023"
-  },
-  {
-    "objectID": "content/modules/51-recursion-recurrence-2/prep.html#new",
-    "href": "content/modules/51-recursion-recurrence-2/prep.html#new",
-    "title": "Videos (~20-30 mins)",
-    "section": "",
-    "text": "The formal definition of a sequence (3:49)\nRecursive Sequences (7:36)\nThe Fibonnaci Sequence (6:22)"
-  },
-  {
-    "objectID": "content/modules/51-recursion-recurrence-2/prep.html#useful-review",
-    "href": "content/modules/51-recursion-recurrence-2/prep.html#useful-review",
-    "title": "Videos (~20-30 mins)",
-    "section": "Useful Review",
-    "text": "Useful Review\n\nIntroduction to sequences (6:13)\nThe sum and product of finite sequences (9:20)"
+    "text": "Review:\n\nThe Fibonacci Sequence (6:22)\n© Phil Chodrow, 2023"
   },
   {
     "objectID": "content/modules/51-recursion-recurrence-2/prep.html#problem-1",
     "href": "content/modules/51-recursion-recurrence-2/prep.html#problem-1",
-    "title": "Videos (~20-30 mins)",
+    "title": "Linear Recurrence Relations and the Fibonacci Numbers",
     "section": "Problem 1",
-    "text": "Problem 1\nConsider the recurrence relation \\(a_n = 3a_{n-1} - 1\\) with initial condition \\(a_0 = 2\\). This recurrence relation has closed formula solution \\(a_n = 3^n + j\\) for some mystery integer \\(j\\)."
-  },
-  {
-    "objectID": "content/modules/51-recursion-recurrence-2/prep.html#part-a",
-    "href": "content/modules/51-recursion-recurrence-2/prep.html#part-a",
-    "title": "Videos (~20-30 mins)",
-    "section": "Part A",
-    "text": "Part A\nWrite out \\(a_1\\), \\(a_2\\), \\(a_3\\), and \\(a_4\\)."
-  },
-  {
-    "objectID": "content/modules/51-recursion-recurrence-2/prep.html#part-b",
-    "href": "content/modules/51-recursion-recurrence-2/prep.html#part-b",
-    "title": "Videos (~20-30 mins)",
-    "section": "Part B",
-    "text": "Part B\nBased on your answer in Part A, what is the value of the mystery integer \\(j\\)?"
-  },
-  {
-    "objectID": "content/modules/51-recursion-recurrence-2/prep.html#part-c",
-    "href": "content/modules/51-recursion-recurrence-2/prep.html#part-c",
-    "title": "Videos (~20-30 mins)",
-    "section": "Part C",
-    "text": "Part C\nWrite a careful proof by induction that that \\(a_n = 3^n + j\\) for all \\(n \\geq 0\\), using your choice of \\(j\\) from Part B."
+    "text": "Problem 1\nUse the characteristic root technique to find a closed-formula for the Fibonacci numbers. Your formula should look like:\n\\[\n\\begin{aligned}\n    F_n = ar_1^n + br_2^n\n\\end{aligned}\n\\]\nfor some numbers \\(a, b, r_1, r_2 \\in \\mathbb{R}\\) that you determine.\nHint: A complete solution involves both using the quadratic formula and solving a \\(2 \\times 2\\) system of linear equations.\nNote: This is a famous result with an easily-researched answer. So, the important part is showing your work and making sure you are familiar with tools like the quadratic formula."
   },
   {
     "objectID": "content/modules/51-recursion-recurrence-2/prep.html#problem-2",
     "href": "content/modules/51-recursion-recurrence-2/prep.html#problem-2",
-    "title": "Videos (~20-30 mins)",
+    "title": "Linear Recurrence Relations and the Fibonacci Numbers",
     "section": "Problem 2",
-    "text": "Problem 2\nConsider a recursion relation of the form \\[\n\\begin{aligned}\n    a_n = p a_{n-1} + 1\n\\end{aligned}\n\\]\nwith initial condition \\(a_0\\)."
-  },
-  {
-    "objectID": "content/modules/51-recursion-recurrence-2/prep.html#part-a-1",
-    "href": "content/modules/51-recursion-recurrence-2/prep.html#part-a-1",
-    "title": "Videos (~20-30 mins)",
-    "section": "Part A",
-    "text": "Part A\nWrite a function in Python or Java that computes \\(a_n\\). Your function should accept 3 arguments: \\(p\\), \\(a_0\\), and \\(n\\). Use your function to compute \\(a_{10}\\) when \\(p = 2\\) and \\(a_0 = -1\\)."
-  },
-  {
-    "objectID": "content/modules/51-recursion-recurrence-2/prep.html#part-b-1",
-    "href": "content/modules/51-recursion-recurrence-2/prep.html#part-b-1",
-    "title": "Videos (~20-30 mins)",
-    "section": "Part B",
-    "text": "Part B\nUse your function to experiment. Find values of \\(p\\) and \\(a_0\\) such that:\n\n\\(a_n\\) becomes closer and closer to some fixed, finite number as \\(n\\) grows large.\n\\(a_n\\) “blows up” (gets very big) as \\(n\\) grows large.\n\\(a_n\\) flips between positive and negative values as \\(n\\) grows large."
+    "text": "Problem 2\nUse the recursive definition of the Fibonacci numbers to write an inductive proof that, for any \\(n \\in \\mathbb{Z}\\) with \\(n \\geq 1\\),\n\\[\n\\begin{aligned}\n    \\sum_{i = 1}^n F_i = F_{n+2} - 1\\;.\n\\end{aligned}\n\\]\nNote: Don’t forget to include both a base case and an inductive step!"
   },
   {
     "objectID": "content/modules/30-relations/prep.html",
@@ -469,6 +469,27 @@
     "text": "Problem 2\n\nProve that for all integers \\(n\\), it is the case that \\(n\\) is even if and only if \\(3n\\) is even. This proof has two parts: you must show that \\(n\\) being even implies that \\(3n\\) is even; then you must show that \\(3n\\) being even implies that \\(n\\) is even.\nIn your proof, please one of the two directions using direct proof. Then, prove the other direction using proof by contrapositive."
   },
   {
+    "objectID": "content/modules/55-numerical-algorithms/prep.html",
+    "href": "content/modules/55-numerical-algorithms/prep.html",
+    "title": "Numerical Algorithms",
+    "section": "",
+    "text": "In today’s lab, we are going to use recurrence relations to analyze a numerical algorithm. Numerical algorithms are used for solving problems in computational mathematics. For example, your computer doesn’t naturally “just know” how to compute things like \\(\\sin{x}\\), \\(\\sqrt{x}\\), or \\(\\log x\\) – people need to write algorithms for computing these quantities. Making these algorithms reliable and fast is one of the priorities of the field called numerical analysis, which sits at the intersection of mathematics and computer science.\n© Phil Chodrow, 2023"
+  },
+  {
+    "objectID": "content/modules/55-numerical-algorithms/prep.html#problem-1",
+    "href": "content/modules/55-numerical-algorithms/prep.html#problem-1",
+    "title": "Numerical Algorithms",
+    "section": "Problem 1",
+    "text": "Problem 1\n\nIntroduction\nConsider the following algorithm. This algorithm is used to compute a familiar mathematical quantity. It does so by repeatedly computing the sequence defined by the recurrence relation\n\\[\n\\begin{aligned}\n    x_{n+1} = \\frac{1}{2}\\left(x_n + \\frac{a}{x_n}\\right)\n\\end{aligned}\n\\]\nfor some input number \\(a\\). We do this until the difference \\(|x_{n+1} - x_n|\\) is smaller than some \\(\\epsilon\\). The algorithm outputs the final value of \\(x\\) after this threshold is reached. Here’s a more formal description of this algorithm in pseudocode:\n\nAlgorithm 1\nInputs: nonnegative real number \\(a\\), small positive real number \\(\\epsilon &gt; 0\\).\n\nInitialize \\(x = a + 1\\), \\(\\Delta = 2\\epsilon\\).\nWhile \\(\\Delta &gt; \\epsilon\\):\n\n\\(x_\\mathrm{new} \\gets \\frac{1}{2} \\left(x + \\frac{a}{x}\\right)\\).\n\\(\\Delta \\gets |x_\\mathrm{new} - x|\\).\n\\(x \\gets x_\\mathrm{new}\\).\n\nReturn \\(x\\)."
+  },
+  {
+    "objectID": "content/modules/55-numerical-algorithms/prep.html#part-a",
+    "href": "content/modules/55-numerical-algorithms/prep.html#part-a",
+    "title": "Numerical Algorithms",
+    "section": "Part A",
+    "text": "Part A\nWrite a function in Python or Java that implements Algorithm 1. The user should be able to specify the values of \\(a\\) and \\(\\epsilon\\).\nNotes:\n\nIt is possible but not required (or easier) to do this with a recursive function.\nSet the default value of \\(\\epsilon\\) at \\(10^{-16}\\). In Python this can be done by writing epsilon = 1e-16 in the appropriate location.\nIt’s fun, though not required, to print the value of \\(x\\) at each iteration.\n\n\nPart B\nWhat familiar mathematical quantity does this function approximately compute? You don’t have to reason about this function mathematically – just try a few values of a and make an informed guess.\nNote: proving the answer to this question, and describing how well the function approximates its target, is a classical question in numerical analysis."
+  },
+  {
     "objectID": "content/modules/24-more-induction/prep.html",
     "href": "content/modules/24-more-induction/prep.html",
     "title": "More Induction",
@@ -571,14 +592,14 @@
     "href": "content/modules/50-recursion-recurrence/prep.html",
     "title": "Recurrence Relations",
     "section": "",
-    "text": "The formal definition of a sequence (3:49)\nRecursive Sequences (7:36)\nThe Fibonnaci Sequence (6:22)\n\n\n\n\n\nIntroduction to sequences (6:13)\nThe sum and product of finite sequences (9:20)\n© Phil Chodrow, 2023"
+    "text": "The formal definition of a sequence (3:49)\nRecursive Sequences (7:36)\nThe Fibonacci Sequence (6:22)\n\n\n\n\n\nIntroduction to sequences (6:13)\nThe sum and product of finite sequences (9:20)\n© Phil Chodrow, 2023"
   },
   {
     "objectID": "content/modules/50-recursion-recurrence/prep.html#new",
     "href": "content/modules/50-recursion-recurrence/prep.html#new",
     "title": "Recurrence Relations",
     "section": "",
-    "text": "The formal definition of a sequence (3:49)\nRecursive Sequences (7:36)\nThe Fibonnaci Sequence (6:22)"
+    "text": "The formal definition of a sequence (3:49)\nRecursive Sequences (7:36)\nThe Fibonacci Sequence (6:22)"
   },
   {
     "objectID": "content/modules/50-recursion-recurrence/prep.html#useful-review",
@@ -929,6 +950,55 @@
     "title": "",
     "section": "",
     "text": "Let \\(X = \\{n \\in \\mathbb{N}: 10 \\leq n &lt; 20\\}\\). Find examples of sets with the following properties and briefly explain why your examples are correct.\n\nA set \\(A \\subseteq \\mathbb{N}\\) with \\(\\lvert A \\rvert = 10\\) such that \\(X \\setminus A = \\{10, 12, 14\\}\\).\nA set \\(B \\in \\mathcal{P}(X)\\) with \\(\\lvert B \\rvert = 5\\).\nA set \\(C \\subseteq \\mathcal{P}(X)\\) with \\(\\lvert C \\rvert = 5\\).\nA set \\(D \\subseteq X\\times X\\) with \\(\\lvert D \\rvert = 5\\).\nA set \\(E \\subseteq X\\) such that \\(\\lvert E \\rvert \\in E\\).\n\n\n\n\n  © Phil Chodrow, 2023"
+  },
+  {
+    "objectID": "content/problems/recursion-recurrence/fibonacci-2.html",
+    "href": "content/problems/recursion-recurrence/fibonacci-2.html",
+    "title": "",
+    "section": "",
+    "text": "Use the recursive definition of the Fibonacci numbers to write an inductive proof that, for any \\(n \\in \\mathbb{Z}\\) with \\(n \\geq 1\\),\n\\[\n\\begin{aligned}\n    \\sum_{i = 1}^n F_i = F_{n+2} - 1\\;.\n\\end{aligned}\n\\]\n\n\n\n  © Phil Chodrow, 2023"
+  },
+  {
+    "objectID": "content/problems/recursion-recurrence/fibonacci-combinatorics.html",
+    "href": "content/problems/recursion-recurrence/fibonacci-combinatorics.html",
+    "title": "",
+    "section": "",
+    "text": "Suppose that we have a row of \\(n\\) parking spaces. An urban planner with a mathematical hobby has asked the following question:\n\nIf all cars take up one parking space, and all trucks take up two parkings paces, how many ways are there to fill a row of \\(n\\) parking spaces with cars and trucks?\n\nFor example, here are the 5 ways to fill a row of 4 parking spaces with cars and trucks.\nImage credit: John Hammond\n\nIf we let \\(P_n\\) describe the number of ways to fill \\(n\\) parking spaces with cars and trucks, this illustration shows that \\(P_4 = 5\\).\n© Phil Chodrow, 2023"
+  },
+  {
+    "objectID": "content/problems/recursion-recurrence/fibonacci-combinatorics.html#introduction",
+    "href": "content/problems/recursion-recurrence/fibonacci-combinatorics.html#introduction",
+    "title": "",
+    "section": "",
+    "text": "Suppose that we have a row of \\(n\\) parking spaces. An urban planner with a mathematical hobby has asked the following question:\n\nIf all cars take up one parking space, and all trucks take up two parkings paces, how many ways are there to fill a row of \\(n\\) parking spaces with cars and trucks?\n\nFor example, here are the 5 ways to fill a row of 4 parking spaces with cars and trucks.\nImage credit: John Hammond\n\nIf we let \\(P_n\\) describe the number of ways to fill \\(n\\) parking spaces with cars and trucks, this illustration shows that \\(P_4 = 5\\)."
+  },
+  {
+    "objectID": "content/problems/recursion-recurrence/fibonacci-combinatorics.html#part-a",
+    "href": "content/problems/recursion-recurrence/fibonacci-combinatorics.html#part-a",
+    "title": "",
+    "section": "Part A",
+    "text": "Part A\nDraw pictures to compute the values of \\(P_1\\), \\(P_2\\), and \\(P_3\\)."
+  },
+  {
+    "objectID": "content/problems/recursion-recurrence/fibonacci-combinatorics.html#part-b",
+    "href": "content/problems/recursion-recurrence/fibonacci-combinatorics.html#part-b",
+    "title": "",
+    "section": "Part B",
+    "text": "Part B\nMake a guess about the value of \\(P_n\\) for any \\(n\\) in terms of a sequence we’ve seen before in this class."
+  },
+  {
+    "objectID": "content/problems/recursion-recurrence/fibonacci-combinatorics.html#part-c",
+    "href": "content/problems/recursion-recurrence/fibonacci-combinatorics.html#part-c",
+    "title": "",
+    "section": "Part C",
+    "text": "Part C\nLet’s see if we can prove your guess. Consider a row of \\(n \\geq 3\\) parking spaces. The first space can be occupied by either a car or a truck (which then also occupies the second space). In either case, there is some number of ways to fill in the remaining spaces.\n\nHow many ways are there to fill in the remaining spaces if the first space is occupied by a car?\nHow many ways are there to fill in the remaining spaces if the first space is occupied by a truck?\nCombine these two results in order to obtain a recurrence relation for \\(P_n\\). You should choose between the principles of multiplication and addition."
+  },
+  {
+    "objectID": "content/problems/recursion-recurrence/fibonacci-combinatorics.html#part-d",
+    "href": "content/problems/recursion-recurrence/fibonacci-combinatorics.html#part-d",
+    "title": "",
+    "section": "Part D",
+    "text": "Part D\nUse a combinatorial proof to prove the following theorem: for all \\(n \\geq 1\\),\n\\[\n\\begin{aligned}\n    P_n^2 + P_{n+1}^2 = P_{2n+2}\\;.\n\\end{aligned}\n\\]\nRemember that in a combinatorial proof, you don’t do much algebra! Instead, you just argue that both sides of the equation are different methods of counting the number of ways to do the same thing. In this case, you should count the number of ways to fill a row of \\(2n+2\\) parking spaces.\nHint: Consider whether or not there is a single truck occupying both of the spaces \\(n+1\\) and \\(n+2\\)."
   },
   {
     "objectID": "content/problems/recursion-recurrence/hanoi.html",
@@ -1916,6 +1986,27 @@
     "title": "Part A",
     "section": "Part B",
     "text": "Part B\nUse your function to experiment. Find values of \\(p\\) and \\(a_0\\) such that:\n\n\\(a_n\\) becomes closer and closer to some fixed, finite number as \\(n\\) grows large.\n\\(a_n\\) “blows up” (gets very big) as \\(n\\) grows large.\n\\(a_n\\) flips between positive and negative values as \\(n\\) grows large."
+  },
+  {
+    "objectID": "content/problems/recursion-recurrence/newton-square-root.html",
+    "href": "content/problems/recursion-recurrence/newton-square-root.html",
+    "title": "Introduction",
+    "section": "",
+    "text": "Consider the following algorithm. This algorithm is used to compute a familiar mathematical quantity. It does so by repeatedly computing the sequence defined by the recurrence relation\n\\[\n\\begin{aligned}\n    x_{n+1} = \\frac{1}{2}\\left(x_n + \\frac{a}{x_n}\\right)\n\\end{aligned}\n\\]\nfor some input number \\(a\\). We do this until the difference \\(|x_{n+1} - x_n|\\) is smaller than some \\(\\epsilon\\). The algorithm outputs the final value of \\(x\\) after this threshold is reached. Here’s a more formal description of this algorithm in pseudocode:\n© Phil Chodrow, 2023"
+  },
+  {
+    "objectID": "content/problems/recursion-recurrence/newton-square-root.html#part-a",
+    "href": "content/problems/recursion-recurrence/newton-square-root.html#part-a",
+    "title": "Introduction",
+    "section": "Part A",
+    "text": "Part A\nWrite a function in Python or Java that implements Algorithm 1. The user should be able to specify the values of \\(a\\) and \\(\\epsilon\\).\nNotes:\n\nIt is possible but not required (or easier) to do this with a recursive function.\nSet the default value of \\(\\epsilon\\) at \\(10^{-16}\\). In Python this can be done by writing epsilon = 1e-16 in the appropriate location.\nIt’s fun, though not required, to print the value of \\(x\\) at each iteration.\n\n\nPart B\nWhat familiar mathematical quantity does this function approximately compute? You don’t have to reason about this function mathematically – just try a few values of a and make an informed guess.\nNote: proving the answer to this question, and describing how well the function approximates its target, is a classical question in numerical analysis."
+  },
+  {
+    "objectID": "content/problems/recursion-recurrence/fibonacci-1.html",
+    "href": "content/problems/recursion-recurrence/fibonacci-1.html",
+    "title": "",
+    "section": "",
+    "text": "Use the characteristic root technique to find a closed-formula for the Fibonacci numbers. Your formula should look like:\n\\[\n\\begin{aligned}\n    F_n = ar_1^n + br_2^n\n\\end{aligned}\n\\]\nfor some numbers \\(a, b, r_1, r_2 \\in \\mathbb{R}\\) that you determine.\nHint: A complete solution involves both using the quadratic formula and solving a \\(2 \\times 2\\) system of linear equations.\n\n\n\n  © Phil Chodrow, 2023"
   },
   {
     "objectID": "content/problems/sets/cards-1.html",

@@ -248,8 +248,9 @@
   header: "Recursion and Recurrence Relations"
   summary: "We practice writing recurrence relations to describe quantities of interest and develop further techniques to solve them."
   objectives:
-  prep:
+  prep: <a href="content/modules/51-recursion-recurrence-2/prep.qmd">More Recursion and Recurrence Relations</a>
   activities:
+    - <a href="content/modules/51-recursion-recurrence-2/in-class.qmd">Parking Spaces</a>
   notes:
   publish: true
   due:
