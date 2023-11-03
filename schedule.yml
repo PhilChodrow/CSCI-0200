@@ -267,9 +267,9 @@
   due: "Lab 4: Counting Lattice Paths"
 - date: 2023-11-06
   header: Asymptotics and Big-Oh
-  summary:
+  summary: 
   objectives:
-  prep:
+  prep: <a href="content/modules/60-asymptotics/prep.qmd">Asymptotics and Big-Oh Notation</a>
   activities:
   notes:
   publish: true

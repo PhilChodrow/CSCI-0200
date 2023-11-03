@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>in-class</title>
+<title>prep</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -72,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../../../assets/css/styles.css">
 </head>
 
-<body class="nav-sidebar docked slimcontent">
+<body class="nav-sidebar docked">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -165,70 +165,61 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#in-class-combinatorial-arguments-and-recurrence-relations" id="toc-in-class-combinatorial-arguments-and-recurrence-relations" class="nav-link active" data-scroll-target="#in-class-combinatorial-arguments-and-recurrence-relations">In Class: Combinatorial Arguments and Recurrence Relations</a>
+  <li><a href="#videos-0-mins" id="toc-videos-0-mins" class="nav-link active" data-scroll-target="#videos-0-mins">Videos (0 mins)</a></li>
+  <li><a href="#reading-50-mins" id="toc-reading-50-mins" class="nav-link" data-scroll-target="#reading-50-mins">Reading (50 mins)</a></li>
+  <li><a href="#warmup-50-mins" id="toc-warmup-50-mins" class="nav-link" data-scroll-target="#warmup-50-mins">Warmup (50 mins)</a>
   <ul class="collapse">
-  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link" data-scroll-target="#learning-objectives">Learning Objectives</a></li>
-  <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction">Introduction</a></li>
-  <li><a href="#part-a" id="toc-part-a" class="nav-link" data-scroll-target="#part-a">Part A</a></li>
-  <li><a href="#part-b" id="toc-part-b" class="nav-link" data-scroll-target="#part-b">Part B</a></li>
-  <li><a href="#part-c" id="toc-part-c" class="nav-link" data-scroll-target="#part-c">Part C</a></li>
-  <li><a href="#part-d" id="toc-part-d" class="nav-link" data-scroll-target="#part-d">Part D</a></li>
+  <li><a href="#problem-1" id="toc-problem-1" class="nav-link" data-scroll-target="#problem-1">Problem 1</a></li>
+  <li><a href="#problem-2" id="toc-problem-2" class="nav-link" data-scroll-target="#problem-2">Problem 2</a></li>
+  <li><a href="#problem-3" id="toc-problem-3" class="nav-link" data-scroll-target="#problem-3">Problem 3</a></li>
+  <li><a href="#optional-challenge-problem-3" id="toc-optional-challenge-problem-3" class="nav-link" data-scroll-target="#optional-challenge-problem-3">(Optional Challenge) Problem 3</a></li>
   </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content page-columns page-full" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 
 
-<section id="in-class-combinatorial-arguments-and-recurrence-relations" class="level1 page-columns page-full">
-<h1>In Class: Combinatorial Arguments and Recurrence Relations</h1>
-<section id="learning-objectives" class="level2">
-<h2 class="anchored" data-anchor-id="learning-objectives">Learning Objectives</h2>
-<ul>
-<li>You will use combinatorial reasoning to derive linear recurrence relations.</li>
-<li>You will use combinatorial proof to demonstrate identities between numbers with combinatorial interpretations.</li>
-</ul>
+<section id="videos-0-mins" class="level1">
+<h1>Videos (0 mins)</h1>
+<p>No videos for today!</p>
 </section>
-<section id="introduction" class="level2 page-columns page-full">
-<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
-<p>Suppose that we have a row of <span class="math inline">\(n\)</span> parking spaces. An urban planner with a mathematical hobby has asked the following question:</p>
-<blockquote class="blockquote">
-<p>If all cars take up one parking space, and all trucks take up two parkings paces, how many ways are there to fill a row of <span class="math inline">\(n\)</span> parking spaces with cars and trucks?</p>
-</blockquote>
-<p>For example, here are the 5 ways to fill a row of 4 parking spaces with cars and trucks.</p>
-<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="">Image credit: <a href="https://www.math.wichita.edu/discrete-book/section-counting-fib.html">John Hammond</a></span></div></div>
-<p><img src="../../../assets/img/figs/fibonacci-tiling.png" class="img-fluid"></p>
-<p>If we let <span class="math inline">\(P_n\)</span> describe the number of ways to fill <span class="math inline">\(n\)</span> parking spaces with cars and trucks, this illustration shows that <span class="math inline">\(P_4 = 5\)</span>.</p>
+<section id="reading-50-mins" class="level1">
+<h1>Reading (50 mins)</h1>
+<p><em>This is a more challenging reading than usual. Please take your time. You’ll need it for the warmup problems!</em></p>
+<p><a href="https://lmattos.web.illinois.edu/wp-content/uploads/2023/01/Discrete-Mathematics-and-Its-Applications.pdf#page=225">Discrete Mathematics and Its Applications</a> by Kenneth Rosen, Section 3.2, up to and including Example 7 (pages 204-2011)</p>
 </section>
-<section id="part-a" class="level2">
-<h2 class="anchored" data-anchor-id="part-a">Part A</h2>
-<p>Draw pictures to compute the values of <span class="math inline">\(P_1\)</span>, <span class="math inline">\(P_2\)</span>, and <span class="math inline">\(P_3\)</span>.</p>
+<section id="warmup-50-mins" class="level1">
+<h1>Warmup (50 mins)</h1>
+<section id="problem-1" class="level2">
+<h2 class="anchored" data-anchor-id="problem-1">Problem 1</h2>
+<p>Write a careful proof that <span class="math inline">\(\frac{n^2 - 1}{2n+2} \in O(n)\)</span>. You may assume that <span class="math inline">\(n \in \mathbb{N}\)</span>. Your proof should include a choice of the witnesses <span class="math inline">\(C\)</span> and <span class="math inline">\(k\)</span> and an argument for why those witnesses work.</p>
 </section>
-<section id="part-b" class="level2">
-<h2 class="anchored" data-anchor-id="part-b">Part B</h2>
-<p>Make a guess about the value of <span class="math inline">\(P_n\)</span> for any <span class="math inline">\(n\)</span> in terms of a sequence we’ve seen before in this class.</p>
-</section>
-<section id="part-c" class="level2">
-<h2 class="anchored" data-anchor-id="part-c">Part C</h2>
-<p>Let’s see if we can prove your guess. Consider a row of <span class="math inline">\(n \geq 3\)</span> parking spaces. The first space can be occupied by either a car or a truck (which then also occupies the second space). In either case, there is some number of ways to fill in the remaining spaces.</p>
+<section id="problem-2" class="level2">
+<h2 class="anchored" data-anchor-id="problem-2">Problem 2</h2>
+<p>Find the smallest integer <span class="math inline">\(p\)</span> such that <span class="math inline">\(f(n) \in O(n^p)\)</span> for each of the following choices of the function <span class="math inline">\(f\)</span>. You may assume that <span class="math inline">\(n \in \mathbb{N}\)</span>. You should explain your answers but do not need to write formal proofs. You may find it useful to remember that <span class="math inline">\(\log n \notin O(1)\)</span> and <span class="math inline">\(\log n \leq n\)</span> for all <span class="math inline">\(n\)</span>.</p>
 <ol type="1">
-<li>How many ways are there to fill in the remaining spaces if the first space is occupied by a car?</li>
-<li>How many ways are there to fill in the remaining spaces if the first space is occupied by a truck?</li>
-<li>Combine these two results in order to obtain a recurrence relation for <span class="math inline">\(P_n\)</span>. You should choose between the principles of multiplication and addition.</li>
+<li><span class="math inline">\(f(n) = 3n^2\)</span></li>
+<li><span class="math inline">\(f(n) = \log n\)</span></li>
+<li><span class="math inline">\(f(n) = n^2 \log n\)</span></li>
+<li><span class="math inline">\(f(n) = \frac{\log n}{n}\)</span></li>
+<li><span class="math inline">\(f(n) = \frac{n^3+2}{n^2 - n - 1}\)</span></li>
 </ol>
 </section>
-<section id="part-d" class="level2">
-<h2 class="anchored" data-anchor-id="part-d">Part D</h2>
-<p>Use a combinatorial proof to prove the following theorem: for all <span class="math inline">\(n \geq 1\)</span>,</p>
-<p><span class="math display">\[
-\begin{aligned}
-    P_n^2 + P_{n+1}^2 = P_{2n+2}\;.
-\end{aligned}
-\]</span></p>
-<p>Remember that in a combinatorial proof, you don’t do much algebra! Instead, you just argue that both sides of the equation are different methods of counting the number of ways to do the same thing. In this case, you should count the number of ways to fill a row of <span class="math inline">\(2n+2\)</span> parking spaces.</p>
-<p><strong>Hint</strong>: Consider whether or not there is a single truck occupying both of the spaces <span class="math inline">\(n+1\)</span> and <span class="math inline">\(n+2\)</span>.</p>
+<section id="problem-3" class="level2">
+<h2 class="anchored" data-anchor-id="problem-3">Problem 3</h2>
+<p>Your so-called friend has a cool proof for you.</p>
+<blockquote class="blockquote">
+<p>Since <span class="math inline">\(2n = O(n)\)</span> and <span class="math inline">\(\log n = O(n)\)</span>, we know that <span class="math inline">\(2n = O(n) = \log n\)</span>. So, <span class="math inline">\(2n = \log n\)</span> for all <span class="math inline">\(n\)</span>.</p>
+</blockquote>
+<p>In a brief paragraph, patiently explain to your friend why this proof is incorrect. In part of your paragraph, you may wish to comment on the superiority of the notation <span class="math inline">\(f(n) \in O(g(n))\)</span> (rather than <span class="math inline">\(f(n) = O(g(n))\)</span>).</p>
+</section>
+<section id="optional-challenge-problem-3" class="level2">
+<h2 class="anchored" data-anchor-id="optional-challenge-problem-3">(Optional Challenge) Problem 3</h2>
+<p><em>You don’t need to complete this problem in order to earn credit for completing the warmup.</em></p>
+<p>We can think of the statement <span class="math inline">\(f(n) \in O(g(n))\)</span> as a relation between functions, which we could write <span class="math inline">\(fRg\)</span>. Using the definition of <span class="math inline">\(f(n) \in O(g(n))\)</span> (<a href="https://lmattos.web.illinois.edu/wp-content/uploads/2023/01/Discrete-Mathematics-and-Its-Applications.pdf#page=226">Definition 1 in Rosen</a>), write a careful proof that this relation is transitive. In your proof, you should construct witnesses demonstrating that <span class="math inline">\(f(n) \in O(h(n))\)</span> in terms of other witnesses that follow from the assumption that <span class="math inline">\(f(n) \in O(g(n))\)</span> and <span class="math inline">\(g(n) \in O(h(n))\)</span>.</p>
 
 
 </section>
