@@ -275,10 +275,10 @@
   publish: true
   due:
 - date: 2023-11-08
-  header: "Analyzing algorithms: The Tree Method"
+  header: "Analyzing Algorithms: The Tree Method"
   summary:
   objectives:
-  prep:
+  prep: <a href="content/modules/61-complexity/prep.qmd">Analyzing Algorithms</a>
   activities:
   notes:
   publish: true
