@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Asymptotics and Big-\(O\)</title>
+<title>in-class</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -161,85 +161,23 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#videos-0-mins" id="toc-videos-0-mins" class="nav-link active" data-scroll-target="#videos-0-mins">Videos (0 mins)</a></li>
-  <li><a href="#reading-50-mins" id="toc-reading-50-mins" class="nav-link" data-scroll-target="#reading-50-mins">Reading (50 mins)</a></li>
-  <li><a href="#warmup-50-mins" id="toc-warmup-50-mins" class="nav-link" data-scroll-target="#warmup-50-mins">Warmup (50 mins)</a>
-  <ul class="collapse">
-  <li><a href="#problem-1" id="toc-problem-1" class="nav-link" data-scroll-target="#problem-1">Problem 1</a></li>
-  <li><a href="#problem-2" id="toc-problem-2" class="nav-link" data-scroll-target="#problem-2">Problem 2</a></li>
-  <li><a href="#problem-3" id="toc-problem-3" class="nav-link" data-scroll-target="#problem-3">Problem 3</a></li>
-  <li><a href="#optional-challenge-problem-4" id="toc-optional-challenge-problem-4" class="nav-link" data-scroll-target="#optional-challenge-problem-4">(Optional Challenge) Problem 4</a></li>
-  </ul></li>
-  </ul>
-</nav>
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Asymptotics and Big-<span class="math inline">\(O\)</span></h1>
-</div>
 
 
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-<section id="videos-0-mins" class="level1">
-<h1>Videos (0 mins)</h1>
-<p>No videos for today!</p>
-</section>
-<section id="reading-50-mins" class="level1">
-<h1>Reading (50 mins)</h1>
-<p><em>This is a more challenging reading than usual. Please take your time. You’ll need it for the warmup problems!</em></p>
-<p><a href="https://lmattos.web.illinois.edu/wp-content/uploads/2023/01/Discrete-Mathematics-and-Its-Applications.pdf#page=225">Discrete Mathematics and Its Applications</a> by Kenneth Rosen, Section 3.2, up to and including Example 7 (pages 204-211)</p>
-</section>
-<section id="warmup-50-mins" class="level1">
-<h1>Warmup (50 mins)</h1>
-<section id="problem-1" class="level2">
-<h2 class="anchored" data-anchor-id="problem-1">Problem 1</h2>
-<p>Write a careful proof that <span class="math inline">\(\frac{n^2 - 1}{2n+2} \in O(n)\)</span>. You may assume that <span class="math inline">\(n \in \mathbb{N}\)</span>. Your proof should include a choice of the witnesses <span class="math inline">\(C\)</span> and <span class="math inline">\(k\)</span> and an argument for why those witnesses work.</p>
-</section>
-<section id="problem-2" class="level2">
-<h2 class="anchored" data-anchor-id="problem-2">Problem 2</h2>
-<p>Find the smallest integer <span class="math inline">\(p\)</span> such that <span class="math inline">\(f(n) \in O(n^p)\)</span> for each of the following choices of the function <span class="math inline">\(f\)</span>. You may assume that <span class="math inline">\(n \in \mathbb{N}\)</span>. You should explain your answers but do not need to write formal proofs. You may find it useful to remember that <span class="math inline">\(\log n \notin O(1)\)</span> and <span class="math inline">\(\log n \leq n\)</span> for all <span class="math inline">\(n\)</span>.</p>
+<!-- inspired by Rosen 3.2.20 -->
+<p>Which of the following functions is <span class="math inline">\(O(\log n)\)</span>? For each one that is <span class="math inline">\(O(\log n)\)</span>, find witnesses, making an effor to choose <span class="math inline">\(C\)</span> as small as you can. For any that are not <span class="math inline">\(O(\log n)\)</span>, write a proof or calculation explaining why.</p>
 <ol type="1">
-<li><span class="math inline">\(f(n) = 3n^2\)</span></li>
-<li><span class="math inline">\(f(n) = \log n\)</span></li>
-<li><span class="math inline">\(f(n) = n^2 \log n\)</span></li>
-<li><span class="math inline">\(f(n) = \frac{\log n}{n}\)</span></li>
-<li><span class="math inline">\(f(n) = \frac{n^3+2}{n^2 - n - 1}\)</span></li>
+<li><span class="math inline">\(f(n) = \log(n + 1)\)</span>.</li>
+<li><span class="math inline">\(g(n) = \log(n^2 + 1)\)</span>.</li>
+<li><span class="math inline">\(h(n) = \log (n^{100} + 1)\)</span>.</li>
+<li><span class="math inline">\(\ell(n) = \left(\log n\right)^2\)</span>.</li>
 </ol>
-</section>
-<section id="problem-3" class="level2">
-<h2 class="anchored" data-anchor-id="problem-3">Problem 3</h2>
-<p>Your so-called friend has a cool proof for you.</p>
-<blockquote class="blockquote">
-<p>Since <span class="math inline">\(2n = O(n)\)</span> and <span class="math inline">\(\log n = O(n)\)</span>, we know that <span class="math inline">\(2n = O(n) = \log n\)</span>. So, <span class="math inline">\(2n = \log n\)</span> for all <span class="math inline">\(n\)</span>.</p>
-</blockquote>
-<p>In a brief paragraph, patiently explain to your friend why this proof is incorrect. In part of your paragraph, you may wish to comment on the superiority of the notation <span class="math inline">\(f(n) \in O(g(n))\)</span> (rather than <span class="math inline">\(f(n) = O(g(n))\)</span>).</p>
-</section>
-<section id="optional-challenge-problem-4" class="level2">
-<h2 class="anchored" data-anchor-id="optional-challenge-problem-4">(Optional Challenge) Problem 4</h2>
-<p><em>You don’t need to complete this problem in order to earn credit for completing the warmup.</em></p>
-<p>We can think of the statement <span class="math inline">\(f(n) \in O(g(n))\)</span> as a relation between functions, which we could write <span class="math inline">\(fRg\)</span>. Using the definition of <span class="math inline">\(f(n) \in O(g(n))\)</span> (<a href="https://lmattos.web.illinois.edu/wp-content/uploads/2023/01/Discrete-Mathematics-and-Its-Applications.pdf#page=226">Definition 1 in Rosen</a>), write a careful proof that this relation is transitive. In your proof, you should construct witnesses demonstrating that <span class="math inline">\(f(n) \in O(h(n))\)</span> in terms of other witnesses that follow from the assumption that <span class="math inline">\(f(n) \in O(g(n))\)</span> and <span class="math inline">\(g(n) \in O(h(n))\)</span>.</p>
 
 
-</section>
-</section>
 
 <p><br> <br> <span style="color:grey;">© Phil Chodrow, 2023</span></p></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

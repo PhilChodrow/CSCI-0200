@@ -1,3 +1,8 @@
+---
+title: "Asymptotics and Big-$O$"
+---
+
+
 # Videos (0 mins)
 
 No videos for today! 
@@ -6,7 +11,7 @@ No videos for today!
 
 *This is a more challenging reading than usual. Please take your time. You'll need it for the warmup problems!* 
 
-[Discrete Mathematics and Its Applications](https://lmattos.web.illinois.edu/wp-content/uploads/2023/01/Discrete-Mathematics-and-Its-Applications.pdf#page=225) by Kenneth Rosen, Section 3.2, up to and including Example 7 (pages 204-2011)
+[Discrete Mathematics and Its Applications](https://lmattos.web.illinois.edu/wp-content/uploads/2023/01/Discrete-Mathematics-and-Its-Applications.pdf#page=225) by Kenneth Rosen, Section 3.2, up to and including Example 7 (pages 204-211)
 
 # Warmup (50 mins)
 
@@ -28,7 +33,7 @@ No videos for today!
 
 \pagebreak
 
-## (Optional Challenge) Problem 3
+## (Optional Challenge) Problem 4
 
 *You don't need to complete this problem in order to earn credit for completing the warmup.*
 
