@@ -541,42 +541,42 @@
   {
     "objectID": "content/modules/60-asymptotics/in-class.html",
     "href": "content/modules/60-asymptotics/in-class.html",
-    "title": "",
+    "title": "In-Class: Asymptotics",
     "section": "",
     "text": "Which of the following functions is \\(O(\\log n)\\)? For each one that is \\(O(\\log n)\\), find witnesses, making an effor to choose \\(C\\) as small as you can. For any that are not \\(O(\\log n)\\), write a proof or calculation explaining why.\n\n\\(f(n) = \\log(n + 1)\\).\n\\(g(n) = \\log(n^2 + 1)\\).\n\\(h(n) = \\log (n^{100} + 1)\\).\n\\(\\ell(n) = \\left(\\log n\\right)^2\\).\n\n\n\n\n  © Phil Chodrow, 2023"
   },
   {
     "objectID": "content/modules/60-asymptotics/prep.html",
     "href": "content/modules/60-asymptotics/prep.html",
-    "title": "Asymptotics and Big-\\(O\\)",
+    "title": "Asymptotics and Big-Oh",
     "section": "",
     "text": "No videos for today!\n© Phil Chodrow, 2023"
   },
   {
     "objectID": "content/modules/60-asymptotics/prep.html#problem-1",
     "href": "content/modules/60-asymptotics/prep.html#problem-1",
-    "title": "Asymptotics and Big-\\(O\\)",
+    "title": "Asymptotics and Big-Oh",
     "section": "Problem 1",
     "text": "Problem 1\nWrite a careful proof that \\(\\frac{n^2 - 1}{2n+2} \\in O(n)\\). You may assume that \\(n \\in \\mathbb{N}\\). Your proof should include a choice of the witnesses \\(C\\) and \\(k\\) and an argument for why those witnesses work."
   },
   {
     "objectID": "content/modules/60-asymptotics/prep.html#problem-2",
     "href": "content/modules/60-asymptotics/prep.html#problem-2",
-    "title": "Asymptotics and Big-\\(O\\)",
+    "title": "Asymptotics and Big-Oh",
     "section": "Problem 2",
     "text": "Problem 2\nFind the smallest integer \\(p\\) such that \\(f(n) \\in O(n^p)\\) for each of the following choices of the function \\(f\\). You may assume that \\(n \\in \\mathbb{N}\\). You should explain your answers but do not need to write formal proofs. You may find it useful to remember that \\(\\log n \\notin O(1)\\) and \\(\\log n \\leq n\\) for all \\(n\\).\n\n\\(f(n) = 3n^2\\)\n\\(f(n) = \\log n\\)\n\\(f(n) = n^2 \\log n\\)\n\\(f(n) = \\frac{\\log n}{n}\\)\n\\(f(n) = \\frac{n^3+2}{n^2 - n - 1}\\)"
   },
   {
     "objectID": "content/modules/60-asymptotics/prep.html#problem-3",
     "href": "content/modules/60-asymptotics/prep.html#problem-3",
-    "title": "Asymptotics and Big-\\(O\\)",
+    "title": "Asymptotics and Big-Oh",
     "section": "Problem 3",
     "text": "Problem 3\nYour so-called friend has a cool proof for you.\n\nSince \\(2n = O(n)\\) and \\(\\log n = O(n)\\), we know that \\(2n = O(n) = \\log n\\). So, \\(2n = \\log n\\) for all \\(n\\).\n\nIn a brief paragraph, patiently explain to your friend why this proof is incorrect. In part of your paragraph, you may wish to comment on the superiority of the notation \\(f(n) \\in O(g(n))\\) (rather than \\(f(n) = O(g(n))\\))."
   },
   {
     "objectID": "content/modules/60-asymptotics/prep.html#optional-challenge-problem-4",
     "href": "content/modules/60-asymptotics/prep.html#optional-challenge-problem-4",
-    "title": "Asymptotics and Big-\\(O\\)",
+    "title": "Asymptotics and Big-Oh",
     "section": "(Optional Challenge) Problem 4",
     "text": "(Optional Challenge) Problem 4\nYou don’t need to complete this problem in order to earn credit for completing the warmup.\nWe can think of the statement \\(f(n) \\in O(g(n))\\) as a relation between functions, which we could write \\(fRg\\). Using the definition of \\(f(n) \\in O(g(n))\\) (Definition 1 in Rosen), write a careful proof that this relation is transitive. In your proof, you should construct witnesses demonstrating that \\(f(n) \\in O(h(n))\\) in terms of other witnesses that follow from the assumption that \\(f(n) \\in O(g(n))\\) and \\(g(n) \\in O(h(n))\\)."
   },

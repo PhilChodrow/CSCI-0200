@@ -1,5 +1,5 @@
 ---
-title: "Asymptotics and Big-$O$"
+title: "Asymptotics and Big-Oh"
 ---
 
 
