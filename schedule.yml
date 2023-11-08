@@ -283,7 +283,7 @@
   notes:
   publish: true
   due:
-- date: 2023-11-10
+- date: 2023-11-13
   header: "Quiz 3"
   summary:
   objectives:
@@ -291,16 +291,16 @@
   activities:
   notes:
   publish: true
-  due: "Lab 5: TBD"
-- date: 2023-11-13
+  due: 
+- date: 2023-11-10
   header: "Graphs"
   summary:
   objectives:
-  prep:
+  prep: <a href="content/modules/70-graphs-1/prep.qmd">Graphs and Graph Theory</a>
   activities:
   notes:
   publish: true
-  due:
+  due: "Lab 5: Gradient Descent"
 - date: 2023-11-15
   header: "Graphs"
   summary:

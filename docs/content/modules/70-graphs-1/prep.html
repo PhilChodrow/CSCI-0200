@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Introduction to Counting</title>
+<title>Graphs and Graph Theory</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -66,8 +66,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="../../../assets/css/styles.css">
 </head>
@@ -165,13 +163,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#videos-20-mins" id="toc-videos-20-mins" class="nav-link active" data-scroll-target="#videos-20-mins">Videos (~20 mins)</a></li>
-  <li><a href="#readings-45-mins" id="toc-readings-45-mins" class="nav-link" data-scroll-target="#readings-45-mins">Readings (~45 mins)</a></li>
-  <li><a href="#warmup-45-mins" id="toc-warmup-45-mins" class="nav-link" data-scroll-target="#warmup-45-mins">Warmup (~45 mins)</a>
-  <ul class="collapse">
-  <li><a href="#problem-1" id="toc-problem-1" class="nav-link" data-scroll-target="#problem-1">Problem 1</a></li>
-  <li><a href="#problem-2" id="toc-problem-2" class="nav-link" data-scroll-target="#problem-2">Problem 2</a></li>
-  </ul></li>
+  <li><a href="#videos-30-mins" id="toc-videos-30-mins" class="nav-link active" data-scroll-target="#videos-30-mins">Videos (~30 mins)</a></li>
+  <li><a href="#reading-50-mins" id="toc-reading-50-mins" class="nav-link" data-scroll-target="#reading-50-mins">Reading (~50 mins)</a></li>
+  <li><a href="#warmup" id="toc-warmup" class="nav-link" data-scroll-target="#warmup">Warmup</a></li>
   </ul>
 </nav>
     </div>
@@ -180,7 +174,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Introduction to Counting</h1>
+<h1 class="title">Graphs and Graph Theory</h1>
 </div>
 
 
@@ -196,51 +190,27 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="videos-20-mins" class="level2">
-<h2 class="anchored" data-anchor-id="videos-20-mins">Videos (~20 mins)</h2>
-<p><em>There are not very many videos today, so taking time with the <strong>reading</strong> is especially important</em>.</p>
+<section id="videos-30-mins" class="level1">
+<h1>Videos (~30 mins)</h1>
 <ul>
-<li><a href="https://youtu.be/gLfpNYg9Hyk?si=VFqDCCJo4-SDHKYr">The summation rule for disjoint unions</a> (5:54)</li>
-<li><a href="https://youtu.be/U_kOuvs6zcw?si=sd9cL0ZGhiKD59Su">Counting formula for two intersecting sets</a> (inclusion-exclusion) (7:31)</li>
+<li><a href="https://youtu.be/C7YrMRdLkqo?si=4ZiEDt-CWskxzhk6">Intro to Graph Theory</a> (5:52)</li>
+<li><a href="https://youtu.be/gC0RNpD2P1Y?si=mrW7A6YZugMsHraf">Properties in Graph Theory</a> (4:02)</li>
+<li><a href="https://youtu.be/WTNBNSUhSTY?si=J67ZfmsBovDWI440">Degree of Vertices</a> (4:56)</li>
+<li><a href="https://youtu.be/dSK5jTEe-AM?si=99joQ1L1scLyXGqL">Euler Paths and the 7 Bridges of Konigsberg</a> (6:23)</li>
 </ul>
 </section>
-<section id="readings-45-mins" class="level2">
-<h2 class="anchored" data-anchor-id="readings-45-mins">Readings (~45 mins)</h2>
+<section id="reading-50-mins" class="level1">
+<h1>Reading (~50 mins)</h1>
 <ul>
-<li><a href="https://discrete.openmathbooks.org/dmoi3/sec_counting-addmult.html">DMOI Chapter 1.1</a></li>
+<li><a href="https://discrete.openmathbooks.org/dmoi3/sec_gt-intro.html">DMOI 4.1</a></li>
+<li><a href="https://discrete.openmathbooks.org/dmoi3/sec_paths.html">DMOI 4.5</a></li>
 </ul>
 </section>
-<section id="warmup-45-mins" class="level2">
-<h2 class="anchored" data-anchor-id="warmup-45-mins">Warmup (~45 mins)</h2>
-<section id="problem-1" class="level3">
-<h3 class="anchored" data-anchor-id="problem-1">Problem 1</h3>
-<!-- Modeled on DMOI 1.1.12 https://discrete.openmathbooks.org/dmoi3/sec_counting-addmult.html -->
-<p>Consider the set <span class="math inline">\(A\)</span> of all strings of letters <span class="math inline">\(a-f\)</span> of length <span class="math inline">\(5\)</span>. Here are a few elements of this set:</p>
-<ul>
-<li><span class="math inline">\(dcbac\)</span></li>
-<li><span class="math inline">\(ebafe\)</span></li>
-<li><span class="math inline">\(abafa\)</span></li>
-</ul>
-<p>What is the cardinality of each of the following sets? (This is another way of asking how many strings there are with the specified property)</p>
-<ol type="1">
-<li><span class="math inline">\(A\)</span> itself, the set of all strings of letters <span class="math inline">\(a-f\)</span> of length <span class="math inline">\(5\)</span>.</li>
-<li><span class="math inline">\(B\)</span>, the subset of <span class="math inline">\(A\)</span> in which strings contain no repeated letters.</li>
-<li><span class="math inline">\(C\)</span>, the subset of <span class="math inline">\(A\)</span> in which every sequence starts with the three letters “<span class="math inline">\(bee\)</span>”.</li>
-<li><span class="math inline">\(D\)</span>, the subset of <span class="math inline">\(A\)</span> in which every sequence either starts with “<span class="math inline">\(bee\)</span>” or ends with “<span class="math inline">\(eab\)</span>,” or both.</li>
-<li><span class="math inline">\(E\)</span>, the subset of <span class="math inline">\(A\)</span> in which every sequence either starts with “<span class="math inline">\(bee\)</span>” or ends with “<span class="math inline">\(cab\)</span>”, or both.</li>
-<li><span class="math inline">\(F\)</span>, the subset of <span class="math inline">\(B\)</span> (the set of strings with no repeated letters) which do not contain the substring “<span class="math inline">\(bad\)</span>” in any position.
-<ul>
-<li><em>Hint</em>: figure out how many strings contain the substring “<span class="math inline">\(bad\)</span>” and then subtract this number from the cardinality of <span class="math inline">\(B\)</span>.</li>
-</ul></li>
-</ol>
-</section>
-<section id="problem-2" class="level3">
-<h3 class="anchored" data-anchor-id="problem-2">Problem 2</h3>
-<p>How many positive integers less than or equal to 1,500 are multiples of <strong>either</strong> 3 or 5? Do <strong>not</strong> answer this question by listing out all the possibilities. Instead, think carefully and use the principle of inclusion-exclusion.</p>
-<p><em>Hint: think about multiples of 15…</em></p>
+<section id="warmup" class="level1">
+<h1>Warmup</h1>
+<p>There is no submitted warmup for today.</p>
 
 
-</section>
 </section>
 
 <p><br> <br> <span style="color:grey;">© Phil Chodrow, 2023</span></p></main> <!-- /main -->
