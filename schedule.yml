@@ -305,7 +305,7 @@
   header: "Graphs"
   summary:
   objectives:
-  prep:
+  prep: <a href="content/modules/71-graphs-2/prep.qmd">More Graph Theory</a>
   activities:
   notes:
   publish: true
