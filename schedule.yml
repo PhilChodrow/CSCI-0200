@@ -314,7 +314,7 @@
   header: "Lab 6: TBD"
   summary:
   objectives:
-  prep:
+  prep: <a href="content/modules/72-graphs-3/prep.qmd">Network Science</a>
   activities:
   notes:
   publish: true
