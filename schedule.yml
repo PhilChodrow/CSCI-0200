@@ -316,6 +316,8 @@
   objectives:
   prep: <a href="content/modules/72-graphs-3/prep.qmd">Network Science</a>
   activities:
+  - |
+      <a href="https://colab.research.google.com/github/PhilChodrow/CSCI-0200/blob/main/assignments/labs/06-network-science.ipynb">Lab 6: Introduction to Network Science</a>
   notes:
   publish: true
   due:
