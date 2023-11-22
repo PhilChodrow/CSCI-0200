@@ -256,7 +256,7 @@
   due:
 - date: 2023-11-03
   header: "Lab 5: Analyzing Gradient Descent"
-  summary:
+  summary: "We use recurrence relations to analyze the runtime of an algorithm for minimizing a function."
   objectives:
   prep: <a href="content/modules/55-numerical-algorithms/prep.qmd">Numerical Algorithms</a>
   activities:
@@ -267,7 +267,7 @@
   due: "Lab 4: Counting Lattice Paths"
 - date: 2023-11-06
   header: Asymptotics and Big-Oh
-  summary: 
+  summary: "We formally define big-oh notation and prove asymptotic descriptions of various functions."
   objectives:
   prep: <a href="content/modules/60-asymptotics/prep.qmd">Asymptotics and Big-Oh Notation</a>
   activities:
@@ -276,7 +276,7 @@
   due:
 - date: 2023-11-08
   header: "Analyzing Algorithms: The Tree Method"
-  summary:
+  summary: "We use the tree method and other methods to estimate asymptotic runtimes of common algorithms."
   objectives:
   prep: <a href="content/modules/61-complexity/prep.qmd">Analyzing Algorithms</a>
   activities:
@@ -285,7 +285,7 @@
   due:
 - date: 2023-11-13
   header: "Quiz 3"
-  summary:
+  summary: The third of four quizzes in which students have an opportunity to complete <a href="pages/learning-targets.qmd">Learning Targets</a>. This quiz includes targets <b>LS1</b>, <b>LS2</b>, <b>LS3</b>, <b>PF1</b>, <b>PF2</b>, <b>FR1</b>, <b>C1</b>, <b>C2</b>, and <b>R1</b>.
   objectives:
   prep:
   activities:
@@ -294,7 +294,7 @@
   due: 
 - date: 2023-11-10
   header: "Graphs"
-  summary:
+  summary: "We introduce graphs as models of data structures and connected systems."
   objectives:
   prep: <a href="content/modules/70-graphs-1/prep.qmd">Graphs and Graph Theory</a>
   activities:
@@ -303,7 +303,7 @@
   due: "Lab 5: Gradient Descent"
 - date: 2023-11-15
   header: "Graphs"
-  summary:
+  summary: "We continue our discussion of graphs with a focus on trees."
   objectives:
   prep: <a href="content/modules/71-graphs-2/prep.qmd">More Graph Theory</a>
   activities:
@@ -311,8 +311,8 @@
   publish: true
   due:
 - date: 2023-11-17
-  header: "Lab 6: TBD"
-  summary:
+  header: "Lab 6: Triangle-Counting"
+  summary: "We study the adjacency matrix of a graph and use it to count the number of triangles in real and synthetic graph data sets."
   objectives:
   prep: <a href="content/modules/72-graphs-3/prep.qmd">Network Science</a>
   activities:
@@ -323,18 +323,18 @@
   due:
 - date: 2023-11-27
   header: "Probability"
-  summary:
+  summary: "We introduce discrete probability through a discussion of a famous problem."
   objectives:
-  prep:
+  prep: <a href="content/modules/80-probability-1/prep.qmd">Introducing Discrete Probability</a>
   activities:
   notes:
   publish: true
   due:
 - date: 2023-11-29
   header: "Probability"
-  summary:
+  summary: "We introduce formal discrete probability theory via sample spaces. We also introduce conditional probability."
   objectives:
-  prep:
+  prep: <a href="content/modules/81-probability-2/prep.qmd">Sample Spaces, Conditional Probability</a>
   activities:
   notes:
   publish: true
@@ -343,25 +343,25 @@
   header: "Lab 7: TBD"
   summary:
   objectives:
-  prep:
+  prep: 
   activities:
   notes:
   publish: true
   due: "Lab 6: TBD"
 - date: 2023-12-04
   header: "Probability"
-  summary:
+  summary: "We continue our discussion of conditional probability and introduce Bayes' Theorem."
   objectives:
-  prep:
+  prep: <a href="content/modules/82-probability-3/prep.qmd">Conditional Probability and Bayes' Theorem</a>
   activities:
   notes:
   publish: true
   due:
 - date: 2023-12-06
   header: "Probability"
-  summary:
+  summary: "We define random variables and compute the expected value of simple random variables."
   objectives:
-  prep:
+  prep: <a href="content/modules/83-probability-4/prep.qmd">Random variables and expectation</a>
   activities:
   notes:
   publish: true

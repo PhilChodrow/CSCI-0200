@@ -1,0 +1,16 @@
+---
+title: "Random Variables and Expectation" 
+---
+
+# Videos (~0 mins)
+
+# Reading (~0 mins)
+
+- [Discrete Mathematics and Its Applications](https://middlebury.instructure.com/courses/13162/files?preview=2518166) 
+    - Section 7.2, pages 460-461 ("Random Variables")
+    - Section 7.4, pages 477-481
+
+# Warmup
+
+## Problem 1
+

@@ -53,35 +53,35 @@
     "href": "schedule.html#week-8",
     "title": "Schedule",
     "section": "Week 8",
-    "text": "Week 8\n\n\n\n\n\n\n\n\n\n\n\n\n\nM\nOct. 30\nRecursion and Recurrence Relations\n\n\n\n\n\nWe introduce recurrence relations and simple methods for solving them.\n\n\n\nLearning Objectives\nRecurrence Relations\n\nPrep\nRecursion and Recurrence Relations\nIn Class\nTower of Hanoi\n\n\n\n\n\n\n\nW\nNov. 01\nRecursion and Recurrence Relations\n\n\n\n\n\nWe practice writing recurrence relations to describe quantities of interest and develop further techniques to solve them.\n\n\n\n\nPrep\nMore Recursion and Recurrence Relations\nIn Class\nParking Spaces\n\n\n\n\n\n\n\nF\nNov. 03\nLab 5: Analyzing Gradient Descent\n\n\n\n\n\n\n\n\n\n\nPrep\nNumerical Algorithms\nIn Class\nLab 5: Analyzing Gradient Descent\n\nDue\nLab 4: Counting Lattice Paths"
+    "text": "Week 8\n\n\n\n\n\n\n\n\n\n\n\n\n\nM\nOct. 30\nRecursion and Recurrence Relations\n\n\n\n\n\nWe introduce recurrence relations and simple methods for solving them.\n\n\n\nLearning Objectives\nRecurrence Relations\n\nPrep\nRecursion and Recurrence Relations\nIn Class\nTower of Hanoi\n\n\n\n\n\n\n\nW\nNov. 01\nRecursion and Recurrence Relations\n\n\n\n\n\nWe practice writing recurrence relations to describe quantities of interest and develop further techniques to solve them.\n\n\n\n\nPrep\nMore Recursion and Recurrence Relations\nIn Class\nParking Spaces\n\n\n\n\n\n\n\nF\nNov. 03\nLab 5: Analyzing Gradient Descent\n\n\n\n\n\nWe use recurrence relations to analyze the runtime of an algorithm for minimizing a function.\n\n\n\n\nPrep\nNumerical Algorithms\nIn Class\nLab 5: Analyzing Gradient Descent\n\nDue\nLab 4: Counting Lattice Paths"
   },
   {
     "objectID": "schedule.html#week-9",
     "href": "schedule.html#week-9",
     "title": "Schedule",
     "section": "Week 9",
-    "text": "Week 9\n\n\n\n\n\n\n\n\n\n\n\n\n\nM\nNov. 06\nAsymptotics and Big-Oh\n\n\n\n\n\n\n\n\n\n\nPrep\nAsymptotics and Big-Oh Notation\n\n\n\n\n\n\n\nW\nNov. 08\nAnalyzing Algorithms: The Tree Method\n\n\n\n\n\n\n\n\n\n\nPrep\nAnalyzing Algorithms\n\n\n\n\n\n\n\nF\nNov. 10\nGraphs\n\n\n\n\n\n\n\n\n\n\nPrep\nGraphs and Graph Theory\n\nDue\nLab 5: Gradient Descent"
+    "text": "Week 9\n\n\n\n\n\n\n\n\n\n\n\n\n\nM\nNov. 06\nAsymptotics and Big-Oh\n\n\n\n\n\nWe formally define big-oh notation and prove asymptotic descriptions of various functions.\n\n\n\n\nPrep\nAsymptotics and Big-Oh Notation\n\n\n\n\n\n\n\nW\nNov. 08\nAnalyzing Algorithms: The Tree Method\n\n\n\n\n\nWe use the tree method and other methods to estimate asymptotic runtimes of common algorithms.\n\n\n\n\nPrep\nAnalyzing Algorithms\n\n\n\n\n\n\n\nF\nNov. 10\nGraphs\n\n\n\n\n\nWe introduce graphs as models of data structures and connected systems.\n\n\n\n\nPrep\nGraphs and Graph Theory\n\nDue\nLab 5: Gradient Descent"
   },
   {
     "objectID": "schedule.html#week-10",
     "href": "schedule.html#week-10",
     "title": "Schedule",
     "section": "Week 10",
-    "text": "Week 10\n\n\n\n\n\n\n\n\n\n\n\n\n\nM\nNov. 13\nQuiz 3\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nW\nNov. 15\nGraphs\n\n\n\n\n\n\n\n\n\n\nPrep\nMore Graph Theory\n\n\n\n\n\n\n\nF\nNov. 17\nLab 6: TBD\n\n\n\n\n\n\n\n\n\n\nPrep\nNetwork Science\nIn Class\nLab 6: Introduction to Network Science"
+    "text": "Week 10\n\n\n\n\n\n\n\n\n\n\n\n\n\nM\nNov. 13\nQuiz 3\n\n\n\n\n\nThe third of four quizzes in which students have an opportunity to complete Learning Targets. This quiz includes targets LS1, LS2, LS3, PF1, PF2, FR1, C1, C2, and R1.\n\n\n\n\n\n\n\n\n\n\n\n\nW\nNov. 15\nGraphs\n\n\n\n\n\nWe continue our discussion of graphs with a focus on trees.\n\n\n\n\nPrep\nMore Graph Theory\n\n\n\n\n\n\n\nF\nNov. 17\nLab 6: Triangle-Counting\n\n\n\n\n\nWe study the adjacency matrix of a graph and use it to count the number of triangles in real and synthetic graph data sets.\n\n\n\n\nPrep\nNetwork Science\nIn Class\nLab 6: Introduction to Network Science"
   },
   {
     "objectID": "schedule.html#week-11",
     "href": "schedule.html#week-11",
     "title": "Schedule",
     "section": "Week 11",
-    "text": "Week 11\n\n\n\n\n\n\n\n\n\n\n\n\n\nM\nNov. 27\nProbability\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nW\nNov. 29\nProbability\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\nDec. 01\nLab 7: TBD\n\n\n\n\n\n\n\n\n\n\n\n\nDue\nLab 6: TBD"
+    "text": "Week 11\n\n\n\n\n\n\n\n\n\n\n\n\n\nM\nNov. 27\nProbability\n\n\n\n\n\nWe introduce discrete probability through a discussion of a famous problem.\n\n\n\n\nPrep\nIntroducing Discrete Probability\n\n\n\n\n\n\n\nW\nNov. 29\nProbability\n\n\n\n\n\nWe introduce formal discrete probability theory via sample spaces. We also introduce conditional probability.\n\n\n\n\nPrep\nSample Spaces, Conditional Probability\n\n\n\n\n\n\n\nF\nDec. 01\nLab 7: TBD\n\n\n\n\n\n\n\n\n\n\n\n\nDue\nLab 6: TBD"
   },
   {
     "objectID": "schedule.html#week-12",
     "href": "schedule.html#week-12",
     "title": "Schedule",
     "section": "Week 12",
-    "text": "Week 12\n\n\n\n\n\n\n\n\n\n\n\n\n\nM\nDec. 04\nProbability\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nW\nDec. 06\nProbability\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\nDec. 08\nQuiz 4\n\n\n\n\n\n\n\n\n\n\n\n\nDue\nLab 7: TBD"
+    "text": "Week 12\n\n\n\n\n\n\n\n\n\n\n\n\n\nM\nDec. 04\nProbability\n\n\n\n\n\nWe continue our discussion of conditional probability and introduce Bayes' Theorem.\n\n\n\n\nPrep\nConditional Probability and Bayes' Theorem\n\n\n\n\n\n\n\nW\nDec. 06\nProbability\n\n\n\n\n\nWe define random variables and compute the expected value of simple random variables.\n\n\n\n\nPrep\nRandom variables and expectation\n\n\n\n\n\n\n\nF\nDec. 08\nQuiz 4\n\n\n\n\n\n\n\n\n\n\n\n\nDue\nLab 7: TBD"
   },
   {
     "objectID": "schedule.html#week-13",
@@ -322,25 +322,25 @@
     "text": "Problem 2\nUse the recursive definition of the Fibonacci numbers to write an inductive proof that, for any \\(n \\in \\mathbb{Z}\\) with \\(n \\geq 1\\),\n\\[\n\\begin{aligned}\n    \\sum_{i = 1}^n F_i = F_{n+2} - 1\\;.\n\\end{aligned}\n\\]\nNote: Don’t forget to include both a base case and an inductive step!"
   },
   {
-    "objectID": "content/modules/30-relations/prep.html",
-    "href": "content/modules/30-relations/prep.html",
-    "title": "Relations",
+    "objectID": "content/modules/82-probability-3/prep.html",
+    "href": "content/modules/82-probability-3/prep.html",
+    "title": "Conditional Probability and Bayes’ Theorem",
     "section": "",
-    "text": "Relations Between Two Sets: Definition + First Examples (6:39)\nRelations and their Inverses (2:49)\nReflexive, Symmetric, and Transitive Relations on a Set (6:54)\nEquivalence Relations: Reflexive, Symmetric, and Transitive (4:36)\nYou need to check EVERY spot for reflexivity, symmetry, and transitivity (3:40)\n© Phil Chodrow, 2023"
+    "text": "Conditional Probability With Tables | Chance of an Orange M&M??? (9:37)\nBayes’ Theorem - The Simplest Case (5:31)\nBayes’ Theorem Example: Surprising False Positives (12:36)\nBayes’ Theorem - Example: A disjoint union (8:32)\n\n\n\n\nBayes theorem, the geometry of changing beliefs by 3blue1brown (15:10)\n© Phil Chodrow, 2023"
   },
   {
-    "objectID": "content/modules/30-relations/prep.html#problem-1",
-    "href": "content/modules/30-relations/prep.html#problem-1",
-    "title": "Relations",
+    "objectID": "content/modules/82-probability-3/prep.html#optional",
+    "href": "content/modules/82-probability-3/prep.html#optional",
+    "title": "Conditional Probability and Bayes’ Theorem",
+    "section": "",
+    "text": "Bayes theorem, the geometry of changing beliefs by 3blue1brown (15:10)"
+  },
+  {
+    "objectID": "content/modules/82-probability-3/prep.html#problem-1",
+    "href": "content/modules/82-probability-3/prep.html#problem-1",
+    "title": "Conditional Probability and Bayes’ Theorem",
     "section": "Problem 1",
-    "text": "Problem 1\n\nPart A\nRecall that we write \\(x \\equiv y \\pmod{p}\\) for integers \\(x\\), \\(y\\), and \\(p\\) if there exists an integer \\(c\\) such that \\((x-y) = cp\\). For example, \\(16 \\equiv 2 \\pmod{7}\\) because \\((16 - 2) = 2\\times 7\\).\nWrite a complete, careful proof that, for any \\(p\\), the relation \\(\\;\\equiv \\pmod {p}\\) is an equivalence relation.\n\n\nPart B\nList all the equivalence classes of the relation \\(\\equiv \\pmod{3}\\). You can use either set-builder or roster notation."
-  },
-  {
-    "objectID": "content/modules/30-relations/prep.html#problem-2",
-    "href": "content/modules/30-relations/prep.html#problem-2",
-    "title": "Relations",
-    "section": "Problem 2",
-    "text": "Problem 2\n\nLet \\(A = \\{a, b, c, d, e\\}\\). Suppose that \\(R\\) is an equivalence relation on \\(A\\). Suppose further that \\(R\\) has two equivalence classes, and that \\(aRd\\), \\(bRc\\), and \\(eRd\\). Fully describe \\(R\\) by either writing it as a set or drawing it."
+    "text": "Problem 1\n\nIntroduction\nIn this class, “matrix” just means “square array of numbers.”\nThe adjacency matrix of a graph \\(G\\) with \\(n\\) nodes is an \\(n\\times n\\) binary matrix that we often call \\(\\mathbf{A}\\). It’s entries are given by\n \\[\n\\begin{aligned}\n    a_{ij} = \\begin{cases}\n        1 &\\quad \\text{there is an edge between node $i$ and node $j$} \\\\\n        0 &\\quad \\text{there is no edge between node $i$ and node $j$}\n    \\end{cases}\n\\end{aligned}\n\\]\\(a_{ij}\\) is the entry of \\(\\mathbf{A}\\) that is in the \\(i\\)th row and \\(j\\)th column.\nFor example, here is a graph with \\(n = 6\\) nodes:\n\n\n\n\n\n\nG\n\n\n\n1\n\n1\n\n\n\n2\n\n2\n\n\n\n1--2\n\n\n\n\n3\n\n3\n\n\n\n1--3\n\n\n\n\n2--3\n\n\n\n\n4\n\n4\n\n\n\n3--4\n\n\n\n\n5\n\n5\n\n\n\n4--5\n\n\n\n\n6\n\n6\n\n\n\n5--6\n\n\n\n\n6--4\n\n\n\n\n\n\n\n\nHere is the adjacency matrix of this graph:\n\\[\n\\begin{aligned}\n    \\mathbf{A} = \\left[\\begin{matrix}\n    0 & 1 & 1 & 0 & 0 & 0 \\\\\n    1 & 0 & 1 & 0 & 0 & 0 \\\\\n    1 & 1 & 0 & 1 & 0 & 0 \\\\\n    0 & 0 & 1 & 0 & 1 & 1 \\\\\n    0 & 0 & 0 & 1 & 0 & 1 \\\\\n    0 & 0 & 0 & 1 & 1 & 0\n    \\end{matrix}\\right]\n\\end{aligned}\n\\]\nNote that an edge between \\(i\\) and \\(j\\) corresponds to two entries of \\(\\mathbf{A}\\): the \\(a_{ij}\\) entry and the \\(a_{ji}\\) entry.\n\n\nPart A\nA walk of length \\(k\\) is a walk that traverses exactly \\(k\\) edges. For example, a walk of length \\(1\\) traverses only a single edge. \\((1, 2)\\) is a walk of length 1 in the example graph above. \\((1, 2), (2, 3)\\) is a walk of length 2, but not a walk of length 1.\n\nHow many walks of length 1 from node \\(4\\) to node \\(5\\) are there in the example graph?\nHow many walks of length 1 are there from node \\(4\\) to node \\(2\\)?\nWhat is entry \\(a_{45}\\) in the adjacency matrix? What is entry \\(a_{42}\\)?\nMake a conjecture: what information does entry \\(a_{ij}\\) contain about the the number of walks of length \\(1\\) from node \\(i\\) to node \\(j\\)?\n\n\n\nPart B\nLet’s define a new number with the following formula:\n \\[\n\\begin{aligned}\n    b_{ij} = \\sum_{k = 1}^n a_{ik}a_{kj}\\;.\n\\end{aligned}\n\\]If you have used matrix multiplication before, \\(b_{ij}\\) is the \\(ij\\)th entry of \\(\\mathbf{A}^2\\).\n\nUsing the example graph, compute the number of walks of length 2 from node 1 to node 2, node 1 to node 4, node 3 to node 4, and node 1 to node 5.\nUsing the definition, compute \\(b_{12}\\), \\(b_{14}\\), \\(b_{34}\\), and \\(b_{15}\\).\nState a conjecture describing the relationship between \\(b_{ij}\\) and the number of walks of length 2.\n\n\n\nPart C\nThe counting principles of addition and multiplication both appear in the formula for the number of walks of length 2 between nodes \\(i\\) and \\(j\\) as given above. Explain the role of each of these principles in this formula. Why do we multiply \\(a_{ik}\\) by \\(a_{kj}\\)? Why do we add across all possibilities \\(k\\)? In your response, please include the words “sequential” and “disjoint” or similar."
   },
   {
     "objectID": "content/modules/61-complexity/prep.html",
@@ -490,116 +490,193 @@
     "text": "Problem 2\n\nProve that for all integers \\(n\\), it is the case that \\(n\\) is even if and only if \\(3n\\) is even. This proof has two parts: you must show that \\(n\\) being even implies that \\(3n\\) is even; then you must show that \\(3n\\) being even implies that \\(n\\) is even.\nIn your proof, please one of the two directions using direct proof. Then, prove the other direction using proof by contrapositive."
   },
   {
-    "objectID": "content/modules/55-numerical-algorithms/prep.html",
-    "href": "content/modules/55-numerical-algorithms/prep.html",
-    "title": "Numerical Algorithms",
+    "objectID": "content/modules/23-induction/in-class.html",
+    "href": "content/modules/23-induction/in-class.html",
+    "title": "",
     "section": "",
-    "text": "In today’s lab, we are going to use recurrence relations to analyze a numerical algorithm. Numerical algorithms are used for solving problems in computational mathematics. For example, your computer doesn’t naturally “just know” how to compute things like \\(\\sin{x}\\), \\(\\sqrt{x}\\), or \\(\\log x\\) – people need to write algorithms for computing these quantities. Making these algorithms reliable and fast is one of the priorities of the field called numerical analysis, which sits at the intersection of mathematics and computer science.\n© Phil Chodrow, 2023"
+    "text": "All horses are the same color.\n\n\n\n  © Phil Chodrow, 2023"
   },
   {
-    "objectID": "content/modules/55-numerical-algorithms/prep.html#problem-1",
-    "href": "content/modules/55-numerical-algorithms/prep.html#problem-1",
-    "title": "Numerical Algorithms",
-    "section": "Problem 1",
-    "text": "Problem 1\n\nIntroduction\nConsider the following algorithm. This algorithm is used to compute a familiar mathematical quantity. It does so by repeatedly computing the sequence defined by the recurrence relation\n\\[\n\\begin{aligned}\n    x_{n+1} = \\frac{1}{2}\\left(x_n + \\frac{a}{x_n}\\right)\n\\end{aligned}\n\\]\nfor some input number \\(a\\). We do this until the difference \\(|x_{n+1} - x_n|\\) is smaller than some \\(\\epsilon\\). The algorithm outputs the final value of \\(x\\) after this threshold is reached. Here’s a more formal description of this algorithm in pseudocode:\n\nAlgorithm 1\nInputs: nonnegative real number \\(a\\), small positive real number \\(\\epsilon &gt; 0\\).\n\nInitialize \\(x = a + 1\\), \\(\\Delta = 2\\epsilon\\).\nWhile \\(\\Delta &gt; \\epsilon\\):\n\n\\(x_\\mathrm{new} \\gets \\frac{1}{2} \\left(x + \\frac{a}{x}\\right)\\).\n\\(\\Delta \\gets |x_\\mathrm{new} - x|\\).\n\\(x \\gets x_\\mathrm{new}\\).\n\nReturn \\(x\\)."
+    "objectID": "content/modules/23-induction/prep.html",
+    "href": "content/modules/23-induction/prep.html",
+    "title": "Introduction to Induction",
+    "section": "",
+    "text": "Introduction to sequences (6:13)\nThe sum and product of finite sequences (9:20)\nIntro to Mathematical Induction (12:15)\n© Phil Chodrow, 2023"
   },
   {
-    "objectID": "content/modules/55-numerical-algorithms/prep.html#part-a",
-    "href": "content/modules/55-numerical-algorithms/prep.html#part-a",
-    "title": "Numerical Algorithms",
+    "objectID": "content/modules/23-induction/prep.html#videos-40-mins",
+    "href": "content/modules/23-induction/prep.html#videos-40-mins",
+    "title": "Introduction to Induction",
+    "section": "",
+    "text": "Introduction to sequences (6:13)\nThe sum and product of finite sequences (9:20)\nIntro to Mathematical Induction (12:15)"
+  },
+  {
+    "objectID": "content/modules/23-induction/prep.html#readings-30-mins",
+    "href": "content/modules/23-induction/prep.html#readings-30-mins",
+    "title": "Introduction to Induction",
+    "section": "Readings (~30 mins)",
+    "text": "Readings (~30 mins)\n\nDMOI Chapter 2.5, up until (and not including) “Strong Induction.”"
+  },
+  {
+    "objectID": "content/modules/23-induction/prep.html#warmup-40-mins",
+    "href": "content/modules/23-induction/prep.html#warmup-40-mins",
+    "title": "Introduction to Induction",
+    "section": "Warmup (~40 mins)",
+    "text": "Warmup (~40 mins)\n\nProblem 1"
+  },
+  {
+    "objectID": "content/modules/23-induction/prep.html#part-a",
+    "href": "content/modules/23-induction/prep.html#part-a",
+    "title": "Introduction to Induction",
     "section": "Part A",
-    "text": "Part A\nWrite a function in Python or Java that implements Algorithm 1. The user should be able to specify the values of \\(a\\) and \\(\\epsilon\\).\nNotes:\n\nIt is possible but not required (or easier) to do this with a recursive function.\nSet the default value of \\(\\epsilon\\) at \\(10^{-16}\\). In Python this can be done by writing epsilon = 1e-16 in the appropriate location.\nIt’s fun, though not required, to print the value of \\(x\\) at each iteration.\n\n\nPart B\nWhat familiar mathematical quantity does this function approximately compute? You don’t have to reason about this function mathematically – just try a few values of a and make an informed guess.\nNote: proving the answer to this question, and describing how well the function approximates its target, is a classical question in numerical analysis."
+    "text": "Part A\nHere are three attempted statements of a theorem which was provided in the video (it is also Example 2.5.1 in DMOI). None of these statements are correct. For each one, explain which piece is incorrect, why it matters, and how to fix it.\n“Theorem 1”: For all integers \\(n \\in \\mathbb{Z}\\),\n\\[\n\\sum_{i = 0}^n i = \\frac{n(n+1)}{2}\\;.\n\\]\n“Theorem 2”: For all natural numbers \\(n \\geq 1\\),\n\\[\n\\sum_{i = 0}^n i = \\frac{i(i+1)}{2}\\;.\n\\]\n“Theorem 3”: For all natural numbers \\(n \\geq 1\\),\n\\[\n\\sum_{i = 0}^n i = \\frac{n(n-1)}{2}\\;.\n\\]"
   },
   {
-    "objectID": "content/modules/24-more-induction/prep.html",
-    "href": "content/modules/24-more-induction/prep.html",
-    "title": "More Induction",
+    "objectID": "content/modules/23-induction/prep.html#part-b",
+    "href": "content/modules/23-induction/prep.html#part-b",
+    "title": "Introduction to Induction",
+    "section": "Part B",
+    "text": "Part B\nHere are three attempted inductive proofs of the correct theorem. None of them are correct. For each one, explain what’s wrong.\n“Proof 1:” Suppose that \\(n = 1\\). Then,\n\\[\n\\begin{aligned}\n\\sum_{i = 0}^n i &= \\sum_{i = 1}^n i \\\\\n                 &= 1 \\\\\n                 &= \\frac{1(1+1)}{2}\\;,\n\\end{aligned}\n\\]\nas was to be shown. This completes the proof.\n“Proof 2:” Suppose that the theorem holds for some \\(n = k\\). We’ll show that this implies that it also holds for \\(n = k+1\\). We can calculate\n\\[\n\\begin{aligned}\n    \\sum_{i = 0}^{k+1} i &= \\sum_{i = 0}^k i + (k+1) &\\text{(manipulating sum)} \\\\\n                         &= \\frac{k(k+1)}{2} + (k+1) &\\text{(inductive hypothesis)} \\\\\n                         &= \\frac{(k+1)(k+2)}{2}  &\\text{(algebra)} \\\\\n                         &= \\frac{(k+1)((k+1) + 1)}{2}  &\\text{(algebra)}\\;.\n\\end{aligned}\n\\]\nThis shows that the statement is true for \\(n = k+1\\), which completes the proof.\n“Proof 3:” First, we’ll do the base case. Suppose that \\(n = 1\\). Then,\n\\[\n\\begin{aligned}\n\\sum_{i = 0}^n i &= \\sum_{i = 1}^n i \\\\\n                 &= 1 \\\\\n                 &= \\frac{1(1+1)}{2}\\;.  \n\\end{aligned}\n\\]\nSo, the statement is true for \\(n = 1\\), completing the base case. Now we’ll do the inductive step. Suppose that the statement is true for \\(n = k+1\\). We’ll show that it’s also true for \\(n = k\\). We can calculate\n\\[\n\\begin{aligned}\n    \\sum_{i = 0}^{k+1} i &= \\frac{(k+1)(k+2)}{2} &\\text{(inductive hypothesis)} \\\\\n                         &= \\frac{k(k+1)}{2} + \\frac{2(k+1)}{2} &\\text{(algebra)}\\;.\n\\end{aligned}\n\\]\nSince what’s left includes the formula for the case \\(n = k\\), this completes the inductive step.\n\nProblem 2\n\nUse mathematical induction to prove that, for any integer \\(n &gt;= 1\\),\n\\[\n\\begin{aligned}\n    \\sum_{i = 0}^n 2^i = 2^{n+1} - 1\n\\end{aligned}\n\\]"
+  },
+  {
+    "objectID": "content/modules/50-recursion-recurrence/in-class.html",
+    "href": "content/modules/50-recursion-recurrence/in-class.html",
+    "title": "In Class: The Tower of Hanoi",
     "section": "",
-    "text": "Induction Proofs Involving Inequalities (6:34)\nStrong Induction (10:08)\n© Phil Chodrow, 2023"
+    "text": "You will formulate a simple recursive algorithm to solve a puzzle.\nYou will use recurrence relations and proof by induction to describe the runtime of your algorithm.\n\n\n\n\nIn the classic puzzle of the Tower of Hanoi, you start with a stack of disks on one of three pegs. The disks are stacked by size: largest at the bottom, smallest at the top:\n\nThe challenge is to move the complete stack from one peg to another, subject to the following rules:\n\nYou can move one disk at a time from one peg to another. You can choose which peg to move to. For example, in the initial configuration, the topmost disk can move to the second peg or the third.\nA larger disk can never be on top of a smaller disk.\n\n\n\n\nOn a device of your choosing, navigate to this website on which you can play the Tower of Hanoi. Then, play with two, three, and four disks.\n\n\n\nDescribe an algorithm for solving the Tower of Hanoi with \\(n = 1\\) disk. Don’t overthink it!\n\n\n\nImagine now that you had an algorithm for solving the Tower of Hanoi with \\(n = k\\) disks. How could you use this algorithm to solve the Tower of Hanoi with \\(n = k+1\\) disks?\nHint: first move the top \\(k\\) disks to another peg using your algorithm.\n\n\n\nLet \\(t_n\\) be the minimum number of moves necessary to solve the Tower of Hanoi problem with \\(n\\) disks. The sequence \\(t_n\\) satisfies a recurrence relation of the form\n\\[\nt_{n+1} = at_n + b\n\\]\nwith initial condition \\(t_1 = c\\) for some \\(a, b, c \\in \\mathbb{Z}\\).\nUsing your response from Parts B and C, fill in the values of \\(a\\), \\(b\\), and \\(c\\).\n\n\n\nCompute \\(t_2\\), \\(t_3\\), \\(t_4\\), and \\(t_5\\) by hand.\n\n\n\nThe sequence \\(t_n\\) has closed-form solution\n\\[\nt_n = d^n + e\n\\]\nfor some \\(d, e \\in \\mathbb{Z}\\). Using your response from Part E, guess the values of \\(d\\) and \\(e\\).\n\n\n\nWrite a proof by induction that your closed-form solution from Part F is indeed a solution to the recurrence relation from Part D.\n© Phil Chodrow, 2023"
   },
   {
-    "objectID": "content/modules/24-more-induction/prep.html#videos-20-minutes",
-    "href": "content/modules/24-more-induction/prep.html#videos-20-minutes",
-    "title": "More Induction",
+    "objectID": "content/modules/50-recursion-recurrence/in-class.html#learning-objectives",
+    "href": "content/modules/50-recursion-recurrence/in-class.html#learning-objectives",
+    "title": "In Class: The Tower of Hanoi",
     "section": "",
-    "text": "Induction Proofs Involving Inequalities (6:34)\nStrong Induction (10:08)"
+    "text": "You will formulate a simple recursive algorithm to solve a puzzle.\nYou will use recurrence relations and proof by induction to describe the runtime of your algorithm."
   },
   {
-    "objectID": "content/modules/24-more-induction/prep.html#reading-30-minutes",
-    "href": "content/modules/24-more-induction/prep.html#reading-30-minutes",
-    "title": "More Induction",
-    "section": "Reading (~30 minutes)",
-    "text": "Reading (~30 minutes)\n\nDMOI Chapter 2. The new stuff is in “Strong Induction” until end, but you will benefit from reviewing the entire chapter."
-  },
-  {
-    "objectID": "content/modules/24-more-induction/prep.html#warmup-50-minutes",
-    "href": "content/modules/24-more-induction/prep.html#warmup-50-minutes",
-    "title": "More Induction",
-    "section": "Warmup (~50 minutes)",
-    "text": "Warmup (~50 minutes)\n\nProblem 1\nYou and your friend are playing the following (fun!) game. There are two piles of apples. The first player removes some positive integer number of apples from one of the piles. Then, the second player also removes some number of apples from one of the piles. Each player can remove any number of apples from one of the two piles, but cannot take apples from both piles simultaneously.\nThe players alternate until one of them removes the very last apple (from either pile). That player, who removes the very last apple, wins.\nYou deviously encourage your friend to go first. Then, you use a simple copycat strategy: whenever your friend removes \\(j\\) apples from one pile, you always remove the same number \\(j\\) apples from the second pile.\nProve the following statement using strong induction:\nProposition: If at the beginning of the game the two piles contain the same number of apples, then you (the second player) always win using your copycat strategy.\n\n\nProblem 2\n\nMotivation\nIn computer science, we often use induction to prove the correctness of a function – that is, we prove formally that the function does what it is supposed to do. This is sometimes called “proving a function.” For example, consider the Python function below, which reverses an input string using recursion.\n\ndef reverse_string(s):\n    \"\"\"\n    reverse the string s. The first letter becomes the last letter, the second letter becomes the second-to-last letter, etc. \n\n    args: \n      s, the string to be reversed\n\n    returns: the reversed string\n    \"\"\"\n\n    if s == \"\":\n        return \"\"\n    else:\n        return reverse_string(s[1:]) + s[0]\n\nHere it is in action.\n\nreverse_string(\"CSCI 0200\")\n\n'0020 ICSC'\n\n\nWe got the right answer for this input! But…would we get the right answer on every possible input? Let’s write a proof which will guarantee that we will.\n\n\nProblem Statement\nWe’ll write a string with \\(n\\) characters as \\(s_1s_2s_3\\cdots s_{n-2}s_{n-1}s_n\\).\nNow we can state the thing we want to prove:\nProposition: For any \\(n \\in \\mathbb{N}\\), the result of calling the function reverse_string on the string \\(s_1s_2s_3\\cdots s_{n-2}s_{n-1}s_n\\) is the reversal of \\(s\\), that is, the string \\(s_ns_{n-1}s_{n-2}\\cdots s_3s_2s_1\\).\nProve this claim using induction.\nNote: The empty string \\(\\epsilon\\) is the string with no elements at all; this string is its own reversal."
-  },
-  {
-    "objectID": "content/modules/60-asymptotics/in-class.html",
-    "href": "content/modules/60-asymptotics/in-class.html",
-    "title": "In-Class: Asymptotics",
+    "objectID": "content/modules/50-recursion-recurrence/in-class.html#introduction",
+    "href": "content/modules/50-recursion-recurrence/in-class.html#introduction",
+    "title": "In Class: The Tower of Hanoi",
     "section": "",
-    "text": "Which of the following functions is \\(O(\\log n)\\)? For each one that is \\(O(\\log n)\\), find witnesses, making an effor to choose \\(C\\) as small as you can. For any that are not \\(O(\\log n)\\), write a proof or calculation explaining why.\n\n\\(f(n) = \\log(n + 1)\\).\n\\(g(n) = \\log(n^2 + 1)\\).\n\\(h(n) = \\log (n^{100} + 1)\\).\n\\(\\ell(n) = \\left(\\log n\\right)^2\\).\n\n\n\n\n  © Phil Chodrow, 2023"
+    "text": "In the classic puzzle of the Tower of Hanoi, you start with a stack of disks on one of three pegs. The disks are stacked by size: largest at the bottom, smallest at the top:\n\nThe challenge is to move the complete stack from one peg to another, subject to the following rules:\n\nYou can move one disk at a time from one peg to another. You can choose which peg to move to. For example, in the initial configuration, the topmost disk can move to the second peg or the third.\nA larger disk can never be on top of a smaller disk."
   },
   {
-    "objectID": "content/modules/60-asymptotics/prep.html",
-    "href": "content/modules/60-asymptotics/prep.html",
-    "title": "Asymptotics and Big-Oh",
+    "objectID": "content/modules/50-recursion-recurrence/in-class.html#part-a",
+    "href": "content/modules/50-recursion-recurrence/in-class.html#part-a",
+    "title": "In Class: The Tower of Hanoi",
     "section": "",
-    "text": "No videos for today!\n© Phil Chodrow, 2023"
+    "text": "On a device of your choosing, navigate to this website on which you can play the Tower of Hanoi. Then, play with two, three, and four disks."
   },
   {
-    "objectID": "content/modules/60-asymptotics/prep.html#problem-1",
-    "href": "content/modules/60-asymptotics/prep.html#problem-1",
-    "title": "Asymptotics and Big-Oh",
+    "objectID": "content/modules/50-recursion-recurrence/in-class.html#part-b",
+    "href": "content/modules/50-recursion-recurrence/in-class.html#part-b",
+    "title": "In Class: The Tower of Hanoi",
+    "section": "",
+    "text": "Describe an algorithm for solving the Tower of Hanoi with \\(n = 1\\) disk. Don’t overthink it!"
+  },
+  {
+    "objectID": "content/modules/50-recursion-recurrence/in-class.html#part-c",
+    "href": "content/modules/50-recursion-recurrence/in-class.html#part-c",
+    "title": "In Class: The Tower of Hanoi",
+    "section": "",
+    "text": "Imagine now that you had an algorithm for solving the Tower of Hanoi with \\(n = k\\) disks. How could you use this algorithm to solve the Tower of Hanoi with \\(n = k+1\\) disks?\nHint: first move the top \\(k\\) disks to another peg using your algorithm."
+  },
+  {
+    "objectID": "content/modules/50-recursion-recurrence/in-class.html#part-d",
+    "href": "content/modules/50-recursion-recurrence/in-class.html#part-d",
+    "title": "In Class: The Tower of Hanoi",
+    "section": "",
+    "text": "Let \\(t_n\\) be the minimum number of moves necessary to solve the Tower of Hanoi problem with \\(n\\) disks. The sequence \\(t_n\\) satisfies a recurrence relation of the form\n\\[\nt_{n+1} = at_n + b\n\\]\nwith initial condition \\(t_1 = c\\) for some \\(a, b, c \\in \\mathbb{Z}\\).\nUsing your response from Parts B and C, fill in the values of \\(a\\), \\(b\\), and \\(c\\)."
+  },
+  {
+    "objectID": "content/modules/50-recursion-recurrence/in-class.html#part-e",
+    "href": "content/modules/50-recursion-recurrence/in-class.html#part-e",
+    "title": "In Class: The Tower of Hanoi",
+    "section": "",
+    "text": "Compute \\(t_2\\), \\(t_3\\), \\(t_4\\), and \\(t_5\\) by hand."
+  },
+  {
+    "objectID": "content/modules/50-recursion-recurrence/in-class.html#part-f",
+    "href": "content/modules/50-recursion-recurrence/in-class.html#part-f",
+    "title": "In Class: The Tower of Hanoi",
+    "section": "",
+    "text": "The sequence \\(t_n\\) has closed-form solution\n\\[\nt_n = d^n + e\n\\]\nfor some \\(d, e \\in \\mathbb{Z}\\). Using your response from Part E, guess the values of \\(d\\) and \\(e\\)."
+  },
+  {
+    "objectID": "content/modules/50-recursion-recurrence/in-class.html#part-g",
+    "href": "content/modules/50-recursion-recurrence/in-class.html#part-g",
+    "title": "In Class: The Tower of Hanoi",
+    "section": "",
+    "text": "Write a proof by induction that your closed-form solution from Part F is indeed a solution to the recurrence relation from Part D."
+  },
+  {
+    "objectID": "content/modules/50-recursion-recurrence/prep.html",
+    "href": "content/modules/50-recursion-recurrence/prep.html",
+    "title": "Recurrence Relations",
+    "section": "",
+    "text": "The formal definition of a sequence (3:49)\nRecursive Sequences (7:36)\nThe Fibonacci Sequence (6:22)\n\n\n\n\n\nIntroduction to sequences (6:13)\nThe sum and product of finite sequences (9:20)\n© Phil Chodrow, 2023"
+  },
+  {
+    "objectID": "content/modules/50-recursion-recurrence/prep.html#new",
+    "href": "content/modules/50-recursion-recurrence/prep.html#new",
+    "title": "Recurrence Relations",
+    "section": "",
+    "text": "The formal definition of a sequence (3:49)\nRecursive Sequences (7:36)\nThe Fibonacci Sequence (6:22)"
+  },
+  {
+    "objectID": "content/modules/50-recursion-recurrence/prep.html#useful-review",
+    "href": "content/modules/50-recursion-recurrence/prep.html#useful-review",
+    "title": "Recurrence Relations",
+    "section": "",
+    "text": "Introduction to sequences (6:13)\nThe sum and product of finite sequences (9:20)"
+  },
+  {
+    "objectID": "content/modules/50-recursion-recurrence/prep.html#problem-1",
+    "href": "content/modules/50-recursion-recurrence/prep.html#problem-1",
+    "title": "Recurrence Relations",
     "section": "Problem 1",
-    "text": "Problem 1\nWrite a careful proof that \\(\\frac{n^2 - 1}{2n+2} \\in O(n)\\). You may assume that \\(n \\in \\mathbb{N}\\). Your proof should include a choice of the witnesses \\(C\\) and \\(k\\) and an argument for why those witnesses work."
+    "text": "Problem 1\nConsider the recurrence relation \\(a_n = 3a_{n-1} - 2\\) with initial condition \\(a_0 = 2\\). This recurrence relation has closed formula solution \\(a_n = 3^n + j\\) for some mystery integer \\(j\\)."
   },
   {
-    "objectID": "content/modules/60-asymptotics/prep.html#problem-2",
-    "href": "content/modules/60-asymptotics/prep.html#problem-2",
-    "title": "Asymptotics and Big-Oh",
+    "objectID": "content/modules/50-recursion-recurrence/prep.html#part-a",
+    "href": "content/modules/50-recursion-recurrence/prep.html#part-a",
+    "title": "Recurrence Relations",
+    "section": "Part A",
+    "text": "Part A\nWrite out \\(a_1\\), \\(a_2\\), \\(a_3\\), and \\(a_4\\)."
+  },
+  {
+    "objectID": "content/modules/50-recursion-recurrence/prep.html#part-b",
+    "href": "content/modules/50-recursion-recurrence/prep.html#part-b",
+    "title": "Recurrence Relations",
+    "section": "Part B",
+    "text": "Part B\nBased on your answer in Part A, what is the value of the mystery integer \\(j\\)?"
+  },
+  {
+    "objectID": "content/modules/50-recursion-recurrence/prep.html#part-c",
+    "href": "content/modules/50-recursion-recurrence/prep.html#part-c",
+    "title": "Recurrence Relations",
+    "section": "Part C",
+    "text": "Part C\nWrite a careful proof by induction that that \\(a_n = 3^n + j\\) for all \\(n \\geq 0\\), using your choice of \\(j\\) from Part B."
+  },
+  {
+    "objectID": "content/modules/50-recursion-recurrence/prep.html#problem-2",
+    "href": "content/modules/50-recursion-recurrence/prep.html#problem-2",
+    "title": "Recurrence Relations",
     "section": "Problem 2",
-    "text": "Problem 2\nFind the smallest integer \\(p\\) such that \\(f(n) \\in O(n^p)\\) for each of the following choices of the function \\(f\\). You may assume that \\(n \\in \\mathbb{N}\\). You should explain your answers but do not need to write formal proofs. You may find it useful to remember that \\(\\log n \\notin O(1)\\) and \\(\\log n \\leq n\\) for all \\(n\\).\n\n\\(f(n) = 3n^2\\)\n\\(f(n) = \\log n\\)\n\\(f(n) = n^2 \\log n\\)\n\\(f(n) = \\frac{\\log n}{n}\\)\n\\(f(n) = \\frac{n^3+2}{n^2 - n - 1}\\)"
+    "text": "Problem 2\nConsider a recursion relation of the form \\[\n\\begin{aligned}\n    a_n = p a_{n-1} + 1\n\\end{aligned}\n\\]\nwith initial condition \\(a_0\\)."
   },
   {
-    "objectID": "content/modules/60-asymptotics/prep.html#problem-3",
-    "href": "content/modules/60-asymptotics/prep.html#problem-3",
-    "title": "Asymptotics and Big-Oh",
-    "section": "Problem 3",
-    "text": "Problem 3\nYour so-called friend has a cool proof for you.\n\nSince \\(2n = O(n)\\) and \\(\\log n = O(n)\\), we know that \\(2n = O(n) = \\log n\\). So, \\(2n = \\log n\\) for all \\(n\\).\n\nIn a brief paragraph, patiently explain to your friend why this proof is incorrect. In part of your paragraph, you may wish to comment on the superiority of the notation \\(f(n) \\in O(g(n))\\) (rather than \\(f(n) = O(g(n))\\))."
+    "objectID": "content/modules/50-recursion-recurrence/prep.html#part-a-1",
+    "href": "content/modules/50-recursion-recurrence/prep.html#part-a-1",
+    "title": "Recurrence Relations",
+    "section": "Part A",
+    "text": "Part A\nWrite a function in Python or Java that computes \\(a_n\\). Your function should accept 3 arguments: \\(p\\), \\(a_0\\), and \\(n\\). Use your function to compute \\(a_{10}\\) when \\(p = 2\\) and \\(a_0 = -1\\)."
   },
   {
-    "objectID": "content/modules/60-asymptotics/prep.html#optional-challenge-problem-4",
-    "href": "content/modules/60-asymptotics/prep.html#optional-challenge-problem-4",
-    "title": "Asymptotics and Big-Oh",
-    "section": "(Optional Challenge) Problem 4",
-    "text": "(Optional Challenge) Problem 4\nYou don’t need to complete this problem in order to earn credit for completing the warmup.\nWe can think of the statement \\(f(n) \\in O(g(n))\\) as a relation between functions, which we could write \\(fRg\\). Using the definition of \\(f(n) \\in O(g(n))\\) (Definition 1 in Rosen), write a careful proof that this relation is transitive. In your proof, you should construct witnesses demonstrating that \\(f(n) \\in O(h(n))\\) in terms of other witnesses that follow from the assumption that \\(f(n) \\in O(g(n))\\) and \\(g(n) \\in O(h(n))\\)."
-  },
-  {
-    "objectID": "content/modules/41-counting-2/prep.html",
-    "href": "content/modules/41-counting-2/prep.html",
-    "title": "More Counting: Permutations and Combinations",
-    "section": "",
-    "text": "Permutations: How many ways to rearrange the letters in a word? (6:52)\nCombinations Formula: Counting the number of ways to choose \\(r\\) items from \\(n\\) items (6:33)\nHow many ways are there to reorder the word MISSISSIPPI? (7:03)\n© Phil Chodrow, 2023"
-  },
-  {
-    "objectID": "content/modules/41-counting-2/prep.html#problem-1",
-    "href": "content/modules/41-counting-2/prep.html#problem-1",
-    "title": "More Counting: Permutations and Combinations",
-    "section": "Problem 1",
-    "text": "Problem 1\nConsider the four letters \\(a,b,c,d\\).\n\nPart A\nWrite down 6 permutations of these letters. How many total permutations are there?\n\n\nPart B\nWrite down 4 \\(3\\)-permutations of these letters. How many total \\(3\\)-permutations are there?\n\n\nPart C\nPick one combination of 3 letters from \\(abcd\\), and write down all permutations of this combination.\nHow many combinations of 3 letters are there from \\(abcd\\)?"
-  },
-  {
-    "objectID": "content/modules/41-counting-2/prep.html#problem-2",
-    "href": "content/modules/41-counting-2/prep.html#problem-2",
-    "title": "More Counting: Permutations and Combinations",
-    "section": "Problem 2",
-    "text": "Problem 2\nIn the video “How many ways are there to reorder the word MISSISSIPPI?” by Dr. Trefor Bazett, Dr. Bazett computes the number of reorderings as follows. First he considers the number of places to put all the “S”s, then all the “I”s, then the two “Ps”, and finally the “M”. The resulting expression is\n\\[\n\\begin{aligned}\n    \\binom{11}{4} \\binom{7}{4} \\binom{4}{2} \\binom{1}{1}\\;.\n\\end{aligned}\n\\tag{1}\\]\n\nPart A\nFind the mistake in Dr. Bazett’s solution. Describe what the error is and write down the correct solution!\nYes, math profs make mistakes too…\n\n\nPart B\nPerform the same analysis as Dr. Bazett, but start by placing the “M”, then the two “P”s, then the four “I”s, and then the four “S”s. You should get an expression that is similar to your corrected answer in Part A, including some of the same numbers, but in different places.\n\n\nPart C\nUsing the formula for \\(\\binom{n}{k}\\), write a calculation to show that your answer in Part B agrees with (is the same number as) Dr. Bazett’s solution in Equation 1 (after your correction from Part A).\n\n\nPart D\nThe method of combinatorial proof is used to show that two expressions are equal by demonstrating that they are different ways of counting the same thing. Use a combinatorial proof to show that, for any integers \\(n\\), \\(k\\), and \\(j\\) such that \\(k + j \\leq n\\),\n\\[\n\\begin{aligned}\n    \\binom{n}{k}\\binom{n-k}{j} = \\binom{n}{j}\\binom{n-j}{k}\\;.\n\\end{aligned}\n\\]\nNote: it is possible to do this with algebra, but please don’t! The combinatorial proof is simpler and nicer.\nHint: consider the number of ways to reorder a word of length \\(n\\) containing only three kinds of distinct letters."
+    "objectID": "content/modules/50-recursion-recurrence/prep.html#part-b-1",
+    "href": "content/modules/50-recursion-recurrence/prep.html#part-b-1",
+    "title": "Recurrence Relations",
+    "section": "Part B",
+    "text": "Part B\nUse your function to experiment. Find values of \\(p\\) and \\(a_0\\) such that:\n\n\\(a_n\\) becomes closer and closer to some fixed, finite number as \\(n\\) grows large.\n\\(a_n\\) “blows up” (gets very big) as \\(n\\) grows large.\n\\(a_n\\) flips between positive and negative values as \\(n\\) grows large."
   },
   {
     "objectID": "content/modules/00-intro/in-class.html#whos-in-the-room",
@@ -2695,193 +2772,137 @@
     "text": "Exercise\nDraft a proof that the sum of two odd integers is also even. It’s ok not to write out complete sentences, but use abbreviations that would help remind you which sentences to put where.\nFor more tips, see the guide to Writing Mathematics Well by Francis Su at Harvey Mudd College."
   },
   {
-    "objectID": "content/modules/50-recursion-recurrence/prep.html",
-    "href": "content/modules/50-recursion-recurrence/prep.html",
-    "title": "Recurrence Relations",
+    "objectID": "content/modules/83-probability-4/prep.html",
+    "href": "content/modules/83-probability-4/prep.html",
+    "title": "Random Variables and Expectation",
     "section": "",
-    "text": "The formal definition of a sequence (3:49)\nRecursive Sequences (7:36)\nThe Fibonacci Sequence (6:22)\n\n\n\n\n\nIntroduction to sequences (6:13)\nThe sum and product of finite sequences (9:20)\n© Phil Chodrow, 2023"
+    "text": "© Phil Chodrow, 2023"
   },
   {
-    "objectID": "content/modules/50-recursion-recurrence/prep.html#new",
-    "href": "content/modules/50-recursion-recurrence/prep.html#new",
-    "title": "Recurrence Relations",
-    "section": "",
-    "text": "The formal definition of a sequence (3:49)\nRecursive Sequences (7:36)\nThe Fibonacci Sequence (6:22)"
-  },
-  {
-    "objectID": "content/modules/50-recursion-recurrence/prep.html#useful-review",
-    "href": "content/modules/50-recursion-recurrence/prep.html#useful-review",
-    "title": "Recurrence Relations",
-    "section": "",
-    "text": "Introduction to sequences (6:13)\nThe sum and product of finite sequences (9:20)"
-  },
-  {
-    "objectID": "content/modules/50-recursion-recurrence/prep.html#problem-1",
-    "href": "content/modules/50-recursion-recurrence/prep.html#problem-1",
-    "title": "Recurrence Relations",
+    "objectID": "content/modules/83-probability-4/prep.html#problem-1",
+    "href": "content/modules/83-probability-4/prep.html#problem-1",
+    "title": "Random Variables and Expectation",
     "section": "Problem 1",
-    "text": "Problem 1\nConsider the recurrence relation \\(a_n = 3a_{n-1} - 2\\) with initial condition \\(a_0 = 2\\). This recurrence relation has closed formula solution \\(a_n = 3^n + j\\) for some mystery integer \\(j\\)."
+    "text": "Problem 1"
   },
   {
-    "objectID": "content/modules/50-recursion-recurrence/prep.html#part-a",
-    "href": "content/modules/50-recursion-recurrence/prep.html#part-a",
-    "title": "Recurrence Relations",
-    "section": "Part A",
-    "text": "Part A\nWrite out \\(a_1\\), \\(a_2\\), \\(a_3\\), and \\(a_4\\)."
+    "objectID": "content/modules/41-counting-2/prep.html",
+    "href": "content/modules/41-counting-2/prep.html",
+    "title": "More Counting: Permutations and Combinations",
+    "section": "",
+    "text": "Permutations: How many ways to rearrange the letters in a word? (6:52)\nCombinations Formula: Counting the number of ways to choose \\(r\\) items from \\(n\\) items (6:33)\nHow many ways are there to reorder the word MISSISSIPPI? (7:03)\n© Phil Chodrow, 2023"
   },
   {
-    "objectID": "content/modules/50-recursion-recurrence/prep.html#part-b",
-    "href": "content/modules/50-recursion-recurrence/prep.html#part-b",
-    "title": "Recurrence Relations",
-    "section": "Part B",
-    "text": "Part B\nBased on your answer in Part A, what is the value of the mystery integer \\(j\\)?"
+    "objectID": "content/modules/41-counting-2/prep.html#problem-1",
+    "href": "content/modules/41-counting-2/prep.html#problem-1",
+    "title": "More Counting: Permutations and Combinations",
+    "section": "Problem 1",
+    "text": "Problem 1\nConsider the four letters \\(a,b,c,d\\).\n\nPart A\nWrite down 6 permutations of these letters. How many total permutations are there?\n\n\nPart B\nWrite down 4 \\(3\\)-permutations of these letters. How many total \\(3\\)-permutations are there?\n\n\nPart C\nPick one combination of 3 letters from \\(abcd\\), and write down all permutations of this combination.\nHow many combinations of 3 letters are there from \\(abcd\\)?"
   },
   {
-    "objectID": "content/modules/50-recursion-recurrence/prep.html#part-c",
-    "href": "content/modules/50-recursion-recurrence/prep.html#part-c",
-    "title": "Recurrence Relations",
-    "section": "Part C",
-    "text": "Part C\nWrite a careful proof by induction that that \\(a_n = 3^n + j\\) for all \\(n \\geq 0\\), using your choice of \\(j\\) from Part B."
-  },
-  {
-    "objectID": "content/modules/50-recursion-recurrence/prep.html#problem-2",
-    "href": "content/modules/50-recursion-recurrence/prep.html#problem-2",
-    "title": "Recurrence Relations",
+    "objectID": "content/modules/41-counting-2/prep.html#problem-2",
+    "href": "content/modules/41-counting-2/prep.html#problem-2",
+    "title": "More Counting: Permutations and Combinations",
     "section": "Problem 2",
-    "text": "Problem 2\nConsider a recursion relation of the form \\[\n\\begin{aligned}\n    a_n = p a_{n-1} + 1\n\\end{aligned}\n\\]\nwith initial condition \\(a_0\\)."
+    "text": "Problem 2\nIn the video “How many ways are there to reorder the word MISSISSIPPI?” by Dr. Trefor Bazett, Dr. Bazett computes the number of reorderings as follows. First he considers the number of places to put all the “S”s, then all the “I”s, then the two “Ps”, and finally the “M”. The resulting expression is\n\\[\n\\begin{aligned}\n    \\binom{11}{4} \\binom{7}{4} \\binom{4}{2} \\binom{1}{1}\\;.\n\\end{aligned}\n\\tag{1}\\]\n\nPart A\nFind the mistake in Dr. Bazett’s solution. Describe what the error is and write down the correct solution!\nYes, math profs make mistakes too…\n\n\nPart B\nPerform the same analysis as Dr. Bazett, but start by placing the “M”, then the two “P”s, then the four “I”s, and then the four “S”s. You should get an expression that is similar to your corrected answer in Part A, including some of the same numbers, but in different places.\n\n\nPart C\nUsing the formula for \\(\\binom{n}{k}\\), write a calculation to show that your answer in Part B agrees with (is the same number as) Dr. Bazett’s solution in Equation 1 (after your correction from Part A).\n\n\nPart D\nThe method of combinatorial proof is used to show that two expressions are equal by demonstrating that they are different ways of counting the same thing. Use a combinatorial proof to show that, for any integers \\(n\\), \\(k\\), and \\(j\\) such that \\(k + j \\leq n\\),\n\\[\n\\begin{aligned}\n    \\binom{n}{k}\\binom{n-k}{j} = \\binom{n}{j}\\binom{n-j}{k}\\;.\n\\end{aligned}\n\\]\nNote: it is possible to do this with algebra, but please don’t! The combinatorial proof is simpler and nicer.\nHint: consider the number of ways to reorder a word of length \\(n\\) containing only three kinds of distinct letters."
   },
   {
-    "objectID": "content/modules/50-recursion-recurrence/prep.html#part-a-1",
-    "href": "content/modules/50-recursion-recurrence/prep.html#part-a-1",
-    "title": "Recurrence Relations",
+    "objectID": "content/modules/60-asymptotics/prep.html",
+    "href": "content/modules/60-asymptotics/prep.html",
+    "title": "Asymptotics and Big-Oh",
+    "section": "",
+    "text": "No videos for today!\n© Phil Chodrow, 2023"
+  },
+  {
+    "objectID": "content/modules/60-asymptotics/prep.html#problem-1",
+    "href": "content/modules/60-asymptotics/prep.html#problem-1",
+    "title": "Asymptotics and Big-Oh",
+    "section": "Problem 1",
+    "text": "Problem 1\nWrite a careful proof that \\(\\frac{n^2 - 1}{2n+2} \\in O(n)\\). You may assume that \\(n \\in \\mathbb{N}\\). Your proof should include a choice of the witnesses \\(C\\) and \\(k\\) and an argument for why those witnesses work."
+  },
+  {
+    "objectID": "content/modules/60-asymptotics/prep.html#problem-2",
+    "href": "content/modules/60-asymptotics/prep.html#problem-2",
+    "title": "Asymptotics and Big-Oh",
+    "section": "Problem 2",
+    "text": "Problem 2\nFind the smallest integer \\(p\\) such that \\(f(n) \\in O(n^p)\\) for each of the following choices of the function \\(f\\). You may assume that \\(n \\in \\mathbb{N}\\). You should explain your answers but do not need to write formal proofs. You may find it useful to remember that \\(\\log n \\notin O(1)\\) and \\(\\log n \\leq n\\) for all \\(n\\).\n\n\\(f(n) = 3n^2\\)\n\\(f(n) = \\log n\\)\n\\(f(n) = n^2 \\log n\\)\n\\(f(n) = \\frac{\\log n}{n}\\)\n\\(f(n) = \\frac{n^3+2}{n^2 - n - 1}\\)"
+  },
+  {
+    "objectID": "content/modules/60-asymptotics/prep.html#problem-3",
+    "href": "content/modules/60-asymptotics/prep.html#problem-3",
+    "title": "Asymptotics and Big-Oh",
+    "section": "Problem 3",
+    "text": "Problem 3\nYour so-called friend has a cool proof for you.\n\nSince \\(2n = O(n)\\) and \\(\\log n = O(n)\\), we know that \\(2n = O(n) = \\log n\\). So, \\(2n = \\log n\\) for all \\(n\\).\n\nIn a brief paragraph, patiently explain to your friend why this proof is incorrect. In part of your paragraph, you may wish to comment on the superiority of the notation \\(f(n) \\in O(g(n))\\) (rather than \\(f(n) = O(g(n))\\))."
+  },
+  {
+    "objectID": "content/modules/60-asymptotics/prep.html#optional-challenge-problem-4",
+    "href": "content/modules/60-asymptotics/prep.html#optional-challenge-problem-4",
+    "title": "Asymptotics and Big-Oh",
+    "section": "(Optional Challenge) Problem 4",
+    "text": "(Optional Challenge) Problem 4\nYou don’t need to complete this problem in order to earn credit for completing the warmup.\nWe can think of the statement \\(f(n) \\in O(g(n))\\) as a relation between functions, which we could write \\(fRg\\). Using the definition of \\(f(n) \\in O(g(n))\\) (Definition 1 in Rosen), write a careful proof that this relation is transitive. In your proof, you should construct witnesses demonstrating that \\(f(n) \\in O(h(n))\\) in terms of other witnesses that follow from the assumption that \\(f(n) \\in O(g(n))\\) and \\(g(n) \\in O(h(n))\\)."
+  },
+  {
+    "objectID": "content/modules/60-asymptotics/in-class.html",
+    "href": "content/modules/60-asymptotics/in-class.html",
+    "title": "In-Class: Asymptotics",
+    "section": "",
+    "text": "Which of the following functions is \\(O(\\log n)\\)? For each one that is \\(O(\\log n)\\), find witnesses, making an effor to choose \\(C\\) as small as you can. For any that are not \\(O(\\log n)\\), write a proof or calculation explaining why.\n\n\\(f(n) = \\log(n + 1)\\).\n\\(g(n) = \\log(n^2 + 1)\\).\n\\(h(n) = \\log (n^{100} + 1)\\).\n\\(\\ell(n) = \\left(\\log n\\right)^2\\).\n\n\n\n\n  © Phil Chodrow, 2023"
+  },
+  {
+    "objectID": "content/modules/24-more-induction/prep.html",
+    "href": "content/modules/24-more-induction/prep.html",
+    "title": "More Induction",
+    "section": "",
+    "text": "Induction Proofs Involving Inequalities (6:34)\nStrong Induction (10:08)\n© Phil Chodrow, 2023"
+  },
+  {
+    "objectID": "content/modules/24-more-induction/prep.html#videos-20-minutes",
+    "href": "content/modules/24-more-induction/prep.html#videos-20-minutes",
+    "title": "More Induction",
+    "section": "",
+    "text": "Induction Proofs Involving Inequalities (6:34)\nStrong Induction (10:08)"
+  },
+  {
+    "objectID": "content/modules/24-more-induction/prep.html#reading-30-minutes",
+    "href": "content/modules/24-more-induction/prep.html#reading-30-minutes",
+    "title": "More Induction",
+    "section": "Reading (~30 minutes)",
+    "text": "Reading (~30 minutes)\n\nDMOI Chapter 2. The new stuff is in “Strong Induction” until end, but you will benefit from reviewing the entire chapter."
+  },
+  {
+    "objectID": "content/modules/24-more-induction/prep.html#warmup-50-minutes",
+    "href": "content/modules/24-more-induction/prep.html#warmup-50-minutes",
+    "title": "More Induction",
+    "section": "Warmup (~50 minutes)",
+    "text": "Warmup (~50 minutes)\n\nProblem 1\nYou and your friend are playing the following (fun!) game. There are two piles of apples. The first player removes some positive integer number of apples from one of the piles. Then, the second player also removes some number of apples from one of the piles. Each player can remove any number of apples from one of the two piles, but cannot take apples from both piles simultaneously.\nThe players alternate until one of them removes the very last apple (from either pile). That player, who removes the very last apple, wins.\nYou deviously encourage your friend to go first. Then, you use a simple copycat strategy: whenever your friend removes \\(j\\) apples from one pile, you always remove the same number \\(j\\) apples from the second pile.\nProve the following statement using strong induction:\nProposition: If at the beginning of the game the two piles contain the same number of apples, then you (the second player) always win using your copycat strategy.\n\n\nProblem 2\n\nMotivation\nIn computer science, we often use induction to prove the correctness of a function – that is, we prove formally that the function does what it is supposed to do. This is sometimes called “proving a function.” For example, consider the Python function below, which reverses an input string using recursion.\n\ndef reverse_string(s):\n    \"\"\"\n    reverse the string s. The first letter becomes the last letter, the second letter becomes the second-to-last letter, etc. \n\n    args: \n      s, the string to be reversed\n\n    returns: the reversed string\n    \"\"\"\n\n    if s == \"\":\n        return \"\"\n    else:\n        return reverse_string(s[1:]) + s[0]\n\nHere it is in action.\n\nreverse_string(\"CSCI 0200\")\n\n'0020 ICSC'\n\n\nWe got the right answer for this input! But…would we get the right answer on every possible input? Let’s write a proof which will guarantee that we will.\n\n\nProblem Statement\nWe’ll write a string with \\(n\\) characters as \\(s_1s_2s_3\\cdots s_{n-2}s_{n-1}s_n\\).\nNow we can state the thing we want to prove:\nProposition: For any \\(n \\in \\mathbb{N}\\), the result of calling the function reverse_string on the string \\(s_1s_2s_3\\cdots s_{n-2}s_{n-1}s_n\\) is the reversal of \\(s\\), that is, the string \\(s_ns_{n-1}s_{n-2}\\cdots s_3s_2s_1\\).\nProve this claim using induction.\nNote: The empty string \\(\\epsilon\\) is the string with no elements at all; this string is its own reversal."
+  },
+  {
+    "objectID": "content/modules/55-numerical-algorithms/prep.html",
+    "href": "content/modules/55-numerical-algorithms/prep.html",
+    "title": "Numerical Algorithms",
+    "section": "",
+    "text": "In today’s lab, we are going to use recurrence relations to analyze a numerical algorithm. Numerical algorithms are used for solving problems in computational mathematics. For example, your computer doesn’t naturally “just know” how to compute things like \\(\\sin{x}\\), \\(\\sqrt{x}\\), or \\(\\log x\\) – people need to write algorithms for computing these quantities. Making these algorithms reliable and fast is one of the priorities of the field called numerical analysis, which sits at the intersection of mathematics and computer science.\n© Phil Chodrow, 2023"
+  },
+  {
+    "objectID": "content/modules/55-numerical-algorithms/prep.html#problem-1",
+    "href": "content/modules/55-numerical-algorithms/prep.html#problem-1",
+    "title": "Numerical Algorithms",
+    "section": "Problem 1",
+    "text": "Problem 1\n\nIntroduction\nConsider the following algorithm. This algorithm is used to compute a familiar mathematical quantity. It does so by repeatedly computing the sequence defined by the recurrence relation\n\\[\n\\begin{aligned}\n    x_{n+1} = \\frac{1}{2}\\left(x_n + \\frac{a}{x_n}\\right)\n\\end{aligned}\n\\]\nfor some input number \\(a\\). We do this until the difference \\(|x_{n+1} - x_n|\\) is smaller than some \\(\\epsilon\\). The algorithm outputs the final value of \\(x\\) after this threshold is reached. Here’s a more formal description of this algorithm in pseudocode:\n\nAlgorithm 1\nInputs: nonnegative real number \\(a\\), small positive real number \\(\\epsilon &gt; 0\\).\n\nInitialize \\(x = a + 1\\), \\(\\Delta = 2\\epsilon\\).\nWhile \\(\\Delta &gt; \\epsilon\\):\n\n\\(x_\\mathrm{new} \\gets \\frac{1}{2} \\left(x + \\frac{a}{x}\\right)\\).\n\\(\\Delta \\gets |x_\\mathrm{new} - x|\\).\n\\(x \\gets x_\\mathrm{new}\\).\n\nReturn \\(x\\)."
+  },
+  {
+    "objectID": "content/modules/55-numerical-algorithms/prep.html#part-a",
+    "href": "content/modules/55-numerical-algorithms/prep.html#part-a",
+    "title": "Numerical Algorithms",
     "section": "Part A",
-    "text": "Part A\nWrite a function in Python or Java that computes \\(a_n\\). Your function should accept 3 arguments: \\(p\\), \\(a_0\\), and \\(n\\). Use your function to compute \\(a_{10}\\) when \\(p = 2\\) and \\(a_0 = -1\\)."
+    "text": "Part A\nWrite a function in Python or Java that implements Algorithm 1. The user should be able to specify the values of \\(a\\) and \\(\\epsilon\\).\nNotes:\n\nIt is possible but not required (or easier) to do this with a recursive function.\nSet the default value of \\(\\epsilon\\) at \\(10^{-16}\\). In Python this can be done by writing epsilon = 1e-16 in the appropriate location.\nIt’s fun, though not required, to print the value of \\(x\\) at each iteration.\n\n\nPart B\nWhat familiar mathematical quantity does this function approximately compute? You don’t have to reason about this function mathematically – just try a few values of a and make an informed guess.\nNote: proving the answer to this question, and describing how well the function approximates its target, is a classical question in numerical analysis."
   },
   {
-    "objectID": "content/modules/50-recursion-recurrence/prep.html#part-b-1",
-    "href": "content/modules/50-recursion-recurrence/prep.html#part-b-1",
-    "title": "Recurrence Relations",
-    "section": "Part B",
-    "text": "Part B\nUse your function to experiment. Find values of \\(p\\) and \\(a_0\\) such that:\n\n\\(a_n\\) becomes closer and closer to some fixed, finite number as \\(n\\) grows large.\n\\(a_n\\) “blows up” (gets very big) as \\(n\\) grows large.\n\\(a_n\\) flips between positive and negative values as \\(n\\) grows large."
-  },
-  {
-    "objectID": "content/modules/50-recursion-recurrence/in-class.html",
-    "href": "content/modules/50-recursion-recurrence/in-class.html",
-    "title": "In Class: The Tower of Hanoi",
+    "objectID": "content/modules/80-probability-1/prep.html",
+    "href": "content/modules/80-probability-1/prep.html",
+    "title": "Introduction to Discrete Probability",
     "section": "",
-    "text": "You will formulate a simple recursive algorithm to solve a puzzle.\nYou will use recurrence relations and proof by induction to describe the runtime of your algorithm.\n\n\n\n\nIn the classic puzzle of the Tower of Hanoi, you start with a stack of disks on one of three pegs. The disks are stacked by size: largest at the bottom, smallest at the top:\n\nThe challenge is to move the complete stack from one peg to another, subject to the following rules:\n\nYou can move one disk at a time from one peg to another. You can choose which peg to move to. For example, in the initial configuration, the topmost disk can move to the second peg or the third.\nA larger disk can never be on top of a smaller disk.\n\n\n\n\nOn a device of your choosing, navigate to this website on which you can play the Tower of Hanoi. Then, play with two, three, and four disks.\n\n\n\nDescribe an algorithm for solving the Tower of Hanoi with \\(n = 1\\) disk. Don’t overthink it!\n\n\n\nImagine now that you had an algorithm for solving the Tower of Hanoi with \\(n = k\\) disks. How could you use this algorithm to solve the Tower of Hanoi with \\(n = k+1\\) disks?\nHint: first move the top \\(k\\) disks to another peg using your algorithm.\n\n\n\nLet \\(t_n\\) be the minimum number of moves necessary to solve the Tower of Hanoi problem with \\(n\\) disks. The sequence \\(t_n\\) satisfies a recurrence relation of the form\n\\[\nt_{n+1} = at_n + b\n\\]\nwith initial condition \\(t_1 = c\\) for some \\(a, b, c \\in \\mathbb{Z}\\).\nUsing your response from Parts B and C, fill in the values of \\(a\\), \\(b\\), and \\(c\\).\n\n\n\nCompute \\(t_2\\), \\(t_3\\), \\(t_4\\), and \\(t_5\\) by hand.\n\n\n\nThe sequence \\(t_n\\) has closed-form solution\n\\[\nt_n = d^n + e\n\\]\nfor some \\(d, e \\in \\mathbb{Z}\\). Using your response from Part E, guess the values of \\(d\\) and \\(e\\).\n\n\n\nWrite a proof by induction that your closed-form solution from Part F is indeed a solution to the recurrence relation from Part D.\n© Phil Chodrow, 2023"
-  },
-  {
-    "objectID": "content/modules/50-recursion-recurrence/in-class.html#learning-objectives",
-    "href": "content/modules/50-recursion-recurrence/in-class.html#learning-objectives",
-    "title": "In Class: The Tower of Hanoi",
-    "section": "",
-    "text": "You will formulate a simple recursive algorithm to solve a puzzle.\nYou will use recurrence relations and proof by induction to describe the runtime of your algorithm."
-  },
-  {
-    "objectID": "content/modules/50-recursion-recurrence/in-class.html#introduction",
-    "href": "content/modules/50-recursion-recurrence/in-class.html#introduction",
-    "title": "In Class: The Tower of Hanoi",
-    "section": "",
-    "text": "In the classic puzzle of the Tower of Hanoi, you start with a stack of disks on one of three pegs. The disks are stacked by size: largest at the bottom, smallest at the top:\n\nThe challenge is to move the complete stack from one peg to another, subject to the following rules:\n\nYou can move one disk at a time from one peg to another. You can choose which peg to move to. For example, in the initial configuration, the topmost disk can move to the second peg or the third.\nA larger disk can never be on top of a smaller disk."
-  },
-  {
-    "objectID": "content/modules/50-recursion-recurrence/in-class.html#part-a",
-    "href": "content/modules/50-recursion-recurrence/in-class.html#part-a",
-    "title": "In Class: The Tower of Hanoi",
-    "section": "",
-    "text": "On a device of your choosing, navigate to this website on which you can play the Tower of Hanoi. Then, play with two, three, and four disks."
-  },
-  {
-    "objectID": "content/modules/50-recursion-recurrence/in-class.html#part-b",
-    "href": "content/modules/50-recursion-recurrence/in-class.html#part-b",
-    "title": "In Class: The Tower of Hanoi",
-    "section": "",
-    "text": "Describe an algorithm for solving the Tower of Hanoi with \\(n = 1\\) disk. Don’t overthink it!"
-  },
-  {
-    "objectID": "content/modules/50-recursion-recurrence/in-class.html#part-c",
-    "href": "content/modules/50-recursion-recurrence/in-class.html#part-c",
-    "title": "In Class: The Tower of Hanoi",
-    "section": "",
-    "text": "Imagine now that you had an algorithm for solving the Tower of Hanoi with \\(n = k\\) disks. How could you use this algorithm to solve the Tower of Hanoi with \\(n = k+1\\) disks?\nHint: first move the top \\(k\\) disks to another peg using your algorithm."
-  },
-  {
-    "objectID": "content/modules/50-recursion-recurrence/in-class.html#part-d",
-    "href": "content/modules/50-recursion-recurrence/in-class.html#part-d",
-    "title": "In Class: The Tower of Hanoi",
-    "section": "",
-    "text": "Let \\(t_n\\) be the minimum number of moves necessary to solve the Tower of Hanoi problem with \\(n\\) disks. The sequence \\(t_n\\) satisfies a recurrence relation of the form\n\\[\nt_{n+1} = at_n + b\n\\]\nwith initial condition \\(t_1 = c\\) for some \\(a, b, c \\in \\mathbb{Z}\\).\nUsing your response from Parts B and C, fill in the values of \\(a\\), \\(b\\), and \\(c\\)."
-  },
-  {
-    "objectID": "content/modules/50-recursion-recurrence/in-class.html#part-e",
-    "href": "content/modules/50-recursion-recurrence/in-class.html#part-e",
-    "title": "In Class: The Tower of Hanoi",
-    "section": "",
-    "text": "Compute \\(t_2\\), \\(t_3\\), \\(t_4\\), and \\(t_5\\) by hand."
-  },
-  {
-    "objectID": "content/modules/50-recursion-recurrence/in-class.html#part-f",
-    "href": "content/modules/50-recursion-recurrence/in-class.html#part-f",
-    "title": "In Class: The Tower of Hanoi",
-    "section": "",
-    "text": "The sequence \\(t_n\\) has closed-form solution\n\\[\nt_n = d^n + e\n\\]\nfor some \\(d, e \\in \\mathbb{Z}\\). Using your response from Part E, guess the values of \\(d\\) and \\(e\\)."
-  },
-  {
-    "objectID": "content/modules/50-recursion-recurrence/in-class.html#part-g",
-    "href": "content/modules/50-recursion-recurrence/in-class.html#part-g",
-    "title": "In Class: The Tower of Hanoi",
-    "section": "",
-    "text": "Write a proof by induction that your closed-form solution from Part F is indeed a solution to the recurrence relation from Part D."
-  },
-  {
-    "objectID": "content/modules/23-induction/prep.html",
-    "href": "content/modules/23-induction/prep.html",
-    "title": "Introduction to Induction",
-    "section": "",
-    "text": "Introduction to sequences (6:13)\nThe sum and product of finite sequences (9:20)\nIntro to Mathematical Induction (12:15)\n© Phil Chodrow, 2023"
-  },
-  {
-    "objectID": "content/modules/23-induction/prep.html#videos-40-mins",
-    "href": "content/modules/23-induction/prep.html#videos-40-mins",
-    "title": "Introduction to Induction",
-    "section": "",
-    "text": "Introduction to sequences (6:13)\nThe sum and product of finite sequences (9:20)\nIntro to Mathematical Induction (12:15)"
-  },
-  {
-    "objectID": "content/modules/23-induction/prep.html#readings-30-mins",
-    "href": "content/modules/23-induction/prep.html#readings-30-mins",
-    "title": "Introduction to Induction",
-    "section": "Readings (~30 mins)",
-    "text": "Readings (~30 mins)\n\nDMOI Chapter 2.5, up until (and not including) “Strong Induction.”"
-  },
-  {
-    "objectID": "content/modules/23-induction/prep.html#warmup-40-mins",
-    "href": "content/modules/23-induction/prep.html#warmup-40-mins",
-    "title": "Introduction to Induction",
-    "section": "Warmup (~40 mins)",
-    "text": "Warmup (~40 mins)\n\nProblem 1"
-  },
-  {
-    "objectID": "content/modules/23-induction/prep.html#part-a",
-    "href": "content/modules/23-induction/prep.html#part-a",
-    "title": "Introduction to Induction",
-    "section": "Part A",
-    "text": "Part A\nHere are three attempted statements of a theorem which was provided in the video (it is also Example 2.5.1 in DMOI). None of these statements are correct. For each one, explain which piece is incorrect, why it matters, and how to fix it.\n“Theorem 1”: For all integers \\(n \\in \\mathbb{Z}\\),\n\\[\n\\sum_{i = 0}^n i = \\frac{n(n+1)}{2}\\;.\n\\]\n“Theorem 2”: For all natural numbers \\(n \\geq 1\\),\n\\[\n\\sum_{i = 0}^n i = \\frac{i(i+1)}{2}\\;.\n\\]\n“Theorem 3”: For all natural numbers \\(n \\geq 1\\),\n\\[\n\\sum_{i = 0}^n i = \\frac{n(n-1)}{2}\\;.\n\\]"
-  },
-  {
-    "objectID": "content/modules/23-induction/prep.html#part-b",
-    "href": "content/modules/23-induction/prep.html#part-b",
-    "title": "Introduction to Induction",
-    "section": "Part B",
-    "text": "Part B\nHere are three attempted inductive proofs of the correct theorem. None of them are correct. For each one, explain what’s wrong.\n“Proof 1:” Suppose that \\(n = 1\\). Then,\n\\[\n\\begin{aligned}\n\\sum_{i = 0}^n i &= \\sum_{i = 1}^n i \\\\\n                 &= 1 \\\\\n                 &= \\frac{1(1+1)}{2}\\;,\n\\end{aligned}\n\\]\nas was to be shown. This completes the proof.\n“Proof 2:” Suppose that the theorem holds for some \\(n = k\\). We’ll show that this implies that it also holds for \\(n = k+1\\). We can calculate\n\\[\n\\begin{aligned}\n    \\sum_{i = 0}^{k+1} i &= \\sum_{i = 0}^k i + (k+1) &\\text{(manipulating sum)} \\\\\n                         &= \\frac{k(k+1)}{2} + (k+1) &\\text{(inductive hypothesis)} \\\\\n                         &= \\frac{(k+1)(k+2)}{2}  &\\text{(algebra)} \\\\\n                         &= \\frac{(k+1)((k+1) + 1)}{2}  &\\text{(algebra)}\\;.\n\\end{aligned}\n\\]\nThis shows that the statement is true for \\(n = k+1\\), which completes the proof.\n“Proof 3:” First, we’ll do the base case. Suppose that \\(n = 1\\). Then,\n\\[\n\\begin{aligned}\n\\sum_{i = 0}^n i &= \\sum_{i = 1}^n i \\\\\n                 &= 1 \\\\\n                 &= \\frac{1(1+1)}{2}\\;.  \n\\end{aligned}\n\\]\nSo, the statement is true for \\(n = 1\\), completing the base case. Now we’ll do the inductive step. Suppose that the statement is true for \\(n = k+1\\). We’ll show that it’s also true for \\(n = k\\). We can calculate\n\\[\n\\begin{aligned}\n    \\sum_{i = 0}^{k+1} i &= \\frac{(k+1)(k+2)}{2} &\\text{(inductive hypothesis)} \\\\\n                         &= \\frac{k(k+1)}{2} + \\frac{2(k+1)}{2} &\\text{(algebra)}\\;.\n\\end{aligned}\n\\]\nSince what’s left includes the formula for the case \\(n = k\\), this completes the inductive step.\n\nProblem 2\n\nUse mathematical induction to prove that, for any integer \\(n &gt;= 1\\),\n\\[\n\\begin{aligned}\n    \\sum_{i = 0}^n 2^i = 2^{n+1} - 1\n\\end{aligned}\n\\]"
-  },
-  {
-    "objectID": "content/modules/23-induction/in-class.html",
-    "href": "content/modules/23-induction/in-class.html",
-    "title": "",
-    "section": "",
-    "text": "All horses are the same color.\n\n\n\n  © Phil Chodrow, 2023"
+    "text": "Videos (~0 mins)\n\n\nReading (~0 mins)\n\n\nWarmup\nThere are no warmup problems for today.\n\n\n\n\n  © Phil Chodrow, 2023"
   },
   {
     "objectID": "content/modules/71-graphs-2/prep.html",
@@ -2924,6 +2945,41 @@
     "title": "In Class: Logical Statements and Truth Tables",
     "section": "",
     "text": "© Phil Chodrow, 2023"
+  },
+  {
+    "objectID": "content/modules/30-relations/prep.html",
+    "href": "content/modules/30-relations/prep.html",
+    "title": "Relations",
+    "section": "",
+    "text": "Relations Between Two Sets: Definition + First Examples (6:39)\nRelations and their Inverses (2:49)\nReflexive, Symmetric, and Transitive Relations on a Set (6:54)\nEquivalence Relations: Reflexive, Symmetric, and Transitive (4:36)\nYou need to check EVERY spot for reflexivity, symmetry, and transitivity (3:40)\n© Phil Chodrow, 2023"
+  },
+  {
+    "objectID": "content/modules/30-relations/prep.html#problem-1",
+    "href": "content/modules/30-relations/prep.html#problem-1",
+    "title": "Relations",
+    "section": "Problem 1",
+    "text": "Problem 1\n\nPart A\nRecall that we write \\(x \\equiv y \\pmod{p}\\) for integers \\(x\\), \\(y\\), and \\(p\\) if there exists an integer \\(c\\) such that \\((x-y) = cp\\). For example, \\(16 \\equiv 2 \\pmod{7}\\) because \\((16 - 2) = 2\\times 7\\).\nWrite a complete, careful proof that, for any \\(p\\), the relation \\(\\;\\equiv \\pmod {p}\\) is an equivalence relation.\n\n\nPart B\nList all the equivalence classes of the relation \\(\\equiv \\pmod{3}\\). You can use either set-builder or roster notation."
+  },
+  {
+    "objectID": "content/modules/30-relations/prep.html#problem-2",
+    "href": "content/modules/30-relations/prep.html#problem-2",
+    "title": "Relations",
+    "section": "Problem 2",
+    "text": "Problem 2\n\nLet \\(A = \\{a, b, c, d, e\\}\\). Suppose that \\(R\\) is an equivalence relation on \\(A\\). Suppose further that \\(R\\) has two equivalence classes, and that \\(aRd\\), \\(bRc\\), and \\(eRd\\). Fully describe \\(R\\) by either writing it as a set or drawing it."
+  },
+  {
+    "objectID": "content/modules/81-probability-2/prep.html",
+    "href": "content/modules/81-probability-2/prep.html",
+    "title": "Sample Spaces",
+    "section": "",
+    "text": "Introduction to probability: Events, Sample Space, Formula, Independence (8:51)\nExample: Computing Probabilities using P(E)=N(E)/N(S) (2:02)\nWhat is the probability of guessing a 4 digit pin code? (6:21)\nIntro to Conditional Probability (6:14)\nTwo Conditional Probability Examples (what’s the difference???) (6:15)\n\nContent warning: regrettable binary representation of gender.\n© Phil Chodrow, 2023"
+  },
+  {
+    "objectID": "content/modules/81-probability-2/prep.html#problem-1",
+    "href": "content/modules/81-probability-2/prep.html#problem-1",
+    "title": "Sample Spaces",
+    "section": "Problem 1",
+    "text": "Problem 1"
   },
   {
     "objectID": "index.html",
