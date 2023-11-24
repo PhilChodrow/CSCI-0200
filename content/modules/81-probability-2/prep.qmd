@@ -1,5 +1,5 @@
 ---
-title: "Sample Spaces" 
+title: "Sample Spaces and Conditional Probability" 
 ---
 
 # Videos (~35 mins)
@@ -11,11 +11,17 @@ title: "Sample Spaces"
 - [Two Conditional Probability Examples (what's the difference???)](https://youtu.be/OYT0AcuLXu8?si=IYHPsKz86HmaNHn8) (6:15)
     - **Content warning**: regrettable binary representation of gender. 
 
-# Reading (~35 mins)
+# Reading (~35 mins) 
 
 - [Discrete Mathematics and Its Applications](https://middlebury.instructure.com/courses/13162/files?preview=2518166) pages 445-458
 
-# Warmup
+# Warmup (~40 mins)
 
 ## Problem 1
+
+{{< include ../../problems/probability/more-strings.qmd >}}
+
+## Problem 2
+
+{{< include ../../problems/probability/birth-months.qmd >}}
 

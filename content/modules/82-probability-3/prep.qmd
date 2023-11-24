@@ -22,4 +22,3 @@ title: "Conditional Probability and Bayes' Theorem"
 
 ## Problem 1
 
-{{< include ../../../content/problems/graphs/adjacency-matrix.qmd >}}

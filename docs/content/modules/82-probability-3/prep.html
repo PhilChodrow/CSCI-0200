@@ -66,13 +66,11 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="../../../assets/css/styles.css">
 </head>
 
-<body class="nav-sidebar docked slimcontent">
+<body class="nav-sidebar docked">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -172,19 +170,13 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#reading-30-mins" id="toc-reading-30-mins" class="nav-link" data-scroll-target="#reading-30-mins">Reading (~30 mins)</a></li>
   <li><a href="#warmup" id="toc-warmup" class="nav-link" data-scroll-target="#warmup">Warmup</a>
   <ul class="collapse">
-  <li><a href="#problem-1" id="toc-problem-1" class="nav-link" data-scroll-target="#problem-1">Problem 1</a>
-  <ul class="collapse">
-  <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction">Introduction</a></li>
-  <li><a href="#part-a" id="toc-part-a" class="nav-link" data-scroll-target="#part-a">Part A</a></li>
-  <li><a href="#part-b" id="toc-part-b" class="nav-link" data-scroll-target="#part-b">Part B</a></li>
-  <li><a href="#part-c" id="toc-part-c" class="nav-link" data-scroll-target="#part-c">Part C</a></li>
-  </ul></li>
+  <li><a href="#problem-1" id="toc-problem-1" class="nav-link" data-scroll-target="#problem-1">Problem 1</a></li>
   </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content page-columns page-full" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -227,153 +219,12 @@ ul.task-list li input[type="checkbox"] {
 </ul></li>
 </ul>
 </section>
-<section id="warmup" class="level1 page-columns page-full">
+<section id="warmup" class="level1">
 <h1>Warmup</h1>
-<section id="problem-1" class="level2 page-columns page-full">
+<section id="problem-1" class="level2">
 <h2 class="anchored" data-anchor-id="problem-1">Problem 1</h2>
-<section id="introduction" class="level3 page-columns page-full">
-<h3 class="anchored" data-anchor-id="introduction">Introduction</h3>
-<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="">In this class, “matrix” just means “square array of numbers.”</span></div></div>
-<p>The <em>adjacency matrix</em> of a graph <span class="math inline">\(G\)</span> with <span class="math inline">\(n\)</span> nodes is an <span class="math inline">\(n\times n\)</span> binary matrix that we often call <span class="math inline">\(\mathbf{A}\)</span>. It’s entries are given by</p>
-<div class="page-columns page-full"><p> <span class="math display">\[
-\begin{aligned}
-    a_{ij} = \begin{cases}
-        1 &amp;\quad \text{there is an edge between node $i$ and node $j$} \\
-        0 &amp;\quad \text{there is no edge between node $i$ and node $j$}
-    \end{cases}
-\end{aligned}
-\]</span></p><div class="no-row-height column-margin column-container"><span class=""><span class="math inline">\(a_{ij}\)</span> is the entry of <span class="math inline">\(\mathbf{A}\)</span> that is in the <span class="math inline">\(i\)</span>th row and <span class="math inline">\(j\)</span>th column.</span></div></div>
-<p>For example, here is a graph with <span class="math inline">\(n = 6\)</span> nodes:</p>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<div>
-<svg width="672" height="480" viewbox="0.00 0.00 234.79 252.85" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" style="; max-width: none; max-height: none">
-<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 248.85)">
-<title>G</title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-248.85 230.79,-248.85 230.79,4 -4,4"></polygon>
-<!-- 1 -->
-<g id="node1" class="node">
-<title>1</title>
-<ellipse fill="none" stroke="black" cx="27" cy="-57.14" rx="27" ry="18"></ellipse>
-<text text-anchor="middle" x="27" y="-52.94" font-family="Times,serif" font-size="14.00">1</text>
-</g>
-<!-- 2 -->
-<g id="node2" class="node">
-<title>2</title>
-<ellipse fill="none" stroke="black" cx="86.52" cy="-18" rx="27" ry="18"></ellipse>
-<text text-anchor="middle" x="86.52" y="-13.8" font-family="Times,serif" font-size="14.00">2</text>
-</g>
-<!-- 1&#45;&#45;2 -->
-<g id="edge1" class="edge">
-<title>1--2</title>
-<path fill="none" stroke="black" d="M46.49,-44.32C53.13,-39.95 60.56,-35.07 67.19,-30.71"></path>
-</g>
-<!-- 3 -->
-<g id="node3" class="node">
-<title>3</title>
-<ellipse fill="none" stroke="black" cx="92.04" cy="-91.48" rx="27" ry="18"></ellipse>
-<text text-anchor="middle" x="92.04" y="-87.28" font-family="Times,serif" font-size="14.00">3</text>
-</g>
-<!-- 1&#45;&#45;3 -->
-<g id="edge3" class="edge">
-<title>1--3</title>
-<path fill="none" stroke="black" d="M48.3,-68.39C55.41,-72.14 63.34,-76.33 70.47,-80.09"></path>
-</g>
-<!-- 2&#45;&#45;3 -->
-<g id="edge2" class="edge">
-<title>2--3</title>
-<path fill="none" stroke="black" d="M87.88,-36.16C88.73,-47.47 89.82,-61.96 90.67,-73.27"></path>
-</g>
-<!-- 4 -->
-<g id="node4" class="node">
-<title>4</title>
-<ellipse fill="none" stroke="black" cx="133.82" cy="-153.66" rx="27" ry="18"></ellipse>
-<text text-anchor="middle" x="133.82" y="-149.46" font-family="Times,serif" font-size="14.00">4</text>
-</g>
-<!-- 3&#45;&#45;4 -->
-<g id="edge4" class="edge">
-<title>3--4</title>
-<path fill="none" stroke="black" d="M103.24,-108.14C109.23,-117.07 116.6,-128.02 122.6,-136.95"></path>
-</g>
-<!-- 5 -->
-<g id="node5" class="node">
-<title>5</title>
-<ellipse fill="none" stroke="black" cx="141.08" cy="-226.85" rx="27" ry="18"></ellipse>
-<text text-anchor="middle" x="141.08" y="-222.65" font-family="Times,serif" font-size="14.00">5</text>
-</g>
-<!-- 4&#45;&#45;5 -->
-<g id="edge5" class="edge">
-<title>4--5</title>
-<path fill="none" stroke="black" d="M135.62,-171.75C136.73,-183.01 138.17,-197.45 139.28,-208.71"></path>
-</g>
-<!-- 6 -->
-<g id="node6" class="node">
-<title>6</title>
-<ellipse fill="none" stroke="black" cx="199.79" cy="-186.51" rx="27" ry="18"></ellipse>
-<text text-anchor="middle" x="199.79" y="-182.31" font-family="Times,serif" font-size="14.00">6</text>
-</g>
-<!-- 5&#45;&#45;6 -->
-<g id="edge6" class="edge">
-<title>5--6</title>
-<path fill="none" stroke="black" d="M159.98,-213.87C166.68,-209.26 174.22,-204.08 180.93,-199.47"></path>
-</g>
-<!-- 6&#45;&#45;4 -->
-<g id="edge7" class="edge">
-<title>6--4</title>
-<path fill="none" stroke="black" d="M177.82,-175.57C170.63,-171.99 162.64,-168.01 155.47,-164.44"></path>
-</g>
-</g>
-</svg>
-</div>
-</div>
-</div>
-</div>
-<p>Here is the adjacency matrix of this graph:</p>
-<p><span class="math display">\[
-\begin{aligned}
-    \mathbf{A} = \left[\begin{matrix}
-    0 &amp; 1 &amp; 1 &amp; 0 &amp; 0 &amp; 0 \\
-    1 &amp; 0 &amp; 1 &amp; 0 &amp; 0 &amp; 0 \\
-    1 &amp; 1 &amp; 0 &amp; 1 &amp; 0 &amp; 0 \\
-    0 &amp; 0 &amp; 1 &amp; 0 &amp; 1 &amp; 1 \\
-    0 &amp; 0 &amp; 0 &amp; 1 &amp; 0 &amp; 1 \\
-    0 &amp; 0 &amp; 0 &amp; 1 &amp; 1 &amp; 0
-    \end{matrix}\right]
-\end{aligned}
-\]</span></p>
-<p>Note that an edge between <span class="math inline">\(i\)</span> and <span class="math inline">\(j\)</span> corresponds to <em>two</em> entries of <span class="math inline">\(\mathbf{A}\)</span>: the <span class="math inline">\(a_{ij}\)</span> entry and the <span class="math inline">\(a_{ji}\)</span> entry.</p>
-</section>
-<section id="part-a" class="level3">
-<h3 class="anchored" data-anchor-id="part-a">Part A</h3>
-<p><em>A walk of length <span class="math inline">\(k\)</span></em> is a walk that traverses exactly <span class="math inline">\(k\)</span> edges. For example, a walk of length <span class="math inline">\(1\)</span> traverses only a single edge. <span class="math inline">\((1, 2)\)</span> is a walk of length 1 in the example graph above. <span class="math inline">\((1, 2), (2, 3)\)</span> is a walk of length 2, but not a walk of length 1.</p>
-<ul>
-<li>How many walks of length 1 from node <span class="math inline">\(4\)</span> to node <span class="math inline">\(5\)</span> are there in the example graph?</li>
-<li>How many walks of length 1 are there from node <span class="math inline">\(4\)</span> to node <span class="math inline">\(2\)</span>?</li>
-<li>What is entry <span class="math inline">\(a_{45}\)</span> in the adjacency matrix? What is entry <span class="math inline">\(a_{42}\)</span>?</li>
-<li>Make a conjecture: what information does entry <span class="math inline">\(a_{ij}\)</span> contain about the the number of walks of length <span class="math inline">\(1\)</span> from node <span class="math inline">\(i\)</span> to node <span class="math inline">\(j\)</span>?</li>
-</ul>
-</section>
-<section id="part-b" class="level3 page-columns page-full">
-<h3 class="anchored" data-anchor-id="part-b">Part B</h3>
-<p>Let’s define a new number with the following formula:</p>
-<div class="page-columns page-full"><p> <span class="math display">\[
-\begin{aligned}
-    b_{ij} = \sum_{k = 1}^n a_{ik}a_{kj}\;.
-\end{aligned}
-\]</span></p><div class="no-row-height column-margin column-container"><span class="">If you have used matrix multiplication before, <span class="math inline">\(b_{ij}\)</span> is the <span class="math inline">\(ij\)</span>th entry of <span class="math inline">\(\mathbf{A}^2\)</span>.</span></div></div>
-<ul>
-<li>Using the example graph, compute the number of walks of length 2 from node 1 to node 2, node 1 to node 4, node 3 to node 4, and node 1 to node 5.</li>
-<li>Using the definition, compute <span class="math inline">\(b_{12}\)</span>, <span class="math inline">\(b_{14}\)</span>, <span class="math inline">\(b_{34}\)</span>, and <span class="math inline">\(b_{15}\)</span>.</li>
-<li>State a conjecture describing the relationship between <span class="math inline">\(b_{ij}\)</span> and the number of walks of length 2.</li>
-</ul>
-</section>
-<section id="part-c" class="level3">
-<h3 class="anchored" data-anchor-id="part-c">Part C</h3>
-<p>The counting principles of addition and multiplication both appear in the formula for the number of walks of length 2 between nodes <span class="math inline">\(i\)</span> and <span class="math inline">\(j\)</span> as given above. Explain the role of each of these principles in this formula. Why do we multiply <span class="math inline">\(a_{ik}\)</span> by <span class="math inline">\(a_{kj}\)</span>? Why do we add across all possibilities <span class="math inline">\(k\)</span>? In your response, please include the words “sequential” and “disjoint” or similar.</p>
 
 
-</section>
 </section>
 </section>
 

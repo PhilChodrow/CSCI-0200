@@ -134,6 +134,7 @@
   header: "Lab 3: Proof Practice"
   summary: We practice proving mathematical statements using a variety of techniques.
   objectives:
+    - Proof techniques
   prep:
     - <a href="content/modules/22-proof-practice/prep.qmd">Proof Style</a> 
   activities:
@@ -269,6 +270,7 @@
   header: Asymptotics and Big-Oh
   summary: "We formally define big-oh notation and prove asymptotic descriptions of various functions."
   objectives:
+    - Asymptotics
   prep: <a href="content/modules/60-asymptotics/prep.qmd">Asymptotics and Big-Oh Notation</a>
   activities:
   notes:
@@ -278,6 +280,7 @@
   header: "Analyzing Algorithms: The Tree Method"
   summary: "We use the tree method and other methods to estimate asymptotic runtimes of common algorithms."
   objectives:
+    - Asymptotics
   prep: <a href="content/modules/61-complexity/prep.qmd">Analyzing Algorithms</a>
   activities:
   notes:
@@ -296,6 +299,7 @@
   header: "Graphs"
   summary: "We introduce graphs as models of data structures and connected systems."
   objectives:
+    - Graph Theory
   prep: <a href="content/modules/70-graphs-1/prep.qmd">Graphs and Graph Theory</a>
   activities:
   notes:
@@ -305,6 +309,7 @@
   header: "Graphs"
   summary: "We continue our discussion of graphs with a focus on trees."
   objectives:
+    - Graph Theory
   prep: <a href="content/modules/71-graphs-2/prep.qmd">More Graph Theory</a>
   activities:
   notes:
@@ -314,6 +319,7 @@
   header: "Lab 6: Triangle-Counting"
   summary: "We study the adjacency matrix of a graph and use it to count the number of triangles in real and synthetic graph data sets."
   objectives:
+    - Graph Theory
   prep: <a href="content/modules/72-graphs-3/prep.qmd">Network Science</a>
   activities:
   - |
@@ -322,18 +328,20 @@
   publish: true
   due:
 - date: 2023-11-27
-  header: "Probability"
+  header: "Introducing Discrete Probability"
   summary: "We introduce discrete probability through a discussion of a famous problem."
   objectives:
+    - Probability
   prep: <a href="content/modules/80-probability-1/prep.qmd">Introducing Discrete Probability</a>
   activities:
   notes:
   publish: true
   due:
 - date: 2023-11-29
-  header: "Probability"
+  header: "Sample Spaces and Conditional Probability"
   summary: "We introduce formal discrete probability theory via sample spaces. We also introduce conditional probability."
   objectives:
+    - Probability
   prep: <a href="content/modules/81-probability-2/prep.qmd">Sample Spaces, Conditional Probability</a>
   activities:
   notes:
@@ -343,24 +351,27 @@
   header: "Lab 7: TBD"
   summary:
   objectives:
+    - Probability
   prep: 
   activities:
   notes:
   publish: true
   due: "Lab 6: TBD"
 - date: 2023-12-04
-  header: "Probability"
+  header: "Bayes' Theorem"
   summary: "We continue our discussion of conditional probability and introduce Bayes' Theorem."
   objectives:
+    - Probability
   prep: <a href="content/modules/82-probability-3/prep.qmd">Conditional Probability and Bayes' Theorem</a>
   activities:
   notes:
   publish: true
   due:
 - date: 2023-12-06
-  header: "Probability"
+  header: "Random Variables and Expectation"
   summary: "We define random variables and compute the expected value of simple random variables."
   objectives:
+    - Probability
   prep: <a href="content/modules/83-probability-4/prep.qmd">Random variables and expectation</a>
   activities:
   notes:

@@ -11,3 +11,4 @@ title: "A Brief Taste of Network Science"
 ## Problem 1
 
 {{< include ../../../content/problems/graphs/adjacency-matrix.qmd >}}
+
