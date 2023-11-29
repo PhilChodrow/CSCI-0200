@@ -15,7 +15,7 @@ Warmups are due **every class day**, even if they are not listed under the "Due"
 :::{#schedule}    
 :::      
  
-## Final Exam 
+## Final Exam  
   
 Our final exam will be another quiz covering all twelve core Learning Targets. So, it's just like Quiz 4, except you'll have 3 hours instead of 50 minutes.         
-                        
+           

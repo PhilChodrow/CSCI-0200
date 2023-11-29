@@ -343,7 +343,8 @@
   objectives:
     - Probability
   prep: <a href="content/modules/81-probability-2/prep.qmd">Sample Spaces, Conditional Probability</a>
-  activities:
+  activities: 
+    - <a href="content/modules/81-probability-2/in-class.qmd">Sample Spaces, Conditional Probability</a>
   notes:
   publish: true
   due:
