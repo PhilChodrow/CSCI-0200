@@ -1,7 +1,8 @@
 ---
 title: "Sample Spaces and Conditional Probability" 
+solution: true
 ---
-
+ 
 # Videos (~35 mins)
 
 - [Introduction to probability: Events, Sample Space, Formula, Independence](https://youtu.be/4wV9xGJXFjg?si=dh-EiKlb5-3v0SFN) (8:51)

@@ -269,14 +269,44 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="part-a" class="level3">
 <h3 class="anchored" data-anchor-id="part-a">Part A</h3>
 <p>Consider the strings <span class="math inline">\(aaaaa\)</span> and <span class="math inline">\(cddeb\)</span>. Which of these two strings is more likely to occur from this process, and why?</p>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>The two strings are equally likely.</p>
+</div>
+</div>
+</div>
 </section>
 <section id="part-b" class="level3">
 <h3 class="anchored" data-anchor-id="part-b">Part B</h3>
 <p>What is the probability of obtaining a string which contains no repeated characters?</p>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>There are <span class="math inline">\(6^5\)</span> possible strings in all, and of these there are <span class="math inline">\(6!/1! = 6!\)</span> which have no repeated characters. So, the probability is <span class="math inline">\(6!/6^5\)</span>.</p>
+</div>
+</div>
+</div>
 </section>
 <section id="part-c" class="level3">
 <h3 class="anchored" data-anchor-id="part-c">Part C</h3>
 <p>What is the probability of obtaining a string which does <strong>not</strong> contain the substring <span class="math inline">\(bad\)</span>?</p>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>There are <span class="math inline">\(6^5\)</span> possible strings. Of these, there are <span class="math inline">\(3\times 6^2\)</span> substrings which contain <span class="math inline">\(bad\)</span>: there are 3 places we can place the initial <span class="math inline">\(b\)</span>, and then 2 more blanks to fill in, which each have 6 possibilities. So, the probability that the string contains <span class="math inline">\(bad\)</span> is <span class="math inline">\(\frac{3}{6^3}\)</span>, and the probability that the string does <strong>not</strong> contain <span class="math inline">\(bad\)</span> is <span class="math inline">\(1 - \frac{3}{6^3}\)</span>.</p>
+</div>
+</div>
+</div>
 </section>
 </section>
 <section id="problem-2" class="level2 page-columns page-full">
@@ -289,18 +319,99 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="part-a-1" class="level3">
 <h3 class="anchored" data-anchor-id="part-a-1">Part A</h3>
 <p>Suppose that two random citizens of the UK (born between 1995-2014) meet each other on the street. What is the probability that they were born in the same month?</p>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>The probability that both individuals are born in January is <span class="math inline">\(p_{\text{January}}^2\)</span>; the probability that both individuals are born in February is <span class="math inline">\(p_{\text{February}}^2\)</span>, etc. We need to sum across all twelve months because the choice of which month both people are born in is disjoint. So, we need to calculate</p>
+<p><span class="math display">\[
+\begin{aligned}
+    p_{\text{January}}^2 + p_{\text{February}}^2 + \cdots + p_{\text{December}}^2
+\end{aligned}
+\]</span></p>
+<p>Here’s some code that lets us do this:</p>
+<div id="7436d738" class="cell" data-execution_count="2">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>probs <span class="op">=</span> [<span class="fl">0.083</span>, <span class="fl">0.078</span>, <span class="fl">0.081</span>, <span class="fl">0.081</span>, <span class="fl">0.085</span>, <span class="fl">0.083</span>, <span class="fl">0.087</span>, <span class="fl">0.086</span>, <span class="fl">0.086</span>, <span class="fl">0.084</span>, <span class="fl">0.082</span>, <span class="fl">0.083</span>]</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>months <span class="op">=</span> [<span class="st">"Jan"</span>, <span class="st">"Feb"</span>, <span class="st">"Mar"</span>, <span class="st">"Apr"</span>, <span class="st">"May"</span>, <span class="st">"Jun"</span>, <span class="st">"Jul"</span>, <span class="st">"Aug"</span>, <span class="st">"Sep"</span>, <span class="st">"Oct"</span>, <span class="st">"Nov"</span>, <span class="st">"Dec"</span>]</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>prob_same_month <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="bu">len</span>(months)):</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>    <span class="co"># add the probability that they were both born in the same *specific* month</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>    <span class="co"># months[i] </span></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>    prob_same_month <span class="op">+=</span> probs[i]<span class="op">**</span><span class="dv">2</span></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(prob_same_month)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>0.08323900000000001</code></pre>
+</div>
+</div>
+<p>This is also a nice opportunity to use list comprehensions if you know that syntax:</p>
+<div id="83adbac9" class="cell" data-execution_count="3">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="bu">sum</span>([probs[i]<span class="op">**</span><span class="dv">2</span> <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="bu">len</span>(months))]))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>0.08323900000000001</code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
 </section>
 <section id="part-b-1" class="level3">
 <h3 class="anchored" data-anchor-id="part-b-1">Part B</h3>
 <p>Suppose that two people meet and tell you that they have the same birthmonth. What is the probability that their birthmonth is April, given this information?</p>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Let <span class="math inline">\(E\)</span> be the event that both people are born in April, and let <span class="math inline">\(F\)</span> be the event that they both share a birthmonth. We want to compute</p>
+<p><span class="math display">\[
+\begin{aligned}
+    p(E|F) = \frac{p(E \cap F)}{p(F)}\;.
+\end{aligned}
+\]</span></p>
+<p>Let’s compute each of these two terms. First, <span class="math inline">\(p(F)\)</span> is just what we computed in Part A. <span class="math inline">\(p(E\cap F)\)</span> is the probability that these people were born in the same month and that their birthmonths are both April. This is just the same as the probability that they were both born in April. So, <span class="math inline">\(p(E\cap F) = p_{\text{April}}^2\)</span>.</p>
+<p>Here’s some Python code to calculate this:</p>
+<div id="6fc59cc4" class="cell" data-execution_count="4">
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(probs[<span class="dv">3</span>]<span class="op">**</span><span class="dv">2</span> <span class="op">/</span> <span class="bu">sum</span>([probs[i]<span class="op">**</span><span class="dv">2</span> <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="bu">len</span>(months))]))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>0.07882122562741022</code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
 </section>
 <section id="part-c-1" class="level3">
 <h3 class="anchored" data-anchor-id="part-c-1">Part C</h3>
 <p>Suppose that someone tells you that they share a birthmonth with the first random person they met on the street today. Does that make it more, less, or equally likely that they were born in April?</p>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Less likely, by comparing our answer from Part B to the overall rate of births in April.</p>
+</div>
+</div>
+</div>
 </section>
 <section id="part-d" class="level3">
 <h3 class="anchored" data-anchor-id="part-d">Part D</h3>
 <p>Are the events “being born in April” and “sharing a birthmonth with the first person you meet on the street” independent?</p>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>No, because conditioning on the second event changes the probability of the first.</p>
+</div>
+</div>
+</div>
 
 
 </section>

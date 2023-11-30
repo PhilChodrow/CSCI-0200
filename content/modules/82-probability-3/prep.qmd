@@ -16,9 +16,14 @@ title: "Conditional Probability and Bayes' Theorem"
 
 # Reading (~30 mins)
 
-- - [Discrete Mathematics and Its Applications](https://middlebury.instructure.com/courses/13162/files?preview=2518166) Section 7.3, pages 468-475
+- [Discrete Mathematics and Its Applications](https://middlebury.instructure.com/courses/13162/files?preview=2518166) Section 7.3, pages 468-475
 
-# Warmup
+# Warmup (~40 mins)
 
 ## Problem 1
 
+{{< include ../../problems/probability/bayes-2.qmd >}} 
+
+## Problem 2 
+
+{{< include ../../problems/probability/bayes-1.qmd >}}
