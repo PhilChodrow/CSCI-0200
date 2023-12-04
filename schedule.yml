@@ -365,6 +365,7 @@
     - Probability
   prep: <a href="content/modules/82-probability-3/prep.qmd">Conditional Probability and Bayes' Theorem</a>
   activities:
+    - <a href="content/modules/82-probability-3/in-class.qmd">Bayes' Rule and DNA Testing</a>
   notes:
   publish: true
   due:
@@ -375,6 +376,7 @@
     - Probability
   prep: <a href="content/modules/83-probability-4/prep.qmd">Random variables and expectation</a>
   activities:
+    - TBD
   notes:
   publish: true
   due:

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Random Variables and Expectation</title>
+<title>in-class</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -165,20 +165,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#videos-0-mins" id="toc-videos-0-mins" class="nav-link active" data-scroll-target="#videos-0-mins">Videos (~0 mins)</a></li>
-  <li><a href="#reading-30-mins" id="toc-reading-30-mins" class="nav-link" data-scroll-target="#reading-30-mins">Reading (~30 mins)</a></li>
-  <li><a href="#warmup-60-mins" id="toc-warmup-60-mins" class="nav-link" data-scroll-target="#warmup-60-mins">Warmup (~60 mins)</a>
+  <li><a href="#in-class-bayes-rule-and-dna-testing" id="toc-in-class-bayes-rule-and-dna-testing" class="nav-link active" data-scroll-target="#in-class-bayes-rule-and-dna-testing">In Class: Bayes’ Rule and DNA Testing</a>
   <ul class="collapse">
-  <li><a href="#problem-1" id="toc-problem-1" class="nav-link" data-scroll-target="#problem-1">Problem 1</a>
-  <ul class="collapse">
+  <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction">Introduction</a></li>
   <li><a href="#part-a" id="toc-part-a" class="nav-link" data-scroll-target="#part-a">Part A</a></li>
   <li><a href="#part-b" id="toc-part-b" class="nav-link" data-scroll-target="#part-b">Part B</a></li>
-  </ul></li>
-  <li><a href="#problem-2" id="toc-problem-2" class="nav-link" data-scroll-target="#problem-2">Problem 2</a>
-  <ul class="collapse">
-  <li><a href="#part-a-1" id="toc-part-a-1" class="nav-link" data-scroll-target="#part-a-1">Part A</a></li>
-  <li><a href="#part-b-1" id="toc-part-b-1" class="nav-link" data-scroll-target="#part-b-1">Part B</a></li>
-  </ul></li>
+  <li><a href="#part-c" id="toc-part-c" class="nav-link" data-scroll-target="#part-c">Part C</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -186,79 +178,33 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content page-columns page-full" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Random Variables and Expectation</h1>
-</div>
 
 
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-<section id="videos-0-mins" class="level1">
-<h1>Videos (~0 mins)</h1>
+<section id="in-class-bayes-rule-and-dna-testing" class="level1 page-columns page-full">
+<h1>In Class: Bayes’ Rule and DNA Testing</h1>
+<p><img src="https://cdn.labmanager.com/assets/articleNo/23692/aImg/43884/a-closer-look-dna-profiling-in-forensic-investigations-l.jpg" class="img-fluid"></p>
+<section id="introduction" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>Forensic DNA evidence has become an important tool in criminal trials, used frequently by both prosecution and defense. Although DNA is unique to each individual, damage to samples as well as human error mean that DNA testing can still generate false matches with individuals entirely unrelated to the situation at hand.</p>
+<div class="page-columns page-full"><p>Suppose that a DNA test has a 0.1% false positive rate. This means that, in a population of 1,000 people who <em>did not</em> contribute that DNA sample, testing will still erroneously match one of them (on average).  We’ll assume that DNA testing has a true positive rate of 100%: if a sample was contributed by an individual, DNA testing will always name that individual as one of the possible people who <em>could</em> have contributed that sample.</p><div class="no-row-height column-margin column-container"><span class="">This number, like every other element of this problem, is intended to be somewhat realistic but is fiction.</span></div></div>
+<p>During late spring, an unexpected wildfire breaks out in central Vermont. After several days, investigators visit the site of the fire and find a DNA sample, dated to around the time the wildfire started. Testing matches the sample to a person who was known to be visiting the central Vermont region during the time the fires started. The case is brought to court, with the prosecution claiming that the visitor started the fire.</p>
 </section>
-<section id="reading-30-mins" class="level1">
-<h1>Reading (~30 mins)</h1>
-<ul>
-<li><a href="https://middlebury.instructure.com/courses/13162/files?preview=2518166">Discrete Mathematics and Its Applications</a>
-<ul>
-<li>Section 7.2, pages 460-461 (“Random Variables”)</li>
-<li>Section 7.4, pages 477-481</li>
-</ul></li>
-</ul>
+<section id="part-a" class="level2">
+<h2 class="anchored" data-anchor-id="part-a">Part A</h2>
+<p>Let <span class="math inline">\(A\)</span> be the event that the sample matches the suspect under DNA testing. Let <span class="math inline">\(B\)</span> be the event that DNA sample <em>truly</em> belongs to the suspect.</p>
+<p>Compute the probabilities <span class="math inline">\(p(A|B)\)</span> and <span class="math inline">\(p(A|\bar{B})\)</span> given the information about the reliability of DNA testing supplied above.</p>
 </section>
-<section id="warmup-60-mins" class="level1 page-columns page-full">
-<h1>Warmup (~60 mins)</h1>
-<section id="problem-1" class="level2">
-<h2 class="anchored" data-anchor-id="problem-1">Problem 1</h2>
-<p>Suppose that I have a biased coin which comes up heads with probability <span class="math inline">\(p\)</span>. I flip it <span class="math inline">\(n\)</span> times. Let the random variable <span class="math inline">\(X\)</span> describe the number of heads I observe.</p>
-<section id="part-a" class="level3">
-<h3 class="anchored" data-anchor-id="part-a">Part A</h3>
-<p>Let <span class="math inline">\(n = 3\)</span> and <span class="math inline">\(p = 0.7\)</span>.</p>
-<ol type="1">
-<li>Enumerate the entire sample space of possible outcomes. You should have 8 total.</li>
-<li>Compute the probability of each of the 8 outcomes, as well as the number of heads.</li>
-<li>Compute the expected value of <span class="math inline">\(X\)</span> in this case.</li>
-</ol>
+<section id="part-b" class="level2">
+<h2 class="anchored" data-anchor-id="part-b">Part B</h2>
+<p>The prosecution argues that, since the false-positive rate of DNA testing is 1/1,000 = 0.1%, the probability <span class="math inline">\(p(B|A)\)</span> that the DNA sample truly belongs to the suspect is 99.9%.</p>
+<p>What is wrong with the prosecution’s argument?</p>
 </section>
-<section id="part-b" class="level3">
-<h3 class="anchored" data-anchor-id="part-b">Part B</h3>
-<p>Suppose now that we flip <span class="math inline">\(n\)</span> coins with probability <span class="math inline">\(p\)</span>. Use the linearity property of expectation to prove that <span class="math inline">\(E(X) = np\)</span>.</p>
-<p><strong>Note</strong>: You may have seen a formula for how to solve this problem in a previous class. You shouldn’t cite this formula to solve this problem – I am asking you to <em>prove the formula.</em></p>
-</section>
-</section>
-<section id="problem-2" class="level2 page-columns page-full">
-<h2 class="anchored" data-anchor-id="problem-2">Problem 2</h2>
-<p>Your friend offers to play a “game” with you. They have two coins. Coin <span class="math inline">\(A\)</span> has probability of heads equal to <span class="math inline">\(\frac{1}{2}\)</span> and coin <span class="math inline">\(B\)</span> has probability of heads equal to <span class="math inline">\(q\)</span>. In this game,</p>
-<ol type="1">
-<li>First, your friend picks one of the two coins. Each coin has probability <span class="math inline">\(\frac{1}{2}\)</span> of being chosen.</li>
-<li>Then, your friend flips the coin. If heads, your friend owes you a coffee. If tails, you owe your friend a coffee.</li>
-</ol>
-<section id="part-a-1" class="level3 page-columns page-full">
-<h3 class="anchored" data-anchor-id="part-a-1">Part A</h3>
-<div class="page-columns page-full"><p>You and your friend play this game 10 times. What is the expected number of coffees that your friend owes you after 10 plays? </p><div class="no-row-height column-margin column-container"><span class="">If you owe your friend some number of coffees, then your answer should be a negative number. In expectation, one of you might owe the other a fractional number of coffees.</span></div></div>
-<p><strong>Hints</strong>:</p>
-<ul>
-<li>Use linearity of expectation.</li>
-<li><span class="math inline">\(p(H) = p(H|A)p(A) + p(H|B)p(B)\)</span>. This formula is sometimes called “the law of total probability,” but it is just an instance of the definition of conditional probability and the addition principle for disjoint events.</li>
-</ul>
-</section>
-<section id="part-b-1" class="level3">
-<h3 class="anchored" data-anchor-id="part-b-1">Part B</h3>
-<p>What is the smallest value of <span class="math inline">\(q\)</span> for which you would be willing to play this game?</p>
+<section id="part-c" class="level2">
+<h2 class="anchored" data-anchor-id="part-c">Part C</h2>
+<p>A statistical expert for the defense testifies that 1,000 people visited the site of the wildfire during the time-window in question, any of whom could have left a DNA sample.</p>
+<p>Use Bayes’ rule to compute an estimate of the probability that the suspect did indeed contribute the DNA sample, given that DNA testing produced a match to the suspect.</p>
 
 
-</section>
 </section>
 </section>
 

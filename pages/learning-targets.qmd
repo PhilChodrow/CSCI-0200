@@ -37,6 +37,6 @@ title: Learning Targets
 **Probability**
 
 - **PR1**: I can evaluate marginal, joint, and conditional probabilities of events on discrete sample spaces. 
-- **PR2**: I can evaluate expectations and conditional expectations of random variables on discrete sample spaces. 
+- **PR2**: I can evaluate expectations of random variables on discrete sample spaces. 
 
 
